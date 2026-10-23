@@ -1,0 +1,17 @@
+{
+  "logiciel": "TURBOFUSION M1-M5",
+  "version": "1.0",
+  "statut": "EN_ATTENTE_DE_DONNEES",
+  "derniere_actualisation": null,
+  "heure_paris": null,
+  "courses": [],
+  "moteurs": [
+    {"id": "M1", "statut": "EN_ATTENTE"},
+    {"id": "M2", "statut": "EN_ATTENTE"},
+    {"id": "M3", "statut": "EN_ATTENTE"},
+    {"id": "M4", "statut": "EN_ATTENTE"},
+    {"id": "M5", "statut": "EN_ATTENTE"}
+  ],
+  "figes": [],
+  "audits": []
+}
