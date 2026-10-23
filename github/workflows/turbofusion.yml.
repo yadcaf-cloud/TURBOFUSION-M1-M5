@@ -4,19 +4,20 @@ name: TURBOFUSION M1-M5
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: turbofusion-main
+  group: turbofusion-data
   cancel-in-progress: false
 
 jobs:
-  analyse:
+  actualisation:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
+
     steps:
       - name: Recuperer le depot
         uses: actions/checkout@v4
@@ -26,26 +27,219 @@ jobs:
       - name: Installer Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Installer les dependances
+      - name: Executer les moteurs M1-M5
+        id: analyse
+        continue-on-error: true
         run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+          python main.py
 
-      - name: Executer TURBOFUSION
-        run: python main.py
+      - name: Construire le tableau officiel
+        if: always()
+        env:
+          ANALYSE_OK: ${{ steps.analyse.outcome }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
 
-      - name: Sauvegarder les donnees
+          now = datetime.now(
+              ZoneInfo("Europe/Paris")
+          ).isoformat()
+
+          dashboard_path = Path("dashboard.json")
+          report_dir = Path("rapports_turbofusion")
+          freeze_dir = Path("figes_turbofusion")
+
+          def read_json(path):
+              try:
+                  return json.loads(
+                      path.read_text(encoding="utf-8")
+                  )
+              except (OSError, ValueError):
+                  return None
+
+          previous = read_json(dashboard_path) or {}
+
+          reports = sorted(
+              report_dir.glob("*.json")
+          ) if report_dir.exists() else []
+
+          report = read_json(reports[-1]) if reports else None
+
+          if (
+              os.getenv("ANALYSE_OK") != "success"
+              or not isinstance(report, dict)
+              or not isinstance(report.get("courses"), list)
+          ):
+              print("Analyse indisponible : tableau conserve.")
+              raise SystemExit(0)
+
+          courses = []
+          moteurs = {}
+
+          for course in report["courses"]:
+              course_id = (
+                  str(course.get("reunion", ""))
+                  + str(course.get("course", ""))
+              )
+
+              partants = course.get("partants", [])
+              if not isinstance(partants, list):
+                  partants = []
+
+              analyses = []
+
+              for motor in course.get("moteurs", []):
+                  ident = motor.get("moteur")
+
+                  if ident not in (
+                      "M1", "M2", "M3", "M4", "M5"
+                  ):
+                      continue
+
+                  record = {
+                      "moteur": ident,
+                      "gagnant_espere": motor.get(
+                          "gagnant_espere"
+                      ),
+                      "meilleur_place": motor.get(
+                          "meilleur_place"
+                      ),
+                      "ordre_arrivee_espere": motor.get(
+                          "ordre_espere", []
+                      ),
+                      "pari_retenu": motor.get(
+                          "pari_retenu", "Aucun"
+                      ),
+                      "qualification": motor.get(
+                          "qualification"
+                      ),
+                      "validation": motor.get(
+                          "validation", "NON FIGE"
+                      ),
+                      "heure_paris": motor.get(
+                          "heure_paris"
+                      ),
+                  }
+
+                  analyses.append(record)
+                  moteurs[ident] = record
+
+              courses.append({
+                  "course": course_id,
+                  "hippodrome": course.get(
+                      "hippodrome", "Inconnu"
+                  ),
+                  "depart": course.get("depart_paris"),
+                  "partants": sum(
+                      not p.get("non_partant", False)
+                      for p in partants
+                      if isinstance(p, dict)
+                  ),
+                  "statut": (
+                      "FIGE PRESENT"
+                      if course.get("fige")
+                      else "NON FIGE"
+                  ),
+                  "moteurs": analyses,
+              })
+
+          figes = []
+
+          if freeze_dir.exists():
+              for path in sorted(freeze_dir.glob("*.json")):
+                  data = read_json(path)
+
+                  if not isinstance(data, dict):
+                      continue
+
+                  pronostic = data.get("pronostic", {})
+
+                  figes.append({
+                      "id": path.stem,
+                      "course": data.get("course"),
+                      "moteur": pronostic.get("moteur"),
+                      "pronostic": pronostic.get(
+                          "ordre_espere", []
+                      ),
+                      "pari_retenu": pronostic.get(
+                          "pari_retenu"
+                      ),
+                      "statut": "FIGE HISTORIQUE",
+                      "heure_fige": data.get(
+                          "fige_a_paris"
+                      ),
+                      "depart": data.get("depart_paris"),
+                      "source": data.get("source"),
+                  })
+
+          old_audits = previous.get("audits", [])
+          if isinstance(old_audits, dict):
+              old_audits = old_audits.get("historique", [])
+
+          dashboard = {
+              "derniere_actualisation": now,
+              "date_courses": report.get("date_courses"),
+              "moteurs": moteurs,
+              "courses": courses,
+              "figes": figes,
+              "audits": old_audits,
+              "diagnostic": {
+                  "courses_analysees": len(courses),
+                  "figes_enregistres": len(figes),
+                  "erreurs": report.get("erreurs", []),
+                  "analyse": "success",
+              },
+          }
+
+          dashboard_path.write_text(
+              json.dumps(
+                  dashboard,
+                  ensure_ascii=False,
+                  indent=2
+              ),
+              encoding="utf-8"
+          )
+
+          print("Tableau officiel genere.")
+          print("Courses :", len(courses))
+          print("FIGES :", len(figes))
+          PY
+
+      - name: Publier rapports et FIGES
         if: always()
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add dashboard.json
+
+          if [ -d rapports_turbofusion ]; then
+            git add rapports_turbofusion/
+          fi
+
+          if [ -d figes_turbofusion ]; then
+            git add figes_turbofusion/
+          fi
+
           if ! git diff --cached --quiet; then
-            git commit -m 'Actualisation TURBOFUSION'
+            git commit -m "Actualisation TURBOFUSION"
             git push
           fi
-  
+
+      - name: Verifier le resultat
+        if: always()
+        env:
+          ANALYSE_OK: ${{ steps.analyse.outcome }}
+        run: |
+          if [ "$ANALYSE_OK" != "success" ]; then
+            echo "::error::Analyse hippique echouee"
+            exit 1
+          fi
+
+          echo "TURBOFUSION : execution terminee"
