@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -28,10 +27,10 @@ body {
   margin:0;
   background:var(--bg);
   color:var(--text);
-  font:15px/1.6 Arial, sans-serif;
+  font:15px/1.6 Arial,sans-serif;
 }
 header {
-  padding:38px 15px;
+  padding:30px 15px;
   text-align:center;
   background:linear-gradient(135deg,#174f7b,#081525);
   border-bottom:4px solid var(--green);
@@ -44,20 +43,22 @@ nav {
   position:sticky;
   top:0;
   z-index:20;
-  display:flex;
-  gap:8px;
-  padding:10px;
-  overflow-x:auto;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:7px;
+  padding:9px;
   background:#0b2035;
   border-bottom:2px solid var(--line);
 }
 nav a {
-  flex-shrink:0;
+  min-width:0;
+  text-align:center;
   color:white;
   text-decoration:none;
-  padding:10px 14px;
+  padding:11px 4px;
   border-radius:9px;
   background:#194c73;
+  font-size:13px;
   font-weight:bold;
 }
 nav a:hover,nav a:focus-visible {
@@ -65,7 +66,7 @@ nav a:hover,nav a:focus-visible {
 }
 main {max-width:1200px;margin:auto;padding:12px}
 section {
-  scroll-margin-top:85px;
+  scroll-margin-top:125px;
   margin:18px 0;
   padding:20px;
   background:var(--panel);
@@ -73,7 +74,7 @@ section {
   border-radius:16px;
 }
 .hero {
-  padding:35px 15px;
+  padding:30px 12px;
   text-align:center;
   border-radius:14px;
   background:linear-gradient(135deg,#144a6c,#10283f,#234a44);
@@ -89,9 +90,7 @@ button {
   cursor:pointer;
 }
 button:disabled {opacity:.5}
-button:focus-visible {
-  outline:3px solid var(--yellow);
-}
+button:focus-visible {outline:3px solid var(--yellow)}
 .ok {color:var(--green)}
 .warn {color:var(--yellow)}
 .error {color:var(--red)}
@@ -105,7 +104,7 @@ button:focus-visible {
 .scroll {overflow-x:auto}
 table {
   width:100%;
-  min-width:900px;
+  min-width:850px;
   border-collapse:collapse;
 }
 th,td {
@@ -114,10 +113,7 @@ th,td {
   vertical-align:top;
   border:1px solid #466580;
 }
-th {
-  background:#204663;
-  color:#bce6ff;
-}
+th {background:#204663;color:#bce6ff}
 tr:nth-child(even) {background:#142e47}
 .m1 {border-left:6px solid var(--blue)}
 .m2 {border-left:6px solid var(--green)}
@@ -166,9 +162,12 @@ footer {
 @media(max-width:600px) {
   header {padding:25px 12px}
   section {padding:13px;margin:13px 0}
-  nav a {padding:9px 11px;font-size:13px}
   th,td {font-size:13px;padding:9px}
   .course {padding:11px}
+  .scroll {margin:0 -5px}
+}
+@media(max-width:360px) {
+  nav a {font-size:11px}
 }
 @media(prefers-reduced-motion:reduce) {
   html {scroll-behavior:auto}
@@ -180,8 +179,8 @@ footer {
 <header>
 <h1>🇸🇳🧠🔥 TURBOFUSION X1000</h1>
 <h2>INTELLIGENCE HIPPIQUE — M1 À M5</h2>
-<p>La mémoire conserve. L'analyse comprend.<br>
-L'expérience enseigne.</p>
+<p>La mémoire conserve. L'analyse comprend.</p>
+<p>L'expérience enseigne.</p>
 <p>🏇 La magie du savoir au service des courses hippiques</p>
 </header>
 
@@ -197,32 +196,39 @@ L'expérience enseigne.</p>
 <main>
 <section id="accueil">
 <div class="hero">
-<h2>🏇 LA MÉMOIRE VIVANTE DE L'INTELLIGENCE HIPPIQUE</h2>
-<p>Cinq moteurs indépendants, une analyse méthodique.</p>
+<h2>🏇 LA MAGIE DU SAVOIR</h2>
+<p>Cinq moteurs indépendants.</p>
+<p>Une intelligence hippique méthodique.</p>
 </div>
+
 <h2>📡 Centre de contrôle</h2>
 <p id="etat" class="warn status">Initialisation...</p>
 <p id="message" role="status">Lecture des données...</p>
-<p>📅 Dernière actualisation : <b id="maj">—</b></p>
-<p>🕒 Dernière lecture : <b id="lecture">—</b></p>
-<button id="refresh" onclick="charger()">🔄 Actualiser</button>
+<p>📅 Dernière actualisation :
+<b id="maj">—</b></p>
+<p>🕒 Dernière lecture :
+<b id="lecture">—</b></p>
+<button id="refresh" onclick="charger()">
+🔄 Actualiser
+</button>
 <p class="small">
-Actualisation toutes les 60 secondes lorsque la page est ouverte.
-La mise à jour du site ne déclenche pas les moteurs Python.
+Lecture automatique toutes les 60 secondes
+lorsque la page est ouverte.
+Cette lecture ne déclenche pas les moteurs Python.
 </p>
 </section>
 
 <section id="paris">
 <h2>🏆 Tableaux officiels par course</h2>
 <p class="small">
-Chaque course possède son tableau M1 à M5 lorsque
-les pronostics sont explicitement associés à cette course.
+Un tableau par course validée.
+Les cinq moteurs sont présentés verticalement.
 </p>
 <div id="tableauxParis"></div>
-<hr>
-<h2>🧠 Synthèse globale des cinq moteurs</h2>
+
+<h2>🧠 Synthèse globale M1 à M5</h2>
 <p class="small">
-Ces informations globales ne constituent pas à elles seules
+Les informations globales ne constituent pas
 des paris FIGÉS pour une course déterminée.
 </p>
 <div id="moteurs"></div>
@@ -250,14 +256,15 @@ des paris FIGÉS pour une course déterminée.
 <section id="figes">
 <h2>🔒 Registre officiel des FIGÉS</h2>
 <p class="small">
-Seuls les enregistrements du registre sont affichés.
-Aucun pronostic historique n'est reconstruit après l'arrivée.
+Seuls les FIGÉS réellement enregistrés
+sont affichés.
+Aucun pronostic n'est reconstruit après l'arrivée.
 </p>
 <div id="registreFiges"></div>
 </section>
 
 <section id="audits">
-<h2>🔍 Audits et résultats</h2>
+<h2>🔍 Audits et résultats officiels</h2>
 <div id="registreAudits"></div>
 </section>
 
@@ -300,8 +307,11 @@ function safe(v) {
 }
 
 function valeur(...items) {
- return items.find(x=>x!==null &&
-  x!==undefined && x!=="")??"—";
+ return items.find(x=>
+  x!==null &&
+  x!==undefined &&
+  x!==""
+ )??"—";
 }
 
 function liste(v) {
@@ -320,7 +330,8 @@ function moteur(source,id) {
  if(Array.isArray(source))
   return source.find(m=>
    String(valeur(m.id,m.moteur,m.nom))
-    .toUpperCase()===id)??{};
+    .toUpperCase()===id
+  )??{};
  return source?.[id]??source?.[id.toLowerCase()]??{};
 }
 
@@ -396,7 +407,7 @@ function afficherParis(data,courses) {
  </article>`).join("")
  : `<p class="empty">
  Aucun tableau de paris validés par course disponible.
- Les données actuelles doivent identifier la course
+ Les données doivent identifier la course
  de chaque pronostic.
  </p>`;
 
@@ -519,7 +530,7 @@ async function charger() {
   if(Number.isFinite(t)) {
    if(age < -300000) {
     message="Horodatage futur à vérifier.";
-   } else if(age<=MAX_AGE) {
+   } else if(age>=0 && age<=MAX_AGE) {
     statut="🟢 Données récemment actualisées";
     classe="ok";
     message="Source récente. Pronostics non garantis.";
@@ -564,5 +575,4 @@ document.addEventListener("visibilitychange",()=>{
 });
 </script>
 </body>
-  </html>
-  
+</html>
