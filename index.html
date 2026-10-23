@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -24,7 +25,7 @@ body {
 }
 header {
   text-align:center;
-  padding:30px 15px;
+  padding:32px 15px;
   background:linear-gradient(135deg,#102e52,#071321);
   border-bottom:3px solid var(--green);
 }
@@ -174,9 +175,9 @@ reconstruction rétroactive.
 <script>
 "use strict";
 
-// CHEMIN CORRIGÉ : fichier à la racine du dépôt.
 const SOURCE = "./dashboard.json";
 const INTERVALLE = 60000;
+const MAX_AGE = 90 * 60 * 1000;
 
 let chargement = false;
 let donneesChargees = false;
@@ -303,7 +304,6 @@ function afficherAudits(items) {
     : "<p>Aucun audit enregistré.</p>";
 }
 
-// Compatible avec le JSON actuel et un format simplifié.
 function normaliser(data) {
   if (!data || typeof data !== "object" ||
       Array.isArray(data)) {
@@ -336,6 +336,12 @@ function normaliser(data) {
   };
 }
 
+function dateParis(d) {
+  return d.toLocaleString("fr-FR", {
+    timeZone:"Europe/Paris"
+  });
+}
+
 async function charger() {
   if (chargement) return;
   chargement = true;
@@ -359,22 +365,48 @@ async function charger() {
     afficherFiges(data.figes);
     afficherAudits(data.audits);
 
-    $("maj").textContent = afficher(data.maj);
-    $("lecture").textContent =
-      new Date().toLocaleString("fr-FR",{
-        timeZone:"Europe/Paris"
-      });
+    $("maj").textContent = data.maj
+      ? afficher(data.maj) : "Non renseignée";
+    $("lecture").textContent = dateParis(new Date());
 
-    $("etat").textContent = "🟢 Source connectée";
-    $("etat").className = "ok";
-    $("message").textContent =
-      "Données accessibles. La connexion ne garantit pas " +
-      "que les pronostics sont à jour.";
+    const horodatage = data.maj
+      ? Date.parse(data.maj) : NaN;
+
+    let statut = "🟡 Actualisation non vérifiée";
+    let classe = "warn";
+    let message = "Source accessible, mais aucune date "
+      + "d'actualisation vérifiable n'est disponible.";
+
+    if (Number.isFinite(horodatage)) {
+      const age = Date.now() - horodatage;
+
+      if (age < -5 * 60 * 1000) {
+        message = "Horodatage futur : vérifier "
+          + "l'horloge du système.";
+      } else if (age <= MAX_AGE) {
+        statut = "🟢 Données récemment actualisées";
+        classe = "ok";
+        message = "Horodatage récent. La qualité "
+          + "des pronostics reste à vérifier.";
+      } else {
+        statut = "🟡 Données anciennes";
+        message = "La dernière actualisation "
+          + "dépasse 90 minutes.";
+      }
+    } else if (data.maj) {
+      message = "Format de date non reconnu. "
+        + "Utiliser une date ISO 8601 avec fuseau.";
+    }
+
+    $("etat").textContent = statut;
+    $("etat").className = classe;
+    $("message").textContent = message;
 
     $("diagnostic").textContent =
       "JSON valide | Courses : " + data.courses.length +
       " | FIGÉS : " + data.figes.length +
-      " | Audits : " + data.audits.length;
+      " | Audits : " + data.audits.length +
+      " | Lecture : " + dateParis(new Date());
 
     donneesChargees = true;
 
@@ -383,7 +415,8 @@ async function charger() {
     $("etat").className = "error";
     $("message").textContent = e.message;
     $("diagnostic").textContent =
-      "Vérifier " + SOURCE + " et sa publication GitHub Pages.";
+      "Vérifier " + SOURCE +
+      " et sa publication GitHub Pages.";
 
     if (!donneesChargees) {
       $("maj").textContent = "Inconnue";
@@ -400,7 +433,13 @@ afficherFiges([]);
 afficherAudits([]);
 
 charger();
-setInterval(charger,INTERVALLE);
+setInterval(() => {
+  if (!document.hidden) charger();
+}, INTERVALLE);
+
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) charger();
+});
 </script>
 </body>
 </html>
