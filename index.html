@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,87 +6,122 @@
 <title>🇸🇳 TURBOFUSION X1000 — M1 à M5</title>
 <style>
 :root {
-  --bg:#071321;
-  --panel:#10243a;
-  --line:#29445f;
-  --text:#f2f7ff;
-  --muted:#a8bfd3;
-  --green:#26dc91;
-  --yellow:#ffd166;
-  --red:#ff7580;
+  --fond:#071321;
+  --panneau:#10243a;
+  --ligne:#34516e;
+  --texte:#f2f7ff;
 }
-* { box-sizing:border-box; }
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
 body {
   margin:0;
-  background:var(--bg);
-  color:var(--text);
-  font:16px Arial,sans-serif;
+  background:var(--fond);
+  color:var(--texte);
+  font-family:Arial,sans-serif;
 }
 header {
   text-align:center;
-  padding:32px 15px;
-  background:linear-gradient(135deg,#102e52,#071321);
-  border-bottom:3px solid var(--green);
+  padding:38px 14px;
+  background:linear-gradient(135deg,#123c66,#071321);
+  border-bottom:4px solid #26dc91;
 }
-h1 { font-size:27px; }
-h2 { color:#80caff; font-size:21px; }
-p { line-height:1.6; }
+h1 {font-size:27px}
+h2 {color:#86ceff}
+p {line-height:1.6}
+nav {
+  position:sticky;
+  top:0;
+  z-index:10;
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  padding:12px;
+  background:#0b2035;
+  border-bottom:2px solid #34516e;
+}
+nav a {
+  flex-shrink:0;
+  padding:11px 14px;
+  background:#19476c;
+  color:white;
+  border-radius:9px;
+  text-decoration:none;
+  font-weight:bold;
+}
 main {
-  max-width:1100px;
+  max-width:1150px;
   margin:auto;
   padding:15px;
 }
 section {
-  background:var(--panel);
-  border:1px solid var(--line);
-  border-radius:14px;
-  padding:20px;
-  margin:18px 0;
+  background:var(--panneau);
+  border:1px solid var(--ligne);
+  border-radius:16px;
+  padding:18px;
+  margin:20px 0;
+}
+.hero {
+  padding:38px 20px;
+  text-align:center;
+  border-radius:15px;
+  background:
+    linear-gradient(#07132177,#071321ee),
+    url("https://images.unsplash.com/photo-1534307671554-38a6c2a95c15?w=1200")
+    center/cover;
 }
 button {
   background:#1686e0;
   color:white;
   border:0;
+  padding:13px 20px;
   border-radius:9px;
-  padding:14px 20px;
   font-weight:bold;
-  cursor:pointer;
 }
-button:disabled { opacity:.5; }
-.ok { color:var(--green); }
-.warn { color:var(--yellow); }
-.error { color:var(--red); }
-.muted { color:var(--muted); }
-.small { font-size:13px; }
-.motor {
-  background:#0a1b2e;
-  border:1px solid var(--line);
-  border-left:6px solid #47a9ff;
-  border-radius:12px;
-  padding:18px;
-  margin:15px 0;
-}
-.motor.m2 { border-left-color:#26dc91; }
-.motor.m3 { border-left-color:#bb92ff; }
-.motor.m4 { border-left-color:#ffd166; }
-.motor.m5 { border-left-color:#ff9875; }
-.motor h3 { margin-top:0; }
-.motor p { margin:9px 0; }
+button:disabled {opacity:.5}
+.ok {color:#26dc91}
+.warn {color:#ffd166}
+.error {color:#ff7580}
+.small {font-size:13px;color:#adc4d8}
+.scroll {overflow-x:auto}
 table {
   width:100%;
   border-collapse:collapse;
+  min-width:780px;
 }
 th,td {
-  padding:11px;
-  border:1px solid var(--line);
+  padding:12px;
+  border:1px solid #46637e;
   text-align:left;
+  vertical-align:top;
 }
-th { background:#193955; color:#9cdaff; }
-.scroll { overflow-x:auto; }
+th {background:#1d4162}
+tr:nth-child(even) {background:#142e47}
+.m1 {border-left:6px solid #40a9ff}
+.m2 {border-left:6px solid #26dc91}
+.m3 {border-left:6px solid #bb92ff}
+.m4 {border-left:6px solid #ffd166}
+.m5 {border-left:6px solid #ff9875}
+.bloc {
+  padding:14px;
+  margin:12px 0;
+  background:#0a1b2e;
+  border-radius:12px;
+  border-top:1px solid #46637e;
+  border-right:1px solid #46637e;
+  border-bottom:1px solid #46637e;
+}
+.course {
+  margin:20px 0;
+  padding:15px;
+  background:#0b2035;
+  border:2px solid #34516e;
+  border-radius:14px;
+}
+.course h3 {color:#8fd7ff}
 footer {
   text-align:center;
-  padding:25px;
-  color:var(--muted);
+  padding:30px;
+  color:#adc4d8;
 }
 </style>
 </head>
@@ -95,350 +129,364 @@ footer {
 
 <header>
 <h1>🇸🇳🧠🔥 TURBOFUSION X1000</h1>
-<h2>INTELLIGENCE HIPPIQUE — M1 À M5</h2>
-<p>
-La mémoire conserve. L'analyse comprend.<br>
-L'expérience enseigne.
-</p>
-<p>La magie du savoir au service des courses hippiques.</p>
+<h2>INTELLIGENCE HIPPIQUE M1 À M5</h2>
+<p>La mémoire conserve. L'analyse comprend.<br>
+L'expérience enseigne.</p>
 </header>
+
+<nav>
+<a href="#accueil">🏠 Accueil</a>
+<a href="#paris">🏆 Paris</a>
+<a href="#courses">🏇 Courses</a>
+<a href="#figes">🔒 FIGÉS</a>
+<a href="#audits">🔍 Audits</a>
+<a href="#diagnostic">⚙️ Diagnostic</a>
+</nav>
 
 <main>
 
-<section>
+<section id="accueil">
+<div class="hero">
+<h2>🏇 LA MAGIE DU SAVOIR</h2>
+<p>Cinq moteurs indépendants.<br>
+Une intelligence hippique méthodique.</p>
+</div>
 <h2>📡 Centre de contrôle</h2>
 <p id="etat" class="warn">Initialisation...</p>
-<p id="message">Recherche des données...</p>
+<p id="message">Lecture des données...</p>
 <p>Dernière actualisation :
 <strong id="maj">—</strong></p>
 <p>Dernière lecture :
 <strong id="lecture">—</strong></p>
 <button id="refresh" onclick="charger()">
-🔄 Actualiser maintenant
+🔄 Actualiser
 </button>
-<p class="small muted">
-Actualisation toutes les 60 secondes lorsque
-la page est ouverte. Les données sont lues
-depuis GitHub Pages.
+<p class="small">
+Lecture automatique toutes les 60 secondes
+lorsque la page est ouverte.
 </p>
 </section>
 
-<section>
-<h2>🧠 Les cinq moteurs indépendants</h2>
+<section id="paris">
+<h2>🏆 Tableaux officiels des moteurs</h2>
+<p class="small">
+Chaque course possède son tableau indépendant.
+Les moteurs sont présentés verticalement.
+</p>
+<div id="tableauxParis"></div>
+<h3>🧠 Synthèse des moteurs</h3>
 <div id="moteurs"></div>
 </section>
 
-<section>
+<section id="courses">
 <h2>🏇 Courses sélectionnées</h2>
 <div class="scroll">
 <table>
 <thead>
 <tr>
-<th>Réunion / Course</th>
+<th>Course</th>
 <th>Hippodrome</th>
-<th>Départ Paris</th>
+<th>Heure Paris</th>
 <th>👥 Partants</th>
 <th>Statut</th>
 </tr>
 </thead>
-<tbody id="courses"></tbody>
+<tbody id="listeCourses"></tbody>
 </table>
 </div>
 </section>
 
-<section>
+<section id="figes">
 <h2>🔒 Registre des FIGÉS</h2>
-<p class="small muted">
-Les FIGÉS historiques sont affichés sans
-reconstruction rétroactive.
+<p class="small">
+Les FIGÉS historiques ne sont pas
+reconstruits après l'arrivée.
 </p>
-<div id="figes"></div>
+<div id="registreFiges"></div>
 </section>
 
-<section>
-<h2>🔍 Audits et vérifications</h2>
-<div id="audits"></div>
+<section id="audits">
+<h2>🔍 Audits et arrivées officielles</h2>
+<div id="registreAudits"></div>
 </section>
 
-<section>
+<section id="diagnostic">
 <h2>⚙️ Diagnostic technique</h2>
-<p id="diagnostic">Contrôle en attente.</p>
+<p id="diagnosticTexte">
+Contrôle en attente.
+</p>
 </section>
 
 </main>
 
 <footer>
 🇸🇳🧠🔥 TURBOFUSION X1000 — M1 À M5
-<p>Intelligence hippique • Mémoire • Traçabilité</p>
+<p>Intelligence • Mémoire • Traçabilité</p>
 </footer>
 
 <script>
 "use strict";
 
-const SOURCE = "./dashboard.json";
-const INTERVALLE = 60000;
-const MAX_AGE = 90 * 60 * 1000;
+const SOURCE="./dashboard.json";
+const INTERVALLE=60000;
+const MAX_AGE=90*60*1000;
+let chargement=false;
 
-let chargement = false;
-let donneesChargees = false;
+const $=id=>document.getElementById(id);
 
-const $ = id => document.getElementById(id);
+const definitions=[
+ ["M1","🔵","Forme et régularité"],
+ ["M2","🟢","Aptitudes et conditions"],
+ ["M3","🟣","Origines et entourage"],
+ ["M4","🟡","Engagement et valeur"],
+ ["M5","🟠","Risques et synthèse"]
+];
 
 function safe(v) {
-  return String(v ?? "—")
-    .replace(/&/g,"&amp;")
-    .replace(/</g,"&lt;")
-    .replace(/>/g,"&gt;")
-    .replace(/"/g,"&quot;")
-    .replace(/'/g,"&#39;");
+ return String(v??"—")
+ .replace(/&/g,"&amp;")
+ .replace(/</g,"&lt;")
+ .replace(/>/g,"&gt;")
+ .replace(/"/g,"&quot;")
+ .replace(/'/g,"&#39;");
 }
 
-function valeur(...items) {
-  for (const x of items) {
-    if (x !== null && x !== undefined && x !== "") {
-      return x;
-    }
-  }
-  return "—";
-}
-
-function tableau(v) {
-  return Array.isArray(v) ? v : [];
+function valeur(...v) {
+ return v.find(x=>x!==null &&
+ x!==undefined && x!=="")??"—";
 }
 
 function afficher(v) {
-  if (Array.isArray(v)) {
-    return v.length ? v.map(safe).join(" → ") : "—";
-  }
-  if (v && typeof v === "object") {
-    return safe(JSON.stringify(v));
-  }
-  return safe(v);
+ if(Array.isArray(v))
+  return v.length?v.map(safe).join(" → "):"—";
+ if(v && typeof v==="object")
+  return safe(JSON.stringify(v));
+ return safe(v);
 }
 
-const definitions = [
-  ["M1","🔵","Forme et régularité"],
-  ["M2","🟢","Aptitudes et conditions"],
-  ["M3","🟣","Origines et entourage"],
-  ["M4","🟡","Engagement et valeur"],
-  ["M5","🟠","Risques et synthèse"]
-];
-
-function trouverMoteur(source,id) {
-  if (Array.isArray(source)) {
-    return source.find(m =>
-      String(valeur(m.id,m.moteur,m.nom))
-      .toUpperCase().includes(id)
-    ) || {};
-  }
-  return source?.[id] || source?.[id.toLowerCase()] || {};
+function liste(v) {
+ return Array.isArray(v)?v:[];
 }
 
-function afficherMoteurs(source={}) {
-  $("moteurs").innerHTML = definitions.map(
-    ([id,emoji,nom]) => {
-      const m = trouverMoteur(source,id);
-      return `
-      <article class="motor ${id.toLowerCase()}">
-      <h3>${emoji} ${id} — ${nom}</h3>
-      <p>🥇 <b>Gagnant espéré :</b>
-      ${afficher(valeur(m.gagnant_espere,m.gagnant))}</p>
-      <p>🥈 <b>Meilleur placé :</b>
-      ${afficher(valeur(m.meilleur_place,m.place))}</p>
-      <p>🏁 <b>Ordre d'arrivée espéré :</b>
-      ${afficher(valeur(m.ordre_arrivee_espere,m.pronostic))}</p>
-      <p>🎯 <b>Pari retenu :</b>
-      ${afficher(valeur(m.pari_retenu,m.pari))}</p>
-      <p>📊 <b>Qualification :</b>
-      ${afficher(m.qualification)}</p>
-      <p>✅ <b>Validation :</b>
-      ${afficher(m.validation)}</p>
-      <p>🕒 <b>Heure Paris :</b>
-      ${afficher(m.heure_paris)}</p>
-      </article>`;
-    }
-  ).join("");
+function moteur(source,id) {
+ if(Array.isArray(source))
+  return source.find(x=>
+   String(valeur(x.id,x.moteur,x.nom))
+   .toUpperCase()===id)??{};
+ return source?.[id]??source?.[id.toLowerCase()]??{};
 }
 
-function afficherCourses(items) {
-  const rows = tableau(items).map(c => `
-    <tr>
-    <td>${afficher(valeur(c.course,c.nom,c.id))}</td>
-    <td>${afficher(valeur(c.hippodrome,c.lieu))}</td>
-    <td>${afficher(valeur(c.heure_paris,c.depart))}</td>
-    <td>${afficher(valeur(c.partants,c.nombre_partants))}</td>
-    <td>${afficher(valeur(c.statut,c.validation))}</td>
-    </tr>
-  `).join("");
+function ligneMoteur(id,emoji,nom,m) {
+ return `<tr class="${id.toLowerCase()}">
+ <td><b>${emoji} ${id}</b><br>${nom}</td>
+ <td>${afficher(valeur(m.gagnant_espere,m.gagnant))}</td>
+ <td>${afficher(valeur(m.meilleur_place,m.place))}</td>
+ <td>${afficher(valeur(m.ordre_arrivee_espere,m.pronostic))}</td>
+ <td>${afficher(valeur(m.pari_retenu,m.pari))}</td>
+ <td>${afficher(m.qualification)}</td>
+ <td>${afficher(m.validation)}</td>
+ <td>${afficher(m.heure_paris)}</td>
+ </tr>`;
+}
 
-  $("courses").innerHTML = rows ||
-    '<tr><td colspan="5">Aucune course disponible.</td></tr>';
+function tableauMoteurs(source) {
+ return `<div class="scroll"><table>
+ <thead><tr>
+ <th>Moteur</th>
+ <th>🥇 Gagnant espéré</th>
+ <th>🥈 Meilleur placé</th>
+ <th>🏁 Ordre espéré</th>
+ <th>🎯 Pari retenu</th>
+ <th>Qualification</th>
+ <th>Validation</th>
+ <th>Heure Paris</th>
+ </tr></thead><tbody>
+ ${definitions.map(([id,e,n])=>
+ ligneMoteur(id,e,n,moteur(source,id))
+ ).join("")}
+ </tbody></table></div>`;
+}
+
+function donneesParCourse(data,c) {
+ // Ne pas attribuer à une course un pronostic
+ // global sans correspondance explicite.
+ const ref=String(valeur(c.course,c.id));
+ const assoc=data.pronostics_par_course;
+ if(assoc && !Array.isArray(assoc) &&
+    typeof assoc==="object" && assoc[ref])
+  return assoc[ref].moteurs??assoc[ref];
+
+ if(c.moteurs && typeof c.moteurs==="object")
+  return c.moteurs;
+
+ return null;
+}
+
+function afficherParis(data,courses) {
+ const disponibles=courses.filter(c=>
+  donneesParCourse(data,c)!==null
+ );
+
+ $("tableauxParis").innerHTML=disponibles.length
+ ? disponibles.map(c=>`
+ <article class="course">
+ <h3>🏇 ${afficher(valeur(c.course,c.id))}
+ — ${afficher(c.hippodrome)}</h3>
+ <p>🕒 ${afficher(valeur(c.heure_paris,c.depart))}
+ | 👥 ${afficher(c.partants)} partants</p>
+ ${tableauMoteurs(donneesParCourse(data,c))}
+ </article>`).join("")
+ : `<p class="warn">
+ Aucun pronostic explicitement associé
+ à une course dans les données.
+ </p>`;
+
+ $("moteurs").innerHTML=
+ tableauMoteurs(data.moteurs);
+}
+
+function afficherCourses(courses) {
+ const selection=liste(courses).filter(c=>
+  !/non fig[eé]e|rejet[eé]e|abandonn[eé]e/i
+  .test(String(valeur(c.statut,c.validation,"")))
+ );
+ $("listeCourses").innerHTML=selection.length
+ ? selection.map(c=>`<tr>
+ <td>${afficher(valeur(c.course,c.id))}</td>
+ <td>${afficher(c.hippodrome)}</td>
+ <td>${afficher(valeur(c.heure_paris,c.depart))}</td>
+ <td>${afficher(valeur(c.partants,c.nombre_partants))}</td>
+ <td>${afficher(valeur(c.statut,c.validation))}</td>
+ </tr>`).join("")
+ : `<tr><td colspan="5">
+ Aucune course validée à afficher.
+ </td></tr>`;
 }
 
 function afficherFiges(items) {
-  const data = tableau(items);
-  $("figes").innerHTML = data.length
-    ? data.map(f => `
-      <article class="motor">
-      <h3>🔒 ${afficher(valeur(f.course,f.id))}</h3>
-      <p>Moteur : ${afficher(f.moteur)}</p>
-      <p>Pronostic : ${afficher(valeur(f.pronostic,f.ordre_arrivee))}</p>
-      <p>Pari : ${afficher(valeur(f.pari_retenu,f.pari))}</p>
-      <p>Statut : ${afficher(f.statut)}</p>
-      <p>Horodatage : ${afficher(valeur(f.heure_fige,f.timestamp))}</p>
-      </article>
-    `).join("")
-    : "<p>Aucun FIGÉ enregistré.</p>";
+ $("registreFiges").innerHTML=liste(items).length
+ ? items.map(f=>`
+ <article class="bloc">
+ <h3>🔒 ${afficher(valeur(f.course,f.id))}</h3>
+ <p>Moteur : ${afficher(f.moteur)}</p>
+ <p>Pronostic :
+ ${afficher(valeur(f.pronostic,f.ordre_arrivee))}</p>
+ <p>Pari :
+ ${afficher(valeur(f.pari_retenu,f.pari))}</p>
+ <p>Statut : ${afficher(f.statut)}</p>
+ <p>Horodatage :
+ ${afficher(valeur(f.heure_fige,f.timestamp))}</p>
+ </article>`).join("")
+ : "<p>Aucun FIGÉ enregistré.</p>";
 }
 
 function afficherAudits(items) {
-  const data = tableau(items);
-  $("audits").innerHTML = data.length
-    ? data.map(a => `
-      <article class="motor">
-      <h3>${afficher(valeur(a.course,a.id))}</h3>
-      <p>Arrivée officielle : ${afficher(a.arrivee)}</p>
-      <p>Statut : ${afficher(a.statut)}</p>
-      </article>
-    `).join("")
-    : "<p>Aucun audit enregistré.</p>";
+ $("registreAudits").innerHTML=liste(items).length
+ ? items.map(a=>`
+ <article class="bloc">
+ <h3>${afficher(valeur(a.course,a.id))}</h3>
+ <p>Arrivée officielle :
+ ${afficher(a.arrivee)}</p>
+ <p>Statut : ${afficher(a.statut)}</p>
+ </article>`).join("")
+ : "<p>Aucun audit enregistré.</p>";
 }
 
 function normaliser(data) {
-  if (!data || typeof data !== "object" ||
-      Array.isArray(data)) {
-    throw new Error("Format JSON invalide");
-  }
+ if(!data || typeof data!=="object" ||
+    Array.isArray(data))
+  throw Error("JSON invalide");
 
-  const courses = data.courses ??
-    data.selection_courses?.courses;
+ const courses=data.courses??
+  data.selection_courses?.courses;
+ const figes=Array.isArray(data.figes)?
+  data.figes:data.figes?.registre;
+ const audits=Array.isArray(data.audits)?
+  data.audits:data.audits?.historique;
 
-  const figes = Array.isArray(data.figes)
-    ? data.figes : data.figes?.registre;
+ if(!data.moteurs || !Array.isArray(courses) ||
+    !Array.isArray(figes) ||
+    !Array.isArray(audits))
+  throw Error("Structure JSON incomplète");
 
-  const audits = Array.isArray(data.audits)
-    ? data.audits : data.audits?.historique;
-
-  if (!data.moteurs ||
-      typeof data.moteurs !== "object" ||
-      !Array.isArray(courses) ||
-      !Array.isArray(figes) ||
-      !Array.isArray(audits)) {
-    throw new Error("Structure JSON incomplète");
-  }
-
-  return {
-    moteurs:data.moteurs,
-    courses,
-    figes,
-    audits,
-    maj:data.derniere_actualisation
-  };
+ return {data,courses,figes,audits,
+  maj:data.derniere_actualisation};
 }
 
 function dateParis(d) {
-  return d.toLocaleString("fr-FR", {
-    timeZone:"Europe/Paris"
-  });
+ return d.toLocaleString("fr-FR",{
+  timeZone:"Europe/Paris"
+ });
 }
 
 async function charger() {
-  if (chargement) return;
-  chargement = true;
-  $("refresh").disabled = true;
-  $("message").textContent = "Vérification de la source...";
+ if(chargement)return;
+ chargement=true;
+ $("refresh").disabled=true;
+ $("message").textContent="Lecture en cours...";
 
-  try {
-    const response = await fetch(
-      SOURCE + "?t=" + Date.now(),
-      {cache:"no-store"}
-    );
+ try {
+  const r=await fetch(SOURCE+"?t="+Date.now(),
+   {cache:"no-store"});
+  if(!r.ok)throw Error("HTTP "+r.status);
 
-    if (!response.ok) {
-      throw new Error("HTTP " + response.status);
-    }
+  const x=normaliser(await r.json());
+  afficherParis(x.data,x.courses);
+  afficherCourses(x.courses);
+  afficherFiges(x.figes);
+  afficherAudits(x.audits);
 
-    const data = normaliser(await response.json());
+  $("maj").textContent=x.maj||"Non renseignée";
+  $("lecture").textContent=dateParis(new Date());
 
-    afficherMoteurs(data.moteurs);
-    afficherCourses(data.courses);
-    afficherFiges(data.figes);
-    afficherAudits(data.audits);
+  const t=x.maj?Date.parse(x.maj):NaN;
+  const age=Date.now()-t;
+  let etat="🟡 Fraîcheur non vérifiée";
+  let message="Date absente ou non reconnue.";
+  let classe="warn";
 
-    $("maj").textContent = data.maj
-      ? afficher(data.maj) : "Non renseignée";
-    $("lecture").textContent = dateParis(new Date());
-
-    const horodatage = data.maj
-      ? Date.parse(data.maj) : NaN;
-
-    let statut = "🟡 Actualisation non vérifiée";
-    let classe = "warn";
-    let message = "Source accessible, mais aucune date "
-      + "d'actualisation vérifiable n'est disponible.";
-
-    if (Number.isFinite(horodatage)) {
-      const age = Date.now() - horodatage;
-
-      if (age < -5 * 60 * 1000) {
-        message = "Horodatage futur : vérifier "
-          + "l'horloge du système.";
-      } else if (age <= MAX_AGE) {
-        statut = "🟢 Données récemment actualisées";
-        classe = "ok";
-        message = "Horodatage récent. La qualité "
-          + "des pronostics reste à vérifier.";
-      } else {
-        statut = "🟡 Données anciennes";
-        message = "La dernière actualisation "
-          + "dépasse 90 minutes.";
-      }
-    } else if (data.maj) {
-      message = "Format de date non reconnu. "
-        + "Utiliser une date ISO 8601 avec fuseau.";
-    }
-
-    $("etat").textContent = statut;
-    $("etat").className = classe;
-    $("message").textContent = message;
-
-    $("diagnostic").textContent =
-      "JSON valide | Courses : " + data.courses.length +
-      " | FIGÉS : " + data.figes.length +
-      " | Audits : " + data.audits.length +
-      " | Lecture : " + dateParis(new Date());
-
-    donneesChargees = true;
-
-  } catch(e) {
-    $("etat").textContent = "🔴 Erreur de connexion";
-    $("etat").className = "error";
-    $("message").textContent = e.message;
-    $("diagnostic").textContent =
-      "Vérifier " + SOURCE +
-      " et sa publication GitHub Pages.";
-
-    if (!donneesChargees) {
-      $("maj").textContent = "Inconnue";
-    }
-  } finally {
-    chargement = false;
-    $("refresh").disabled = false;
+  if(Number.isFinite(t)) {
+   if(age< -300000)
+    message="Horodatage futur à vérifier.";
+   else if(age<=MAX_AGE) {
+    etat="🟢 Données récemment actualisées";
+    message="Source récente, pronostics non garantis.";
+    classe="ok";
+   } else {
+    etat="🟡 Données anciennes";
+    message="Actualisation supérieure à 90 minutes.";
+   }
   }
+  $("etat").textContent=etat;
+  $("etat").className=classe;
+  $("message").textContent=message;
+  $("diagnosticTexte").textContent=
+   "JSON valide | Courses : "+x.courses.length+
+   " | FIGÉS : "+x.figes.length+
+   " | Audits : "+x.audits.length+
+   " | Lecture : "+dateParis(new Date());
+
+ } catch(e) {
+  $("etat").textContent="🔴 Erreur de lecture";
+  $("etat").className="error";
+  $("message").textContent=e.message;
+  $("diagnosticTexte").textContent=
+   "Vérifier dashboard.json et GitHub Pages.";
+ } finally {
+  chargement=false;
+  $("refresh").disabled=false;
+ }
 }
 
-afficherMoteurs();
-afficherCourses([]);
-afficherFiges([]);
-afficherAudits([]);
-
+$("moteurs").innerHTML=tableauMoteurs({});
 charger();
-setInterval(() => {
-  if (!document.hidden) charger();
-}, INTERVALLE);
 
-document.addEventListener("visibilitychange", () => {
-  if (!document.hidden) charger();
+setInterval(()=>{
+ if(!document.hidden)charger();
+},INTERVALLE);
+
+document.addEventListener("visibilitychange",()=>{
+ if(!document.hidden)charger();
 });
 </script>
 </body>
