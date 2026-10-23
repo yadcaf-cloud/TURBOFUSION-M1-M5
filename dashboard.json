@@ -1,17 +1,219 @@
+
 {
-  "logiciel": "TURBOFUSION M1-M5",
-  "version": "1.0",
-  "statut": "EN_ATTENTE_DE_DONNEES",
+  "nom": "HIPPOFUSION X1000 - M1 à M5",
+  "version": "1.1.0",
+  "description": "La mémoire vivante de l'intelligence hippique",
+  "fuseau_horaire": "Europe/Paris",
+  "mode": "AUTOMATIQUE",
+  "statut": "EN ATTENTE DE DONNEES",
   "derniere_actualisation": null,
-  "heure_paris": null,
-  "courses": [],
-  "moteurs": [
-    {"id": "M1", "statut": "EN_ATTENTE"},
-    {"id": "M2", "statut": "EN_ATTENTE"},
-    {"id": "M3", "statut": "EN_ATTENTE"},
-    {"id": "M4", "statut": "EN_ATTENTE"},
-    {"id": "M5", "statut": "EN_ATTENTE"}
-  ],
-  "figes": [],
-  "audits": []
+  "configuration": {
+    "analyse_independante": true,
+    "controle_robuste": true,
+    "controle_non_excessif": true,
+    "ratissage_large": true,
+    "actualisation_recurrente": true,
+    "verification_avant_depart": true,
+    "verification_non_partants": true,
+    "fige_avant_depart": true,
+    "fige_immuable": true,
+    "fige_groupe_depart_proche": true,
+    "audit_apres_course": true,
+    "interdire_pronostic_retroactif": true,
+    "heure_reference": "Europe/Paris",
+    "intervalle_actualisation_minutes": 60,
+    "marge_fige_minutes": 5,
+    "ecart_groupement_minutes": 5,
+    "verification_sources_obligatoire": true,
+    "historique_immuable": true
+  },
+  "tableau_officiel": {
+    "orientation": "verticale",
+    "afficher": true,
+    "colonnes": [
+      "Moteur",
+      "Gagnant espéré",
+      "Meilleur placé",
+      "Ordre d'arrivée espéré",
+      "Pari retenu",
+      "Qualification",
+      "Validation",
+      "Heure Paris"
+    ],
+    "codes_couleur": {
+      "vert": "VALIDE",
+      "jaune": "CONTROLE EN COURS",
+      "rouge": "EXCLU",
+      "bleu": "FIGE"
+    },
+    "afficher_uniquement_courses_validees": true
+  },
+  "moteurs": {
+    "M1": {
+      "nom": "Forme et régularité",
+      "actif": true,
+      "independant": true,
+      "criteres": [
+        "Performances récentes",
+        "Régularité",
+        "Progression",
+        "Qualité des adversaires",
+        "Chronos comparables"
+      ],
+      "gagnant_espere": null,
+      "meilleur_place": null,
+      "ordre_arrivee_espere": [],
+      "pari_retenu": null,
+      "qualification": "EN ATTENTE",
+      "validation": "NON VALIDE",
+      "heure_paris": null
+    },
+    "M2": {
+      "nom": "Aptitude et conditions de course",
+      "actif": true,
+      "independant": true,
+      "criteres": [
+        "Distance",
+        "Hippodrome",
+        "Terrain",
+        "Surface",
+        "Corde",
+        "Discipline",
+        "Conditions météorologiques"
+      ],
+      "gagnant_espere": null,
+      "meilleur_place": null,
+      "ordre_arrivee_espere": [],
+      "pari_retenu": null,
+      "qualification": "EN ATTENTE",
+      "validation": "NON VALIDE",
+      "heure_paris": null
+    },
+    "M3": {
+      "nom": "Origines et entourage",
+      "actif": true,
+      "independant": true,
+      "criteres": [
+        "Origines",
+        "Pedigree",
+        "Jockey ou driver",
+        "Entraineur",
+        "Proprietaire",
+        "Equipement",
+        "Ferrure"
+      ],
+      "gagnant_espere": null,
+      "meilleur_place": null,
+      "ordre_arrivee_espere": [],
+      "pari_retenu": null,
+      "qualification": "EN ATTENTE",
+      "validation": "NON VALIDE",
+      "heure_paris": null
+    },
+    "M4": {
+      "nom": "Engagement et valeur sportive",
+      "actif": true,
+      "independant": true,
+      "criteres": [
+        "Conditions d'engagement",
+        "Classe sportive",
+        "Gains",
+        "Poids",
+        "Handicap",
+        "Rendement de distance",
+        "Opposition"
+      ],
+      "gagnant_espere": null,
+      "meilleur_place": null,
+      "ordre_arrivee_espere": [],
+      "pari_retenu": null,
+      "qualification": "EN ATTENTE",
+      "validation": "NON VALIDE",
+      "heure_paris": null
+    },
+    "M5": {
+      "nom": "Synthèse des risques et opportunités",
+      "actif": true,
+      "independant": true,
+      "criteres": [
+        "Favoris vulnerables",
+        "Outsiders prometteurs",
+        "Risques de faute",
+        "Scenarios de course",
+        "Rapport risque potentiel",
+        "Fiabilite des donnees"
+      ],
+      "gagnant_espere": null,
+      "meilleur_place": null,
+      "ordre_arrivee_espere": [],
+      "pari_retenu": null,
+      "qualification": "EN ATTENTE",
+      "validation": "NON VALIDE",
+      "heure_paris": null
+    }
+  },
+  "selection_courses": {
+    "ratissage_large": true,
+    "controle_robuste": true,
+    "analyser_cheval_par_cheval": true,
+    "verifier_partants": true,
+    "verifier_non_partants": true,
+    "verifier_horaires": true,
+    "verifier_offre_pmu": true,
+    "exclure_courses_non_validees_du_tableau": true,
+    "courses": []
+  },
+  "paris_pmu": {
+    "verifier_disponibilite": true,
+    "types_possibles": [
+      "Simple Gagnant",
+      "Simple Place",
+      "Couple Gagnant",
+      "Couple Place",
+      "Trio",
+      "Tierce",
+      "Quarte",
+      "Quinte",
+      "Multi"
+    ],
+    "paris_valides": []
+  },
+  "figes": {
+    "actif": true,
+    "avant_depart_obligatoire": true,
+    "marge_minutes": 5,
+    "regroupement_courses_proches": true,
+    "ecart_maximum_minutes": 5,
+    "immutabilite": true,
+    "horodatage_obligatoire": true,
+    "preuve_source_obligatoire": true,
+    "interdire_modification_apres_fige": true,
+    "interdire_creation_apres_depart": true,
+    "registre": []
+  },
+  "audits": {
+    "actif": true,
+    "comparer_aux_arrivees_officielles": true,
+    "preserver_pronostics_originaux": true,
+    "mesurer_precision": true,
+    "mesurer_rentabilite_si_mises_connues": true,
+    "historique": []
+  },
+  "memoire_vivante": {
+    "active": true,
+    "preserver_historique": true,
+    "apprentissage_sur_resultats_verifies": true,
+    "interdire_invention_donnees": true,
+    "journal_erreurs": [],
+    "ameliorations": []
+  },
+  "execution": {
+    "plateforme": "GitHub Actions",
+    "planification_souhaitee": "0 * * * *",
+    "actualisation_a_chaque_execution": true,
+    "controle_avant_fige": true,
+    "audit_apres_arrivee": true,
+    "derniere_execution": null,
+    "prochaine_execution": null
+  }
 }
