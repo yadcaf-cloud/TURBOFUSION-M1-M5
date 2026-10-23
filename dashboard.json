@@ -1,5 +1,5 @@
 {
-  "derniere_actualisation": "2026-10-23T21:30:00.701741+02:00",
+  "derniere_actualisation": "2026-10-23T22:00:37.248351+02:00",
   "moteurs": {
     "M1": {
       "gagnant_espere": 7,
@@ -14,7 +14,7 @@
       "pari_retenu": "Simulation uniquement - aucun pari execute",
       "qualification": "Heuristique expérimentale, non validée statistiquement",
       "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T21:30:00.701741+02:00"
+      "heure_paris": "2026-10-23T22:00:37.248351+02:00"
     },
     "M2": {
       "gagnant_espere": null,
@@ -23,7 +23,7 @@
       "pari_retenu": "Aucun",
       "qualification": "Données spécialisées insuffisantes",
       "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T21:30:00.701741+02:00"
+      "heure_paris": "2026-10-23T22:00:37.248351+02:00"
     },
     "M3": {
       "gagnant_espere": null,
@@ -32,7 +32,7 @@
       "pari_retenu": "Aucun",
       "qualification": "Données spécialisées insuffisantes",
       "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T21:30:00.701741+02:00"
+      "heure_paris": "2026-10-23T22:00:37.248351+02:00"
     },
     "M4": {
       "gagnant_espere": null,
@@ -41,7 +41,7 @@
       "pari_retenu": "Aucun",
       "qualification": "Couverture des donnees insuffisante",
       "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T21:30:00.701741+02:00"
+      "heure_paris": "2026-10-23T22:00:37.248351+02:00"
     },
     "M5": {
       "gagnant_espere": 7,
@@ -56,7 +56,7 @@
       "pari_retenu": "Simulation uniquement - aucun pari execute",
       "qualification": "Heuristique expérimentale, non validée statistiquement",
       "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T21:30:00.701741+02:00"
+      "heure_paris": "2026-10-23T22:00:37.248351+02:00"
     }
   },
   "courses": [
