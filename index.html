@@ -1,577 +1,440 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#081525">
-<title>🇸🇳🧠🔥 TURBOFUSION X1000 — M1 à M5</title>
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>🇸🇳 TURBOFUSION M1–M5 | Intelligence hippique</title>
 <style>
 :root {
-  --bg:#081525;
-  --panel:#10283f;
-  --panel2:#0b2035;
-  --line:#385873;
-  --text:#f3f8ff;
-  --muted:#b5ccde;
-  --blue:#47b5ff;
-  --green:#30dc9c;
-  --purple:#c39aff;
-  --yellow:#ffd166;
-  --orange:#ff9c70;
-  --red:#ff7b86;
+  color-scheme:dark;
+  --bg:#081324;
+  --panel:#12233b;
+  --line:#35516e;
+  --text:#eef5ff;
+  --muted:#a9bed5;
+  --gold:#ffd166;
 }
-* {box-sizing:border-box}
-html {scroll-behavior:smooth}
-body {
+*{box-sizing:border-box}
+body{
   margin:0;
-  background:var(--bg);
+  background:linear-gradient(145deg,#081324,#102b46);
+  font-family:system-ui,Arial,sans-serif;
   color:var(--text);
-  font:15px/1.6 Arial,sans-serif;
 }
-header {
-  padding:30px 15px;
+header{
+  padding:34px 18px;
+  background:linear-gradient(120deg,#123c62,#15325a 55%,#432a65);
+  border-bottom:3px solid var(--gold);
   text-align:center;
-  background:linear-gradient(135deg,#174f7b,#081525);
-  border-bottom:4px solid var(--green);
 }
-h1 {font-size:clamp(23px,5vw,34px);margin:0}
-h2 {color:#8bd3ff;font-size:21px}
-h3 {color:#a9e0ff}
-p {margin:10px 0}
-nav {
+h1{font-size:clamp(25px,5vw,42px);margin:0 0 12px}
+header p{color:#d9eaff;margin:6px}
+nav{
   position:sticky;
   top:0;
-  z-index:20;
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:7px;
-  padding:9px;
-  background:#0b2035;
-  border-bottom:2px solid var(--line);
-}
-nav a {
-  min-width:0;
-  text-align:center;
-  color:white;
-  text-decoration:none;
-  padding:11px 4px;
-  border-radius:9px;
-  background:#194c73;
-  font-size:13px;
-  font-weight:bold;
-}
-nav a:hover,nav a:focus-visible {
-  background:#2678aa;
-}
-main {max-width:1200px;margin:auto;padding:12px}
-section {
-  scroll-margin-top:125px;
-  margin:18px 0;
-  padding:20px;
-  background:var(--panel);
-  border:1px solid var(--line);
-  border-radius:16px;
-}
-.hero {
-  padding:30px 12px;
-  text-align:center;
-  border-radius:14px;
-  background:linear-gradient(135deg,#144a6c,#10283f,#234a44);
-}
-.hero h2 {color:#fff}
-button {
-  border:0;
-  border-radius:10px;
-  padding:13px 18px;
-  background:#1686e0;
-  color:#fff;
-  font-weight:bold;
-  cursor:pointer;
-}
-button:disabled {opacity:.5}
-button:focus-visible {outline:3px solid var(--yellow)}
-.ok {color:var(--green)}
-.warn {color:var(--yellow)}
-.error {color:var(--red)}
-.small {font-size:13px;color:var(--muted)}
-.status {
-  display:inline-block;
-  padding:8px 12px;
-  border:1px solid currentColor;
-  border-radius:30px;
-}
-.scroll {overflow-x:auto}
-table {
-  width:100%;
-  min-width:850px;
-  border-collapse:collapse;
-}
-th,td {
-  padding:11px;
-  text-align:left;
-  vertical-align:top;
-  border:1px solid #466580;
-}
-th {background:#204663;color:#bce6ff}
-tr:nth-child(even) {background:#142e47}
-.m1 {border-left:6px solid var(--blue)}
-.m2 {border-left:6px solid var(--green)}
-.m3 {border-left:6px solid var(--purple)}
-.m4 {border-left:6px solid var(--yellow)}
-.m5 {border-left:6px solid var(--orange)}
-.course {
-  padding:17px;
-  margin:22px 0;
-  border:2px solid var(--line);
-  border-top:5px solid var(--green);
-  border-radius:14px;
-  background:var(--panel2);
-}
-.course h3 {margin-top:0}
-.meta {
+  z-index:5;
+  background:#0c1c30;
   display:flex;
   flex-wrap:wrap;
+  justify-content:center;
   gap:8px;
-  margin:12px 0;
+  padding:12px;
+  border-bottom:1px solid var(--line);
 }
-.meta span {
-  padding:7px 11px;
-  background:#173b57;
-  border-radius:8px;
-}
-.bloc {
-  padding:16px;
-  margin:13px 0;
-  border:1px solid var(--line);
-  border-left:5px solid var(--blue);
-  border-radius:12px;
-  background:var(--panel2);
-}
-.empty {
-  padding:16px;
-  border:1px dashed #7892a8;
+nav a{
+  color:white;
+  text-decoration:none;
+  background:#204263;
+  padding:10px 14px;
   border-radius:10px;
-  color:var(--muted);
+  font-weight:650;
 }
-footer {
-  padding:30px 15px;
-  text-align:center;
-  color:var(--muted);
+nav a:hover{background:#356b96}
+main{max-width:1250px;margin:auto;padding:20px 14px}
+section{
+  background:rgba(18,35,59,.96);
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:20px;
+  margin:18px 0;
+  box-shadow:0 8px 25px #0002;
 }
-@media(max-width:600px) {
-  header {padding:25px 12px}
-  section {padding:13px;margin:13px 0}
-  th,td {font-size:13px;padding:9px}
-  .course {padding:11px}
-  .scroll {margin:0 -5px}
+h2{margin-top:0;color:var(--gold)}
+.status{
+  display:inline-block;
+  border-radius:30px;
+  background:#243b55;
+  padding:9px 14px;
+  font-weight:700;
 }
-@media(max-width:360px) {
-  nav a {font-size:11px}
+.ok{color:#6ce4a0}
+.warn{color:#ffda83}
+.error{color:#ff9c9c}
+.muted{color:var(--muted)}
+.row{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
 }
-@media(prefers-reduced-motion:reduce) {
-  html {scroll-behavior:auto}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:12px;
 }
+.card{
+  background:#192f4d;
+  border-left:5px solid #55aaff;
+  padding:17px;
+  border-radius:12px;
+}
+.card strong{font-size:30px;display:block;margin-top:8px}
+button{
+  background:#ffcc62;
+  color:#162033;
+  border:0;
+  border-radius:10px;
+  padding:12px 18px;
+  font-weight:800;
+  cursor:pointer;
+}
+button:disabled{opacity:.6}
+.tablewrap{
+  overflow-x:auto;
+  border-radius:12px;
+  border:1px solid var(--line);
+}
+table{
+  border-collapse:collapse;
+  width:100%;
+  min-width:760px;
+}
+th,td{
+  padding:12px;
+  text-align:left;
+  border-bottom:1px solid #38516b;
+  vertical-align:top;
+}
+th{background:#234464;color:#fff}
+tr:nth-child(even){background:#182e49}
+.engine{font-weight:800;border-left:5px solid #999}
+.m1{border-left-color:#4aa7ff}
+.m2{border-left-color:#56d79c}
+.m3{border-left-color:#b994ff}
+.m4{border-left-color:#ffbc5b}
+.m5{border-left-color:#ff738b}
+.tag{
+  display:inline-block;
+  background:#315575;
+  border-radius:8px;
+  padding:5px 9px;
+  margin:2px;
+}
+.empty{color:#c9d6e5;padding:18px}
+.course{
+  margin:18px 0;
+  border:1px solid #426080;
+  border-radius:14px;
+  overflow:hidden;
+}
+.coursehead{background:#214465;padding:15px}
+.coursehead h3{margin:0 0 6px}
+.coursebody{padding:12px}
+footer{text-align:center;color:#aec2d8;padding:30px}
+small{color:#b5c9dd}
 </style>
 </head>
-
 <body>
+
 <header>
-<h1>🇸🇳🧠🔥 TURBOFUSION X1000</h1>
-<h2>INTELLIGENCE HIPPIQUE — M1 À M5</h2>
-<p>La mémoire conserve. L'analyse comprend.</p>
-<p>L'expérience enseigne.</p>
-<p>🏇 La magie du savoir au service des courses hippiques</p>
+<h1>🇸🇳🧠🔥 TURBOFUSION M1–M5</h1>
+<p>Intelligence hippique spécialisée — La magie du savoir</p>
+<p>La mémoire conserve • L'analyse comprend • L'expérience enseigne</p>
 </header>
 
-<nav aria-label="Navigation principale">
-<a href="#accueil">🏠 Accueil</a>
-<a href="#paris">🏆 Paris</a>
-<a href="#courses">🏇 Courses</a>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#courses">Courses et moteurs</a>
 <a href="#figes">🔒 FIGÉS</a>
-<a href="#audits">🔍 Audits</a>
-<a href="#diagnostic">⚙️ Diagnostic</a>
+<a href="#audits">Audits</a>
+<a href="#diagnostic">Diagnostic</a>
 </nav>
 
 <main>
+
 <section id="accueil">
-<div class="hero">
-<h2>🏇 LA MAGIE DU SAVOIR</h2>
-<p>Cinq moteurs indépendants.</p>
-<p>Une intelligence hippique méthodique.</p>
+<div class="row">
+<div>
+<h2>Tableau de bord officiel</h2>
+<span id="etat" class="status warn" role="status">
+🟡 Chargement des données…
+</span>
 </div>
-
-<h2>📡 Centre de contrôle</h2>
-<p id="etat" class="warn status">Initialisation...</p>
-<p id="message" role="status">Lecture des données...</p>
-<p>📅 Dernière actualisation :
-<b id="maj">—</b></p>
-<p>🕒 Dernière lecture :
-<b id="lecture">—</b></p>
-<button id="refresh" onclick="charger()">
-🔄 Actualiser
-</button>
-<p class="small">
-Lecture automatique toutes les 60 secondes
-lorsque la page est ouverte.
-Cette lecture ne déclenche pas les moteurs Python.
+<button id="refresh" type="button">↻ Actualiser</button>
+</div>
+<p class="muted" id="message">
+Vérification du fichier dashboard.json
 </p>
-</section>
-
-<section id="paris">
-<h2>🏆 Tableaux officiels par course</h2>
-<p class="small">
-Un tableau par course validée.
-Les cinq moteurs sont présentés verticalement.
-</p>
-<div id="tableauxParis"></div>
-
-<h2>🧠 Synthèse globale M1 à M5</h2>
-<p class="small">
-Les informations globales ne constituent pas
-des paris FIGÉS pour une course déterminée.
-</p>
-<div id="moteurs"></div>
+<div class="cards">
+<div class="card">Courses<strong id="nbCourses">0</strong></div>
+<div class="card">FIGÉS enregistrés<strong id="nbFiges">0</strong></div>
+<div class="card">Audits<strong id="nbAudits">0</strong></div>
+<div class="card">Moteurs<strong>5</strong></div>
+</div>
+<p><small id="lecture">Dernière lecture : —</small></p>
 </section>
 
 <section id="courses">
-<h2>🏇 Courses validées</h2>
-<div class="scroll">
-<table>
-<thead>
-<tr>
-<th>Course</th>
-<th>Hippodrome</th>
-<th>Départ Paris</th>
-<th>👥 Partants</th>
-<th>🚫 NP</th>
-<th>Validation</th>
-</tr>
-</thead>
-<tbody id="listeCourses"></tbody>
-</table>
+<h2>🏇 Courses et tableaux officiels M1 à M5</h2>
+<p class="muted">
+Chaque course possède un tableau unique avec les moteurs
+présentés verticalement. Les données absentes sont
+indiquées sans invention.
+</p>
+<div id="moteurs">
+<p class="empty">En attente des courses…</p>
 </div>
 </section>
 
 <section id="figes">
-<h2>🔒 Registre officiel des FIGÉS</h2>
-<p class="small">
-Seuls les FIGÉS réellement enregistrés
-sont affichés.
-Aucun pronostic n'est reconstruit après l'arrivée.
+<h2>🔒 Registre des paris FIGÉS</h2>
+<p class="muted">
+Un FIGÉ doit être enregistré et horodaté avant le départ.
+Les résultats ultérieurs ne doivent jamais réécrire
+le pronostic initial.
 </p>
-<div id="registreFiges"></div>
+<div id="figesListe"></div>
 </section>
 
 <section id="audits">
-<h2>🔍 Audits et résultats officiels</h2>
-<div id="registreAudits"></div>
+<h2>📋 Audits et résultats</h2>
+<div id="auditsListe"></div>
 </section>
 
 <section id="diagnostic">
-<h2>⚙️ Diagnostic technique</h2>
-<p id="diagnosticTexte">Contrôle en attente.</p>
+<h2>🛠️ Diagnostic de publication</h2>
+<p id="diagnosticText">
+Lecture du fichier de données en cours…
+</p>
+<p class="muted">
+La page se rafraîchit toutes les 5 minutes lorsqu'elle
+est ouverte et visible. Les données doivent être produites
+séparément par le moteur ou par GitHub Actions :
+cette page ne lance pas les analyses.
+</p>
 </section>
+
 </main>
 
 <footer>
-🇸🇳🧠🔥 TURBOFUSION X1000 — M1 À M5
-<p>Intelligence • Mémoire • Traçabilité</p>
+🇸🇳🧠🔥 TURBOFUSION M1–M5 —
+Analyse et traçabilité, sans garantie de gain.
 </footer>
 
 <script>
-"use strict";
+'use strict';
 
-const SOURCE="./dashboard.json";
-const INTERVALLE=60000;
-const MAX_AGE=90*60*1000;
-let chargement=false;
+const $ = id => document.getElementById(id);
+const INTERVALLE = 300000;
+let chargement = false;
 
-const $=id=>document.getElementById(id);
+const texte = (v,def='—') =>
+  v===null || v===undefined || v==='' ? def : String(v);
 
-const definitions=[
- ["M1","🔵","Forme et régularité"],
- ["M2","🟢","Aptitudes et conditions"],
- ["M3","🟣","Origines et entourage"],
- ["M4","🟡","Engagement et valeur"],
- ["M5","🟠","Risques et synthèse"]
-];
+const escapeHTML = v =>
+  texte(v).replace(/[&<>"']/g,c=>({
+    '&':'&amp;',
+    '<':'&lt;',
+    '>':'&gt;',
+    '"':'&quot;',
+    "'":'&#39;'
+  }[c]));
 
-function safe(v) {
- return String(v??"—")
-  .replace(/&/g,"&amp;")
-  .replace(/</g,"&lt;")
-  .replace(/>/g,"&gt;")
-  .replace(/"/g,"&quot;")
-  .replace(/'/g,"&#39;");
-}
-
-function valeur(...items) {
- return items.find(x=>
-  x!==null &&
-  x!==undefined &&
-  x!==""
- )??"—";
-}
-
-function liste(v) {
- return Array.isArray(v)?v:[];
-}
-
-function afficher(v) {
- if(Array.isArray(v))
-  return v.length?v.map(safe).join(" → "):"—";
- if(v && typeof v==="object")
-  return safe(JSON.stringify(v));
- return safe(v);
-}
-
-function moteur(source,id) {
- if(Array.isArray(source))
-  return source.find(m=>
-   String(valeur(m.id,m.moteur,m.nom))
-    .toUpperCase()===id
-  )??{};
- return source?.[id]??source?.[id.toLowerCase()]??{};
-}
-
-function ligneMoteur(id,emoji,nom,m) {
- return `<tr class="${id.toLowerCase()}">
- <td><b>${emoji} ${id}</b><br>${safe(nom)}</td>
- <td>${afficher(valeur(m.gagnant_espere,m.gagnant))}</td>
- <td>${afficher(valeur(m.meilleur_place,m.place))}</td>
- <td>${afficher(valeur(m.ordre_arrivee_espere,m.pronostic))}</td>
- <td>${afficher(valeur(m.pari_retenu,m.pari))}</td>
- <td>${afficher(m.qualification)}</td>
- <td>${afficher(m.validation)}</td>
- <td>${afficher(m.heure_paris)}</td>
- </tr>`;
-}
-
-function tableauMoteurs(source) {
- return `<div class="scroll"><table>
- <thead><tr>
- <th>Moteur</th>
- <th>🥇 Gagnant espéré</th>
- <th>🥈 Meilleur placé</th>
- <th>🏁 Ordre espéré</th>
- <th>🎯 Pari retenu</th>
- <th>Qualification</th>
- <th>Validation</th>
- <th>Heure Paris</th>
- </tr></thead><tbody>
- ${definitions.map(([id,e,n])=>
-  ligneMoteur(id,e,n,moteur(source,id))
- ).join("")}
- </tbody></table></div>`;
-}
-
-function pronosticsCourse(data,c) {
- const ref=String(valeur(c.course,c.id));
- const source=data.pronostics_par_course;
-
- if(source && !Array.isArray(source) &&
-    typeof source==="object" && source[ref])
-  return source[ref].moteurs??source[ref];
-
- if(c.moteurs && typeof c.moteurs==="object")
-  return c.moteurs;
-
- return null;
-}
-
-function estValidee(c) {
- const statut=String(valeur(c.statut,c.validation,""));
- return /fig[eé]|valid[eé]/i.test(statut) &&
-  !/non[\s-]*fig[eé]|non[\s-]*valid[eé]|rejet|abandon|indicative/i
-   .test(statut);
-}
-
-function afficherParis(data,courses) {
- const disponibles=courses.filter(c=>
-  estValidee(c) && pronosticsCourse(data,c)!==null
- );
-
- $("tableauxParis").innerHTML=disponibles.length
- ? disponibles.map(c=>`
- <article class="course">
- <h3>🏇 ${afficher(valeur(c.course,c.id))}
- — ${afficher(c.hippodrome)}</h3>
- <div class="meta">
- <span>🕒 ${afficher(valeur(c.heure_paris,c.depart))}</span>
- <span>👥 ${afficher(valeur(c.partants,c.nombre_partants))} partants</span>
- <span>🚫 NP : ${afficher(valeur(c.non_partants,c.np))}</span>
- <span>Validation : ${afficher(valeur(c.statut,c.validation))}</span>
- </div>
- ${tableauMoteurs(pronosticsCourse(data,c))}
- </article>`).join("")
- : `<p class="empty">
- Aucun tableau de paris validés par course disponible.
- Les données doivent identifier la course
- de chaque pronostic.
- </p>`;
-
- $("moteurs").innerHTML=tableauMoteurs(data.moteurs);
-}
-
-function afficherCourses(courses) {
- const selection=courses.filter(estValidee);
-
- $("listeCourses").innerHTML=selection.length
- ? selection.map(c=>`<tr>
- <td>${afficher(valeur(c.course,c.id))}</td>
- <td>${afficher(valeur(c.hippodrome,c.lieu))}</td>
- <td>${afficher(valeur(c.heure_paris,c.depart))}</td>
- <td>${afficher(valeur(c.partants,c.nombre_partants))}</td>
- <td>${afficher(valeur(c.non_partants,c.np))}</td>
- <td>${afficher(valeur(c.statut,c.validation))}</td>
- </tr>`).join("")
- : `<tr><td colspan="6">
- Aucune course validée à afficher.
- </td></tr>`;
-}
-
-function afficherFiges(items) {
- const data=liste(items);
-
- $("registreFiges").innerHTML=data.length
- ? data.map(f=>`
- <article class="bloc">
- <h3>🔒 ${afficher(valeur(f.course,f.id))}</h3>
- <p>Moteur : ${afficher(f.moteur)}</p>
- <p>Pronostic :
- ${afficher(valeur(f.pronostic,f.ordre_arrivee))}</p>
- <p>Pari : ${afficher(valeur(f.pari_retenu,f.pari))}</p>
- <p>Statut : ${afficher(f.statut)}</p>
- <p>Horodatage :
- ${afficher(valeur(f.heure_fige,f.timestamp))}</p>
- </article>`).join("")
- : `<p class="empty">Aucun FIGÉ enregistré.</p>`;
-}
-
-function afficherAudits(items) {
- const data=liste(items);
-
- $("registreAudits").innerHTML=data.length
- ? data.map(a=>`
- <article class="bloc">
- <h3>${afficher(valeur(a.course,a.id))}</h3>
- <p>Arrivée officielle :
- ${afficher(valeur(a.arrivee_officielle,a.arrivee))}</p>
- <p>Statut : ${afficher(a.statut)}</p>
- </article>`).join("")
- : `<p class="empty">Aucun audit enregistré.</p>`;
-}
-
-function normaliser(data) {
- if(!data || typeof data!=="object" ||
-    Array.isArray(data))
-  throw Error("Format JSON invalide");
-
- const courses=data.courses??
-  data.selection_courses?.courses;
-
- const figes=Array.isArray(data.figes)
-  ?data.figes:data.figes?.registre;
-
- const audits=Array.isArray(data.audits)
-  ?data.audits:data.audits?.historique;
-
- if(!data.moteurs ||
-    typeof data.moteurs!=="object" ||
-    !Array.isArray(courses) ||
-    !Array.isArray(figes) ||
-    !Array.isArray(audits))
-  throw Error("Structure dashboard.json incomplète");
-
- return {
-  data,courses,figes,audits,
-  maj:data.derniere_actualisation
- };
-}
-
-function dateParis(d) {
- return d.toLocaleString("fr-FR",{
-  timeZone:"Europe/Paris"
- });
-}
-
-async function charger() {
- if(chargement)return;
- chargement=true;
- $("refresh").disabled=true;
- $("message").textContent="Lecture des données...";
-
- try {
-  const r=await fetch(
-   SOURCE+"?t="+Date.now(),
-   {cache:"no-store"}
-  );
-
-  if(!r.ok)throw Error("HTTP "+r.status);
-
-  const x=normaliser(await r.json());
-
-  afficherParis(x.data,x.courses);
-  afficherCourses(x.courses);
-  afficherFiges(x.figes);
-  afficherAudits(x.audits);
-
-  $("maj").textContent=x.maj||"Non renseignée";
-  $("lecture").textContent=dateParis(new Date());
-
-  const t=x.maj?Date.parse(x.maj):NaN;
-  const age=Date.now()-t;
-
-  let statut="🟡 Fraîcheur non vérifiée";
-  let classe="warn";
-  let message="Date absente ou non reconnue.";
-
-  if(Number.isFinite(t)) {
-   if(age < -300000) {
-    message="Horodatage futur à vérifier.";
-   } else if(age>=0 && age<=MAX_AGE) {
-    statut="🟢 Données récemment actualisées";
-    classe="ok";
-    message="Source récente. Pronostics non garantis.";
-   } else {
-    statut="🟡 Données anciennes";
-    message="Dernière actualisation supérieure à 90 minutes.";
-   }
+const val = (o,...keys) => {
+  for(const k of keys){
+    if(o && o[k]!==undefined &&
+       o[k]!==null && o[k]!=='') return o[k];
   }
+  return null;
+};
 
-  $("etat").textContent=statut;
-  $("etat").className=classe+" status";
-  $("message").textContent=message;
+const list = v => Array.isArray(v) ? v : [];
 
-  $("diagnosticTexte").textContent=
-   "Source : "+SOURCE+
-   " | JSON valide | Courses : "+x.courses.length+
-   " | FIGÉS : "+x.figes.length+
-   " | Audits : "+x.audits.length+
-   " | Lecture : "+dateParis(new Date());
+const display = v =>
+  Array.isArray(v)
+    ? v.map(x=>typeof x==='object'
+      ? texte(val(x,'numero','num','nom','id'))
+      : String(x)).join(' - ')
+    : typeof v==='object' && v!==null
+      ? JSON.stringify(v)
+      : texte(v);
 
- } catch(e) {
-  $("etat").textContent="🔴 Erreur de lecture";
-  $("etat").className="error status";
-  $("message").textContent=e.message;
-  $("diagnosticTexte").textContent=
-   "Vérifier dashboard.json et sa publication GitHub Pages.";
- } finally {
-  chargement=false;
-  $("refresh").disabled=false;
- }
+const e = v => escapeHTML(display(v));
+
+const dateParis = d =>
+  new Intl.DateTimeFormat('fr-FR',{
+    dateStyle:'short',
+    timeStyle:'medium',
+    timeZone:'Europe/Paris'
+  }).format(d);
+
+function moteurId(m,i){
+  let raw=texte(val(m,'moteur','id','nom','name'),`M${i+1}`);
+  let match=raw.match(/M\s*([1-5])/i);
+  return match ? `M${match[1]}` : raw;
 }
 
-$("moteurs").innerHTML=tableauMoteurs({});
+function moteurTable(data){
+  let rows=list(val(data,'moteurs','engines','analyses'));
+
+  return `
+  <div class="tablewrap">
+  <table>
+  <thead>
+  <tr>
+    <th>Moteur</th>
+    <th>🥇 Gagnant espéré</th>
+    <th>🥈 Meilleur placé</th>
+    <th>Ordre d'arrivée espéré</th>
+    <th>🎯 Pari retenu</th>
+    <th>Qualification</th>
+    <th>Validation</th>
+    <th>Heure Paris</th>
+  </tr>
+  </thead>
+  <tbody>
+  ${[1,2,3,4,5].map(n=>{
+    let m=rows.find((r,i)=>moteurId(r,i)===`M${n}`)||{};
+    return `
+    <tr>
+      <td class="engine m${n}">M${n}</td>
+      <td>${e(val(m,'gagnant','gagnant_espere','winner'))}</td>
+      <td>${e(val(m,'place','meilleur_place','place_espere'))}</td>
+      <td>${e(val(m,'ordre','ordre_espere','selection','combinaison'))}</td>
+      <td>${e(val(m,'pari','pari_retenu','type_pari'))}</td>
+      <td>${e(val(m,'qualification','appreciation'))}</td>
+      <td>${e(val(m,'validation','statut','status'))}</td>
+      <td>${e(val(m,'heure_paris','heure','timestamp'))}</td>
+    </tr>`;
+  }).join('')}
+  </tbody>
+  </table>
+  </div>`;
+}
+
+function tableauMoteurs(x){
+  let courses=list(val(x,'courses','races'));
+
+  if(!courses.length)
+    return '<p class="empty">Aucune course publiée dans dashboard.json.</p>';
+
+  return courses.map((c,i)=>`
+  <article class="course">
+    <div class="coursehead">
+      <h3>${e(val(c,'course','nom','libelle','name')||`Course ${i+1}`)}</h3>
+      <span class="tag">${e(val(c,'reunion','hippodrome','lieu'))}</span>
+      <span class="tag">🕒 ${e(val(c,'heure','heure_depart','depart'))}</span>
+      <span class="tag">👥 ${e(val(c,'partants','nombre_partants','nb_partants'))} partants</span>
+      <span class="tag">NP : ${e(val(c,'non_partants','np'))}</span>
+    </div>
+    <div class="coursebody">
+      ${moteurTable(c)}
+      <p>
+        <strong>🏁 Arrivée officielle :</strong>
+        ${e(val(c,'arrivee_officielle','arrivee','resultat'))}
+      </p>
+    </div>
+  </article>`).join('');
+}
+
+function objets(items,empty){
+  if(!items.length)
+    return `<p class="empty">${escapeHTML(empty)}</p>`;
+
+  return items.map((item,i)=>{
+    let obj=typeof item==='object' && item!==null
+      ? item : {valeur:item};
+    let title=val(obj,'course','nom','id','moteur')
+      || `Enregistrement ${i+1}`;
+
+    return `
+    <article class="card" style="margin:12px 0">
+      <h3>${e(title)}</h3>
+      <p>${Object.entries(obj).map(([k,v])=>
+        `<span class="tag">${escapeHTML(k)} : ${e(v)}</span>`
+      ).join('')}</p>
+    </article>`;
+  }).join('');
+}
+
+async function charger(){
+  if(chargement)return;
+
+  chargement=true;
+  $('refresh').disabled=true;
+  $('etat').textContent='🟡 Actualisation…';
+  $('etat').className='status warn';
+
+  try{
+    const url=new URL('dashboard.json',document.baseURI);
+    url.searchParams.set('_',Date.now());
+
+    const response=await fetch(url,{cache:'no-store'});
+
+    if(!response.ok)
+      throw new Error(`HTTP ${response.status} : ${url.pathname}`);
+
+    const x=await response.json();
+
+    if(!x || typeof x!=='object' || Array.isArray(x))
+      throw new Error('Format JSON incorrect : objet attendu');
+
+    const courses=list(val(x,'courses','races'));
+    const figes=list(val(x,'figes','locks'));
+    const audits=list(val(x,'audits','audit'));
+
+    $('nbCourses').textContent=courses.length;
+    $('nbFiges').textContent=figes.length;
+    $('nbAudits').textContent=audits.length;
+
+    $('moteurs').innerHTML=tableauMoteurs(x);
+    $('figesListe').innerHTML=objets(figes,'Aucun FIGÉ enregistré.');
+    $('auditsListe').innerHTML=objets(audits,'Aucun audit enregistré.');
+
+    $('etat').textContent='🟢 Données chargées';
+    $('etat').className='status ok';
+
+    $('message').textContent=
+      `Source : dashboard.json | Courses : ${courses.length} | FIGÉS : ${figes.length} | Audits : ${audits.length}`;
+
+    $('diagnosticText').textContent=
+      'JSON valide. La disponibilité des données ne prouve pas que les analyses et FIGÉS sont exécutés automatiquement.';
+
+  }catch(err){
+    $('etat').textContent='🔴 Erreur de lecture';
+    $('etat').className='status error';
+    $('message').textContent=err.message;
+    $('diagnosticText').textContent=
+      'Vérifier que dashboard.json existe à côté de index.html sur la branche publiée par GitHub Pages. Détail : '+err.message;
+
+  }finally{
+    $('lecture').textContent=
+      'Dernière tentative : '+dateParis(new Date());
+    chargement=false;
+    $('refresh').disabled=false;
+  }
+}
+
+$('refresh').addEventListener('click',charger);
 charger();
 
 setInterval(()=>{
- if(!document.hidden)charger();
+  if(!document.hidden)charger();
 },INTERVALLE);
 
-document.addEventListener("visibilitychange",()=>{
- if(!document.hidden)charger();
+document.addEventListener('visibilitychange',()=>{
+  if(!document.hidden)charger();
 });
 </script>
 </body>
