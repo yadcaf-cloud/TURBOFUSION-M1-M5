@@ -1,183 +1,297 @@
-
 {
-  "nom": "HIPPOFUSION X1000 - M1 à M5",
-  "version": "1.1.0",
-  "description": "La mémoire vivante de l'intelligence hippique",
-  "fuseau_horaire": "Europe/Paris",
-  "mode": "AUTOMATIQUE",
-  "statut": "EN ATTENTE DE DONNEES",
-  "derniere_actualisation": null,
-  "configuration": {
-    "analyse_independante": true,
-    "controle_robuste": true,
-    "controle_non_excessif": true,
-    "ratissage_large": true,
-    "actualisation_recurrente": true,
-    "verification_avant_depart": true,
-    "verification_non_partants": true,
-    "fige_avant_depart": true,
-    "fige_immuable": true,
-    "fige_groupe_depart_proche": true,
-    "audit_apres_course": true,
-    "interdire_pronostic_retroactif": true,
-    "heure_reference": "Europe/Paris",
-    "intervalle_actualisation_minutes": 60,
-    "marge_fige_minutes": 5,
-    "ecart_groupement_minutes": 5,
-    "verification_sources_obligatoire": true,
-    "historique_immuable": true
-  },
-  "tableau_officiel": {
-    "orientation": "verticale",
-    "afficher": true,
-    "colonnes": [
-      "Moteur",
-      "Gagnant espéré",
-      "Meilleur placé",
-      "Ordre d'arrivée espéré",
-      "Pari retenu",
-      "Qualification",
-      "Validation",
-      "Heure Paris"
-    ],
-    "codes_couleur": {
-      "vert": "VALIDE",
-      "jaune": "CONTROLE EN COURS",
-      "rouge": "EXCLU",
-      "bleu": "FIGE"
-    },
-    "afficher_uniquement_courses_validees": true
-  },
+  "derniere_actualisation": "2026-10-23T16:10:34.917680+02:00",
   "moteurs": {
     "M1": {
-      "nom": "Forme et régularité",
-      "actif": true,
-      "independant": true,
-      "criteres": [
-        "Performances récentes",
-        "Régularité",
-        "Progression",
-        "Qualité des adversaires",
-        "Chronos comparables"
+      "gagnant_espere": 7,
+      "meilleur_place": 1,
+      "ordre_arrivee_espere": [
+        7,
+        1,
+        8,
+        2,
+        3
       ],
-      "gagnant_espere": null,
-      "meilleur_place": null,
-      "ordre_arrivee_espere": [],
-      "pari_retenu": null,
-      "qualification": "EN ATTENTE",
-      "validation": "NON VALIDE",
-      "heure_paris": null
+      "pari_retenu": "Simulation uniquement - aucun pari execute",
+      "qualification": "Heuristique expérimentale, non validée statistiquement",
+      "validation": "FIGÉ",
+      "heure_paris": "2026-10-23T16:10:34.917680+02:00"
     },
     "M2": {
-      "nom": "Aptitude et conditions de course",
-      "actif": true,
-      "independant": true,
-      "criteres": [
-        "Distance",
-        "Hippodrome",
-        "Terrain",
-        "Surface",
-        "Corde",
-        "Discipline",
-        "Conditions météorologiques"
-      ],
       "gagnant_espere": null,
       "meilleur_place": null,
       "ordre_arrivee_espere": [],
-      "pari_retenu": null,
-      "qualification": "EN ATTENTE",
-      "validation": "NON VALIDE",
-      "heure_paris": null
+      "pari_retenu": "Aucun",
+      "qualification": "Données spécialisées insuffisantes",
+      "validation": "NON FIGÉ",
+      "heure_paris": "2026-10-23T16:10:34.917680+02:00"
     },
     "M3": {
-      "nom": "Origines et entourage",
-      "actif": true,
-      "independant": true,
-      "criteres": [
-        "Origines",
-        "Pedigree",
-        "Jockey ou driver",
-        "Entraineur",
-        "Proprietaire",
-        "Equipement",
-        "Ferrure"
-      ],
       "gagnant_espere": null,
       "meilleur_place": null,
       "ordre_arrivee_espere": [],
-      "pari_retenu": null,
-      "qualification": "EN ATTENTE",
-      "validation": "NON VALIDE",
-      "heure_paris": null
+      "pari_retenu": "Aucun",
+      "qualification": "Données spécialisées insuffisantes",
+      "validation": "NON FIGÉ",
+      "heure_paris": "2026-10-23T16:10:34.917680+02:00"
     },
     "M4": {
-      "nom": "Engagement et valeur sportive",
-      "actif": true,
-      "independant": true,
-      "criteres": [
-        "Conditions d'engagement",
-        "Classe sportive",
-        "Gains",
-        "Poids",
-        "Handicap",
-        "Rendement de distance",
-        "Opposition"
-      ],
       "gagnant_espere": null,
       "meilleur_place": null,
       "ordre_arrivee_espere": [],
-      "pari_retenu": null,
-      "qualification": "EN ATTENTE",
-      "validation": "NON VALIDE",
-      "heure_paris": null
+      "pari_retenu": "Aucun",
+      "qualification": "Couverture des donnees insuffisante",
+      "validation": "NON FIGÉ",
+      "heure_paris": "2026-10-23T16:10:34.917680+02:00"
     },
     "M5": {
-      "nom": "Synthèse des risques et opportunités",
-      "actif": true,
-      "independant": true,
-      "criteres": [
-        "Favoris vulnerables",
-        "Outsiders prometteurs",
-        "Risques de faute",
-        "Scenarios de course",
-        "Rapport risque potentiel",
-        "Fiabilite des donnees"
+      "gagnant_espere": 7,
+      "meilleur_place": 1,
+      "ordre_arrivee_espere": [
+        7,
+        1,
+        8,
+        4,
+        5
       ],
-      "gagnant_espere": null,
-      "meilleur_place": null,
-      "ordre_arrivee_espere": [],
-      "pari_retenu": null,
-      "qualification": "EN ATTENTE",
-      "validation": "NON VALIDE",
-      "heure_paris": null
+      "pari_retenu": "Simulation uniquement - aucun pari execute",
+      "qualification": "Heuristique expérimentale, non validée statistiquement",
+      "validation": "FIGÉ",
+      "heure_paris": "2026-10-23T16:10:34.917680+02:00"
     }
   },
-  "selection_courses": {
-    "ratissage_large": true,
-    "controle_robuste": true,
-    "analyser_cheval_par_cheval": true,
-    "verifier_partants": true,
-    "verifier_non_partants": true,
-    "verifier_horaires": true,
-    "verifier_offre_pmu": true,
-    "exclure_courses_non_validees_du_tableau": true,
-    "courses": []
-  },
-  "paris_pmu": {
-    "verifier_disponibilite": true,
-    "types_possibles": [
-      "Simple Gagnant",
-      "Simple Place",
-      "Couple Gagnant",
-      "Couple Place",
-      "Trio",
-      "Tierce",
-      "Quarte",
-      "Quinte",
-      "Multi"
-    ],
-    "paris_valides": []
-  },
+  "courses": [
+    {
+      "course": "R1C1",
+      "hippodrome": "VINCENNES",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R1C2",
+      "hippodrome": "VINCENNES",
+      "depart": null,
+      "partants": 15,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R1C3",
+      "hippodrome": "VINCENNES",
+      "depart": null,
+      "partants": 18,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R1C4",
+      "hippodrome": "VINCENNES",
+      "depart": null,
+      "partants": 18,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R1C5",
+      "hippodrome": "VINCENNES",
+      "depart": null,
+      "partants": 9,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R1C6",
+      "hippodrome": "VINCENNES",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R1C7",
+      "hippodrome": "VINCENNES",
+      "depart": null,
+      "partants": 16,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R1C8",
+      "hippodrome": "VINCENNES",
+      "depart": null,
+      "partants": 11,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C1",
+      "hippodrome": "STRASBOURG",
+      "depart": null,
+      "partants": 15,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C2",
+      "hippodrome": "STRASBOURG",
+      "depart": null,
+      "partants": 9,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C3",
+      "hippodrome": "STRASBOURG",
+      "depart": null,
+      "partants": 10,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C4",
+      "hippodrome": "STRASBOURG",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C5",
+      "hippodrome": "STRASBOURG",
+      "depart": null,
+      "partants": 13,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C6",
+      "hippodrome": "STRASBOURG",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C7",
+      "hippodrome": "STRASBOURG",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C8",
+      "hippodrome": "STRASBOURG",
+      "depart": null,
+      "partants": 16,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C1",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C2",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 16,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C3",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 11,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C4",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 16,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C5",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 16,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C6",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 16,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C7",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 15,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C8",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 15,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R4C9",
+      "hippodrome": "CLAIREFONTAINE",
+      "depart": null,
+      "partants": 16,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R5C1",
+      "hippodrome": "LYON LA SOIE",
+      "depart": null,
+      "partants": 10,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R5C2",
+      "hippodrome": "LYON LA SOIE",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R5C3",
+      "hippodrome": "LYON LA SOIE",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R5C4",
+      "hippodrome": "LYON LA SOIE",
+      "depart": null,
+      "partants": 11,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R5C5",
+      "hippodrome": "LYON LA SOIE",
+      "depart": null,
+      "partants": 10,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R5C6",
+      "hippodrome": "LYON LA SOIE",
+      "depart": null,
+      "partants": 11,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R5C7",
+      "hippodrome": "LYON LA SOIE",
+      "depart": null,
+      "partants": 7,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R5C8",
+      "hippodrome": "LYON LA SOIE",
+      "depart": null,
+      "partants": 9,
+      "statut": "Analyse indicative - non FIGEE"
+    }
+  ],
   "figes": {
     "actif": true,
     "avant_depart_obligatoire": true,
@@ -198,22 +312,5 @@
     "mesurer_precision": true,
     "mesurer_rentabilite_si_mises_connues": true,
     "historique": []
-  },
-  "memoire_vivante": {
-    "active": true,
-    "preserver_historique": true,
-    "apprentissage_sur_resultats_verifies": true,
-    "interdire_invention_donnees": true,
-    "journal_erreurs": [],
-    "ameliorations": []
-  },
-  "execution": {
-    "plateforme": "GitHub Actions",
-    "planification_souhaitee": "0 * * * *",
-    "actualisation_a_chaque_execution": true,
-    "controle_avant_fige": true,
-    "audit_apres_arrivee": true,
-    "derniere_execution": null,
-    "prochaine_execution": null
   }
 }
