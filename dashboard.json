@@ -1,20 +1,20 @@
 {
-  "derniere_actualisation": "2026-10-23T23:59:15.873246+02:00",
+  "derniere_actualisation": "2026-10-24T00:31:08.828540+02:00",
   "moteurs": {
     "M1": {
-      "gagnant_espere": 7,
-      "meilleur_place": 1,
+      "gagnant_espere": 1,
+      "meilleur_place": 14,
       "ordre_arrivee_espere": [
-        7,
         1,
-        8,
-        2,
-        3
+        14,
+        6,
+        10,
+        13
       ],
       "pari_retenu": "Simulation uniquement - aucun pari execute",
       "qualification": "Heuristique expérimentale, non validée statistiquement",
-      "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T23:59:15.873246+02:00"
+      "validation": "FIGÉ",
+      "heure_paris": "2026-10-24T00:31:08.828540+02:00"
     },
     "M2": {
       "gagnant_espere": null,
@@ -23,7 +23,7 @@
       "pari_retenu": "Aucun",
       "qualification": "Données spécialisées insuffisantes",
       "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T23:59:15.873246+02:00"
+      "heure_paris": "2026-10-24T00:31:08.828540+02:00"
     },
     "M3": {
       "gagnant_espere": null,
@@ -32,7 +32,7 @@
       "pari_retenu": "Aucun",
       "qualification": "Données spécialisées insuffisantes",
       "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T23:59:15.873246+02:00"
+      "heure_paris": "2026-10-24T00:31:08.828540+02:00"
     },
     "M4": {
       "gagnant_espere": null,
@@ -41,254 +41,289 @@
       "pari_retenu": "Aucun",
       "qualification": "Couverture des donnees insuffisante",
       "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T23:59:15.873246+02:00"
+      "heure_paris": "2026-10-24T00:31:08.828540+02:00"
     },
     "M5": {
-      "gagnant_espere": 7,
-      "meilleur_place": 1,
+      "gagnant_espere": 6,
+      "meilleur_place": 10,
       "ordre_arrivee_espere": [
-        7,
+        6,
+        10,
         1,
-        8,
-        4,
-        5
+        14,
+        13
       ],
       "pari_retenu": "Simulation uniquement - aucun pari execute",
       "qualification": "Heuristique expérimentale, non validée statistiquement",
-      "validation": "NON FIGÉ",
-      "heure_paris": "2026-10-23T23:59:15.873246+02:00"
+      "validation": "FIGÉ",
+      "heure_paris": "2026-10-24T00:31:08.828540+02:00"
     }
   },
   "courses": [
     {
       "course": "R1C1",
-      "hippodrome": "VINCENNES",
+      "hippodrome": "COMPIEGNE",
       "depart": null,
-      "partants": 14,
+      "partants": 12,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R1C2",
-      "hippodrome": "VINCENNES",
+      "hippodrome": "COMPIEGNE",
       "depart": null,
-      "partants": 15,
+      "partants": 6,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R1C3",
-      "hippodrome": "VINCENNES",
-      "depart": null,
-      "partants": 18,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R1C4",
-      "hippodrome": "VINCENNES",
-      "depart": null,
-      "partants": 18,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R1C5",
-      "hippodrome": "VINCENNES",
-      "depart": null,
-      "partants": 9,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R1C6",
-      "hippodrome": "VINCENNES",
-      "depart": null,
-      "partants": 14,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R1C7",
-      "hippodrome": "VINCENNES",
-      "depart": null,
-      "partants": 16,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R1C8",
-      "hippodrome": "VINCENNES",
-      "depart": null,
-      "partants": 11,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R3C1",
-      "hippodrome": "STRASBOURG",
+      "hippodrome": "COMPIEGNE",
       "depart": null,
       "partants": 15,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
-      "course": "R3C2",
-      "hippodrome": "STRASBOURG",
+      "course": "R1C4",
+      "hippodrome": "COMPIEGNE",
       "depart": null,
-      "partants": 9,
+      "partants": 8,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
-      "course": "R3C3",
-      "hippodrome": "STRASBOURG",
+      "course": "R1C5",
+      "hippodrome": "COMPIEGNE",
+      "depart": null,
+      "partants": 7,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R1C6",
+      "hippodrome": "COMPIEGNE",
       "depart": null,
       "partants": 10,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
-      "course": "R3C4",
-      "hippodrome": "STRASBOURG",
+      "course": "R1C7",
+      "hippodrome": "COMPIEGNE",
       "depart": null,
-      "partants": 14,
+      "partants": 8,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
-      "course": "R3C5",
-      "hippodrome": "STRASBOURG",
+      "course": "R1C8",
+      "hippodrome": "COMPIEGNE",
       "depart": null,
-      "partants": 13,
+      "partants": 12,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
-      "course": "R3C6",
-      "hippodrome": "STRASBOURG",
+      "course": "R2C1",
+      "hippodrome": "PRUNELLI",
       "depart": null,
-      "partants": 14,
+      "partants": 6,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
-      "course": "R3C7",
-      "hippodrome": "STRASBOURG",
+      "course": "R2C2",
+      "hippodrome": "PRUNELLI",
       "depart": null,
-      "partants": 14,
+      "partants": 6,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
-      "course": "R3C8",
-      "hippodrome": "STRASBOURG",
+      "course": "R2C3",
+      "hippodrome": "PRUNELLI",
+      "depart": null,
+      "partants": 7,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R2C4",
+      "hippodrome": "PRUNELLI",
+      "depart": null,
+      "partants": 7,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R2C5",
+      "hippodrome": "PRUNELLI",
+      "depart": null,
+      "partants": 10,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C1",
+      "hippodrome": "SALON DE PROVENCE",
+      "depart": null,
+      "partants": 11,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C2",
+      "hippodrome": "SALON DE PROVENCE",
+      "depart": null,
+      "partants": 15,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C3",
+      "hippodrome": "SALON DE PROVENCE",
       "depart": null,
       "partants": 16,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
+      "course": "R3C4",
+      "hippodrome": "SALON DE PROVENCE",
+      "depart": null,
+      "partants": 13,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C5",
+      "hippodrome": "SALON DE PROVENCE",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C6",
+      "hippodrome": "SALON DE PROVENCE",
+      "depart": null,
+      "partants": 18,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C7",
+      "hippodrome": "SALON DE PROVENCE",
+      "depart": null,
+      "partants": 15,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R3C8",
+      "hippodrome": "SALON DE PROVENCE",
+      "depart": null,
+      "partants": 13,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
       "course": "R4C1",
-      "hippodrome": "CLAIREFONTAINE",
+      "hippodrome": "CABOURG",
       "depart": null,
       "partants": 14,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R4C2",
-      "hippodrome": "CLAIREFONTAINE",
+      "hippodrome": "CABOURG",
       "depart": null,
       "partants": 16,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R4C3",
-      "hippodrome": "CLAIREFONTAINE",
+      "hippodrome": "CABOURG",
       "depart": null,
-      "partants": 11,
+      "partants": 16,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R4C4",
-      "hippodrome": "CLAIREFONTAINE",
+      "hippodrome": "CABOURG",
       "depart": null,
       "partants": 16,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R4C5",
-      "hippodrome": "CLAIREFONTAINE",
+      "hippodrome": "CABOURG",
       "depart": null,
-      "partants": 16,
+      "partants": 14,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R4C6",
-      "hippodrome": "CLAIREFONTAINE",
+      "hippodrome": "CABOURG",
       "depart": null,
-      "partants": 16,
+      "partants": 13,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R4C7",
-      "hippodrome": "CLAIREFONTAINE",
+      "hippodrome": "CABOURG",
       "depart": null,
-      "partants": 15,
+      "partants": 14,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
       "course": "R4C8",
-      "hippodrome": "CLAIREFONTAINE",
+      "hippodrome": "CABOURG",
       "depart": null,
-      "partants": 15,
+      "partants": 13,
       "statut": "Analyse indicative - non FIGEE"
     },
     {
-      "course": "R4C9",
-      "hippodrome": "CLAIREFONTAINE",
+      "course": "R10C1",
+      "hippodrome": "CHATEAUBRIANT",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R10C2",
+      "hippodrome": "CHATEAUBRIANT",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R10C3",
+      "hippodrome": "CHATEAUBRIANT",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R10C4",
+      "hippodrome": "CHATEAUBRIANT",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R10C5",
+      "hippodrome": "CHATEAUBRIANT",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R10C6",
+      "hippodrome": "CHATEAUBRIANT",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R10C7",
+      "hippodrome": "CHATEAUBRIANT",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R10C8",
+      "hippodrome": "CHATEAUBRIANT",
+      "depart": null,
+      "partants": 14,
+      "statut": "Analyse indicative - non FIGEE"
+    },
+    {
+      "course": "R10C9",
+      "hippodrome": "CHATEAUBRIANT",
       "depart": null,
       "partants": 16,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R5C1",
-      "hippodrome": "LYON LA SOIE",
-      "depart": null,
-      "partants": 10,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R5C2",
-      "hippodrome": "LYON LA SOIE",
-      "depart": null,
-      "partants": 14,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R5C3",
-      "hippodrome": "LYON LA SOIE",
-      "depart": null,
-      "partants": 14,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R5C4",
-      "hippodrome": "LYON LA SOIE",
-      "depart": null,
-      "partants": 11,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R5C5",
-      "hippodrome": "LYON LA SOIE",
-      "depart": null,
-      "partants": 10,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R5C6",
-      "hippodrome": "LYON LA SOIE",
-      "depart": null,
-      "partants": 11,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R5C7",
-      "hippodrome": "LYON LA SOIE",
-      "depart": null,
-      "partants": 7,
-      "statut": "Analyse indicative - non FIGEE"
-    },
-    {
-      "course": "R5C8",
-      "hippodrome": "LYON LA SOIE",
-      "depart": null,
-      "partants": 9,
       "statut": "Analyse indicative - non FIGEE"
     }
   ],
