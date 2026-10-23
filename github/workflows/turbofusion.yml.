@@ -1,4 +1,5 @@
-name: TURBOFUSION M1-M5 - execution securisee
+
+name: TURBOFUSION M1-M5
 
 on:
   workflow_dispatch:
@@ -6,62 +7,45 @@ on:
     - cron: '*/15 * * * *'
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: turbofusion-m1-m5
+  group: turbofusion-main
   cancel-in-progress: false
 
 jobs:
   analyse:
     runs-on: ubuntu-latest
     timeout-minutes: 12
-    env:
-      TZ: Europe/Paris
-      PYTHONDONTWRITEBYTECODE: '1'
-
     steps:
       - name: Recuperer le depot
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: true
 
-      - name: Configurer Python
+      - name: Installer Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Installer les dependances
-        shell: bash
         run: |
-          set -euo pipefail
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
-            python -m pip install -r requirements.txt
+            pip install -r requirements.txt
           fi
 
       - name: Executer TURBOFUSION
-        shell: bash
-        run: |
-          set -euo pipefail
+        run: python main.py
 
-          if [ -f main.py ]; then
-            python main.py
-
-          elif [ -f main-5.py ]; then
-            python main-5.py
-
-          else
-            echo "Programme principal introuvable."
-            exit 1
-          fi
-
-      - name: Archiver les rapports
+      - name: Sauvegarder les donnees
         if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: turbofusion-run-${{ github.run_id }}
-          path: |
-            logs/
-            reports/
-          if-no-files-found: ignore
-          retention-days: 30
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualisation TURBOFUSION'
+            git push
+          fi
+  
