@@ -3,95 +3,49 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#081322">
-<title>🇸🇳 TURBOFUSION M1–M5</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071322">
+<title>🇸🇳🧠🔥 TURBOFUSION M1–M5</title>
 <style>
 :root {
-  --bg:#07111f;
-  --panel:#102238;
-  --line:#29445e;
-  --text:#f3f7fc;
-  --muted:#a8bdd1;
-  --green:#39d98a;
-  --yellow:#ffd166;
-  --red:#ff7185;
+  --bg:#071322;--panel:#11263b;--line:#31506b;
+  --text:#f3f8ff;--muted:#afc4d7;
+  --green:#40dc91;--yellow:#ffd166;--red:#ff7585;
 }
-* { box-sizing:border-box; }
-body {
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
-  font-family:Arial, sans-serif;
-  line-height:1.5;
-}
-header {
-  padding:28px 15px;
-  text-align:center;
-  background:linear-gradient(135deg,#12365c,#07111f);
-  border-bottom:2px solid #39d98a;
-}
-h1 {font-size:clamp(24px,5vw,40px);margin:0;}
-h2 {font-size:21px;color:#72dfff;}
-p {color:var(--muted);}
-main {max-width:1000px;margin:auto;padding:16px;}
-.panel,.engine {
-  background:var(--panel);
-  border:1px solid var(--line);
-  border-radius:14px;
-  padding:17px;
-  margin:16px 0;
-}
-.engine {border-left:5px solid #39d98a;}
-.engine h3 {margin-top:0;color:#72dfff;}
-.grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-  gap:10px;
-}
-.stat {
-  background:#081a2d;
-  padding:12px;
-  border-radius:9px;
-}
-.stat strong {display:block;font-size:20px;}
-table {width:100%;border-collapse:collapse;}
-th,td {
-  padding:10px;
-  border-bottom:1px solid var(--line);
-  text-align:left;
-}
-th {color:#8ee6ff;}
-.scroll {overflow-x:auto;}
-.badge {
-  display:inline-block;
-  border-radius:7px;
-  padding:4px 9px;
-  background:#29445e;
-}
-.ok {color:var(--green);}
-.warn {color:var(--yellow);}
-.bad {color:var(--red);}
-button {
-  padding:12px 17px;
-  border:0;
-  border-radius:9px;
-  background:#39d98a;
-  color:#07111f;
-  font-weight:bold;
-  cursor:pointer;
-}
-button:disabled {opacity:.5;cursor:wait;}
-footer {text-align:center;padding:25px;color:var(--muted);}
-small {color:var(--muted);}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font-family:Arial,sans-serif;line-height:1.5}
+header{text-align:center;padding:28px 14px;
+background:linear-gradient(135deg,#17436b,#071322);
+border-bottom:2px solid var(--green)}
+h1{font-size:clamp(24px,5vw,38px);margin:0}
+h2{color:#8ce5ff;font-size:21px}
+h3{color:#8ce5ff}
+p,small{color:var(--muted)}
+main{max-width:1050px;margin:auto;padding:15px}
+.panel,.engine{background:var(--panel);border:1px solid var(--line);
+border-radius:14px;padding:17px;margin:15px 0}
+.engine{border-left:5px solid var(--green)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px}
+.stat{background:#081a2d;border-radius:9px;padding:12px}
+.stat strong{display:block;font-size:21px;overflow-wrap:anywhere}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line)}
+th{color:#91e5ff}
+button{background:var(--green);color:#071322;border:0;
+border-radius:9px;padding:12px 18px;font-weight:bold;cursor:pointer}
+button:disabled{opacity:.5}
+.ok{color:var(--green)}.warn{color:var(--yellow)}.bad{color:var(--red)}
+footer{text-align:center;padding:24px;color:var(--muted)}
 </style>
 </head>
 <body>
 <header>
 <h1>🇸🇳🧠🔥 TURBOFUSION M1–M5</h1>
 <h2>Intelligence hippique spécialisée</h2>
-<p>La mémoire vivante de l'intelligence hippique</p>
-<p>La connaissance du passé, l'intelligence du présent,
+<p>LA MÉMOIRE VIVANTE DE L'INTELLIGENCE HIPPIQUE</p>
+<p>La connaissance du passé, l'intelligence du présent,<br>
 la préparation de l'avenir.</p>
 </header>
 
@@ -99,14 +53,10 @@ la préparation de l'avenir.</p>
 <section class="panel">
 <h2>📡 Centre de contrôle</h2>
 <div class="grid">
-<div class="stat">État des données
-<strong id="etat">En attente</strong></div>
-<div class="stat">Courses étudiées
-<strong id="courses">—</strong></div>
-<div class="stat">FIGÉS enregistrés
-<strong id="figes">—</strong></div>
-<div class="stat">Heure de Paris
-<strong id="heure">—</strong></div>
+<div class="stat">État des données<strong id="etat">En attente</strong></div>
+<div class="stat">Courses étudiées<strong id="courses">—</strong></div>
+<div class="stat">FIGÉS enregistrés<strong id="figes">—</strong></div>
+<div class="stat">Heure de Paris<strong id="heure">—</strong></div>
 </div>
 <p id="maj">Dernière actualisation : inconnue</p>
 <button id="refresh" onclick="charger()">🔄 Actualiser</button>
@@ -115,22 +65,13 @@ la préparation de l'avenir.</p>
 
 <section class="panel">
 <h2>🏇 Courses PMU sélectionnées</h2>
-<div class="scroll">
-<table>
-<thead>
-<tr>
-<th>Réunion / Course</th>
-<th>Départ Paris</th>
-<th>👥 Partants</th>
-<th>Qualification</th>
-<th>Validation</th>
-</tr>
-</thead>
-<tbody id="listeCourses">
-<tr><td colspan="5">Données non chargées</td></tr>
-</tbody>
-</table>
-</div>
+<div class="scroll"><table>
+<thead><tr>
+<th>Réunion / Course</th><th>Départ Paris</th>
+<th>👥 Partants</th><th>Qualification</th><th>Validation</th>
+</tr></thead>
+<tbody id="listeCourses"><tr><td colspan="5">Chargement...</td></tr></tbody>
+</table></div>
 </section>
 
 <section>
@@ -139,188 +80,153 @@ la préparation de l'avenir.</p>
 </section>
 
 <section class="panel">
-<h2>🔒 Historique des FIGÉS</h2>
-<p>Les pronostics verrouillés doivent être enregistrés
-avant le départ et conservés sans modification.</p>
-<div class="scroll">
-<table>
-<thead>
-<tr>
-<th>Course</th>
-<th>Moteur</th>
-<th>Heure du FIGÉ</th>
-<th>Pronostic</th>
-<th>Empreinte</th>
-</tr>
-</thead>
-<tbody id="historique">
-<tr><td colspan="5">Aucun historique disponible</td></tr>
-</tbody>
-</table>
-</div>
+<h2>🔒 Historique des FIGÉS authentifiés</h2>
+<p>Les pronostics FIGÉS doivent être enregistrés avant le départ,
+horodatés et conservés sans modification.</p>
+<div class="scroll"><table>
+<thead><tr><th>Course</th><th>Moteur</th>
+<th>Heure du FIGÉ</th><th>Pronostic</th><th>Empreinte</th></tr></thead>
+<tbody id="historique"><tr><td colspan="5">Chargement...</td></tr></tbody>
+</table></div>
 </section>
 
 <section class="panel">
-<h2>📊 Audit et résultats</h2>
-<p>Comparaison des pronostics FIGÉS avec les arrivées
-officielles vérifiées. Aucun pronostic ne doit être
-reconstruit après la course.</p>
-<div id="audits">Aucun audit disponible.</div>
+<h2>📊 Audits et arrivées officielles</h2>
+<div id="audits">Aucun audit chargé.</div>
 </section>
 </main>
 
-<footer>
-🇸🇳🧠🔥 TURBOFUSION M1–M5<br>
-Intelligence hippique — La magie du savoir<br>
+<footer>🇸🇳🧠🔥 TURBOFUSION M1–M5<br>
+La magie du savoir<br>
 <small>Les pronostics ne garantissent aucun gain.</small>
 </footer>
 
 <script>
 "use strict";
 
-const definitions = [
-  ["M1","🔵","Forme et régularité"],
-  ["M2","🟢","Aptitudes et conditions de course"],
-  ["M3","🟣","Origines, entourage et équipements"],
-  ["M4","🟠","Analyse comparative et valeur"],
-  ["M5","🔴","Risques, synthèse et arbitrage"]
-];
-
 const $ = id => document.getElementById(id);
+const moteurs = [
+ ["M1","🔵","Forme et régularité"],
+ ["M2","🟢","Aptitudes et conditions de course"],
+ ["M3","🟣","Origines, entourage et équipements"],
+ ["M4","🟠","Analyse comparative et valeur"],
+ ["M5","🔴","Risques, synthèse et arbitrage"]
+];
+let donneesChargees = false;
+let chargement = false;
 
-function texte(v) {
-  return v === null || v === undefined || v === ""
-    ? "Non disponible" : String(v);
+function valeur(v){
+ return v === null || v === undefined || v === ""
+ ? "Non disponible" : String(v);
 }
-function securiser(v) {
-  return texte(v).replace(/[&<>"']/g, c => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",
-    '"':"&quot;","'":"&#39;"
-  }[c]));
+function safe(v){
+ return valeur(v).replace(/[&<>"']/g,c=>({
+ "&":"&amp;","<":"&lt;",">":"&gt;",
+ '"':"&quot;","'":"&#39;"
+ }[c]));
 }
-function heureParis() {
-  $("heure").textContent = new Intl.DateTimeFormat("fr-FR",{
-    timeZone:"Europe/Paris",
-    hour:"2-digit",minute:"2-digit",second:"2-digit"
-  }).format(new Date());
+function heureParis(){
+ $("heure").textContent=new Intl.DateTimeFormat("fr-FR",{
+ timeZone:"Europe/Paris",hour:"2-digit",
+ minute:"2-digit",second:"2-digit"
+ }).format(new Date());
 }
-setInterval(heureParis,1000);
 heureParis();
+setInterval(heureParis,1000);
 
-function carteMoteur(id,emoji,specialite,d) {
-  const lignes = [
-    ["🥇 Gagnant espéré",d.gagnant],
-    ["🥈 Meilleur placé",d.place],
-    ["🏁 Ordre d'arrivée espéré",d.ordre],
-    ["🎯 Pari retenu",d.pari],
-    ["🟢 Qualification",d.qualification],
-    ["✅ Validation",d.validation],
-    ["🔒 FIGÉ",d.fige],
-    ["🕒 Heure Paris",d.heure_paris]
-  ];
-  return `<article class="engine">
-    <h3>${emoji} ${id} — ${securiser(specialite)}</h3>
-    <div class="scroll"><table><tbody>
-    ${lignes.map(([nom,val]) =>
-      `<tr><th>${nom}</th><td>${securiser(val)}</td></tr>`
-    ).join("")}
-    </tbody></table></div>
-  </article>`;
+function afficherMoteurs(source={}){
+ $("moteurs").innerHTML=moteurs.map(([id,emoji,specialite])=>{
+ const d=source[id]||{};
+ const lignes=[
+ ["🥇 Gagnant espéré",d.gagnant],
+ ["🥈 Meilleur placé",d.place],
+ ["🏁 Ordre d'arrivée espéré",d.ordre],
+ ["🎯 Pari retenu",d.pari],
+ ["🟢 Qualification",d.qualification],
+ ["✅ Validation",d.validation],
+ ["🔒 FIGÉ",d.fige],
+ ["🕒 Heure Paris",d.heure_paris]
+ ];
+ return `<article class="engine">
+ <h3>${emoji} ${id} — ${safe(specialite)}</h3>
+ <div class="scroll"><table><tbody>
+ ${lignes.map(([titre,v])=>
+ `<tr><th>${titre}</th><td>${safe(v)}</td></tr>`
+ ).join("")}
+ </tbody></table></div></article>`;
+ }).join("");
 }
-
-function afficherMoteurs(data) {
-  const source = data && typeof data === "object" ? data : {};
-  $("moteurs").innerHTML = definitions.map(([id,e,s]) =>
-    carteMoteur(id,e,s,source[id] || {})
-  ).join("");
+function afficherCourses(courses){
+ const liste=Array.isArray(courses)?courses:[];
+ $("courses").textContent=liste.length;
+ $("listeCourses").innerHTML=liste.length
+ ?liste.map(c=>`<tr><td>${safe(c.course)}</td>
+ <td>${safe(c.depart_paris)}</td><td>${safe(c.partants)}</td>
+ <td>${safe(c.qualification)}</td><td>${safe(c.validation)}</td></tr>`).join("")
+ :'<tr><td colspan="5">Aucune course enregistrée.</td></tr>';
 }
-
-function afficherCourses(courses) {
-  const liste = Array.isArray(courses) ? courses : [];
-  $("courses").textContent = liste.length;
-  $("listeCourses").innerHTML = liste.length
-    ? liste.map(c=>`<tr>
-        <td>${securiser(c.course)}</td>
-        <td>${securiser(c.depart_paris)}</td>
-        <td>${securiser(c.partants)}</td>
-        <td>${securiser(c.qualification)}</td>
-        <td>${securiser(c.validation)}</td>
-      </tr>`).join("")
-    : `<tr><td colspan="5">Aucune course disponible</td></tr>`;
+function afficherFiges(figes){
+ const liste=Array.isArray(figes)?figes:[];
+ $("figes").textContent=liste.length;
+ $("historique").innerHTML=liste.length
+ ?liste.map(f=>`<tr><td>${safe(f.course)}</td>
+ <td>${safe(f.moteur)}</td><td>${safe(f.heure_paris)}</td>
+ <td>${safe(f.pronostic)}</td><td>${safe(f.empreinte)}</td></tr>`).join("")
+ :'<tr><td colspan="5">Aucun FIGÉ enregistré dans la source.</td></tr>';
 }
-
-function afficherFiges(figes) {
-  const liste = Array.isArray(figes) ? figes : [];
-  $("figes").textContent = liste.length;
-  $("historique").innerHTML = liste.length
-    ? liste.map(f=>`<tr>
-        <td>${securiser(f.course)}</td>
-        <td>${securiser(f.moteur)}</td>
-        <td>${securiser(f.heure_paris)}</td>
-        <td>${securiser(f.pronostic)}</td>
-        <td>${securiser(f.empreinte)}</td>
-      </tr>`).join("")
-    : `<tr><td colspan="5">Aucun FIGÉ disponible</td></tr>`;
+function afficherAudits(audits){
+ const liste=Array.isArray(audits)?audits:[];
+ $("audits").innerHTML=liste.length
+ ?liste.map(a=>`<div class="panel"><strong>${safe(a.course)}</strong>
+ <p>Arrivée : ${safe(a.arrivee)}</p>
+ <p>Statut : ${safe(a.statut)}</p></div>`).join("")
+ :"Aucun audit disponible.";
 }
-
-function afficherAudits(audits) {
-  const liste = Array.isArray(audits) ? audits : [];
-  $("audits").innerHTML = liste.length
-    ? liste.map(a=>`<div class="panel">
-        <strong>${securiser(a.course)}</strong>
-        <p>Arrivée : ${securiser(a.arrivee)}</p>
-        <p>Statut : ${securiser(a.statut)}</p>
-      </div>`).join("")
-    : "Aucun audit disponible.";
+function valider(data){
+ if(!data || typeof data!=="object" || Array.isArray(data))
+ throw Error("Format JSON invalide");
+ if(!Array.isArray(data.courses) || !Array.isArray(data.figes)
+ || !Array.isArray(data.audits) || !data.moteurs
+ || typeof data.moteurs!=="object" || Array.isArray(data.moteurs))
+ throw Error("Structure des données incomplète");
+ return data;
 }
-
-async function charger() {
-  const bouton = $("refresh");
-  bouton.disabled = true;
-  $("etat").textContent = "Chargement";
-  $("message").textContent = "Lecture des données...";
-
-  try {
-    const reponse = await fetch(
-      "./data/dashboard.json?t=" + Date.now(),
-      {cache:"no-store"}
-    );
-    if (!reponse.ok) {
-      throw new Error("HTTP " + reponse.status);
-    }
-    const data = await reponse.json();
-    if (!data || typeof data !== "object" ||
-        Array.isArray(data)) {
-      throw new Error("Format JSON invalide");
-    }
-
-    afficherMoteurs(data.moteurs);
-    afficherCourses(data.courses);
-    afficherFiges(data.figes);
-    afficherAudits(data.audits);
-
-    $("maj").textContent =
-      "Dernière actualisation : " +
-      texte(data.derniere_actualisation);
-    $("etat").textContent = "Données chargées";
-    $("message").textContent =
-      "Chargement réussi. Vérifiez la fraîcheur des données.";
-  } catch(erreur) {
-    $("etat").textContent = "Indisponible";
-    $("message").textContent =
-      "Données non accessibles : " + erreur.message;
-    afficherMoteurs({});
-    afficherCourses([]);
-    afficherFiges([]);
-    afficherAudits([]);
-    $("maj").textContent =
-      "Dernière actualisation : inconnue";
-  } finally {
-    bouton.disabled = false;
-  }
+async function charger(){
+ if(chargement)return;
+ chargement=true;
+ $("refresh").disabled=true;
+ $("message").textContent="Vérification de la source...";
+ try{
+ const r=await fetch("./data/dashboard.json?t="+Date.now(),
+ {cache:"no-store"});
+ if(!r.ok)throw Error("HTTP "+r.status);
+ const data=valider(await r.json());
+ afficherMoteurs(data.moteurs);
+ afficherCourses(data.courses);
+ afficherFiges(data.figes);
+ afficherAudits(data.audits);
+ $("maj").textContent="Dernière actualisation des données : "+
+ valeur(data.derniere_actualisation);
+ $("etat").textContent="Données chargées";
+ $("etat").className="ok";
+ $("message").textContent="Source chargée. Vérifiez la fraîcheur des données.";
+ donneesChargees=true;
+ }catch(e){
+ $("etat").textContent=donneesChargees?"Source indisponible":"Non connecté";
+ $("etat").className="warn";
+ $("message").textContent="Source non accessible : "+e.message+
+ ". Aucun FIGÉ n'a été créé ou supprimé par cet affichage.";
+ if(!donneesChargees){
+ $("maj").textContent="Dernière actualisation : inconnue";
+ }
+ }finally{
+ chargement=false;
+ $("refresh").disabled=false;
+ }
 }
-
 afficherMoteurs({});
+$("listeCourses").innerHTML='<tr><td colspan="5">Source non chargée.</td></tr>';
+$("historique").innerHTML='<tr><td colspan="5">Source non chargée.</td></tr>';
 charger();
 setInterval(charger,60000);
 </script>
