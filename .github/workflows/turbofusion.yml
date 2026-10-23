@@ -1,26 +1,22 @@
 
-name: TURBOFUSION M1-M5
+name: TURBOFUSION X1000 M1-M5
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 * * * *'
+    - cron: "0 * * * *"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: turbofusion-hourly
+  group: turbofusion-x1000
   cancel-in-progress: false
 
 jobs:
-  run-turbofusion:
+  analyse-hippique:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-
-    env:
-      TZ: Europe/Paris
-      PYTHONUNBUFFERED: '1'
 
     steps:
       - name: Recuperer le depot
@@ -29,15 +25,34 @@ jobs:
       - name: Installer Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Installer les dependances
-        shell: bash
         run: |
+          python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
-            python -m pip install -r requirements.txt
+            pip install -r requirements.txt
           fi
 
       - name: Executer TURBOFUSION
         run: |
-          python main.py
+          if [ -f main.py ]; then
+            python main.py
+          elif [ -f main-5.py ]; then
+            python main-5.py
+          else
+            echo "ERREUR : programme Python introuvable"
+            exit 1
+          fi
+
+      - name: Sauvegarder les donnees
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualisation TURBOFUSION"
+            git push
+          fi
+          
