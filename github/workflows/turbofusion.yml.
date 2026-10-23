@@ -1,0 +1,67 @@
+name: TURBOFUSION M1-M5 - execution securisee
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: turbofusion-m1-m5
+  cancel-in-progress: false
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      TZ: Europe/Paris
+      PYTHONDONTWRITEBYTECODE: '1'
+
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installer les dependances
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f requirements.txt ]; then
+            python -m pip install -r requirements.txt
+          fi
+
+      - name: Executer TURBOFUSION
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -f main.py ]; then
+            python main.py
+
+          elif [ -f main-5.py ]; then
+            python main-5.py
+
+          else
+            echo "Programme principal introuvable."
+            exit 1
+          fi
+
+      - name: Archiver les rapports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: turbofusion-run-${{ github.run_id }}
+          path: |
+            logs/
+            reports/
+          if-no-files-found: ignore
+          retention-days: 30
