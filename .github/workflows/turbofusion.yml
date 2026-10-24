@@ -1,10 +1,9 @@
-
-name: TURBOFUSION M1-M2-M3-M4-M5 Automatique
+name: TURBOFUSION M1-M5 - Automatique
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: '*/30 * * * *'
 
 permissions:
   contents: write
@@ -15,66 +14,61 @@ concurrency:
 
 jobs:
   analyse:
-    name: Analyse hippique M1-M2-M3-M4-M5
+    name: Analyse PMU M1-M5
     runs-on: ubuntu-24.04
     timeout-minutes: 25
-
     env:
       TZ: Europe/Paris
-      PYTHONUNBUFFERED: "1"
-      PYTHONDONTWRITEBYTECODE: "1"
-
+      PYTHONUNBUFFERED: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
     steps:
       - name: Recuperer le depot
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
 
       - name: Installer Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Installer les dependances
         run: |
-          python -m pip install --upgrade pip
+          set -euo pipefail
           python -m pip install -r requirements.txt
 
-      - name: Verifier les fichiers
+      - name: Verifier les scripts
         run: |
+          set -euo pipefail
           test -f main.py
           test -f scripts/sync_dashboard.py
-          python -m py_compile main.py
-          python -m py_compile scripts/sync_dashboard.py
-          echo "Verification Python terminee"
+          python -m py_compile main.py scripts/sync_dashboard.py
 
       - name: Preparer les dossiers
-        run: |
-          mkdir -p rapports_turbofusion
-          mkdir -p figes_turbofusion
+        run: mkdir -p rapports_turbofusion figes_turbofusion
 
-      - name: Executer les moteurs M1 M2 M3 M4 M5
+      - name: Executer les cinq moteurs
+        id: moteurs
         run: |
-          echo "=================================="
-          echo "TURBOFUSION M1-M5"
-          echo "Heure Paris :"
-          TZ=Europe/Paris date
-          echo "=================================="
-
+          set -euo pipefail
+          echo "Heure Paris : $(TZ=Europe/Paris date)"
           python main.py
 
-          echo "Execution principale terminee"
-
       - name: Synchroniser le tableau de bord
-        if: always()
+        if: steps.moteurs.outcome == 'success'
         run: |
+          set -euo pipefail
           python scripts/sync_dashboard.py
+          python -m json.tool dashboard.json > /dev/null
 
-      - name: Sauvegarder les resultats
+      - name: Sauvegarder les resultats du passage
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: turbofusion-resultats-${{ github.run_id }}
+          name: turbofusion-resultats-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
             dashboard.json
             rapports_turbofusion/
@@ -82,44 +76,33 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
-      - name: Enregistrer les resultats sur GitHub
+      - name: Publier les resultats sur GitHub
         if: success()
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add -A -- dashboard.json rapports_turbofusion/ figes_turbofusion/
-
           if git diff --cached --quiet; then
-            echo "Aucune modification a enregistrer"
+            echo "Aucune modification a publier"
             exit 0
           fi
-
           git commit -m "Actualisation automatique TURBOFUSION M1-M5"
-
           for tentative in 1 2 3; do
-            if git pull --rebase origin main &&
-               git push origin HEAD:main; then
+            if git fetch origin main && git rebase origin/main && git push origin HEAD:main; then
               echo "Publication reussie"
               exit 0
             fi
-
             git rebase --abort || true
-
-            echo "Publication impossible, tentative $tentative/3"
+            echo "::warning::Publication echouee, tentative ${tentative}/3"
             sleep $((tentative * 5))
           done
-
-          echo "::error::Publication Git impossible apres trois tentatives"
+          echo "::error::Publication impossible apres trois tentatives"
           exit 1
 
       - name: Bilan final
         if: always()
         run: |
-          echo "=================================="
-          echo "TURBOFUSION - BILAN"
-          echo "Heure Paris :"
-          TZ=Europe/Paris date
+          echo "Heure Paris : $(TZ=Europe/Paris date)"
           echo "Statut du job : ${{ job.status }}"
-          echo "=================================="
-          
+  
