@@ -1,23 +1,21 @@
-
-name: TURBOFUSION M1-M5 Automatique
+name: TURBOFUSION M1-M5
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: turbofusion-automatic
+  group: turbofusion-sync
   cancel-in-progress: false
 
 jobs:
-  analyse:
-    name: Analyse hippique M1-M5
+  synchronisation:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
 
     steps:
       - name: Recuperer le depot
@@ -27,30 +25,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
-          cache-dependency-path: requirements.txt
 
-      - name: Installer les dependances
+      - name: Synchroniser le tableau
+        run: python scripts/sync_dashboard.py
+
+      - name: Enregistrer les modifications
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Executer TURBOFUSION
-        env:
-          TZ: Europe/Paris
-          PYTHONUNBUFFERED: "1"
-        run: |
-          python main.py
-
-      - name: Archiver les rapports
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: turbofusion-rapports
-          path: |
-            reports/
-            data/
-            logs/
-          if-no-files-found: ignore
-          retention-days: 30
-          
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Synchronisation automatique TURBOFUSION"
+            git push
+          fi
+  
