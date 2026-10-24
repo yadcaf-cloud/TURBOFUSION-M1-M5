@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C5",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T18:27:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:11.483197+02:00",
+  "hippodrome": "CABOURG",
+  "partants": [
+    {
+      "age": 3,
+      "entraineur": "CH. BIGEON",
+      "gains": null,
+      "jockey": "P. SORAIS",
+      "musique": "Da2a2a",
+      "nom": "NOVA ODESSA HAUFOR",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "F. DELENCLOS",
+      "gains": null,
+      "jockey": "E. HERBEAU",
+      "musique": "0a2a7a4aDa6a5a8aDaDa",
+      "nom": "NIKITA DE MONCHEL",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "H. DRAGT",
+      "gains": null,
+      "jockey": "ALEXANDRE BODIN",
+      "musique": "3a1a",
+      "nom": "NUCIOLA CERVIONI",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "J. DUBOIS",
+      "gains": null,
+      "jockey": "J. DUBOIS",
+      "musique": "5aDa1a6a",
+      "nom": "NASMANIA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "Mlle Océane HERBINIERE",
+      "gains": null,
+      "jockey": "G. BLANDIN",
+      "musique": "9a2a3aDa3a6a6a5a6a(25)",
+      "nom": "NOT GIVE UP GARDEN",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "R. JAJOLET",
+      "gains": null,
+      "jockey": "R. LAMY",
+      "musique": "7a1a7a6a9a5a4a8a(25)9a",
+      "nom": "NAYA AU CROSNIER",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "S. ROGER",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "4a7a3a5a4a3a4aDa6a4a",
+      "nom": "NIMAGINE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "J.ET. THUET",
+      "gains": null,
+      "jockey": "D. THOMAIN",
+      "musique": "2a1a4a",
+      "nom": "NOSTRA CARISAIE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "TH. LAMARE",
+      "gains": null,
+      "jockey": "TH. LAMARE",
+      "musique": "3a6a5a9a1a",
+      "nom": "NATIVE DU TRIO",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "Thomas LEBREC",
+      "gains": null,
+      "jockey": "TH. LEBREC",
+      "musique": "3m6mDmDm0a3m5mDm6m4m",
+      "nom": "NASTREE DU VINOIS",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "Sté. Ent. Rodolphe DOUYERE",
+      "gains": null,
+      "jockey": "A. LAMY",
+      "musique": "5a4a3a2a6a3a4aDa2a",
+      "nom": "NEVER SEEN",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "J. VILAULT",
+      "gains": null,
+      "jockey": "A. REBECHE",
+      "musique": "8a9a8aDa4aDa5a2a5aDa",
+      "nom": "NIGHT ERCA",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "TH. LAMARE",
+      "gains": null,
+      "jockey": "G. D'HAENENS",
+      "musique": "0aDaDa3a3aDaDa2a(25)4a",
+      "nom": "NYMPHADORA TONKS",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "G.A. POU POU",
+      "gains": null,
+      "jockey": "G.A. POU POU",
+      "musique": "5a1a2aDaDa3aDa",
+      "nom": "NESSENCE",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 8,
+    "heure_paris": "2026-10-24T06:25:11.483197+02:00",
+    "meilleur_place": 14,
+    "moteur": "M5",
+    "ordre_espere": [
+      8,
+      14,
+      13,
+      11,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R4/C5/participants"
+}

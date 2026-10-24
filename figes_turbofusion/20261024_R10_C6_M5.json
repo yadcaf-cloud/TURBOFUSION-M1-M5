@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C6",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T15:30:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:13.089808+02:00",
+  "hippodrome": "CHATEAUBRIANT",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "J.CH. AUDRAN",
+      "gains": null,
+      "jockey": "J.CH. AUDRAN",
+      "musique": "DaDa0a9a6a6aDaDa7aDa",
+      "nom": "MOME HERBLINAIE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. DAVID",
+      "gains": null,
+      "jockey": "L. JUBLOT",
+      "musique": "0a2aDa9a",
+      "nom": "MANIKAIA KERODA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Arnaud MORIN",
+      "gains": null,
+      "jockey": "ARNAUD MORIN",
+      "musique": "DaDa3a2a3aDa(25)Da(24)Da",
+      "nom": "MILADY DU LEARD",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mlle CL. BEILEARD",
+      "gains": null,
+      "jockey": "Mlle CL. BEILEARD",
+      "musique": "DaDa1a5a0a(25)4aDa5aDa",
+      "nom": "MORESCA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. DONIO",
+      "gains": null,
+      "jockey": "G. DONIO",
+      "musique": "7a1a6a7a7m3aDm8a5m0a",
+      "nom": "MACUMBA D'IDEF",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E.M. FOURNIER",
+      "gains": null,
+      "jockey": "B. ROBIN",
+      "musique": "6m3m3aDa0aDa1a(25)Dm8m",
+      "nom": "MAMOUNIA D'ECHAL",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.CH. AUDRAN",
+      "gains": null,
+      "jockey": "E. RAFFIN",
+      "musique": "2a7a0aDaDa2a5aDaDa0a",
+      "nom": "MAYA HERBLINAIE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B.R. PLAIRE",
+      "gains": null,
+      "jockey": "W. PLAIRE",
+      "musique": "5aDaDa5a7a5aDa9a3aDa",
+      "nom": "MATY ROYALE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E.G. BLOT",
+      "gains": null,
+      "jockey": "E.G. BLOT",
+      "musique": "6a8a0aDaDaDa8a9a5a6a",
+      "nom": "MONIA SEVEN",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "CL. FRECELLE",
+      "gains": null,
+      "jockey": "TH. PELTIER",
+      "musique": "7a1a3aDaDaDmDaDa5aDa",
+      "nom": "MADE IN AUTHISE",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. LETONTURIER",
+      "gains": null,
+      "jockey": "F. LETONTURIER",
+      "musique": "DmDm7mDm2m9a8m0aDa(25)",
+      "nom": "MELODIE DE FAEL",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mlle M. LE BOURHIS",
+      "gains": null,
+      "jockey": "G. MARIN",
+      "musique": "1a6a7a7a4a9mDaDa2a6m",
+      "nom": "MARQUISE DEHEL",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Lucas LABBE",
+      "gains": null,
+      "jockey": "L. LABBE",
+      "musique": "0a7a0a1aDaDaDmDmDa6a",
+      "nom": "MERIADEG D'AVEL",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mme A. BARTHELEMY",
+      "gains": null,
+      "jockey": "R. JOLY",
+      "musique": "5a4a5a6a6a6a2a7a3a(25)",
+      "nom": "MAMZELLE MOULVENT",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 3,
+    "heure_paris": "2026-10-24T06:25:13.089808+02:00",
+    "meilleur_place": 6,
+    "moteur": "M5",
+    "ordre_espere": [
+      3,
+      6,
+      4,
+      7,
+      10
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R10/C6/participants"
+}

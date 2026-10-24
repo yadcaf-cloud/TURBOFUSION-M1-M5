@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R3C3",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T12:34:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:09.463603+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "S. LALOUM",
+      "gains": null,
+      "jockey": "TH. BRIAND",
+      "musique": "2a7a6aDa(25)Da8a4aDa4a",
+      "nom": "MOISSON DE LA COTE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. MOURICE",
+      "gains": null,
+      "jockey": "F. TUGEND",
+      "musique": "DaDa2aDa6a4a(25)7a5a3a",
+      "nom": "MEJANES",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E. PRUDHON",
+      "gains": null,
+      "jockey": "TH. PRUDHON",
+      "musique": "Da9aDa6a2a5a8a5a3a5a",
+      "nom": "MIAMI DREAM",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.M. ROUBAUD",
+      "gains": null,
+      "jockey": "S. STEFANO",
+      "musique": "DaDaAa2mDaDa3a7aDa(25)",
+      "nom": "MISS D'HERMES",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A.P. GIRAUD",
+      "gains": null,
+      "jockey": "K. DEVIENNE",
+      "musique": "3a3a2a9a9a2a6a1a2a7a",
+      "nom": "MESANGE DE DAIDOU",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Y. LACOMBE",
+      "gains": null,
+      "jockey": "Y. LACOMBE",
+      "musique": "1a4a9aDmDa1a7a1a3aDa",
+      "nom": "MAGIQUE GWENOL",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A.P. GIRAUD",
+      "gains": null,
+      "jockey": "H. SOREL",
+      "musique": "2aDaDa1aDa0a8a8aDa(25)",
+      "nom": "MAM'ZELLE LARZIZ",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. TOURON",
+      "gains": null,
+      "jockey": "Y.A. BRIAND",
+      "musique": "8a7a4a3a1a4a7a6a4a6a",
+      "nom": "MILADY D'ALEX",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Y. LACOMBE",
+      "gains": null,
+      "jockey": "J.CH. FERON",
+      "musique": "2a2a2a9a5a8a3a1a3a(25)",
+      "nom": "MUSE DE BANVILLE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Maxime GRUMETZ",
+      "gains": null,
+      "jockey": "M. GRUMETZ",
+      "musique": "9a9a0a1a2a0a1a7a6a(25)",
+      "nom": "MISSION DU CHOQUEL",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. CUOQ",
+      "gains": null,
+      "jockey": "J. CUOQ",
+      "musique": "5a4a3a8a6a8a1a9a5a7a",
+      "nom": "MAHRANA DU HAUTY",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "N. JULIEN",
+      "gains": null,
+      "jockey": "ED. COUBARD-MEUNIER",
+      "musique": "7a3aDa2a8aDa8a6aDa7a",
+      "nom": "MAFIA DU BAS BOSQ",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. GUELPA",
+      "gains": null,
+      "jockey": "J. GUELPA",
+      "musique": "4a6a1aDa7a7a5aDa(25)8a",
+      "nom": "MUTINE DU LUDE",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "L. BROUST",
+      "gains": null,
+      "jockey": "D. BEKAERT",
+      "musique": "4a5a1a3aDa1a2a5a4a8a",
+      "nom": "MA LOLA QUICK",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "TH. LEMOINE",
+      "gains": null,
+      "jockey": "B. RUET",
+      "musique": "6a7a1a1aDa6a8a(25)1aDa",
+      "nom": "MINARELLE DE CEREY",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "N. JULIEN",
+      "gains": null,
+      "jockey": "N. JULIEN",
+      "musique": "1a5a5a0a7aDa4a4a(25)1a",
+      "nom": "MILADY DE NIMES",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 14,
+    "heure_paris": "2026-10-24T06:25:09.463603+02:00",
+    "meilleur_place": 2,
+    "moteur": "M5",
+    "ordre_espere": [
+      14,
+      2,
+      4,
+      16,
+      1
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R3/C3/participants"
+}

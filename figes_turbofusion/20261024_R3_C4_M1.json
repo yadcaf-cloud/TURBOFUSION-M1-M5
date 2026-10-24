@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R3C4",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T13:06:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:09.723383+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "N. ENSCH",
+      "gains": null,
+      "jockey": "GUILLAUME LEMOINE",
+      "musique": "9a6aDa2a4a6a1a(25)5a2a",
+      "nom": "LAVAMA",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "J.CH. SOREL",
+      "musique": "5a9a2a3a8a0aDa1a1a(25)",
+      "nom": "LUEGO CONTIGO",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Sté. Ent. Théo BRIAND",
+      "gains": null,
+      "jockey": "R. DERIEUX",
+      "musique": "Da0a1a2a9a3a2a2aDa(25)",
+      "nom": "L'AMIRAL TURGOT",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Y. HENRY",
+      "gains": null,
+      "jockey": "Mme LANA HENRY",
+      "musique": "4a2a2a7a1a3a6a6a(25)8a",
+      "nom": "LAMIE QUICK",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.M. ROUBAUD",
+      "gains": null,
+      "jockey": "H. SOREL",
+      "musique": "AaDm6a9a2a6m3m6aDaDa",
+      "nom": "LOOK D'HERMES",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.M. ROUBAUD",
+      "gains": null,
+      "jockey": "K. DEVIENNE",
+      "musique": "2aDa1a1a2a2a1a4a1a1a",
+      "nom": "LASCAR D'ENFER",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "E. BRIAND",
+      "musique": "3a8a7m0aDaDaDa4a7a(25)",
+      "nom": "LEOPOLD",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "R. MOURICE",
+      "gains": null,
+      "jockey": "G. TUGEND",
+      "musique": "7aDa3a4a5a5a4aDa5a6a",
+      "nom": "LOGAN JIEL",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Sté. Ent. Théo BRIAND",
+      "gains": null,
+      "jockey": "TH. BRIAND",
+      "musique": "Da2a1a1a(25)6a5aDa2a1a",
+      "nom": "LAUTREC TURGOT",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "D. BEKAERT",
+      "gains": null,
+      "jockey": "D. BEKAERT",
+      "musique": "4a2a2a6a4a5a8a(25)Da8a",
+      "nom": "LASH PERRINE",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "D. CINIER",
+      "gains": null,
+      "jockey": "M. CINIER",
+      "musique": "1a1a1a1a4a3a3a5a2a5a",
+      "nom": "LAZAN DE PASSIEU",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "R. WESTERINK",
+      "gains": null,
+      "jockey": "Y. LACOMBE",
+      "musique": "5m7aDaDmDaDaDa(25)AaDm",
+      "nom": "LUCKY SIBEY",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. MARTY",
+      "gains": null,
+      "jockey": "F. MARTY",
+      "musique": "1a2a1a1a1a1a(25)5a1a3a",
+      "nom": "LOUP INDIEN",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 13,
+    "heure_paris": "2026-10-24T06:25:09.723383+02:00",
+    "meilleur_place": 6,
+    "moteur": "M1",
+    "ordre_espere": [
+      13,
+      6,
+      11,
+      9,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R3/C4/participants"
+}

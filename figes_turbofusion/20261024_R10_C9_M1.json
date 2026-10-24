@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C9",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T17:00:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:13.542252+02:00",
+  "hippodrome": "CHATEAUBRIANT",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "F. GUINHUT",
+      "gains": null,
+      "jockey": "G. MONTHULE",
+      "musique": "0a4a1a7a3a6a0aDmDa4a",
+      "nom": "JOY DES CHAMPS",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "P.L. DESAUNETTE",
+      "gains": null,
+      "jockey": "MAXENCE LECOQ",
+      "musique": "DaDaDaDm7a7a0a1a6a(25)",
+      "nom": "JALANSKI",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "JEROME DAVID",
+      "gains": null,
+      "jockey": "Mlle M. DE MEYER",
+      "musique": "0a7a7a0a0a0a8a9a9a4a",
+      "nom": "IDEAL FOUR",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "A. LEDUC",
+      "gains": null,
+      "jockey": "M. LEDUC",
+      "musique": "3a8a0a6aDa3aDa3aDa9a",
+      "nom": "JOYCE DE COSSE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 10,
+      "entraineur": "E. POUPARD",
+      "gains": null,
+      "jockey": "Mlle K. POUPARD",
+      "musique": "DaDa6a7a0a0a4a9a6a7a",
+      "nom": "GALCINOIS",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "D. BETHOUART",
+      "gains": null,
+      "jockey": "V.M. MORIN",
+      "musique": "4aDa7a3a3a5a9aDaDa(25)",
+      "nom": "JIGOVE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "R. LAGADEUC",
+      "gains": null,
+      "jockey": "M. TOUZET",
+      "musique": "8a2a6a9a6a9a2a4a2a4a",
+      "nom": "JOCASTE DAIRPET",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "ST. MEUNIER",
+      "gains": null,
+      "jockey": "Mlle AURIANE MEUNIER",
+      "musique": "Dm5m4m0m0m7m7m(25)Dm0m",
+      "nom": "HAND DAIRPET",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 10,
+      "entraineur": "L. THIEULENT",
+      "gains": null,
+      "jockey": "T. THIEULENT",
+      "musique": "8a7aDa9a8aDa4aDaDa0a",
+      "nom": "GAVROCHE ANABA",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "L. LAUDREN",
+      "gains": null,
+      "jockey": "A. MALLET",
+      "musique": "0a0a6a6a4a5a0a0a1aDa",
+      "nom": "INSTINCT D'AUTHISE",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "F. GUINHUT",
+      "gains": null,
+      "jockey": "MAXENCE DUVEAU",
+      "musique": "8a9a4a3a3a1a7a3a5a7a",
+      "nom": "JONQUILLE DE MEAT",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "Mme M. LEMONNIER",
+      "gains": null,
+      "jockey": "P. BUHIGNE",
+      "musique": "6aDmDa4a5a2a8a4a6a8a",
+      "nom": "HOTESSE NAY",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "St. PROVOOST",
+      "gains": null,
+      "jockey": "Mme S. DELAUNAY",
+      "musique": "5a0a0aAa(25)Da8a(24)1a0a",
+      "nom": "ICI PARIS EFJI",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "M. LECOURT",
+      "gains": null,
+      "jockey": "W. PLAIRE",
+      "musique": "Da3a2a5a8aDa3a1a9aDa",
+      "nom": "IMPERIALE MIVENCE",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 11,
+      "entraineur": "L. THIEULENT",
+      "gains": null,
+      "jockey": "A. THIEULENT",
+      "musique": "0a0a9aDa5a6a0a0a9a0a",
+      "nom": "FIRST LADY BLEUE",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "V. FOUCAULT",
+      "gains": null,
+      "jockey": "M. POTIER",
+      "musique": "6a6a0a7a8a0a9a0a(25)9a",
+      "nom": "IVRAM",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 1,
+    "heure_paris": "2026-10-24T06:25:13.542252+02:00",
+    "meilleur_place": 14,
+    "moteur": "M1",
+    "ordre_espere": [
+      1,
+      14,
+      6,
+      10,
+      13
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R10/C9/participants"
+}

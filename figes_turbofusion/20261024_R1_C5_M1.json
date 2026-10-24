@@ -1,0 +1,105 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C5",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T16:25:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:07.010492+02:00",
+  "hippodrome": "COMPIEGNE",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "M.ROLLAND (S)",
+      "gains": null,
+      "jockey": "L.PHILIPPERON",
+      "musique": "2h7h2h2h6h6h(25)3h0h1h",
+      "nom": "SHABRACK",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 700.0
+    },
+    {
+      "age": 4,
+      "entraineur": "F.NICOLLE",
+      "gains": null,
+      "jockey": "A.ZULIANI",
+      "musique": "4s6s6s1h3h(25)3h2h2h1p",
+      "nom": "BOYSTONE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 690.0
+    },
+    {
+      "age": 4,
+      "entraineur": "H.MERIENNE (S)",
+      "gains": null,
+      "jockey": "N.FERREIRA",
+      "musique": "3h5h1h1h3h4h7h5s(25)4h",
+      "nom": "FANFARON",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 660.0
+    },
+    {
+      "age": 4,
+      "entraineur": "M.SEROR (S)",
+      "gains": null,
+      "jockey": "J.PHELIPPE",
+      "musique": "1h(25)3h7h",
+      "nom": "FRECKLES",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 660.0
+    },
+    {
+      "age": 4,
+      "entraineur": "AS.PACAULT (S)",
+      "gains": null,
+      "jockey": "L.BRECHET",
+      "musique": "5h2h2h(25)2h1h1p",
+      "nom": "KILL PASS",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 660.0
+    },
+    {
+      "age": 4,
+      "entraineur": "N. GEORGE & A. ZETTERHOLM",
+      "gains": null,
+      "jockey": "K.NABET",
+      "musique": "1h1h(25)2h5p",
+      "nom": "MADISON ROQUE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 660.0
+    },
+    {
+      "age": 4,
+      "entraineur": "D.BRESSOU",
+      "gains": null,
+      "jockey": "M.BEHOCARAY",
+      "musique": "Ts4s1s6h5h3h(25)Th1h4h",
+      "nom": "KILLING BID",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 660.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-24T06:25:07.010492+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      6,
+      3,
+      5,
+      4,
+      1
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C5/participants"
+}

@@ -1,0 +1,116 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C4",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T15:50:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:06.865584+02:00",
+  "hippodrome": "COMPIEGNE",
+  "partants": [
+    {
+      "age": 3,
+      "entraineur": "CHAILLE-CHAILLE & PAMART",
+      "gains": null,
+      "jockey": "G.MASURE",
+      "musique": "4h2h",
+      "nom": "MOSSDAM",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 660.0
+    },
+    {
+      "age": 3,
+      "entraineur": "N. GEORGE & A. ZETTERHOLM",
+      "gains": null,
+      "jockey": "F.GILES",
+      "musique": "5h2s1h4h3h(25)7p5p",
+      "nom": "SOMMERKONIG",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 660.0
+    },
+    {
+      "age": 3,
+      "entraineur": "F.NICOLLE",
+      "gains": null,
+      "jockey": "A.ZULIANI",
+      "musique": "1s1hDh5h4h",
+      "nom": "NORTHMAN",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 660.0
+    },
+    {
+      "age": 3,
+      "entraineur": "N. GEORGE & A. ZETTERHOLM",
+      "gains": null,
+      "jockey": "L.BRECHET",
+      "musique": "9s1s1s5h1h6h4h",
+      "nom": "VANEADI",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 640.0
+    },
+    {
+      "age": 3,
+      "entraineur": "J.DELAUNAY (S)",
+      "gains": null,
+      "jockey": "THO .JOURNIAC",
+      "musique": "3s4h5h",
+      "nom": "NEVER GIVE UP THOM",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 640.0
+    },
+    {
+      "age": 3,
+      "entraineur": "LAGENESTE & MACAIRE (S)",
+      "gains": null,
+      "jockey": "K.DUBOURG",
+      "musique": "2h3s1h3h3h",
+      "nom": "DOUBLE BE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 640.0
+    },
+    {
+      "age": 3,
+      "entraineur": "N. GEORGE & A. ZETTERHOLM",
+      "gains": null,
+      "jockey": "L.ZULIANI",
+      "musique": "2s5s7h2h",
+      "nom": "NOVALLY",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 640.0
+    },
+    {
+      "age": 3,
+      "entraineur": "D.COTTIN (S)",
+      "gains": null,
+      "jockey": "NON PARTANT",
+      "musique": "1s9h7h",
+      "nom": "NEXTOBE HAS",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 640.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-24T06:25:06.865584+02:00",
+    "meilleur_place": 3,
+    "moteur": "M5",
+    "ordre_espere": [
+      6,
+      3,
+      2,
+      5,
+      7
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C4/participants"
+}

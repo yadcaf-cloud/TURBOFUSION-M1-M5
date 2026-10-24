@@ -1,0 +1,105 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R2C3",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T12:18:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:08.493584+02:00",
+  "hippodrome": "PRUNELLI",
+  "partants": [
+    {
+      "age": 3,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "M.WENDEL",
+      "musique": "5p5p3p1p1p3p5p7p",
+      "nom": "HALDAWAD AA",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 660.0
+    },
+    {
+      "age": 3,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "L.DOREAU",
+      "musique": "2p2p1p1p",
+      "nom": "MOSSIS AA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 640.0
+    },
+    {
+      "age": 3,
+      "entraineur": "C.ESCUDER",
+      "gains": null,
+      "jockey": "M.GERMAIN",
+      "musique": "3p1p2p2p2p6p1p",
+      "nom": "SONOLINA AA",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 625.0
+    },
+    {
+      "age": 3,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "M.WALDHAUSER",
+      "musique": "3p3p7p",
+      "nom": "ACHILL MALPIC AA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 620.0
+    },
+    {
+      "age": 3,
+      "entraineur": "MME A.CASAROLI",
+      "gains": null,
+      "jockey": "L.ROUSSEAU",
+      "musique": "2p2p4p5p",
+      "nom": "NIPTON DE LAGARDE AA",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 600.0
+    },
+    {
+      "age": 3,
+      "entraineur": "ANGE.TAFANI",
+      "gains": null,
+      "jockey": "M.BRUNELLI",
+      "musique": "7p",
+      "nom": "NAVARRO DE CANDALE AA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 600.0
+    },
+    {
+      "age": 3,
+      "entraineur": "MME P.VANHOVE",
+      "gains": null,
+      "jockey": "B.HOBART",
+      "musique": "6p5p",
+      "nom": "DON RAYNAL AA",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 600.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 2,
+    "heure_paris": "2026-10-24T06:25:08.493584+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      2,
+      3,
+      1,
+      5,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R2/C3/participants"
+}

@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C1",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T13:58:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:05.638754+02:00",
+  "hippodrome": "COMPIEGNE",
+  "partants": [
+    {
+      "age": 9,
+      "entraineur": "BR.BEAUNEZ",
+      "gains": null,
+      "jockey": "P.POSTIC",
+      "musique": "0s6h9h6s(25)0s6s3h7s1p",
+      "nom": "INSIDE MONTLIOUX",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 720.0
+    },
+    {
+      "age": 8,
+      "entraineur": "M.SEROR (S)",
+      "gains": null,
+      "jockey": "F.GUY",
+      "musique": "8s2s5s5hAs(25)2s3s1s",
+      "nom": "WALKS LIKE THE MAN",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 720.0
+    },
+    {
+      "age": 8,
+      "entraineur": "P.QUINTON (S)",
+      "gains": null,
+      "jockey": "C.LE GUEVEL",
+      "musique": "6h0h0h6h8h7h1hAs(25)3s",
+      "nom": "RAFFLES LIAISON",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 720.0
+    },
+    {
+      "age": 5,
+      "entraineur": "D.COTTIN (S)",
+      "gains": null,
+      "jockey": "A.LEMAIRE",
+      "musique": "6s5s8s2sAs4s1s(25)As2s",
+      "nom": "FORTUNA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 710.0
+    },
+    {
+      "age": 6,
+      "entraineur": "L&M.VIEL (S)",
+      "gains": null,
+      "jockey": "G.VIEL",
+      "musique": "4s7p3s0p2h2h0p9p4p",
+      "nom": "STYLE DE WAY",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 710.0
+    },
+    {
+      "age": 6,
+      "entraineur": "MME M.PINEDA",
+      "gains": null,
+      "jockey": "D.T .HYDE",
+      "musique": "2s8h(25)5h2h6h3h(24)7h",
+      "nom": "MARTIN GUERRE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 705.0
+    },
+    {
+      "age": 6,
+      "entraineur": "J.DELAUNAY (S)",
+      "gains": null,
+      "jockey": "R.LEMIERE",
+      "musique": "1hTh(25)Ts4s1hAh4s6s",
+      "nom": "PREZIENNE DU LARGE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 700.0
+    },
+    {
+      "age": 5,
+      "entraineur": "J.DELAUNAY (S)",
+      "gains": null,
+      "jockey": "E.OHGREN",
+      "musique": "Js2sAh6s2s2s4s(25)Ts5s",
+      "nom": "KING OF FRANCS",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 695.0
+    },
+    {
+      "age": 5,
+      "entraineur": "M.PITART",
+      "gains": null,
+      "jockey": "J.PLASSARD",
+      "musique": "3sAs(25)Ah2h6s4s4s5s2s",
+      "nom": "LINDA SLIDE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 680.0
+    },
+    {
+      "age": 6,
+      "entraineur": "L.URBANEK",
+      "gains": null,
+      "jockey": "R.GABARD",
+      "musique": "6s6s6s4s5s(25)3c5c1c6c",
+      "nom": "GEMILL",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 680.0
+    },
+    {
+      "age": 5,
+      "entraineur": "F.HAYERES (S)",
+      "gains": null,
+      "jockey": "L.HAYERES FOUCHARD",
+      "musique": "As4sAs1s(25)3s5s5s2s4s",
+      "nom": "ROYAL PONT AVEN",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 675.0
+    },
+    {
+      "age": 5,
+      "entraineur": "D.WINDRIF",
+      "gains": null,
+      "jockey": "M.BAUER",
+      "musique": "4s4s1s9s7h5h5hAs8s7s",
+      "nom": "BAKARELO",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 655.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 7,
+    "heure_paris": "2026-10-24T06:25:05.638754+02:00",
+    "meilleur_place": 11,
+    "moteur": "M1",
+    "ordre_espere": [
+      7,
+      11,
+      8,
+      5,
+      9
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C1/participants"
+}

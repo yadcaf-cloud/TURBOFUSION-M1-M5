@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C2",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T16:42:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:10.618207+02:00",
+  "hippodrome": "CABOURG",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "G. DEMOULIN",
+      "gains": null,
+      "jockey": "G. DEMOULIN",
+      "musique": "2a5a9a4a3aDa1a6a4a(25)",
+      "nom": "MY DOCTRINE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. CHAVATTE",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "1aDa8aDa1a(25)1a",
+      "nom": "MIDWAY DE BANVILLE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mlle CH. LE COZ",
+      "gains": null,
+      "jockey": "ADRIEN BLANDIN",
+      "musique": "2a0a8a7a5a6a8a8a(25)0a",
+      "nom": "MAYFLOWER DULONRAY",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "St. PROVOOST",
+      "gains": null,
+      "jockey": "P.CH. JEAN",
+      "musique": "Da8a8a2a9a1a3aAaDa4a",
+      "nom": "MY DARLING DANOVER",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E. GARNIER",
+      "gains": null,
+      "jockey": "E. GARNIER",
+      "musique": "3a2a7a6a8a9a7a(25)8aAa",
+      "nom": "MISS SCARLET",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "D. LOCQUENEUX",
+      "gains": null,
+      "jockey": "Y. LEBOURGEOIS",
+      "musique": "1a2a4aDa(25)4a4a3a2a5a",
+      "nom": "MEET AND GREET",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "K. LEBLANC",
+      "gains": null,
+      "jockey": "D. THOMAIN",
+      "musique": "8a3a3a2a2aDa(25)8a4aDa",
+      "nom": "MISS DAM LORRAINE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "V. SEGUIN",
+      "gains": null,
+      "jockey": "R. LAMY",
+      "musique": "1m6aDa5a2a0aDa(25)6a3a",
+      "nom": "MARITZA DU PERCHE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "H. DRAGT",
+      "gains": null,
+      "jockey": "ALEXANDRE BODIN",
+      "musique": "0aAaDaDa(25)Da5a0a2a5a",
+      "nom": "MARIANNA",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. THOMAS",
+      "gains": null,
+      "jockey": "A. THOMAS",
+      "musique": "1a5aDa4a6a5a1a4a7a1a",
+      "nom": "MALAGA DE MARZY",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. DELACOUR",
+      "gains": null,
+      "jockey": "G. DELACOUR",
+      "musique": "6a7a7a0a2a1aDa6a4a(25)",
+      "nom": "MOON LIGHT RIVER",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "P.Edouard MARY",
+      "gains": null,
+      "jockey": "F. LAGADEUC",
+      "musique": "4a7a5a4a1a6aDa(25)Da2a",
+      "nom": "MANON DU CHENE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "V. LEBARQUE",
+      "gains": null,
+      "jockey": "A. REBECHE",
+      "musique": "2a5a1a3a3a0a0a(25)6a8a",
+      "nom": "MAYA DE MAHEY",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. BEZIER",
+      "gains": null,
+      "jockey": "M. BEZIER",
+      "musique": "3a6a1a2a7a6a3a2a5aDa",
+      "nom": "MINDIE DES PRES",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E.G. BLOT",
+      "gains": null,
+      "jockey": "T. LE BELLER",
+      "musique": "Da0a8a5a1a1aDa7a8a8a",
+      "nom": "MAKITA BERRY",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.PH. MONCLIN",
+      "gains": null,
+      "jockey": "F. NIVARD",
+      "musique": "1aDmDm3m1mDmDm3m3m(25)",
+      "nom": "MISS SPEED",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 16,
+    "heure_paris": "2026-10-24T06:25:10.618207+02:00",
+    "meilleur_place": 6,
+    "moteur": "M1",
+    "ordre_espere": [
+      16,
+      6,
+      13,
+      8,
+      2
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R4/C2/participants"
+}

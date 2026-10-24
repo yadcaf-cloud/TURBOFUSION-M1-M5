@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C1",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T16:08:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:10.448390+02:00",
+  "hippodrome": "CABOURG",
+  "partants": [
+    {
+      "age": 9,
+      "entraineur": "J.M. BAUDOUIN",
+      "gains": null,
+      "jockey": "F. NIVARD",
+      "musique": "5aDa9a9a9a8a8a0aDaDa",
+      "nom": "HORSE DE GRAMMONT",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "St. PROVOOST",
+      "gains": null,
+      "jockey": "P.CH. JEAN",
+      "musique": "Da0aDa0a6a0a3a4a0aDa",
+      "nom": "HANUGAN",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "G. HOUEL",
+      "gains": null,
+      "jockey": "A. ANDRE",
+      "musique": "0a9a7m9a7a1a5a7aDaDa",
+      "nom": "HEIDI DU BISET",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "L. PESCHET",
+      "gains": null,
+      "jockey": "D. THOMAIN",
+      "musique": "4a0a1a1a3aDa5a4a5a5a",
+      "nom": "JAMAIQUE DAIRPET",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "J.J. BAILLON",
+      "gains": null,
+      "jockey": "R. LAMY",
+      "musique": "Dm0m3aDa3a3a6a2a7aDa",
+      "nom": "IVARUN",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Lucas LABBE",
+      "gains": null,
+      "jockey": "Y. LEBOURGEOIS",
+      "musique": "4a4a9a1a7a6a1a4a9a(25)",
+      "nom": "JAG LUCAXELO",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Mme Suzanne VACHET",
+      "gains": null,
+      "jockey": "F. OUVRIE",
+      "musique": "Da1aAa7a6a5a0aDa3a1a",
+      "nom": "JOUEUSE DU MIREL",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "G. DELACOUR",
+      "gains": null,
+      "jockey": "G. DELACOUR",
+      "musique": "4a2a0m5a5m1m0aDm2m9a",
+      "nom": "ICARE D'ACADIE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "G. LESSIEU",
+      "gains": null,
+      "jockey": "G. LESSIEU",
+      "musique": "Da7a0aDa8a4aDa6a8a3a",
+      "nom": "ICONE PONT VAUTIER",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J. CONDETTE",
+      "gains": null,
+      "jockey": "A. REBECHE",
+      "musique": "3aDa2aDa3aDa3a8a2a5a",
+      "nom": "JULIANA SPIRIT",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "E.G. BLOT",
+      "gains": null,
+      "jockey": "T. LE BELLER",
+      "musique": "3aDa0a4a1a1a5aAa4a9a",
+      "nom": "JEUDI DES RACQUES",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "G. HOUEL",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "DaDa5a0aDmDaDaDaDaDa",
+      "nom": "IGGY DES RIOULTS",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J.M. MARIE",
+      "gains": null,
+      "jockey": "J.M. MARIE",
+      "musique": "6m0a5m4m2m(25)2m2m2m2m",
+      "nom": "JOIE DES VENTES",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "CH.E. CHALMEL",
+      "gains": null,
+      "jockey": "E. DE JESUS",
+      "musique": "DaDa7a2a2aDa6a1a4aDa",
+      "nom": "HIGHEST WIND",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 4,
+    "heure_paris": "2026-10-24T06:25:10.448390+02:00",
+    "meilleur_place": 11,
+    "moteur": "M5",
+    "ordre_espere": [
+      4,
+      11,
+      5,
+      8,
+      13
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R4/C1/participants"
+}

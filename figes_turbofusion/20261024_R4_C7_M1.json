@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C7",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T19:34:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:11.768832+02:00",
+  "hippodrome": "CABOURG",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "G. HOUEL",
+      "gains": null,
+      "jockey": "R. VILAULT",
+      "musique": "6a4m9m4a1a1a3aDa4a0a",
+      "nom": "KANELLE D'OUVILLE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "S.G. DUPONT",
+      "gains": null,
+      "jockey": "EMILIEN DUPONT",
+      "musique": "3a3a1aDaDa(25)1aDa1a1a",
+      "nom": "KITY DE LA MORTRIE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "V. RENAULT",
+      "gains": null,
+      "jockey": "Mme K. RENAULT",
+      "musique": "Da3a4aDa2a3aDa2a0a(25)",
+      "nom": "KALICINE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "Sté. Ent. R. et D. HUE",
+      "gains": null,
+      "jockey": "FL. BUTTIER",
+      "musique": "0a3a4a0aDa7a8aDa6a(25)",
+      "nom": "KAHIRA DES MARES",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J.F. SENET",
+      "gains": null,
+      "jockey": "L. ADAM",
+      "musique": "7a2a4a0a7a2a4aDa6a7a",
+      "nom": "KELOWA STARDUST",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "A. PLARD",
+      "gains": null,
+      "jockey": "G. FAVRIS",
+      "musique": "2a1a2a3a5a2a3a2a3a2a",
+      "nom": "KINGALA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "JOEL HALLAIS",
+      "gains": null,
+      "jockey": "Mme L. DERSOIR",
+      "musique": "DaDm7m9a8a8a0aDa0a9m",
+      "nom": "KASTA DU RIB",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "D. PUNIERE",
+      "gains": null,
+      "jockey": "M. DELORME",
+      "musique": "Da8a0a7a0a5a6a0m(25)0a",
+      "nom": "KASAQUE PIYA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "D. PUNIERE",
+      "gains": null,
+      "jockey": "LOUIS FORTIN",
+      "musique": "0a7a8a0aDa7a0a0a4a0a",
+      "nom": "KOMETE DU RADON",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "Phady LY",
+      "gains": null,
+      "jockey": "E. CIVE",
+      "musique": "4a2a2a5a2a3a2aDa0a0a",
+      "nom": "KHOSIAB",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J. ROUX",
+      "gains": null,
+      "jockey": "C. HERIVAUX",
+      "musique": "4a3a8a4aDa1aDaDa8a0a",
+      "nom": "KAMA D'EM",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "St. PROVOOST",
+      "gains": null,
+      "jockey": "G. D'HAENENS",
+      "musique": "Da5a5a5aDaDa4aDa1a3a",
+      "nom": "KARINA JOSSELYN",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "CH. CUILLER",
+      "gains": null,
+      "jockey": "J. MATHELIER",
+      "musique": "Da8a3a2aDa0aDa5a6a0a",
+      "nom": "KIMMERIDGIENNE",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "ST. DESHAYES",
+      "gains": null,
+      "jockey": "N. DESHAYES",
+      "musique": "6aAa3a0a0a9a0a0aDaDa",
+      "nom": "KALINE DE CONNEE",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-24T06:25:11.768832+02:00",
+    "meilleur_place": 2,
+    "moteur": "M1",
+    "ordre_espere": [
+      6,
+      2,
+      3,
+      10,
+      11
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R4/C7/participants"
+}

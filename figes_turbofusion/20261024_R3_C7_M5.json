@@ -1,0 +1,193 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R3C7",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T14:50:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:10.159956+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "D. BEKAERT",
+      "gains": null,
+      "jockey": "D. BEKAERT",
+      "musique": "3a1a2a4a4a2a1a",
+      "nom": "MYSTERY SIXTY ONE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "MICKAEL CORMY",
+      "gains": null,
+      "jockey": "MARTIN CORMY",
+      "musique": "1a4a7a2a1a3a6a4a5a5a",
+      "nom": "MY BEAUTIFUL",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "E. BRIAND",
+      "musique": "6aDa3a5aDa(25)2a4a9a8a",
+      "nom": "MADISON ATALANTE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.X. MAILLARD",
+      "gains": null,
+      "jockey": "S. CINGLAND",
+      "musique": "Da9a1aDa1a6aDa(25)2a7a",
+      "nom": "MIRAGE QUICK",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Julien CHAUVIN",
+      "gains": null,
+      "jockey": "J.CH. SOREL",
+      "musique": "4a2a4a4a2a5aDa5a3a3a",
+      "nom": "MISTER SALTOR",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "Y.A. BRIAND",
+      "musique": "8a1a5a4aDaDa4a3a4a(25)",
+      "nom": "MISTER TROT",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Julien CHAUVIN",
+      "gains": null,
+      "jockey": "TH. BRIAND",
+      "musique": "1a3aDa2aDa7a0a(25)Aa9a",
+      "nom": "MONUMENTAL",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. UROZ",
+      "gains": null,
+      "jockey": "J.CH. FERON",
+      "musique": "Da9a6aDaDa3a2a4a2a2a",
+      "nom": "MAFIOSO DRY",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. GUELPA",
+      "gains": null,
+      "jockey": "J. GUELPA",
+      "musique": "Da",
+      "nom": "MELKIOR DU GUERET",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.L. VERRIERE",
+      "gains": null,
+      "jockey": "L. VERRIERE",
+      "musique": "6a2aDa5a5a3a8a(25)4a1a",
+      "nom": "MINI LULU",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "P. REPICHET",
+      "gains": null,
+      "jockey": "P. REPICHET",
+      "musique": "DaDaDaDaDa6a4a4a3a6a",
+      "nom": "MON BEAU MEC",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "R. THONNERIEUX",
+      "musique": "Da8a(25)1a4aDaDa1aDa4a",
+      "nom": "MAB",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. DERIEUX",
+      "gains": null,
+      "jockey": "R. DERIEUX",
+      "musique": "1aDa1aDaDa(25)DaDa1aDa",
+      "nom": "MERIADOC PAULOIS",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B. RUET",
+      "gains": null,
+      "jockey": "B. RUET",
+      "musique": "3a5a4a1a4a6aDaDa3a4a",
+      "nom": "MIDNIGHT OIL",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. MOURICE",
+      "gains": null,
+      "jockey": "G. TUGEND",
+      "musique": "2a6a3a6a0aDa8a6a(25)Da",
+      "nom": "MIDDLE STAR",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 13,
+    "heure_paris": "2026-10-24T06:25:10.159956+02:00",
+    "meilleur_place": 1,
+    "moteur": "M5",
+    "ordre_espere": [
+      13,
+      1,
+      5,
+      14,
+      7
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R3/C7/participants"
+}

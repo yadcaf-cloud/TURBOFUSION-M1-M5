@@ -1,0 +1,105 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R2C4",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T12:50:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:08.823820+02:00",
+  "hippodrome": "PRUNELLI",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "C.ESCUDER",
+      "gains": null,
+      "jockey": "J.PLATEAUX",
+      "musique": "2p2p1p3p2p8h3h4h6h",
+      "nom": "MATCH AMICAL",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 650.0
+    },
+    {
+      "age": 8,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "M.WALDHAUSER",
+      "musique": "5p2p5p5p3p3p3p(25)1p5p",
+      "nom": "ICEMAN TO WIN",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 640.0
+    },
+    {
+      "age": 9,
+      "entraineur": "J.LEONI",
+      "gains": null,
+      "jockey": "ALEX.LASTRAJOLI",
+      "musique": "4p4p5p5p4p3p(25)3p3p9p",
+      "nom": "HELLO BALL",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 630.0
+    },
+    {
+      "age": 6,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "M.BRUNELLI",
+      "musique": "4p2p5pAh2h(25)Ah0h0h0h",
+      "nom": "KREMLIN",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 620.0
+    },
+    {
+      "age": 5,
+      "entraineur": "ANGE.TAFANI",
+      "gains": null,
+      "jockey": "Y.DECORTE",
+      "musique": "(25)8p8p0p6p(24)7p6p7p3p",
+      "nom": "LOVE OF GREY",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 620.0
+    },
+    {
+      "age": 6,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "L.ROUSSEAU",
+      "musique": "2p4p4p4p3p8p7hJh(25)6p",
+      "nom": "KATE DES PLAGES",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 615.0
+    },
+    {
+      "age": 4,
+      "entraineur": "C.ESCUDER",
+      "gains": null,
+      "jockey": "M.GERMAIN",
+      "musique": "ThJh(25)4p1p7p1p2pDp4p",
+      "nom": "MALISSA MANS",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 605.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 1,
+    "heure_paris": "2026-10-24T06:25:08.823820+02:00",
+    "meilleur_place": 4,
+    "moteur": "M1",
+    "ordre_espere": [
+      1,
+      4,
+      6,
+      7,
+      2
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R2/C4/participants"
+}

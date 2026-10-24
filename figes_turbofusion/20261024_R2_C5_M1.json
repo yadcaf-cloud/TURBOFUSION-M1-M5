@@ -1,0 +1,138 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R2C5",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T13:22:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:09.018306+02:00",
+  "hippodrome": "PRUNELLI",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "M.WALDHAUSER",
+      "musique": "3p3p2p1p1p3p1p9p0p1p",
+      "nom": "MIRAGE BLOU",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 620.0
+    },
+    {
+      "age": 6,
+      "entraineur": "MME A.PACCIONI JEGO",
+      "gains": null,
+      "jockey": "M.WENDEL",
+      "musique": "3p3p7p2p4p2p(25)3p3p5p",
+      "nom": "GREAT PROMISE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 590.0
+    },
+    {
+      "age": 6,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "L.DOREAU",
+      "musique": "6p4p3p3p6p8p7p0p(25)4p",
+      "nom": "PUMP PUMP CITY",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 580.0
+    },
+    {
+      "age": 8,
+      "entraineur": "F.ZIGLIOLI",
+      "gains": null,
+      "jockey": "J.PLATEAUX",
+      "musique": "1p2p6p5p8p0p0p8p(25)7p",
+      "nom": "MADOUSS",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 575.0
+    },
+    {
+      "age": 5,
+      "entraineur": "JP.FOLACCI",
+      "gains": null,
+      "jockey": "B.HOBART",
+      "musique": "7p3p0p5p0p0p4p0p4p4p",
+      "nom": "TENYEARSAFTER",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 570.0
+    },
+    {
+      "age": 6,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "ALEX.LASTRAJOLI",
+      "musique": "5p5p9p3p(25)5p2p1p7p0p",
+      "nom": "KALIFE ALAPLACE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 570.0
+    },
+    {
+      "age": 7,
+      "entraineur": "JC.SARAIS",
+      "gains": null,
+      "jockey": "L.ROUSSEAU",
+      "musique": "6p8p7p0p(25)7p6p0p4p1p",
+      "nom": "GAMECHANGER",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 570.0
+    },
+    {
+      "age": 5,
+      "entraineur": "C.TOLAINI",
+      "gains": null,
+      "jockey": "M.BRUNELLI",
+      "musique": "3p2p2p6p5p5p2p4p0p7p",
+      "nom": "ZELICA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 555.0
+    },
+    {
+      "age": 8,
+      "entraineur": "JB.ANDREANI",
+      "gains": null,
+      "jockey": "M.GERMAIN",
+      "musique": "7p7p6p(25)6p9p7p5p0p0p",
+      "nom": "LEJENDARIO",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 550.0
+    },
+    {
+      "age": 4,
+      "entraineur": "JP.FOLACCI",
+      "gains": null,
+      "jockey": "P.LE DIGABEL",
+      "musique": "5p5p0p4p0p5p0p0p(25)8p",
+      "nom": "KING LUDWIG",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 550.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 1,
+    "heure_paris": "2026-10-24T06:25:09.018306+02:00",
+    "meilleur_place": 8,
+    "moteur": "M1",
+    "ordre_espere": [
+      1,
+      8,
+      2,
+      10,
+      3
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R2/C5/participants"
+}

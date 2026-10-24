@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R3C8",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T15:32:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:10.302513+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "R. DERIEUX",
+      "gains": null,
+      "jockey": "R. DERIEUX",
+      "musique": "3a0a8a9a0a2a1a2a(25)1a",
+      "nom": "JAVANAIS DELO",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "D. ALEXANDRE",
+      "gains": null,
+      "jockey": "NICOLAS GERMAIN LEFEVRE",
+      "musique": "Da8aDaDa7a2a5a2a5a3a",
+      "nom": "HELECHO",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J.M. ROUBAUD",
+      "gains": null,
+      "jockey": "S. STEFANO",
+      "musique": "3a0a4a6a1a1aDa1a1aDa",
+      "nom": "JINGLE LOVER",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "MICKAEL CORMY",
+      "gains": null,
+      "jockey": "MARTIN CORMY",
+      "musique": "Da0a6a0aDa(25)4a7a2a6a",
+      "nom": "HEROS D'YVEL",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "E. BRIAND",
+      "musique": "6a8a9a8a3a1m5a(25)1m3a",
+      "nom": "IBROX PARK",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "F. TERRY",
+      "gains": null,
+      "jockey": "J.CH. FERON",
+      "musique": "3a8a6aDa2a4a5a2aDa7a",
+      "nom": "HISTORIC DAY",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "V. MARTENS",
+      "gains": null,
+      "jockey": "TH. BRIAND",
+      "musique": "1a1a8a1a1a1a1aDa1a1a",
+      "nom": "KINGSLAYER PELLINI",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "F. MARTY",
+      "gains": null,
+      "jockey": "F. MARTY",
+      "musique": "5a6a8a8a4a7m7a0a7a7a",
+      "nom": "HARRY CARISAIE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 10,
+      "entraineur": "S. LALOUM",
+      "gains": null,
+      "jockey": "L. GOETZ",
+      "musique": "9aAa4a0a7a0a7a5a9a3a",
+      "nom": "GRAND TRIO LUDOIS",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "D. ALEXANDRE",
+      "gains": null,
+      "jockey": "J.CH. SOREL",
+      "musique": "5a1a1a8a9a7a(25)8a7m(24)",
+      "nom": "HARLEM DE BUCY",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "J. CUOQ",
+      "gains": null,
+      "jockey": "J. CUOQ",
+      "musique": "8a2a6a6a1aDa2a1a1a(25)",
+      "nom": "ISTER MAN",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "A. BONNEFOY",
+      "gains": null,
+      "jockey": "D. BEKAERT",
+      "musique": "0a8aDa2a4a2a3a1a2a(25)",
+      "nom": "INATO PIERJI",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "Sté. Ent. Christophe JARIEL",
+      "gains": null,
+      "jockey": "Mme LANA HENRY",
+      "musique": "7a1a9a5a4a4a1a9a5a(25)",
+      "nom": "IGREC DE CELLAND",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 7,
+    "heure_paris": "2026-10-24T06:25:10.302513+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      7,
+      3,
+      12,
+      1,
+      6
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R3/C8/participants"
+}

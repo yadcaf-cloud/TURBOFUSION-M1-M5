@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C4",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T17:52:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:11.324025+02:00",
+  "hippodrome": "CABOURG",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "E. BEUDARD",
+      "gains": null,
+      "jockey": "R. MARTY",
+      "musique": "Da8a0aDmDa9a",
+      "nom": "MISSILE D'EB",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 630.0
+    },
+    {
+      "age": 4,
+      "entraineur": "A.G. MAILLARD",
+      "gains": null,
+      "jockey": "A. REBECHE",
+      "musique": "8a",
+      "nom": "MYSTERE NORMAND",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 630.0
+    },
+    {
+      "age": 4,
+      "entraineur": "V. VIEL",
+      "gains": null,
+      "jockey": "Mlle E. BIZOUX",
+      "musique": "DmAa6mDmDm",
+      "nom": "MON ILOT",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 560.0
+    },
+    {
+      "age": 4,
+      "entraineur": "Thomas LEBREC",
+      "gains": null,
+      "jockey": "ALEXANDRE BODIN",
+      "musique": "DaDaDa(25)5a7aDaDa",
+      "nom": "MARTIN SOMOLLI",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 630.0
+    },
+    {
+      "age": 4,
+      "entraineur": "A. LEBOURGEOIS",
+      "gains": null,
+      "jockey": "Mlle H. FERNANDES RIOS",
+      "musique": "7m9mDm9m5m5m7m9aDmDm",
+      "nom": "MARCO DU VERGER",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 570.0
+    },
+    {
+      "age": 4,
+      "entraineur": "N. PERRELLE",
+      "gains": null,
+      "jockey": "M. DURVILLE",
+      "musique": "4a6a0mDm7a5m6a5a3a0a",
+      "nom": "MYSTIC FISH",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 630.0
+    },
+    {
+      "age": 4,
+      "entraineur": "F. QUITTET",
+      "gains": null,
+      "jockey": "J. CERISIER",
+      "musique": "DaDa1a7aDaDa6a",
+      "nom": "MON DE LAYE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 630.0
+    },
+    {
+      "age": 4,
+      "entraineur": "Renaud JULIEN",
+      "gains": null,
+      "jockey": "TH. DROMIGNY",
+      "musique": "Da4a2a4a8aDaDa5a7a(25)",
+      "nom": "MAGIK MIL",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 630.0
+    },
+    {
+      "age": 4,
+      "entraineur": "G. DEMOULIN",
+      "gains": null,
+      "jockey": "Mme CL. VERVA",
+      "musique": "6mDa8a6a5m3m0a7aDaDa",
+      "nom": "MALOU DE DIGEON",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 570.0
+    },
+    {
+      "age": 4,
+      "entraineur": "A. HENARD",
+      "gains": null,
+      "jockey": "LILIAN BERTIN",
+      "musique": "8a(25)5a0a8a3a3a7a4a4a",
+      "nom": "MAESTRO DE DUSSAC",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 630.0
+    },
+    {
+      "age": 4,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "Mlle NOEMIE HARDY",
+      "musique": "Da8a4a7a6a4a8a8a9a4a",
+      "nom": "MOULIN DU VAL",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 620.0
+    },
+    {
+      "age": 4,
+      "entraineur": "D. BROHIER",
+      "gains": null,
+      "jockey": "Mme CLEA ROGER",
+      "musique": "1m5m7aDaDa2aDaDa",
+      "nom": "MAESTRO DES HETRES",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 620.0
+    },
+    {
+      "age": 4,
+      "entraineur": "A. LEBOURGEOIS",
+      "gains": null,
+      "jockey": "E. ROGY",
+      "musique": "1m1m2mDmDmDm4mDa9a(25)",
+      "nom": "MOLITOR FLIGNY",
+      "non_partant": false,
+      "numero": 13,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "Gregory MARTENS",
+      "gains": null,
+      "jockey": "A. ANDRE",
+      "musique": "9m0a1m3m4m6m0aDm(25)7m",
+      "nom": "MAHARADJAH ROYAL",
+      "non_partant": false,
+      "numero": 14,
+      "poids": 630.0
+    },
+    {
+      "age": 4,
+      "entraineur": "TH. RAFFEGEAU",
+      "gains": null,
+      "jockey": "Mme T. MATHIAS-MAISONNETTE",
+      "musique": "Dm6m3m1m6mDmDm(25)1m5m",
+      "nom": "MARIUS DU CLOS",
+      "non_partant": false,
+      "numero": 15,
+      "poids": 620.0
+    },
+    {
+      "age": 4,
+      "entraineur": "TH. LAMARE",
+      "gains": null,
+      "jockey": "V. SAUSSAYE",
+      "musique": "Da7a4a0a7m(25)1m0a3aDa",
+      "nom": "MOZAR DE REVE D'OR",
+      "non_partant": false,
+      "numero": 16,
+      "poids": 630.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 13,
+    "heure_paris": "2026-10-24T06:25:11.324025+02:00",
+    "meilleur_place": 15,
+    "moteur": "M1",
+    "ordre_espere": [
+      13,
+      15,
+      12,
+      8,
+      14
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R4/C4/participants"
+}

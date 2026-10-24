@@ -1,0 +1,116 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C7",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T17:35:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:07.603422+02:00",
+  "hippodrome": "COMPIEGNE",
+  "partants": [
+    {
+      "age": 9,
+      "entraineur": "N. GEORGE & A. ZETTERHOLM",
+      "gains": null,
+      "jockey": "J.HONDIER",
+      "musique": "6h5s(25)5h7h1h1h(24)2h3h",
+      "nom": "GALLIPOLI",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 700.0
+    },
+    {
+      "age": 6,
+      "entraineur": "Y.FOUIN (S)",
+      "gains": null,
+      "jockey": "A.CHESNEAU",
+      "musique": "8h2h4h2h3h(25)1h1h1p2p",
+      "nom": "STYLE D'EMIRS",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 680.0
+    },
+    {
+      "age": 5,
+      "entraineur": "F.NICOLLE",
+      "gains": null,
+      "jockey": "A.ZULIANI",
+      "musique": "2h3s6s3h1h(25)Js2s1s",
+      "nom": "OLYMPIC STORY",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 680.0
+    },
+    {
+      "age": 5,
+      "entraineur": "N. GEORGE & A. ZETTERHOLM",
+      "gains": null,
+      "jockey": "J.REVELEY",
+      "musique": "4h1h(25)4h4h1h1h1h0p1p",
+      "nom": "ILLUSION MACHINE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 670.0
+    },
+    {
+      "age": 6,
+      "entraineur": "Y.FOUIN (S)",
+      "gains": null,
+      "jockey": "G.MEUNIER",
+      "musique": "5h2h2h(25)4h(24)4h2h4h3h",
+      "nom": "GARDIEN DE MUSEE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 660.0
+    },
+    {
+      "age": 7,
+      "entraineur": "MME O.ELLART",
+      "gains": null,
+      "jockey": "A.DUVACHER",
+      "musique": "2h(25)1h1h(24)5h2h(23)1h1h",
+      "nom": "CAF'CONC",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 660.0
+    },
+    {
+      "age": 5,
+      "entraineur": "L.URBANEK",
+      "gains": null,
+      "jockey": "T.BEAURAIN",
+      "musique": "1h2hAh6h(25)4h1hTh4s3h",
+      "nom": "ANATOLE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 650.0
+    },
+    {
+      "age": 5,
+      "entraineur": "N. GEORGE & A. ZETTERHOLM",
+      "gains": null,
+      "jockey": "L.BRECHET",
+      "musique": "8h1h4h9h(25)3h1h1h2h",
+      "nom": "AL FONCE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 650.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-24T06:25:07.603422+02:00",
+    "meilleur_place": 3,
+    "moteur": "M5",
+    "ordre_espere": [
+      6,
+      3,
+      4,
+      5,
+      7
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C7/participants"
+}

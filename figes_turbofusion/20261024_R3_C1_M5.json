@@ -1,0 +1,149 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R3C1",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T11:30:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:09.171270+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "Mlle S. BLANCHETIERE",
+      "musique": "6a4a1a2a1a8a4a3a7a0a",
+      "nom": "JET SET CODIE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "D. BEKAERT",
+      "gains": null,
+      "jockey": "S. TRIOMPHE",
+      "musique": "1a4aDa5a1a1a5aDa4a(25)",
+      "nom": "JAXON DE BRY",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "ED. COUBARD-MEUNIER",
+      "gains": null,
+      "jockey": "Mlle V. GRELIN",
+      "musique": "0a0a4a7a2a3a8a6a3a3a",
+      "nom": "ITALIO DE LA ROQUE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "PH. JEANNERET",
+      "gains": null,
+      "jockey": "H. LAKHRISSI",
+      "musique": "6a0a0a4a5a4a9a5a6a9a",
+      "nom": "HALDO DE LA CLOUE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "D. LEBOIS",
+      "gains": null,
+      "jockey": "TH. LEBOIS",
+      "musique": "0a3a6a6a5a0a5a5aDa4a",
+      "nom": "JUST A SONG",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J.M. ROUBAUD",
+      "gains": null,
+      "jockey": "Mme M. ROUBAUD",
+      "musique": "4a3a3a2a6a2a2a3a3a4a",
+      "nom": "J'ADORE CE MEC",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "MICKAEL CORMY",
+      "gains": null,
+      "jockey": "Mme V. BOUDIER-CORMY",
+      "musique": "5a1a1a3a4a5aDa7a3aDa",
+      "nom": "JESCO DE LA VALLEE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "F. MARTY",
+      "gains": null,
+      "jockey": "L. SEIGNE",
+      "musique": "8a1a3a5a6a0a6a(25)9a1a",
+      "nom": "JAVERT",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Y. LAVIGNE",
+      "gains": null,
+      "jockey": "G. BLANCHARD",
+      "musique": "0a4aDaDa3a0a8a3a0aDa",
+      "nom": "JOJO DE BOURGOGNE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "PH. JEANNERET",
+      "gains": null,
+      "jockey": "PH. JEANNERET",
+      "musique": "Da5a6a7a0a7aDaDa7a3a",
+      "nom": "JAMBEROO",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "N. JULIEN",
+      "gains": null,
+      "jockey": "PH. TERME",
+      "musique": "8a7a9a9aDa2aDaDa(25)3a",
+      "nom": "JIOSCO DE SAUZETTE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 2,
+    "heure_paris": "2026-10-24T06:25:09.171270+02:00",
+    "meilleur_place": 7,
+    "moteur": "M5",
+    "ordre_espere": [
+      2,
+      7,
+      1,
+      6,
+      5
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R3/C1/participants"
+}

@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C7",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T16:00:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:13.252508+02:00",
+  "hippodrome": "CHATEAUBRIANT",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "M. DONIO",
+      "gains": null,
+      "jockey": "G. DONIO",
+      "musique": "DaDa9a9a",
+      "nom": "MY WINNER RUSH",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.PH. BORODAJKO",
+      "gains": null,
+      "jockey": "J.PH. BORODAJKO",
+      "musique": "8a5aDaDaDaDa9a(25)0a",
+      "nom": "MICKEY AL",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. POJASEK",
+      "gains": null,
+      "jockey": "R. POJASEK",
+      "musique": "4aDaDaDa4a",
+      "nom": "MAESTRO DES BARGES",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Ph. BOUTIN",
+      "gains": null,
+      "jockey": "E. RAFFIN",
+      "musique": "3a2aDa9a7a0a3a",
+      "nom": "MACHECOUL A TROIS",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. LETONTURIER",
+      "gains": null,
+      "jockey": "F. LETONTURIER",
+      "musique": "8aDmDm2mDm7aDa3a6a2a",
+      "nom": "MINOS DE LA VALLEE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Ph. BOUTIN",
+      "gains": null,
+      "jockey": "O. RAFFIN",
+      "musique": "DaDmDaDa5a7aDaDa6a4a",
+      "nom": "MALUCO JETS",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. JOLY",
+      "gains": null,
+      "jockey": "R. JOLY",
+      "musique": "2a1a(25)5a5aDaDa",
+      "nom": "MIRAGE RENARDIER",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "O. POTIER",
+      "gains": null,
+      "jockey": "O. POTIER",
+      "musique": "5aDaDaDaDaDa8a4a2aDa",
+      "nom": "MYSTERE DE MAGNY",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "CH. BOISNARD",
+      "gains": null,
+      "jockey": "CH. BOISNARD",
+      "musique": "3a6a5a3a4a6a6a1a4a4a",
+      "nom": "MADE IN ALDO",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. LANGELIER",
+      "gains": null,
+      "jockey": "P. OLLITRAULT",
+      "musique": "5a3a0aDaDa2aDaDa1aDa",
+      "nom": "METEORE DE SIENNE",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E.G. BLOT",
+      "gains": null,
+      "jockey": "T. OUVRIE",
+      "musique": "4aDa9a9aDaDa6a2a8a9a",
+      "nom": "MOJITO D'AXEL",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.L. BIGEON",
+      "gains": null,
+      "jockey": "M. HERRAULT",
+      "musique": "Da3a1a5a5a5aDaDa(25)1a",
+      "nom": "MORANT DAIRPET",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "St. PROVOOST",
+      "gains": null,
+      "jockey": "W. CHANTELARD",
+      "musique": "7aDm8a5a5a1a3a3a4a7a",
+      "nom": "MOJITO DANOVER",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.M. GUILLOTTE",
+      "gains": null,
+      "jockey": "G. MARIN",
+      "musique": "8aDa4a8a1a2a5aDa8a7a",
+      "nom": "MARTIN MOUROTAIS",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 10,
+    "heure_paris": "2026-10-24T06:25:13.252508+02:00",
+    "meilleur_place": 7,
+    "moteur": "M5",
+    "ordre_espere": [
+      10,
+      7,
+      12,
+      9,
+      8
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R10/C7/participants"
+}

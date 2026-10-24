@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C3",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T17:17:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:11.049647+02:00",
+  "hippodrome": "CABOURG",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "V. LAISNEY",
+      "gains": null,
+      "jockey": "ANTOINE MICHEL FOSSEY",
+      "musique": "Da3a3aDa3a7a7aDa6aDa",
+      "nom": "LEGENDE DRY",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. FRERET",
+      "gains": null,
+      "jockey": "P. FRERET",
+      "musique": "Da6aDa1a7a1a7a4a2a6a",
+      "nom": "LONA DE CHAP",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. HAREL",
+      "gains": null,
+      "jockey": "A. LAMY",
+      "musique": "6a3a6a7aDa8aDa2a3a4a",
+      "nom": "LADY D'HELIOS",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G. HOUEL",
+      "gains": null,
+      "jockey": "G. HOUEL",
+      "musique": "5a1a1a3a0a6aDaDa5a2a",
+      "nom": "LIBRA SUPREME",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. PESCHET",
+      "gains": null,
+      "jockey": "Y. LEBOURGEOIS",
+      "musique": "0a3a1a1a1a7a7a(25)8a5a",
+      "nom": "LADY DAIRPET",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. TERRY",
+      "gains": null,
+      "jockey": "CEDRIC TERRY",
+      "musique": "Da1a6a1a8aDa0a6a8aDa",
+      "nom": "LIZENN D'ERQUY",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "CH. BIGEON",
+      "gains": null,
+      "jockey": "D. THOMAIN",
+      "musique": "2a5a9aDa4a1a1a4a4a5a",
+      "nom": "LA BAULE HAUFOR",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. GODEY",
+      "gains": null,
+      "jockey": "GUILLAUME MARTIN",
+      "musique": "Da5a5a4aDaDa5a1a5a2a",
+      "nom": "LADY DE JANEIRO",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Mlle I. KLAPPE",
+      "gains": null,
+      "jockey": "T. LE BELLER",
+      "musique": "9a(25)0a7a0a0a8a8a0a2a",
+      "nom": "LUNA D'ARNHEM",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Sté. Ent. Fabrice SOULOY",
+      "gains": null,
+      "jockey": "F. NIVARD",
+      "musique": "0aDa7aDa(25)7a5a2a1a2a",
+      "nom": "LADY STARLIGHT",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. ERNAULT",
+      "gains": null,
+      "jockey": "S. ERNAULT",
+      "musique": "3a3a1a1a6a7a9a(25)3a1a",
+      "nom": "LADY DE NEUILLY",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. ROGER",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "Da7a9aDa4a6a3a2a4a(25)",
+      "nom": "LELLAMIKA",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. OUVRIE",
+      "gains": null,
+      "jockey": "F. OUVRIE",
+      "musique": "6a8a1a2aDa1aDmDm5a8a",
+      "nom": "LOLITA DE MIELOUI",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "ST. MEUNIER",
+      "gains": null,
+      "jockey": "A. REBECHE",
+      "musique": "0aDa2a5a4a0a0a7a9a0a",
+      "nom": "LICORNVERASPERANZA",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Sté. Ent. Jonathan VANMEERBECK",
+      "gains": null,
+      "jockey": "J. VANMEERBECK",
+      "musique": "Da5a8m7a9a0a8a3a6a4a",
+      "nom": "LOZEN DE BANVILLE",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "CL. RAIMOND",
+      "gains": null,
+      "jockey": "C. RAIMBAUD",
+      "musique": "6a6a3a2a1a1a2aDa(25)3a",
+      "nom": "LITTLE ROAD",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 5,
+    "heure_paris": "2026-10-24T06:25:11.049647+02:00",
+    "meilleur_place": 11,
+    "moteur": "M1",
+    "ordre_espere": [
+      5,
+      11,
+      4,
+      13,
+      16
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R4/C3/participants"
+}

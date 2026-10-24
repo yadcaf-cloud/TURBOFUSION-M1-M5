@@ -1,0 +1,193 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C3",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T15:15:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:06.718488+02:00",
+  "hippodrome": "COMPIEGNE",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "M.SEROR (S)",
+      "gains": null,
+      "jockey": "L.PHILIPPERON",
+      "musique": "3sAs8s2h(25)1h2s1sAs0s",
+      "nom": "SIR MARVEL",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 735.0
+    },
+    {
+      "age": 5,
+      "entraineur": "H.MERIENNE (S)",
+      "gains": null,
+      "jockey": "J.REVELEY",
+      "musique": "2s0s2h4h8h5h7s(25)4s1s",
+      "nom": "COUTE QUE COUTE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 720.0
+    },
+    {
+      "age": 5,
+      "entraineur": "F.NICOLLE",
+      "gains": null,
+      "jockey": "A.ZULIANI",
+      "musique": "1h7h5s7s1s(25)Th4h1h",
+      "nom": "BELLE GOSSE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 720.0
+    },
+    {
+      "age": 5,
+      "entraineur": "F.BELLEMERE",
+      "gains": null,
+      "jockey": "B.LE CLERC",
+      "musique": "1s4h3s3s2h2h(25)AhAh1h",
+      "nom": "LOUBA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 715.0
+    },
+    {
+      "age": 5,
+      "entraineur": "GAB.LEENDERS (S)",
+      "gains": null,
+      "jockey": "J.CHARRON",
+      "musique": "7s1s4hAs(25)2sTs1s1h",
+      "nom": "LADY LADY LAY",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 715.0
+    },
+    {
+      "age": 5,
+      "entraineur": "M.SEROR (S)",
+      "gains": null,
+      "jockey": "J.PHELIPPE",
+      "musique": "1s0h3h0h6h4h(25)2h1h8s",
+      "nom": "LE COLOMBAR",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 705.0
+    },
+    {
+      "age": 5,
+      "entraineur": "GAB.LEENDERS (S)",
+      "gains": null,
+      "jockey": "T.CHEVILLARD",
+      "musique": "2s3s3h2h2h(25)5h5h2h2h",
+      "nom": "MON PETIT PRINCE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 705.0
+    },
+    {
+      "age": 5,
+      "entraineur": "A.LE CLERC (S)",
+      "gains": null,
+      "jockey": "BR.LE CLERC",
+      "musique": "1s7h4s3h1h4h2s1h6h4h",
+      "nom": "LADY ANGE WIN",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 695.0
+    },
+    {
+      "age": 5,
+      "entraineur": "P&C.PELTIER (S)",
+      "gains": null,
+      "jockey": "K.NABET",
+      "musique": "3h2h2h(25)1h8h5h9h",
+      "nom": "LE COEUR SAUVAGE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 690.0
+    },
+    {
+      "age": 5,
+      "entraineur": "L.CARBERRY (S)",
+      "gains": null,
+      "jockey": "T.BEAURAIN",
+      "musique": "6h1h(25)5h3p1p",
+      "nom": "FLYING TRIX",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 690.0
+    },
+    {
+      "age": 5,
+      "entraineur": "MME G.MENATO",
+      "gains": null,
+      "jockey": "T.SERVIER",
+      "musique": "4h1s3s7h7h8h3h(25)1s4s",
+      "nom": "JOCASTA",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 690.0
+    },
+    {
+      "age": 5,
+      "entraineur": "H.MERIENNE (S)",
+      "gains": null,
+      "jockey": "F.GILES",
+      "musique": "1h(25)Js2hAh4h0h2h7h3h",
+      "nom": "LIBRE ARBITRE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 680.0
+    },
+    {
+      "age": 5,
+      "entraineur": "M.ROLLAND (S)",
+      "gains": null,
+      "jockey": "F.BAYLE",
+      "musique": "0h1h8h9h8h8h3h(25)9h4h",
+      "nom": "KING LANE",
+      "non_partant": false,
+      "numero": 13,
+      "poids": 675.0
+    },
+    {
+      "age": 5,
+      "entraineur": "R.SCHMIDLIN",
+      "gains": null,
+      "jockey": "N.FERREIRA",
+      "musique": "2hAh5h(25)2s(24)9h2s1h3p",
+      "nom": "CAPTAIN FLAG",
+      "non_partant": false,
+      "numero": 14,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "D.WINDRIF",
+      "gains": null,
+      "jockey": "L.BEAUBOIS",
+      "musique": "1s1h7h6h5h0s5s7h(25)6h",
+      "nom": "LERIKA",
+      "non_partant": false,
+      "numero": 15,
+      "poids": 640.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 7,
+    "heure_paris": "2026-10-24T06:25:06.718488+02:00",
+    "meilleur_place": 4,
+    "moteur": "M5",
+    "ordre_espere": [
+      7,
+      4,
+      9,
+      12,
+      14
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C3/participants"
+}

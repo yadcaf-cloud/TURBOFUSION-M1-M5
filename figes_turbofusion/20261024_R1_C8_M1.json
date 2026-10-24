@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C8",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T18:10:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:07.749268+02:00",
+  "hippodrome": "COMPIEGNE",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "LAGENESTE & MACAIRE (S)",
+      "gains": null,
+      "jockey": "Q.DEFONTAINE",
+      "musique": "3h2h3s4s2h(25)1s1s1s4h",
+      "nom": "MACARENA DU RIB",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 710.0
+    },
+    {
+      "age": 4,
+      "entraineur": "F.NICOLLE",
+      "gains": null,
+      "jockey": "A.ZULIANI",
+      "musique": "5s3s4sAs(25)1sAs1h1h4h",
+      "nom": "DIAMANT DU RHEU",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 710.0
+    },
+    {
+      "age": 4,
+      "entraineur": "LAGENESTE & MACAIRE (S)",
+      "gains": null,
+      "jockey": "K.DUBOURG",
+      "musique": "0s4s2sTs1h2h(25)5h",
+      "nom": "NEVER SEEN",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 700.0
+    },
+    {
+      "age": 4,
+      "entraineur": "J.BOISNARD (S)",
+      "gains": null,
+      "jockey": "J.CHARRON",
+      "musique": "0s4h1s3s(25)5s6h4h4h2h",
+      "nom": "LEWIS GREY",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 690.0
+    },
+    {
+      "age": 4,
+      "entraineur": "S.FOUCHER",
+      "gains": null,
+      "jockey": "A.LEPAGE",
+      "musique": "1s2s3p2s4h(25)5h1h7p3p",
+      "nom": "THE PRINCE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 690.0
+    },
+    {
+      "age": 4,
+      "entraineur": "M.ROLLAND (S)",
+      "gains": null,
+      "jockey": "L.PHILIPPERON",
+      "musique": "0s3s2s(25)3h1h0h",
+      "nom": "DANCE ALL NIGHT",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 680.0
+    },
+    {
+      "age": 4,
+      "entraineur": "J.BOISNARD (S)",
+      "gains": null,
+      "jockey": "T.CHEVILLARD",
+      "musique": "Ts4h3sTs(25)1s1sAh1h7h",
+      "nom": "MALESSIA",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 680.0
+    },
+    {
+      "age": 4,
+      "entraineur": "E.GRALL (S)",
+      "gains": null,
+      "jockey": "THO .JOURNIAC",
+      "musique": "2s5sTh(25)2h4h9h5p",
+      "nom": "MEC DE LA BARRIERE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 680.0
+    },
+    {
+      "age": 4,
+      "entraineur": "D.COTTIN (S)",
+      "gains": null,
+      "jockey": "G.SANCHEZ",
+      "musique": "Ah",
+      "nom": "MON AUDACE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 670.0
+    },
+    {
+      "age": 4,
+      "entraineur": "H.MERIENNE (S)",
+      "gains": null,
+      "jockey": "T.BEAURAIN",
+      "musique": "6sTsAh5h(25)8hAh1h7h1h",
+      "nom": "MIKI BILLY",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 670.0
+    },
+    {
+      "age": 4,
+      "entraineur": "F.BELLEMERE",
+      "gains": null,
+      "jockey": "B.LE CLERC",
+      "musique": "4s4s(25)8h3hAs4s7h2h3h",
+      "nom": "POPY",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 660.0
+    },
+    {
+      "age": 4,
+      "entraineur": "M.ROLLAND (S)",
+      "gains": null,
+      "jockey": "F.GILES",
+      "musique": "Js1s0h2h2h0h0h",
+      "nom": "CIEL MON CASTOR",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 660.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-24T06:25:07.749268+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      12,
+      3,
+      5,
+      1,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C8/participants"
+}

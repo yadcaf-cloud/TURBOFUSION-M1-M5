@@ -1,0 +1,193 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R3C2",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T12:02:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:09.317390+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "Y. HENRY",
+      "gains": null,
+      "jockey": "N. BRUN",
+      "musique": "9a4a4aDa4a5a2aDaDa1a",
+      "nom": "KALINEO PENEME",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "R. MOURICE",
+      "gains": null,
+      "jockey": "G. TUGEND",
+      "musique": "Da0a0aDaDaDa7a(25)5a4a",
+      "nom": "JOY DU CHERISAY",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "E. BRIAND",
+      "musique": "3a1a1a5a2a7a0a6aDa2a",
+      "nom": "JEANNOT DU SABLIER",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "D. ALEXANDRE",
+      "gains": null,
+      "jockey": "M. DEMISSY",
+      "musique": "0aDa5a8a7a6a8a8a7a0a",
+      "nom": "JURITI",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "CHARLES BOUVIER",
+      "gains": null,
+      "jockey": "TH. GOUT",
+      "musique": "0a5aDa3a7a1a1a2a1aDa",
+      "nom": "KOREDE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "M. BONNEFOY",
+      "gains": null,
+      "jockey": "N. CORMY",
+      "musique": "2aDa0a4a6a3a2aDa4a9a",
+      "nom": "KUNG FU FAMILY",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "C. HERSERANT",
+      "gains": null,
+      "jockey": "Y. BOUISSON",
+      "musique": "1a6aDa(25)0a2aDa3aDm7a",
+      "nom": "KOUBA BLUE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "O. MERLE",
+      "gains": null,
+      "jockey": "H. SOREL",
+      "musique": "8a3a3a2a7a5a0a2a5aDa",
+      "nom": "JET SCOTT",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "S. LALOUM",
+      "gains": null,
+      "jockey": "Y. JACQUOT-ELAZZOUZI",
+      "musique": "Da8aDaDa1aDa0a(25)DaDa",
+      "nom": "JOE LOUIS",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "D. CINIER",
+      "gains": null,
+      "jockey": "N. CINIER",
+      "musique": "0a2aAa1a6a1a1a1aDa7a",
+      "nom": "JULIA DOCTOR",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J.P. GAUVIN",
+      "gains": null,
+      "jockey": "M. CINIER",
+      "musique": "0a4a2a1aDa1aDa2aDa7a",
+      "nom": "KLIC JULRY",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "G. ALAINE",
+      "gains": null,
+      "jockey": "M. AOUDIA",
+      "musique": "9a6a9a9a3a0aDa7a9a9a",
+      "nom": "JAVA DE NERET",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "G. TOURON",
+      "gains": null,
+      "jockey": "Mlle P. HERRY",
+      "musique": "3a2a2a2a5a3a8a0a7a5a",
+      "nom": "KOMANIA D'ABY",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J. GUELPA",
+      "gains": null,
+      "jockey": "C. TOUSSAINT",
+      "musique": "6aDa6a3a4a9a0aDa4a7a",
+      "nom": "JADA MOKO",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "P. REPICHET",
+      "gains": null,
+      "jockey": "Mlle C. THONNEL",
+      "musique": "9a1a1a8a2a2a3a3a5a2a",
+      "nom": "JOKERO BELLO",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 11,
+    "heure_paris": "2026-10-24T06:25:09.317390+02:00",
+    "meilleur_place": 10,
+    "moteur": "M1",
+    "ordre_espere": [
+      11,
+      10,
+      3,
+      13,
+      7
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R3/C2/participants"
+}

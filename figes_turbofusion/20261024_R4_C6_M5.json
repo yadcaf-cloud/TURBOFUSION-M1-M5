@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C6",
+  "date_course": "2026-10-24",
+  "depart_paris": "2026-10-24T19:02:00+02:00",
+  "fige_a_paris": "2026-10-24T06:25:11.626652+02:00",
+  "hippodrome": "CABOURG",
+  "partants": [
+    {
+      "age": 3,
+      "entraineur": "V. SEGUIN",
+      "gains": null,
+      "jockey": "M. DURVILLE",
+      "musique": "6mTa0a8aDaDa",
+      "nom": "NUIT DU PERCHE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "S. ROGER",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "DaDmDmDm7m4mDmDm9m5m",
+      "nom": "NAELE DU POMMEREUX",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "E. ROGY",
+      "musique": "3mDa5m5m",
+      "nom": "NOEMIE D'AVEL",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 560.0
+    },
+    {
+      "age": 3,
+      "entraineur": "TH. RAFFEGEAU",
+      "gains": null,
+      "jockey": "Mme T. MATHIAS-MAISONNETTE",
+      "musique": "4a4mDm3a7a6aDaDaDa",
+      "nom": "NIKITA DU CLOS",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 570.0
+    },
+    {
+      "age": 3,
+      "entraineur": "J. CERISIER",
+      "gains": null,
+      "jockey": "J. CERISIER",
+      "musique": "7m8m7m7m5m7mDm7mDm3m",
+      "nom": "NOSTALGIA QUICK",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "L. BARASSIN",
+      "gains": null,
+      "jockey": "V. SAUSSAYE",
+      "musique": "Da1a4a",
+      "nom": "NISABEL DIANA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "F. BLANDIN",
+      "gains": null,
+      "jockey": "A. REBECHE",
+      "musique": "7m9mDm4m9a9mDm8mDm4m",
+      "nom": "NANALAND",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "F. BLANDIN",
+      "gains": null,
+      "jockey": "Mlle NOEMIE HARDY",
+      "musique": "6m2m6mDaDm6m6mDm6m5m",
+      "nom": "NUSICA ASSCHADEL",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 570.0
+    },
+    {
+      "age": 3,
+      "entraineur": "Anthony DOLLION",
+      "gains": null,
+      "jockey": "A. LAMY",
+      "musique": "5m2a2aDa4a",
+      "nom": "NUSTINE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "A.H. POST",
+      "gains": null,
+      "jockey": "TH. ROULLIER",
+      "musique": "0a4aDa5a3aDa5aDaDa2a",
+      "nom": "NIKITA QUICK",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 560.0
+    },
+    {
+      "age": 3,
+      "entraineur": "A. DE VAUGIRAUD",
+      "gains": null,
+      "jockey": "TH. DROMIGNY",
+      "musique": "1mDaDm5m",
+      "nom": "NOSTALGIE DE BLAY",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "E. VARIN",
+      "gains": null,
+      "jockey": "ALEXANDRE BODIN",
+      "musique": "7aDa5a2aDa6aDaDa2a5a",
+      "nom": "NINA CHARENTAISE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "J.B. LEMOINE",
+      "gains": null,
+      "jockey": "GUILLAUME MARTIN",
+      "musique": "2m3mDa4aDaDaDa3a",
+      "nom": "NO TIME TO JYL",
+      "non_partant": false,
+      "numero": 13,
+      "poids": 580.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 13,
+    "heure_paris": "2026-10-24T06:25:11.626652+02:00",
+    "meilleur_place": 9,
+    "moteur": "M5",
+    "ordre_espere": [
+      13,
+      9,
+      10,
+      3,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R4/C6/participants"
+}
