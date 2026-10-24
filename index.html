@@ -263,7 +263,7 @@ const list = v => Array.isArray(v) ? v : [];
 
 const display = v =>
   Array.isArray(v)
-    ? v.map(x=>typeof x==='object'
+    ? v.map(x=>typeof x==='object' && x!==null
       ? texte(val(x,'numero','num','nom','id'))
       : String(x)).join(' - ')
     : typeof v==='object' && v!==null
@@ -280,13 +280,16 @@ const dateParis = d =>
   }).format(d);
 
 function moteurId(m,i){
-  let raw=texte(val(m,'moteur','id','nom','name'),`M${i+1}`);
-  let match=raw.match(/M\s*([1-5])/i);
+  const raw=texte(val(m,'moteur','id','nom','name'),`M${i+1}`);
+  const match=raw.match(/M\s*([1-5])/i);
   return match ? `M${match[1]}` : raw;
 }
 
 function moteurTable(data){
-  let rows=list(val(data,'moteurs','engines','analyses'));
+  const rows=list(val(data,'moteurs','engines','analyses'));
+  const heureCourse=val(
+    data,'depart_paris','heure','heure_depart','depart'
+  );
 
   return `
   <div class="tablewrap">
@@ -305,17 +308,18 @@ function moteurTable(data){
   </thead>
   <tbody>
   ${[1,2,3,4,5].map(n=>{
-    let m=rows.find((r,i)=>moteurId(r,i)===`M${n}`)||{};
+    const m=rows.find((r,i)=>moteurId(r,i)===`M${n}`)||{};
+
     return `
     <tr>
       <td class="engine m${n}">M${n}</td>
-      <td>${e(val(m,'gagnant','gagnant_espere','winner'))}</td>
-      <td>${e(val(m,'place','meilleur_place','place_espere'))}</td>
-      <td>${e(val(m,'ordre','ordre_espere','selection','combinaison'))}</td>
-      <td>${e(val(m,'pari','pari_retenu','type_pari'))}</td>
+      <td>${e(val(m,'gagnant_espere','gagnant','winner'))}</td>
+      <td>${e(val(m,'meilleur_place','place','place_espere'))}</td>
+      <td>${e(val(m,'ordre_espere','ordre','selection','combinaison'))}</td>
+      <td>${e(val(m,'pari_retenu','pari','type_pari'))}</td>
       <td>${e(val(m,'qualification','appreciation'))}</td>
       <td>${e(val(m,'validation','statut','status'))}</td>
-      <td>${e(val(m,'heure_paris','heure','timestamp'))}</td>
+      <td>${e(val(m,'heure_paris','heure','timestamp')||heureCourse)}</td>
     </tr>`;
   }).join('')}
   </tbody>
@@ -324,17 +328,18 @@ function moteurTable(data){
 }
 
 function tableauMoteurs(x){
-  let courses=list(val(x,'courses','races'));
+  const courses=list(val(x,'courses','races'));
 
-  if(!courses.length)
+  if(!courses.length){
     return '<p class="empty">Aucune course publiée dans dashboard.json.</p>';
+  }
 
   return courses.map((c,i)=>`
   <article class="course">
     <div class="coursehead">
       <h3>${e(val(c,'course','nom','libelle','name')||`Course ${i+1}`)}</h3>
       <span class="tag">${e(val(c,'reunion','hippodrome','lieu'))}</span>
-      <span class="tag">🕒 ${e(val(c,'heure','heure_depart','depart'))}</span>
+      <span class="tag">🕒 ${e(val(c,'depart_paris','heure','heure_depart','depart'))}</span>
       <span class="tag">👥 ${e(val(c,'partants','nombre_partants','nb_partants'))} partants</span>
       <span class="tag">NP : ${e(val(c,'non_partants','np'))}</span>
     </div>
@@ -349,13 +354,15 @@ function tableauMoteurs(x){
 }
 
 function objets(items,empty){
-  if(!items.length)
+  if(!items.length){
     return `<p class="empty">${escapeHTML(empty)}</p>`;
+  }
 
   return items.map((item,i)=>{
-    let obj=typeof item==='object' && item!==null
+    const obj=typeof item==='object' && item!==null
       ? item : {valeur:item};
-    let title=val(obj,'course','nom','id','moteur')
+
+    const title=val(obj,'course','nom','id','moteur')
       || `Enregistrement ${i+1}`;
 
     return `
@@ -382,13 +389,17 @@ async function charger(){
 
     const response=await fetch(url,{cache:'no-store'});
 
-    if(!response.ok)
-      throw new Error(`HTTP ${response.status} : ${url.pathname}`);
+    if(!response.ok){
+      throw new Error(
+        `HTTP ${response.status} : ${url.pathname}`
+      );
+    }
 
     const x=await response.json();
 
-    if(!x || typeof x!=='object' || Array.isArray(x))
+    if(!x || typeof x!=='object' || Array.isArray(x)){
       throw new Error('Format JSON incorrect : objet attendu');
+    }
 
     const courses=list(val(x,'courses','races'));
     const figes=list(val(x,'figes','locks'));
@@ -399,8 +410,12 @@ async function charger(){
     $('nbAudits').textContent=audits.length;
 
     $('moteurs').innerHTML=tableauMoteurs(x);
-    $('figesListe').innerHTML=objets(figes,'Aucun FIGÉ enregistré.');
-    $('auditsListe').innerHTML=objets(audits,'Aucun audit enregistré.');
+    $('figesListe').innerHTML=objets(
+      figes,'Aucun FIGÉ enregistré.'
+    );
+    $('auditsListe').innerHTML=objets(
+      audits,'Aucun audit enregistré.'
+    );
 
     $('etat').textContent='🟢 Données chargées';
     $('etat').className='status ok';
@@ -414,13 +429,16 @@ async function charger(){
   }catch(err){
     $('etat').textContent='🔴 Erreur de lecture';
     $('etat').className='status error';
+
     $('message').textContent=err.message;
+
     $('diagnosticText').textContent=
       'Vérifier que dashboard.json existe à côté de index.html sur la branche publiée par GitHub Pages. Détail : '+err.message;
 
   }finally{
     $('lecture').textContent=
       'Dernière tentative : '+dateParis(new Date());
+
     chargement=false;
     $('refresh').disabled=false;
   }
@@ -438,4 +456,5 @@ document.addEventListener('visibilitychange',()=>{
 });
 </script>
 </body>
-</html>
+                           </html>
+                           
