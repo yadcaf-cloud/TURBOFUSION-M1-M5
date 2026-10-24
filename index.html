@@ -1,475 +1,626 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#081426">
 <title>🇸🇳 TURBOFUSION M1–M5 | Intelligence hippique</title>
 <style>
 :root{
   color-scheme:dark;
-  --bg:#081324;
-  --panel:#12233b;
-  --line:#35516e;
-  --text:#eef5ff;
-  --muted:#a9bed5;
+  --bg:#081426;
+  --panel:#12243c;
+  --panel2:#182f4c;
+  --line:#34516f;
+  --text:#edf5ff;
+  --muted:#afc3d8;
   --gold:#ffd166;
+  --green:#39d98a;
+  --yellow:#ffca57;
+  --red:#ff7782;
 }
 *{box-sizing:border-box}
 body{
   margin:0;
-  background:linear-gradient(145deg,#081324,#102b46);
-  font-family:system-ui,Arial,sans-serif;
+  background:linear-gradient(145deg,#081426,#102b46);
   color:var(--text);
+  font-family:system-ui,Arial,sans-serif;
+  line-height:1.5;
 }
 header{
-  padding:34px 18px;
+  text-align:center;
+  padding:32px 16px;
   background:linear-gradient(120deg,#123c62,#15325a 55%,#432a65);
   border-bottom:3px solid var(--gold);
-  text-align:center;
 }
-h1{font-size:clamp(25px,5vw,42px);margin:0 0 12px}
-header p{color:#d9eaff;margin:6px}
-nav{
-  position:sticky;
-  top:0;
-  z-index:5;
-  background:#0c1c30;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:8px;
-  padding:12px;
-  border-bottom:1px solid var(--line);
-}
-nav a{
-  color:white;
-  text-decoration:none;
-  background:#204263;
-  padding:10px 14px;
-  border-radius:10px;
-  font-weight:650;
-}
-nav a:hover{background:#356b96}
-main{max-width:1250px;margin:auto;padding:20px 14px}
+h1{font-size:clamp(25px,5vw,42px);margin:0}
+h2{font-size:22px;color:var(--gold)}
+h3{font-size:18px}
+p{margin:8px 0}
+small,.muted{color:var(--muted)}
+.slogan{font-size:18px;color:var(--gold)}
+main{max-width:1350px;margin:auto;padding:18px}
 section{
-  background:rgba(18,35,59,.96);
+  background:var(--panel);
   border:1px solid var(--line);
-  border-radius:16px;
+  border-radius:14px;
   padding:20px;
   margin:18px 0;
-  box-shadow:0 8px 25px #0002;
 }
-h2{margin-top:0;color:var(--gold)}
-.status{
-  display:inline-block;
-  border-radius:30px;
-  background:#243b55;
-  padding:9px 14px;
-  font-weight:700;
-}
-.ok{color:#6ce4a0}
-.warn{color:#ffda83}
-.error{color:#ff9c9c}
-.muted{color:var(--muted)}
-.row{
-  display:flex;
-  flex-wrap:wrap;
-  align-items:center;
-  justify-content:space-between;
-  gap:12px;
-}
-.cards{
+.grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
   gap:12px;
 }
 .card{
-  background:#192f4d;
-  border-left:5px solid #55aaff;
-  padding:17px;
+  background:var(--panel2);
+  border:1px solid var(--line);
+  padding:16px;
   border-radius:12px;
 }
-.card strong{font-size:30px;display:block;margin-top:8px}
+.m1{border-left:5px solid #4aa3ff}
+.m2{border-left:5px solid #39d98a}
+.m3{border-left:5px solid #bb88ff}
+.m4{border-left:5px solid #ffad52}
+.m5{border-left:5px solid #ffd166}
+label{display:block;margin:10px 0 5px;font-weight:600}
+input,select,textarea{
+  width:100%;
+  padding:11px;
+  border-radius:8px;
+  border:1px solid var(--line);
+  background:#081b30;
+  color:white;
+  font:inherit;
+}
+textarea{min-height:80px;resize:vertical}
 button{
-  background:#ffcc62;
-  color:#162033;
-  border:0;
-  border-radius:10px;
-  padding:12px 18px;
-  font-weight:800;
+  background:#285d91;
+  border:1px solid #5e8db7;
+  color:white;
+  padding:11px 15px;
+  border-radius:9px;
+  font:inherit;
+  font-weight:650;
   cursor:pointer;
 }
-button:disabled{opacity:.6}
-.tablewrap{
-  overflow-x:auto;
-  border-radius:12px;
-  border:1px solid var(--line);
+button:hover{filter:brightness(1.15)}
+button:disabled{opacity:.5;cursor:not-allowed}
+button.gold{background:#86601d;border-color:var(--gold)}
+button.green{background:#176b4b;border-color:var(--green)}
+button.red{background:#74313c;border-color:var(--red)}
+.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:15px}
+.two{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:14px;
 }
-table{
-  border-collapse:collapse;
-  width:100%;
-  min-width:760px;
-}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:1050px}
 th,td{
-  padding:12px;
+  padding:10px;
+  border:1px solid var(--line);
   text-align:left;
-  border-bottom:1px solid #38516b;
   vertical-align:top;
 }
-th{background:#234464;color:#fff}
-tr:nth-child(even){background:#182e49}
-.engine{font-weight:800;border-left:5px solid #999}
-.m1{border-left-color:#4aa7ff}
-.m2{border-left-color:#56d79c}
-.m3{border-left-color:#b994ff}
-.m4{border-left-color:#ffbc5b}
-.m5{border-left-color:#ff738b}
-.tag{
+th{background:#1e3c60;color:var(--gold)}
+td input,td select{min-width:115px}
+.status{
   display:inline-block;
-  background:#315575;
+  padding:6px 11px;
+  border-radius:20px;
+  font-weight:700;
+  background:#584719;
+  color:#ffe39b;
+}
+.status.ok{background:#14573d;color:#9af3c5}
+.status.bad{background:#632d37;color:#ffc1c8}
+.notice{
+  border-left:4px solid var(--yellow);
+  background:#40351d;
+  padding:12px;
+  border-radius:7px;
+}
+pre{
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  background:#081b30;
+  padding:14px;
   border-radius:8px;
-  padding:5px 9px;
-  margin:2px;
 }
-.empty{color:#c9d6e5;padding:18px}
-.course{
-  margin:18px 0;
-  border:1px solid #426080;
-  border-radius:14px;
-  overflow:hidden;
+footer{text-align:center;padding:25px;color:var(--muted)}
+a{color:#9ed4ff}
+@media(max-width:650px){
+  main{padding:9px}
+  section{padding:13px}
+  button{width:100%}
 }
-.coursehead{background:#214465;padding:15px}
-.coursehead h3{margin:0 0 6px}
-.coursebody{padding:12px}
-footer{text-align:center;color:#aec2d8;padding:30px}
-small{color:#b5c9dd}
 </style>
 </head>
 <body>
 
 <header>
-<h1>🇸🇳🧠🔥 TURBOFUSION M1–M5</h1>
-<p>Intelligence hippique spécialisée — La magie du savoir</p>
-<p>La mémoire conserve • L'analyse comprend • L'expérience enseigne</p>
+  <h1>🇸🇳🧠🔥 TURBOFUSION M1–M5</h1>
+  <p class="slogan">Intelligence hippique spécialisée — La magie du savoir</p>
+  <p>La mémoire conserve • L'analyse comprend • L'expérience enseigne</p>
+  <p>🇫🇷 Courses hippiques françaises — Études indépendantes et arbitrage</p>
 </header>
-
-<nav>
-<a href="#accueil">Accueil</a>
-<a href="#courses">Courses et moteurs</a>
-<a href="#figes">🔒 FIGÉS</a>
-<a href="#audits">Audits</a>
-<a href="#diagnostic">Diagnostic</a>
-</nav>
 
 <main>
 
-<section id="accueil">
-<div class="row">
-<div>
-<h2>Tableau de bord officiel</h2>
-<span id="etat" class="status warn" role="status">
-🟡 Chargement des données…
-</span>
-</div>
-<button id="refresh" type="button">↻ Actualiser</button>
-</div>
-<p class="muted" id="message">
-Vérification du fichier dashboard.json
-</p>
-<div class="cards">
-<div class="card">Courses<strong id="nbCourses">0</strong></div>
-<div class="card">FIGÉS enregistrés<strong id="nbFiges">0</strong></div>
-<div class="card">Audits<strong id="nbAudits">0</strong></div>
-<div class="card">Moteurs<strong>5</strong></div>
-</div>
-<p><small id="lecture">Dernière lecture : —</small></p>
+<section>
+  <h2>🧠 Les cinq moteurs indépendants</h2>
+  <div class="grid">
+    <div class="card m1">
+      <h3>🔵 M1 — Performance</h3>
+      <p>Forme, musique, régularité, progression, chronos et qualité des adversaires.</p>
+    </div>
+    <div class="card m2">
+      <h3>🟢 M2 — Aptitudes</h3>
+      <p>Distance, terrain, piste, corde, discipline, engagement et conditions.</p>
+    </div>
+    <div class="card m3">
+      <h3>🟣 M3 — Détails</h3>
+      <p>Origines, jockey ou driver, entraîneur, propriétaire, ferrure et équipement.</p>
+    </div>
+    <div class="card m4">
+      <h3>🟠 M4 — Opportunités</h3>
+      <p>Outsiders, favoris vulnérables, valeur des cotes et scénarios alternatifs.</p>
+    </div>
+    <div class="card m5">
+      <h3>🧠 M5 — Synthèse</h3>
+      <p>Arbitrage des quatre perspectives, divergences, risques et combinaison finale.</p>
+    </div>
+  </div>
 </section>
 
-<section id="courses">
-<h2>🏇 Courses et tableaux officiels M1 à M5</h2>
-<p class="muted">
-Chaque course possède un tableau unique avec les moteurs
-présentés verticalement. Les données absentes sont
-indiquées sans invention.
-</p>
-<div id="moteurs">
-<p class="empty">En attente des courses…</p>
-</div>
+<section>
+  <h2>🏇 Dossier officiel de course</h2>
+  <div class="two">
+    <div>
+      <label for="date">Date de la course</label>
+      <input id="date" type="date">
+      <label for="hippo">Hippodrome</label>
+      <input id="hippo" placeholder="Ex. Vincennes">
+      <label for="race">Réunion et course</label>
+      <input id="race" placeholder="Ex. R1C3">
+      <label for="heure">Départ — heure de Paris</label>
+      <input id="heure" type="time">
+    </div>
+    <div>
+      <label for="discipline">Discipline</label>
+      <select id="discipline">
+        <option>Trot attelé</option>
+        <option>Trot monté</option>
+        <option>Plat</option>
+        <option>Haies</option>
+        <option>Steeple-chase</option>
+        <option>Cross-country</option>
+      </select>
+      <label for="distance">Distance (mètres)</label>
+      <input id="distance" type="number" min="0">
+      <label for="terrain">Terrain / état de piste</label>
+      <input id="terrain" placeholder="Ex. souple, lourd, bon">
+      <label for="source">Source et heure de vérification</label>
+      <input id="source" placeholder="URL ou référence officielle PMU">
+    </div>
+  </div>
+  <label for="conditions">Conditions particulières</label>
+  <textarea id="conditions" placeholder="Corde, catégorie, autostart, rendement de distance, pénétromètre..."></textarea>
 </section>
 
-<section id="figes">
-<h2>🔒 Registre des paris FIGÉS</h2>
-<p class="muted">
-Un FIGÉ doit être enregistré et horodaté avant le départ.
-Les résultats ultérieurs ne doivent jamais réécrire
-le pronostic initial.
-</p>
-<div id="figesListe"></div>
+<section>
+  <h2>🐎 Étude minutieuse cheval par cheval</h2>
+  <p class="muted">Renseignez chaque partant et cochez les non-partants. Les données saisies sont conservées localement.</p>
+  <div class="actions">
+    <button onclick="ajouterCheval()">+ Ajouter un cheval</button>
+    <button onclick="importerChevaux()">Importer une liste</button>
+  </div>
+  <div id="chevaux"></div>
+  <p id="compteur">0 partant</p>
 </section>
 
-<section id="audits">
-<h2>📋 Audits et résultats</h2>
-<div id="auditsListe"></div>
+<section>
+  <h2>📊 Tableau officiel TURBOFUSION</h2>
+  <p>Chaque moteur établit son propre pronostic. M5 arbitre sans imposer une convergence artificielle.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Moteur</th>
+          <th>🥇 Gagnant espéré</th>
+          <th>🥈 Meilleur placé</th>
+          <th>Ordre d'arrivée espéré</th>
+          <th>🎯 Pari retenu</th>
+          <th>Qualification</th>
+          <th>Validation</th>
+          <th>Heure Paris</th>
+        </tr>
+      </thead>
+      <tbody id="tableMoteurs"></tbody>
+    </table>
+  </div>
+  <div class="actions">
+    <button onclick="verifierPronostics()">🔍 Vérifier les pronostics</button>
+    <button onclick="sauvegarder()">💾 Enregistrer l'étude</button>
+  </div>
 </section>
 
-<section id="diagnostic">
-<h2>🛠️ Diagnostic de publication</h2>
-<p id="diagnosticText">
-Lecture du fichier de données en cours…
-</p>
-<p class="muted">
-La page se rafraîchit toutes les 5 minutes lorsqu'elle
-est ouverte et visible. Les données doivent être produites
-séparément par le moteur ou par GitHub Actions :
-cette page ne lance pas les analyses.
-</p>
+<section>
+  <h2>⚖️ Contre-expertise et contrôle robuste</h2>
+  <label for="contre">Analyse des risques, contradictions et outsiders</label>
+  <textarea id="contre" placeholder="Favoris fragiles, forme trompeuse, aptitude non prouvée, équipement, cotes..."></textarea>
+  <label for="np">Contrôle des non-partants et informations critiques</label>
+  <textarea id="np" placeholder="Source des NP, changements de jockey, terrain, ferrure, horaire..."></textarea>
+  <label for="offre">Formules de paris PMU vérifiées</label>
+  <textarea id="offre" placeholder="Ex. Simple, Couplé, Trio, 2sur4, Quinté+ — selon l'offre réellement confirmée"></textarea>
+  <p class="notice">⚠️ Une sélection n'est pas une garantie de gain. Les données PMU ne sont pas récupérées automatiquement par cette page.</p>
+</section>
+
+<section>
+  <h2>🔐 PV, FIGÉ et traçabilité</h2>
+  <p>Le FIGÉ conserve une photographie de l'étude avant le départ. Aucune modification rétroactive n'est autorisée.</p>
+  <p>État : <span id="etat" class="status">ÉTUDE — NON FIGÉE</span></p>
+  <div class="actions">
+    <button onclick="creerPV()">📋 Créer un PV</button>
+    <button class="green" onclick="figer()">🔒 FIGER la sélection</button>
+    <button onclick="exporter()">⬇️ Exporter le dossier JSON</button>
+    <button onclick="exporterArchives()">⬇️ Exporter les archives</button>
+  </div>
+  <pre id="journal">Aucune opération enregistrée.</pre>
+  <p class="muted">PV et FIGÉS enregistrés dans ce navigateur uniquement. Leur présence sur GitHub ou sur un serveur externe n'est pas affirmée.</p>
+</section>
+
+<section>
+  <h2>📈 Audit après la course</h2>
+  <label for="arrivee">Arrivée officielle</label>
+  <input id="arrivee" placeholder="Ex. 4-7-2-9-1">
+  <label for="sourceArrivee">Source officielle du résultat</label>
+  <input id="sourceArrivee" placeholder="URL ou référence du résultat">
+  <div class="actions">
+    <button onclick="auditer()">Comparer avec le FIGÉ</button>
+  </div>
+  <pre id="audit">Aucun audit effectué.</pre>
+</section>
+
+<section>
+  <h2>🌐 Accès au projet</h2>
+  <p><a href="https://github.com/yadcaf-cloud/TURBOFUSION-M1-M5" target="_blank" rel="noopener">Dépôt GitHub TURBOFUSION</a></p>
+  <p><a href="https://yadcaf-cloud.github.io/TURBOFUSION-M1-M5/" target="_blank" rel="noopener">Site officiel GitHub Pages</a></p>
+  <p class="muted">Les exécutions automatiques GitHub Actions doivent être configurées séparément. Cette interface n'exécute pas de surveillance continue.</p>
 </section>
 
 </main>
 
 <footer>
-🇸🇳🧠🔥 TURBOFUSION M1–M5 —
-Analyse et traçabilité, sans garantie de gain.
+  🇸🇳🧠🔥 TURBOFUSION M1–M5<br>
+  LA MAGIE DU SAVOIR, LA FORCE DE L'INTELLIGENCE !
 </footer>
 
 <script>
-'use strict';
+"use strict";
 
-const $ = id => document.getElementById(id);
-const INTERVALLE = 300000;
-let chargement = false;
+const CLE="TURBOFUSION_M1_M5_DOSSIER_V1";
+const CLE_ARCHIVES="TURBOFUSION_M1_M5_ARCHIVES_V1";
+const noms=[
+  ["🔵 M1","m1"],
+  ["🟢 M2","m2"],
+  ["🟣 M3","m3"],
+  ["🟠 M4","m4"],
+  ["🧠 M5","m5"]
+];
 
-const texte = (v,def='—') =>
-  v===null || v===undefined || v==='' ? def : String(v);
+const $=id=>document.getElementById(id);
+let pvCourant=null;
+let figeCourant=null;
+let verrouille=false;
 
-const escapeHTML = v =>
-  texte(v).replace(/[&<>"']/g,c=>({
-    '&':'&amp;',
-    '<':'&lt;',
-    '>':'&gt;',
-    '"':'&quot;',
-    "'":'&#39;'
+function maintenantParis(){
+  return new Intl.DateTimeFormat("fr-FR",{
+    timeZone:"Europe/Paris",
+    year:"numeric",month:"2-digit",day:"2-digit",
+    hour:"2-digit",minute:"2-digit",second:"2-digit",
+    hourCycle:"h23"
+  }).format(new Date());
+}
+
+function heureParisISO(){
+  const parties=new Intl.DateTimeFormat("en-GB",{
+    timeZone:"Europe/Paris",
+    year:"numeric",month:"2-digit",day:"2-digit",
+    hour:"2-digit",minute:"2-digit",second:"2-digit",
+    hourCycle:"h23"
+  }).formatToParts(new Date());
+  const p=Object.fromEntries(parties.map(x=>[x.type,x.value]));
+  return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}:${p.second}`;
+}
+
+function echapper(s){
+  return String(s??"").replace(/[&<>"']/g,c=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;",
+    '"':"&quot;","'":"&#39;"
   }[c]));
-
-const val = (o,...keys) => {
-  for(const k of keys){
-    if(o && o[k]!==undefined &&
-       o[k]!==null && o[k]!=='') return o[k];
-  }
-  return null;
-};
-
-const list = v => Array.isArray(v) ? v : [];
-
-const display = v =>
-  Array.isArray(v)
-    ? v.map(x=>typeof x==='object' && x!==null
-      ? texte(val(x,'numero','num','nom','id'))
-      : String(x)).join(' - ')
-    : typeof v==='object' && v!==null
-      ? JSON.stringify(v)
-      : texte(v);
-
-const e = v => escapeHTML(display(v));
-
-const dateParis = d =>
-  new Intl.DateTimeFormat('fr-FR',{
-    dateStyle:'short',
-    timeStyle:'medium',
-    timeZone:'Europe/Paris'
-  }).format(d);
-
-function moteurId(m,i){
-  const raw=texte(val(m,'moteur','id','nom','name'),`M${i+1}`);
-  const match=raw.match(/M\s*([1-5])/i);
-  return match ? `M${match[1]}` : raw;
 }
 
-function moteurTable(data){
-  const rows=list(val(data,'moteurs','engines','analyses'));
-  const heureCourse=val(
-    data,'depart_paris','heure','heure_depart','depart'
+function journaliser(message){
+  const texte=`[${maintenantParis()}] ${message}`;
+  const ancien=$("journal").textContent;
+  $("journal").textContent=texte+"\n"+(
+    ancien==="Aucune opération enregistrée."?"":ancien
   );
-
-  return `
-  <div class="tablewrap">
-  <table>
-  <thead>
-  <tr>
-    <th>Moteur</th>
-    <th>🥇 Gagnant espéré</th>
-    <th>🥈 Meilleur placé</th>
-    <th>Ordre d'arrivée espéré</th>
-    <th>🎯 Pari retenu</th>
-    <th>Qualification</th>
-    <th>Validation</th>
-    <th>Heure Paris</th>
-  </tr>
-  </thead>
-  <tbody>
-  ${[1,2,3,4,5].map(n=>{
-    const m=rows.find((r,i)=>moteurId(r,i)===`M${n}`)||{};
-
-    return `
-    <tr>
-      <td class="engine m${n}">M${n}</td>
-      <td>${e(val(m,'gagnant_espere','gagnant','winner'))}</td>
-      <td>${e(val(m,'meilleur_place','place','place_espere'))}</td>
-      <td>${e(val(m,'ordre_espere','ordre','selection','combinaison'))}</td>
-      <td>${e(val(m,'pari_retenu','pari','type_pari'))}</td>
-      <td>${e(val(m,'qualification','appreciation'))}</td>
-      <td>${e(val(m,'validation','statut','status'))}</td>
-      <td>${e(val(m,'heure_paris','heure','timestamp')||heureCourse)}</td>
-    </tr>`;
-  }).join('')}
-  </tbody>
-  </table>
-  </div>`;
 }
 
-function nombrePartants(c){
-  const nombre=val(c,'nombre_partants','nb_partants');
-
-  if(nombre!==null){
-    return nombre;
-  }
-
-  if(Array.isArray(c.partants)){
-    return c.partants.filter(h=>h && !h.non_partant).length;
-  }
-
-  return null;
+function initialiserTable(){
+  $("tableMoteurs").innerHTML=noms.map(([nom,classe],i)=>`
+    <tr class="${classe}" data-moteur="${i+1}">
+      <td><strong>${nom}</strong></td>
+      <td><input class="gagnant" placeholder="N° cheval"></td>
+      <td><input class="place" placeholder="N° cheval"></td>
+      <td><input class="ordre" placeholder="Ex. 4-7-2-9-1"></td>
+      <td><input class="pari" placeholder="Pari ou abstention"></td>
+      <td>
+        <select class="qualification">
+          <option>🟡 Étude</option>
+          <option>🟢 Qualifié</option>
+          <option>🔴 Exclu</option>
+        </select>
+      </td>
+      <td class="validation">NON FIGÉ</td>
+      <td class="heureValidation">—</td>
+    </tr>
+  `).join("");
 }
 
-function tableauMoteurs(x){
-  const courses=list(val(x,'courses','races'));
-
-  if(!courses.length){
-    return '<p class="empty">Aucune course publiée dans dashboard.json.</p>';
-  }
-
-  return courses.map((c,i)=>`
-  <article class="course">
-    <div class="coursehead">
-      <h3>${e(val(c,'course','nom','libelle','name')||`Course ${i+1}`)}</h3>
-      <span class="tag">${e(val(c,'hippodrome','lieu','reunion'))}</span>
-      <span class="tag">${e(val(c,'reunion'))}</span>
-      <span class="tag">🕒 ${e(val(c,'depart_paris','heure','heure_depart','depart'))}</span>
-      <span class="tag">👥 ${e(nombrePartants(c))} partants</span>
-      <span class="tag">NP : ${e(val(c,'non_partants','np'))}</span>
+function ajouterCheval(d={}){
+  if(verrouille){alert("Dossier FIGÉ : créez un nouveau dossier.");return;}
+  const div=document.createElement("div");
+  div.className="card";
+  div.style.marginTop="12px";
+  div.innerHTML=`
+    <div class="two">
+      <div>
+        <label>Numéro</label>
+        <input class="numero" type="number" min="1" value="${echapper(d.numero||"")}">
+        <label>Nom du cheval</label>
+        <input class="nom" value="${echapper(d.nom||"")}">
+        <label>Jockey / driver</label>
+        <input class="jockey" value="${echapper(d.jockey||"")}">
+        <label>Entraîneur</label>
+        <input class="entraineur" value="${echapper(d.entraineur||"")}">
+        <label>Propriétaire / origines</label>
+        <input class="origines" value="${echapper(d.origines||"")}">
+      </div>
+      <div>
+        <label>Forme / musique</label>
+        <input class="forme" value="${echapper(d.forme||"")}">
+        <label>Aptitudes / distance / terrain</label>
+        <input class="aptitudes" value="${echapper(d.aptitudes||"")}">
+        <label>Ferrure / équipement</label>
+        <input class="equipement" value="${echapper(d.equipement||"")}">
+        <label>Cote et source</label>
+        <input class="cote" value="${echapper(d.cote||"")}">
+        <label><input class="nonpartant" type="checkbox" style="width:auto" ${d.nonpartant?"checked":""}> Non-partant</label>
+      </div>
     </div>
-    <div class="coursebody">
-      ${moteurTable(c)}
-      <p>
-        <strong>🏁 Arrivée officielle :</strong>
-        ${e(val(c,'arrivee_officielle','arrivee','resultat'))}
-      </p>
+    <label>Observations et contre-expertise</label>
+    <textarea class="observations">${echapper(d.observations||"")}</textarea>
+    <div class="actions">
+      <button class="red supprimer" type="button">Supprimer ce cheval</button>
     </div>
-  </article>`).join('');
+  `;
+  div.querySelector(".supprimer").onclick=()=>{
+    if(!verrouille){div.remove();compter();}
+  };
+  div.querySelector(".nonpartant").onchange=compter;
+  $("chevaux").appendChild(div);
+  compter();
 }
 
-function objets(items,empty){
-  if(!items.length){
-    return `<p class="empty">${escapeHTML(empty)}</p>`;
+function importerChevaux(){
+  if(verrouille)return;
+  const saisie=prompt(
+    "Entrez une ligne par cheval au format : numéro;nom\nExemple : 4;Mon Cheval"
+  );
+  if(!saisie)return;
+  for(const ligne of saisie.split("\n")){
+    const [numero,nom]=ligne.split(";");
+    if(numero&&nom)ajouterCheval({numero:numero.trim(),nom:nom.trim()});
   }
-
-  return items.map((item,i)=>{
-    const obj=typeof item==='object' && item!==null
-      ? item : {valeur:item};
-
-    const title=val(obj,'course','nom','id','moteur')
-      || `Enregistrement ${i+1}`;
-
-    return `
-    <article class="card" style="margin:12px 0">
-      <h3>${e(title)}</h3>
-      <p>${Object.entries(obj).map(([k,v])=>
-        `<span class="tag">${escapeHTML(k)} : ${e(v)}</span>`
-      ).join('')}</p>
-    </article>`;
-  }).join('');
 }
 
-async function charger(){
-  if(chargement)return;
+function lireChevaux(){
+  return [...$("chevaux").children].map(div=>{
+    const o={};
+    for(const cle of [
+      "numero","nom","jockey","entraineur","origines",
+      "forme","aptitudes","equipement","cote","observations"
+    ]){
+      o[cle]=div.querySelector("."+cle).value.trim();
+    }
+    o.nonpartant=div.querySelector(".nonpartant").checked;
+    return o;
+  });
+}
 
-  chargement=true;
-  $('refresh').disabled=true;
-  $('etat').textContent='🟡 Actualisation…';
-  $('etat').className='status warn';
+function compter(){
+  const chevaux=lireChevaux();
+  const np=chevaux.filter(c=>c.nonpartant).length;
+  $("compteur").textContent=
+    `${chevaux.length-np} partant(s) — ${np} non-partant(s)`;
+}
 
+function lireMoteurs(){
+  return [...$("tableMoteurs").rows].map((tr,i)=>({
+    moteur:noms[i][0],
+    gagnant:tr.querySelector(".gagnant").value.trim(),
+    place:tr.querySelector(".place").value.trim(),
+    ordre:tr.querySelector(".ordre").value.trim(),
+    pari:tr.querySelector(".pari").value.trim(),
+    qualification:tr.querySelector(".qualification").value,
+    validation:tr.querySelector(".validation").textContent,
+    heureParis:tr.querySelector(".heureValidation").textContent
+  }));
+}
+
+function lireDossier(){
+  const champs=[
+    "date","hippo","race","heure","discipline","distance",
+    "terrain","source","conditions","contre","np","offre",
+    "arrivee","sourceArrivee"
+  ];
+  const dossier={};
+  champs.forEach(id=>dossier[id]=$(id).value);
+  dossier.chevaux=lireChevaux();
+  dossier.moteurs=lireMoteurs();
+  dossier.pv=pvCourant;
+  dossier.fige=figeCourant;
+  dossier.verrouille=verrouille;
+  dossier.journal=$("journal").textContent;
+  return dossier;
+}
+
+function chargerDossier(d){
+  if(!d)return;
+  const champs=[
+    "date","hippo","race","heure","discipline","distance",
+    "terrain","source","conditions","contre","np","offre",
+    "arrivee","sourceArrivee"
+  ];
+  champs.forEach(id=>$(id).value=d[id]||"");
+  $("chevaux").innerHTML="";
+  (d.chevaux||[]).forEach(ajouterCheval);
+  initialiserTable();
+  [...$("tableMoteurs").rows].forEach((tr,i)=>{
+    const m=(d.moteurs||[])[i]||{};
+    for(const cle of ["gagnant","place","ordre","pari"]){
+      tr.querySelector("."+cle).value=m[cle]||"";
+    }
+    tr.querySelector(".qualification").value=m.qualification||"🟡 Étude";
+    tr.querySelector(".validation").textContent=m.validation||"NON FIGÉ";
+    tr.querySelector(".heureValidation").textContent=m.heureParis||"—";
+  });
+  pvCourant=d.pv||null;
+  figeCourant=d.fige||null;
+  verrouille=!!d.verrouille;
+  $("journal").textContent=d.journal||"Aucune opération enregistrée.";
+  $("etat").textContent=verrouille?"🔒 FIGÉ LOCAL":"ÉTUDE — NON FIGÉE";
+  $("etat").className="status"+(verrouille?" ok":"");
+  appliquerVerrou();
+  compter();
+}
+
+function appliquerVerrou(){
+  document.querySelectorAll(
+    "#chevaux input,#chevaux textarea,#chevaux button,"+
+    "#tableMoteurs input,#tableMoteurs select,"+
+    "#date,#hippo,#race,#heure,#discipline,#distance,"+
+    "#terrain,#source,#conditions,#contre,#np,#offre"
+  ).forEach(el=>el.disabled=verrouille);
+}
+
+function sauvegarder(){
   try{
-    const url=new URL('dashboard.json',document.baseURI);
-    url.searchParams.set('_',Date.now());
-
-    const response=await fetch(url,{cache:'no-store'});
-
-    if(!response.ok){
-      throw new Error(
-        `HTTP ${response.status} : ${url.pathname}`
-      );
-    }
-
-    const x=await response.json();
-
-    if(!x || typeof x!=='object' || Array.isArray(x)){
-      throw new Error('Format JSON incorrect : objet attendu');
-    }
-
-    const courses=list(val(x,'courses','races'));
-    const figes=list(val(x,'figes','locks'));
-    const audits=list(val(x,'audits','audit'));
-
-    $('nbCourses').textContent=courses.length;
-    $('nbFiges').textContent=figes.length;
-    $('nbAudits').textContent=audits.length;
-
-    $('moteurs').innerHTML=tableauMoteurs(x);
-    $('figesListe').innerHTML=objets(
-      figes,'Aucun FIGÉ enregistré.'
-    );
-    $('auditsListe').innerHTML=objets(
-      audits,'Aucun audit enregistré.'
-    );
-
-    $('etat').textContent='🟢 Données chargées';
-    $('etat').className='status ok';
-
-    $('message').textContent=
-      `Source : dashboard.json | Courses : ${courses.length} | FIGÉS : ${figes.length} | Audits : ${audits.length}`;
-
-    $('diagnosticText').textContent=
-      'JSON valide. La disponibilité des données ne prouve pas que les analyses et FIGÉS sont exécutés automatiquement.';
-
-  }catch(err){
-    $('etat').textContent='🔴 Erreur de lecture';
-    $('etat').className='status error';
-
-    $('message').textContent=err.message;
-
-    $('diagnosticText').textContent=
-      'Vérifier que dashboard.json existe à côté de index.html sur la branche publiée par GitHub Pages. Détail : '+err.message;
-
-  }finally{
-    $('lecture').textContent=
-      'Dernière tentative : '+dateParis(new Date());
-
-    chargement=false;
-    $('refresh').disabled=false;
+    localStorage.setItem(CLE,JSON.stringify(lireDossier()));
+    journaliser("Étude enregistrée localement.");
+    localStorage.setItem(CLE,JSON.stringify(lireDossier()));
+  }catch(e){
+    alert("Sauvegarde impossible : "+e.message);
   }
 }
 
-$('refresh').addEventListener('click',charger);
-charger();
+function numerosOrdre(texte){
+  return texte.split(/[\s,;>\-]+/).filter(Boolean);
+}
 
-setInterval(()=>{
-  if(!document.hidden)charger();
-},INTERVALLE);
+function verifierPronostics(){
+  const d=lireDossier();
+  const erreurs=[];
+  const actifs=d.chevaux.filter(c=>!c.nonpartant);
+  const nums=actifs.map(c=>c.numero);
+  if(!d.date||!d.hippo||!d.race||!d.heure)
+    erreurs.push("Identification de course incomplète.");
+  if(!d.source)
+    erreurs.push("Source des données non renseignée.");
+  if(!actifs.length)
+    erreurs.push("Aucun cheval partant renseigné.");
+  if(new Set(nums).size!==nums.length)
+    erreurs.push("Numéros de chevaux en double.");
+  for(const m of d.moteurs){
+    if(!m.gagnant||!m.place||!m.ordre||!m.pari){
+      erreurs.push(`${m.moteur} : pronostic incomplet.`);
+      continue;
+    }
+    const ordre=numerosOrdre(m.ordre);
+    if(new Set(ordre).size!==ordre.length)
+      erreurs.push(`${m.moteur} : doublons dans l'ordre.`);
+    if(!ordre.includes(m.gagnant)||!ordre.includes(m.place))
+      erreurs.push(`${m.moteur} : gagnant ou placé absent de l'ordre.`);
+    for(const n of [m.gagnant,m.place,...ordre]){
+      if(!nums.includes(n))
+        erreurs.push(`${m.moteur} : cheval n° ${n} absent ou NP.`);
+    }
+  }
+  if(erreurs.length){
+    journaliser("Contrôle : "+erreurs.join(" | "));
+    alert("Contrôle incomplet :\n"+erreurs.join("\n"));
+    return false;
+  }
+  journaliser("Contrôle structurel réussi — validation PMU externe non certifiée.");
+  alert("Contrôle structurel réussi. Vérifiez encore les données PMU.");
+  return true;
+}
 
-document.addEventListener('visibilitychange',()=>{
-  if(!document.hidden)charger();
-});
-</script>
-</body>
-</html>
+function dateDepart(){
+  const d=$("date").value;
+  const h=$("heure").value;
+  if(!d||!h)return null;
+  return d+"T"+h+":00";
+}
+
+function avantDepart(){
+  const depart=dateDepart();
+  return !!depart && heureParisISO()<depart;
+}
+
+function lireArchives(){
+  try{return JSON.parse(localStorage.getItem(CLE_ARCHIVES)||"[]");}
+  catch{return [];}
+}
+
+function ajouterArchive(obj){
+  const archives=lireArchives();
+  archives.push(obj);
+  localStorage.setItem(CLE_ARCHIVES,JSON.stringify(archives));
+  return archives.length;
+}
+
+function creerPV(){
+  if(verrouille){
+    alert("Cette course est déjà FIGÉE.");
+    return;
+  }
+  if(!avantDepart()){
+    alert("PV refusé : départ atteint ou horaire invalide.");
+    return;
+  }
+  if(!verifierPronostics())return;
+  if(!$("contre").value.trim()||!$("np").value.trim()||!$("offre").value.trim()){
+    alert("Complétez la contre-expertise, le contrôle NP et l'offre PMU.");
+    return;
+  }
+  const confirmation=confirm(
+    "Confirmez-vous avoir vérifié les partants, NP, horaires, "+
+    "conditions et paris PMU auprès de sources récentes ?"
+  );
+  if(!confirmation)return;
+  const horodatage=maintenantParis();
+  pvCourant={
+    type:"PV",
+    version:1,
+    horodatageParis:horodatage,
+    horodatageUTC:new Date().toISOString(),
+    dossier:lireDossier()
+  };
+  try{
+    ajou
