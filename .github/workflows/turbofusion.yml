@@ -1,4 +1,5 @@
-name: TURBOFUSION M1-M5
+
+name: TURBOFUSION M1-M5 Automatique
 
 on:
   workflow_dispatch:
@@ -9,33 +10,59 @@ permissions:
   contents: write
 
 concurrency:
-  group: turbofusion-sync
+  group: turbofusion-automatic
   cancel-in-progress: false
 
 jobs:
-  synchronisation:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
+  analyse:
+    name: Analyse hippique M1-M5
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
 
     steps:
       - name: Recuperer le depot
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: true
 
       - name: Installer Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
-      - name: Synchroniser le tableau
-        run: python scripts/sync_dashboard.py
+      - name: Installer les dependances
+        run: |
+          if [ -f requirements.txt ]; then
+            python -m pip install -r requirements.txt
+          fi
 
-      - name: Enregistrer les modifications
+      - name: Verifier les scripts
+        run: |
+          python -m py_compile main.py
+          python -m py_compile scripts/sync_dashboard.py
+
+      - name: Executer les moteurs M1-M5
+        env:
+          TZ: Europe/Paris
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python main.py
+
+      - name: Synchroniser le tableau de bord
+        run: |
+          python scripts/sync_dashboard.py
+
+      - name: Enregistrer les resultats
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+
+          git add -- dashboard.json rapports_turbofusion/ figes_turbofusion/
+
           if ! git diff --cached --quiet; then
-            git commit -m "Synchronisation automatique TURBOFUSION"
-            git push
+            git commit -m "Actualisation automatique TURBOFUSION"
+            git push origin HEAD:main
+          else
+            echo "Aucune modification a enregistrer"
           fi
-  
+          
