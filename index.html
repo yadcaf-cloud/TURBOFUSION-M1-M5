@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -623,4 +622,156 @@ function creerPV(){
     dossier:lireDossier()
   };
   try{
-    ajou
+    ajouterArchive(pvCourant);
+    journaliser("PV V1 enregistré localement à "+horodatage);
+    sauvegarder();
+  }catch(e){
+    pvCourant=null;
+    alert("Échec de l'archivage du PV : "+e.message);
+  }
+}
+
+function figer(){
+  if(verrouille){
+    alert("FIGÉ existant : aucune modification rétroactive.");
+    return;
+  }
+  if(!pvCourant){
+    alert("Créez et archivez d'abord un PV.");
+    return;
+  }
+  if(!avantDepart()){
+    alert("FIGÉ refusé : le départ est atteint.");
+    return;
+  }
+  if(!verifierPronostics())return;
+  const d=lireDossier();
+  const sourcePV=pvCourant.dossier;
+  const clefs=[
+    "date","hippo","race","heure","discipline",
+    "distance","terrain","source","conditions","contre","np","offre"
+  ];
+  const identique=clefs.every(k=>d[k]===sourcePV[k])&&
+    JSON.stringify(d.chevaux)===JSON.stringify(sourcePV.chevaux)&&
+    JSON.stringify(d.moteurs.map(m=>[
+      m.gagnant,m.place,m.ordre,m.pari,m.qualification
+    ]))===JSON.stringify(sourcePV.moteurs.map(m=>[
+      m.gagnant,m.place,m.ordre,m.pari,m.qualification
+    ]));
+  if(!identique){
+    alert("Le dossier a changé depuis le PV. Créez un nouveau PV.");
+    return;
+  }
+  if(!confirm("Recontrôle final effectué ? Archiver le FIGÉ local ?"))return;
+  const heure=maintenantParis();
+  const snapshot=structuredClone(d);
+  snapshot.moteurs.forEach(m=>{
+    m.validation="🔒 FIGÉ LOCAL V1";
+    m.heureParis=heure;
+  });
+  const objet={
+    type:"FIGE_LOCAL",
+    version:1,
+    horodatageParis:heure,
+    horodatageUTC:new Date().toISOString(),
+    pvHorodatageUTC:pvCourant.horodatageUTC,
+    dossier:snapshot,
+    avertissement:"Stockage navigateur uniquement. Non publié sur GitHub."
+  };
+  try{
+    ajouterArchive(objet);
+    figeCourant=objet;
+    verrouille=true;
+    [...$("tableMoteurs").rows].forEach(tr=>{
+      tr.querySelector(".validation").textContent="🔒 FIGÉ LOCAL V1";
+      tr.querySelector(".heureValidation").textContent=heure;
+    });
+    $("etat").textContent="🔒 FIGÉ LOCAL V1";
+    $("etat").className="status ok";
+    appliquerVerrou();
+    journaliser("FIGÉ LOCAL V1 archivé à "+heure);
+    sauvegarder();
+  }catch(e){
+    alert("Échec de l'archivage FIGÉ : "+e.message);
+  }
+}
+
+function telecharger(obj,nom){
+  const blob=new Blob([JSON.stringify(obj,null,2)],{
+    type:"application/json;charset=utf-8"
+  });
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  a.href=url;
+  a.download=nom;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+
+function nomFichier(){
+  return "TURBOFUSION_"+(
+    $("date").value||"SANS_DATE"
+  )+"_"+(
+    $("race").value||"COURSE"
+  ).replace(/[^a-z0-9_-]/gi,"_");
+}
+
+function exporter(){
+  telecharger(lireDossier(),nomFichier()+"_DOSSIER.json");
+}
+
+function exporterArchives(){
+  telecharger(lireArchives(),"TURBOFUSION_ARCHIVES.json");
+}
+
+function auditer(){
+  if(!figeCourant){
+    $("audit").textContent=
+      "Audit impossible : aucun FIGÉ local vérifiable dans ce dossier.";
+    return;
+  }
+  const arrivee=numerosOrdre($("arrivee").value);
+  if(!arrivee.length||!$("sourceArrivee").value.trim()){
+    alert("Renseignez l'arrivée et sa source officielle.");
+    return;
+  }
+  const lignes=figeCourant.dossier.moteurs.map(m=>{
+    const pronostic=numerosOrdre(m.ordre);
+    const presents=arrivee.filter(n=>pronostic.includes(n));
+    return `${m.moteur} : ${presents.length}/${arrivee.length} `+
+      `chevaux de l'arrivée présents dans sa sélection (${presents.join("-")||"aucun"}).`;
+  });
+  $("audit").textContent=
+    "ARRIVÉE : "+arrivee.join("-")+"\n"+
+    "SOURCE : "+$("sourceArrivee").value+"\n\n"+
+    lignes.join("\n")+
+    "\n\nCet audit mesure la couverture, pas les gains ni les rapports PMU.";
+  journaliser("Audit comparatif réalisé sans modification du FIGÉ.");
+  sauvegarder();
+}
+
+function demarrer(){
+  initialiserTable();
+  try{
+    const sauvegarde=localStorage.getItem(CLE);
+    if(sauvegarde)chargerDossier(JSON.parse(sauvegarde));
+  }catch(e){
+    console.warn("Lecture locale impossible",e);
+  }
+  if(!$("date").value){
+    const parts=new Intl.DateTimeFormat("en-CA",{
+      timeZone:"Europe/Paris",
+      year:"numeric",month:"2-digit",day:"2-digit"
+    }).formatToParts(new Date());
+    const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));
+    $("date").value=`${p.year}-${p.month}-${p.day}`;
+  }
+  compter();
+}
+
+demarrer();
+</script>
+</body>
+</html>
