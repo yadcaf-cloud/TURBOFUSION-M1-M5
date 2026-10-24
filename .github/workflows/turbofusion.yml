@@ -1,5 +1,4 @@
-
-name: TURBOFUSION M1-M5 Automatique
+name: TURBOFUSION M1-M2-M3-M4-M5 Automatique
 
 on:
   workflow_dispatch:
@@ -15,7 +14,7 @@ concurrency:
 
 jobs:
   analyse:
-    name: Analyse hippique M1-M5
+    name: Analyse hippique M1-M2-M3-M4-M5
     runs-on: ubuntu-24.04
     timeout-minutes: 20
 
@@ -41,11 +40,12 @@ jobs:
           python -m py_compile main.py
           python -m py_compile scripts/sync_dashboard.py
 
-      - name: Executer les moteurs M1-M5
+      - name: Executer les moteurs M1-M2-M3-M4-M5
         env:
           TZ: Europe/Paris
           PYTHONUNBUFFERED: "1"
         run: |
+          echo "Demarrage TURBOFUSION M1-M2-M3-M4-M5"
           python main.py
 
       - name: Synchroniser le tableau de bord
@@ -65,4 +65,3 @@ jobs:
           else
             echo "Aucune modification a enregistrer"
           fi
-          
