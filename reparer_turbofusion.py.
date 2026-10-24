@@ -1,0 +1,83 @@
+
+#!/usr/bin/env python3
+# TURBOFUSION M1-M5 - Reparateur centralise
+from pathlib import Path
+import json
+import shutil
+from datetime import datetime
+
+ROOT = Path(__file__).resolve().parent
+PAGE = ROOT / "index.html"
+DASHBOARD = ROOT / "dashboard.json"
+BACKUP = ROOT / "sauvegardes_reparation"
+
+def sauvegarder(path):
+    BACKUP.mkdir(exist_ok=True)
+    destination = BACKUP / path.name
+    if not destination.exists():
+        shutil.copy2(path, destination)
+    print("Sauvegarde :", destination)
+
+def reparer_page():
+    if not PAGE.exists():
+        print("ERREUR : index.html absent")
+        return
+
+    contenu = PAGE.read_text(encoding="utf-8")
+
+    ancien = "val(c,'heure','heure_depart','depart')"
+    nouveau = "val(c,'depart_paris','heure','heure_depart','depart')"
+
+    ancien_nb = "val(c,'partants','nombre_partants','nb_partants')"
+    nouveau_nb = "val(c,'nombre_partants','nb_partants') ?? (Array.isArray(c.partants) ? c.partants.length : c.partants)"
+
+    corrige = contenu.replace(ancien, nouveau).replace(ancien_nb, nouveau_nb)
+
+    if corrige != contenu:
+        sauvegarder(PAGE)
+        PAGE.write_text(corrige, encoding="utf-8")
+        print("OK : affichage des courses repare")
+    else:
+        print("Aucune correction necessaire pour index.html")
+
+def verifier_dashboard():
+    if not DASHBOARD.exists():
+        print("ERREUR : dashboard.json absent")
+        return
+
+    try:
+        data = json.loads(DASHBOARD.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            raise ValueError("Objet JSON attendu")
+
+        for cle in ("courses", "figes", "audits"):
+            if cle not in data:
+                print("AVERTISSEMENT : champ absent :", cle)
+            elif not isinstance(data[cle], list):
+                print("AVERTISSEMENT : liste attendue :", cle)
+
+        courses = data.get("courses", [])
+        if isinstance(courses, list):
+            print("Courses publiees :", len(courses))
+            for course in courses:
+                if not isinstance(course, dict):
+                    continue
+                moteurs = course.get("moteurs", [])
+                if not isinstance(moteurs, list) or len(moteurs) != 5:
+                    print("AVERTISSEMENT : cinq moteurs attendus pour", course.get("course"))
+
+        print("OK : verification JSON terminee")
+
+    except (OSError, ValueError, TypeError) as exc:
+        print("ERREUR dashboard :", exc)
+
+def main():
+    print("TURBOFUSION M1-M5 - AUDIT ET REPARATION")
+    print("Execution :", datetime.now().isoformat())
+    reparer_page()
+    verifier_dashboard()
+    print("FIN - Aucun FIGE historique modifie")
+
+if __name__ == "__main__":
+    main()
+  
