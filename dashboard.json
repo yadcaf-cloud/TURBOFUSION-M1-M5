@@ -1,7 +1,7 @@
 {
   "logiciel": "TURBOFUSION M1-M5",
   "date_courses": "2026-10-24",
-  "cree_a_paris": "2026-10-24T15:54:23.760100+02:00",
+  "cree_a_paris": "2026-10-24T16:17:45.737697+02:00",
   "courses": [
     {
       "course": "C1",
@@ -27,7 +27,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:14.814290+02:00",
+          "heure_paris": "2026-10-24T16:17:36.833072+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -37,7 +37,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:14.814290+02:00",
+          "heure_paris": "2026-10-24T16:17:36.833072+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -47,7 +47,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:14.814290+02:00",
+          "heure_paris": "2026-10-24T16:17:36.833072+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -220,7 +220,7 @@
       "moteurs": [
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.337569+02:00",
+          "heure_paris": "2026-10-24T16:17:37.294766+02:00",
           "meilleur_place": null,
           "moteur": "M1",
           "ordre_espere": [],
@@ -230,7 +230,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.337569+02:00",
+          "heure_paris": "2026-10-24T16:17:37.294766+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -240,7 +240,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.337569+02:00",
+          "heure_paris": "2026-10-24T16:17:37.294766+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -250,7 +250,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.337569+02:00",
+          "heure_paris": "2026-10-24T16:17:37.294766+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -260,7 +260,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.337569+02:00",
+          "heure_paris": "2026-10-24T16:17:37.294766+02:00",
           "meilleur_place": null,
           "moteur": "M5",
           "ordre_espere": [],
@@ -367,7 +367,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.503426+02:00",
+          "heure_paris": "2026-10-24T16:17:37.577356+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -377,7 +377,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.503426+02:00",
+          "heure_paris": "2026-10-24T16:17:37.577356+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -387,7 +387,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.503426+02:00",
+          "heure_paris": "2026-10-24T16:17:37.577356+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -609,7 +609,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.673196+02:00",
+          "heure_paris": "2026-10-24T16:17:37.928824+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -619,7 +619,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.673196+02:00",
+          "heure_paris": "2026-10-24T16:17:37.928824+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -629,7 +629,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.673196+02:00",
+          "heure_paris": "2026-10-24T16:17:37.928824+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -752,7 +752,7 @@
     },
     {
       "course": "C5",
-      "depart_paris": "2026-10-24T16:25:00+02:00",
+      "depart_paris": "2026-10-24T16:28:00+02:00",
       "fige": true,
       "hippodrome": "COMPIEGNE",
       "moteurs": [
@@ -774,7 +774,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.849583+02:00",
+          "heure_paris": "2026-10-24T16:17:38.198321+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -784,7 +784,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.849583+02:00",
+          "heure_paris": "2026-10-24T16:17:38.198321+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -794,7 +794,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:15.849583+02:00",
+          "heure_paris": "2026-10-24T16:17:38.198321+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -928,7 +928,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.012754+02:00",
+          "heure_paris": "2026-10-24T16:17:38.350040+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -938,7 +938,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.012754+02:00",
+          "heure_paris": "2026-10-24T16:17:38.350040+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -948,7 +948,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.012754+02:00",
+          "heure_paris": "2026-10-24T16:17:38.350040+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -1115,7 +1115,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.172124+02:00",
+          "heure_paris": "2026-10-24T16:17:38.858902+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -1125,7 +1125,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.172124+02:00",
+          "heure_paris": "2026-10-24T16:17:38.858902+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -1135,7 +1135,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.172124+02:00",
+          "heure_paris": "2026-10-24T16:17:38.858902+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -1280,7 +1280,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.649872+02:00",
+          "heure_paris": "2026-10-24T16:17:39.118342+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -1290,7 +1290,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.649872+02:00",
+          "heure_paris": "2026-10-24T16:17:39.118342+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -1300,7 +1300,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:16.649872+02:00",
+          "heure_paris": "2026-10-24T16:17:39.118342+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -1489,7 +1489,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.057001+02:00",
+          "heure_paris": "2026-10-24T16:17:39.546947+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -1499,7 +1499,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.057001+02:00",
+          "heure_paris": "2026-10-24T16:17:39.546947+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -1509,7 +1509,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.057001+02:00",
+          "heure_paris": "2026-10-24T16:17:39.546947+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -1632,7 +1632,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.377471+02:00",
+          "heure_paris": "2026-10-24T16:17:39.708565+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -1642,7 +1642,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.377471+02:00",
+          "heure_paris": "2026-10-24T16:17:39.708565+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -1652,7 +1652,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.377471+02:00",
+          "heure_paris": "2026-10-24T16:17:39.708565+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -1775,7 +1775,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.733527+02:00",
+          "heure_paris": "2026-10-24T16:17:39.894586+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -1785,7 +1785,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.733527+02:00",
+          "heure_paris": "2026-10-24T16:17:39.894586+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -1795,7 +1795,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:17.733527+02:00",
+          "heure_paris": "2026-10-24T16:17:39.894586+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -1929,7 +1929,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.025772+02:00",
+          "heure_paris": "2026-10-24T16:17:40.304004+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -1939,7 +1939,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.025772+02:00",
+          "heure_paris": "2026-10-24T16:17:40.304004+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -1949,7 +1949,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.025772+02:00",
+          "heure_paris": "2026-10-24T16:17:40.304004+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -2083,7 +2083,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.254039+02:00",
+          "heure_paris": "2026-10-24T16:17:40.471839+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -2093,7 +2093,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.254039+02:00",
+          "heure_paris": "2026-10-24T16:17:40.471839+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -2103,7 +2103,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.254039+02:00",
+          "heure_paris": "2026-10-24T16:17:40.471839+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -2270,7 +2270,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.427317+02:00",
+          "heure_paris": "2026-10-24T16:17:40.609011+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -2280,7 +2280,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.427317+02:00",
+          "heure_paris": "2026-10-24T16:17:40.609011+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -2290,7 +2290,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.427317+02:00",
+          "heure_paris": "2026-10-24T16:17:40.609011+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -2468,7 +2468,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.593746+02:00",
+          "heure_paris": "2026-10-24T16:17:40.768270+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -2478,7 +2478,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.593746+02:00",
+          "heure_paris": "2026-10-24T16:17:40.768270+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -2488,7 +2488,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:18.593746+02:00",
+          "heure_paris": "2026-10-24T16:17:40.768270+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -2710,7 +2710,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.039195+02:00",
+          "heure_paris": "2026-10-24T16:17:41.047861+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -2720,7 +2720,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.039195+02:00",
+          "heure_paris": "2026-10-24T16:17:41.047861+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -2730,7 +2730,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.039195+02:00",
+          "heure_paris": "2026-10-24T16:17:41.047861+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -2963,7 +2963,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.247533+02:00",
+          "heure_paris": "2026-10-24T16:17:41.468440+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -2973,7 +2973,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.247533+02:00",
+          "heure_paris": "2026-10-24T16:17:41.468440+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -2983,7 +2983,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.247533+02:00",
+          "heure_paris": "2026-10-24T16:17:41.468440+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -3183,7 +3183,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.686029+02:00",
+          "heure_paris": "2026-10-24T16:17:42.025183+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -3193,7 +3193,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.686029+02:00",
+          "heure_paris": "2026-10-24T16:17:42.025183+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -3203,7 +3203,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.686029+02:00",
+          "heure_paris": "2026-10-24T16:17:42.025183+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -3414,7 +3414,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.876255+02:00",
+          "heure_paris": "2026-10-24T16:17:42.165795+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -3424,7 +3424,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.876255+02:00",
+          "heure_paris": "2026-10-24T16:17:42.165795+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -3434,7 +3434,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:19.876255+02:00",
+          "heure_paris": "2026-10-24T16:17:42.165795+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -3689,7 +3689,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.076264+02:00",
+          "heure_paris": "2026-10-24T16:17:42.308405+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -3699,7 +3699,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.076264+02:00",
+          "heure_paris": "2026-10-24T16:17:42.308405+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -3709,7 +3709,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.076264+02:00",
+          "heure_paris": "2026-10-24T16:17:42.308405+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -3931,7 +3931,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.528177+02:00",
+          "heure_paris": "2026-10-24T16:17:42.507091+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -3941,7 +3941,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.528177+02:00",
+          "heure_paris": "2026-10-24T16:17:42.507091+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -3951,7 +3951,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.528177+02:00",
+          "heure_paris": "2026-10-24T16:17:42.507091+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -4129,7 +4129,7 @@
     },
     {
       "course": "C1",
-      "depart_paris": "2026-10-24T16:08:00+02:00",
+      "depart_paris": "2026-10-24T16:11:00+02:00",
       "fige": true,
       "hippodrome": "CABOURG",
       "moteurs": [
@@ -4151,7 +4151,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.692865+02:00",
+          "heure_paris": "2026-10-24T16:17:42.651957+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -4161,7 +4161,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.692865+02:00",
+          "heure_paris": "2026-10-24T16:17:42.651957+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -4171,7 +4171,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.692865+02:00",
+          "heure_paris": "2026-10-24T16:17:42.651957+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -4382,7 +4382,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.858536+02:00",
+          "heure_paris": "2026-10-24T16:17:43.067691+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -4392,7 +4392,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.858536+02:00",
+          "heure_paris": "2026-10-24T16:17:43.067691+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -4402,7 +4402,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:20.858536+02:00",
+          "heure_paris": "2026-10-24T16:17:43.067691+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -4635,7 +4635,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.038203+02:00",
+          "heure_paris": "2026-10-24T16:17:43.206782+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -4645,7 +4645,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.038203+02:00",
+          "heure_paris": "2026-10-24T16:17:43.206782+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -4655,7 +4655,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.038203+02:00",
+          "heure_paris": "2026-10-24T16:17:43.206782+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -4888,7 +4888,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.215701+02:00",
+          "heure_paris": "2026-10-24T16:17:43.346445+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -4898,7 +4898,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.215701+02:00",
+          "heure_paris": "2026-10-24T16:17:43.346445+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -4908,7 +4908,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.215701+02:00",
+          "heure_paris": "2026-10-24T16:17:43.346445+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -5141,7 +5141,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.384631+02:00",
+          "heure_paris": "2026-10-24T16:17:43.757401+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -5151,7 +5151,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.384631+02:00",
+          "heure_paris": "2026-10-24T16:17:43.757401+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -5161,7 +5161,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.384631+02:00",
+          "heure_paris": "2026-10-24T16:17:43.757401+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -5372,7 +5372,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.565518+02:00",
+          "heure_paris": "2026-10-24T16:17:43.900180+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -5382,7 +5382,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.565518+02:00",
+          "heure_paris": "2026-10-24T16:17:43.900180+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -5392,7 +5392,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.565518+02:00",
+          "heure_paris": "2026-10-24T16:17:43.900180+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -5592,7 +5592,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.737290+02:00",
+          "heure_paris": "2026-10-24T16:17:44.040093+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -5602,7 +5602,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.737290+02:00",
+          "heure_paris": "2026-10-24T16:17:44.040093+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -5612,7 +5612,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.737290+02:00",
+          "heure_paris": "2026-10-24T16:17:44.040093+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -5807,7 +5807,7 @@
       "moteurs": [
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.901757+02:00",
+          "heure_paris": "2026-10-24T16:17:44.184255+02:00",
           "meilleur_place": null,
           "moteur": "M1",
           "ordre_espere": [],
@@ -5817,7 +5817,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.901757+02:00",
+          "heure_paris": "2026-10-24T16:17:44.184255+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -5827,7 +5827,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.901757+02:00",
+          "heure_paris": "2026-10-24T16:17:44.184255+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -5837,7 +5837,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.901757+02:00",
+          "heure_paris": "2026-10-24T16:17:44.184255+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -5847,7 +5847,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:21.901757+02:00",
+          "heure_paris": "2026-10-24T16:17:44.184255+02:00",
           "meilleur_place": null,
           "moteur": "M5",
           "ordre_espere": [],
@@ -6015,7 +6015,7 @@
       "moteurs": [
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.164762+02:00",
+          "heure_paris": "2026-10-24T16:17:44.385959+02:00",
           "meilleur_place": null,
           "moteur": "M1",
           "ordre_espere": [],
@@ -6025,7 +6025,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.164762+02:00",
+          "heure_paris": "2026-10-24T16:17:44.385959+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -6035,7 +6035,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.164762+02:00",
+          "heure_paris": "2026-10-24T16:17:44.385959+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -6045,7 +6045,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.164762+02:00",
+          "heure_paris": "2026-10-24T16:17:44.385959+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -6055,7 +6055,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.164762+02:00",
+          "heure_paris": "2026-10-24T16:17:44.385959+02:00",
           "meilleur_place": null,
           "moteur": "M5",
           "ordre_espere": [],
@@ -6234,7 +6234,7 @@
       "moteurs": [
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.336806+02:00",
+          "heure_paris": "2026-10-24T16:17:44.593417+02:00",
           "meilleur_place": null,
           "moteur": "M1",
           "ordre_espere": [],
@@ -6244,7 +6244,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.336806+02:00",
+          "heure_paris": "2026-10-24T16:17:44.593417+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -6254,7 +6254,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.336806+02:00",
+          "heure_paris": "2026-10-24T16:17:44.593417+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -6264,7 +6264,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.336806+02:00",
+          "heure_paris": "2026-10-24T16:17:44.593417+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -6274,7 +6274,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.336806+02:00",
+          "heure_paris": "2026-10-24T16:17:44.593417+02:00",
           "meilleur_place": null,
           "moteur": "M5",
           "ordre_espere": [],
@@ -6453,7 +6453,7 @@
       "moteurs": [
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.517596+02:00",
+          "heure_paris": "2026-10-24T16:17:44.791519+02:00",
           "meilleur_place": null,
           "moteur": "M1",
           "ordre_espere": [],
@@ -6463,7 +6463,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.517596+02:00",
+          "heure_paris": "2026-10-24T16:17:44.791519+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -6473,7 +6473,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.517596+02:00",
+          "heure_paris": "2026-10-24T16:17:44.791519+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -6483,7 +6483,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.517596+02:00",
+          "heure_paris": "2026-10-24T16:17:44.791519+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -6493,7 +6493,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.517596+02:00",
+          "heure_paris": "2026-10-24T16:17:44.791519+02:00",
           "meilleur_place": null,
           "moteur": "M5",
           "ordre_espere": [],
@@ -6672,7 +6672,7 @@
       "moteurs": [
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.690309+02:00",
+          "heure_paris": "2026-10-24T16:17:44.991358+02:00",
           "meilleur_place": null,
           "moteur": "M1",
           "ordre_espere": [],
@@ -6682,7 +6682,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.690309+02:00",
+          "heure_paris": "2026-10-24T16:17:44.991358+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -6692,7 +6692,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.690309+02:00",
+          "heure_paris": "2026-10-24T16:17:44.991358+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -6702,7 +6702,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.690309+02:00",
+          "heure_paris": "2026-10-24T16:17:44.991358+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -6712,7 +6712,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.690309+02:00",
+          "heure_paris": "2026-10-24T16:17:44.991358+02:00",
           "meilleur_place": null,
           "moteur": "M5",
           "ordre_espere": [],
@@ -6907,7 +6907,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.863911+02:00",
+          "heure_paris": "2026-10-24T16:17:45.133877+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -6917,7 +6917,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.863911+02:00",
+          "heure_paris": "2026-10-24T16:17:45.133877+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -6927,7 +6927,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:22.863911+02:00",
+          "heure_paris": "2026-10-24T16:17:45.133877+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -7138,7 +7138,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.048293+02:00",
+          "heure_paris": "2026-10-24T16:17:45.271116+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -7148,7 +7148,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.048293+02:00",
+          "heure_paris": "2026-10-24T16:17:45.271116+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -7158,7 +7158,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.048293+02:00",
+          "heure_paris": "2026-10-24T16:17:45.271116+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -7369,7 +7369,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.211628+02:00",
+          "heure_paris": "2026-10-24T16:17:45.413002+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -7379,7 +7379,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.211628+02:00",
+          "heure_paris": "2026-10-24T16:17:45.413002+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -7389,7 +7389,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.211628+02:00",
+          "heure_paris": "2026-10-24T16:17:45.413002+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -7600,7 +7600,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.559801+02:00",
+          "heure_paris": "2026-10-24T16:17:45.554209+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -7610,7 +7610,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.559801+02:00",
+          "heure_paris": "2026-10-24T16:17:45.554209+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -7620,7 +7620,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.559801+02:00",
+          "heure_paris": "2026-10-24T16:17:45.554209+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -7831,7 +7831,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.759480+02:00",
+          "heure_paris": "2026-10-24T16:17:45.737052+02:00",
           "meilleur_place": null,
           "moteur": "M2",
           "ordre_espere": [],
@@ -7841,7 +7841,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.759480+02:00",
+          "heure_paris": "2026-10-24T16:17:45.737052+02:00",
           "meilleur_place": null,
           "moteur": "M3",
           "ordre_espere": [],
@@ -7851,7 +7851,7 @@
         },
         {
           "gagnant_espere": null,
-          "heure_paris": "2026-10-24T15:54:23.759480+02:00",
+          "heure_paris": "2026-10-24T16:17:45.737052+02:00",
           "meilleur_place": null,
           "moteur": "M4",
           "ordre_espere": [],
@@ -9089,6 +9089,6 @@
   ],
   "audits": [],
   "erreurs": [],
-  "source_rapport": "rapports_turbofusion/turbofusion_20261024_155423_760120_3f2237d4a274.json",
+  "source_rapport": "rapports_turbofusion/turbofusion_20261024_161745_737720_97ec81e9164e.json",
   "note": "Pronostics experimentaux; aucun pari reel execute"
 }
