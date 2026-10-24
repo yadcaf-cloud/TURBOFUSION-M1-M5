@@ -3,18 +3,14 @@
 
 """
 TURBOFUSION M1-M5
-Synchronisation du tableau officiel.
+Synchronisation du tableau officiel v3.0
 
-Fonctions :
-- Lecture des rapports JSON locaux
-- Validation des courses et des moteurs
-- Filtrage selon la date de Paris
+- Lecture des rapports de main.py
+- Compatibilite avec les chemins du depot
 - Conservation des FIGES historiques
-- Generation atomique du dashboard JSON
-- Journalisation et controle des erreurs
-
-Aucune prediction n'est inventee.
-Aucun FIGE n'est cree par ce script.
+- Controle des moteurs M1 a M5
+- Publication atomique de dashboard.json
+- Aucune prediction inventee
 """
 
 import argparse
@@ -25,855 +21,506 @@ import re
 import sys
 import tempfile
 
-from datetime import datetime, date, timezone
+from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-
-# ==========================================
-# CONFIGURATION
-# ==========================================
-
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 PARIS = ZoneInfo("Europe/Paris")
 
-REPORT_DIRS = [
-    ROOT / "reports",
-    ROOT / "data" / "reports",
-    ROOT / "outputs",
-    ROOT / "results",
-]
-
+REPORT_DIR = ROOT / "rapports_turbofusion"
+FREEZE_DIR = ROOT / "figes_turbofusion"
 DASHBOARD = ROOT / "dashboard.json"
-ARCHIVE = ROOT / "data" / "figes_archive.json"
 
 MOTORS = ("M1", "M2", "M3", "M4", "M5")
+MAX_BYTES = 10_000_000
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s"
+)
 LOG = logging.getLogger("TURBOFUSION")
 
-MAX_FILE_BYTES = 10 * 1024 * 1024
-MAX_FILES = 2000
 
-DATE_KEYS = (
-    "date_course",
-    "race_date",
-    "date",
-)
-
-RACE_KEYS = (
-    "courses",
-    "races",
-)
-
-MOTOR_KEYS = (
-    "moteurs",
-    "motors",
-    "analyses",
-)
-
-FREEZE_KEYS = (
-    "fige",
-    "figé",
-    "frozen",
-    "locked",
-)
-
-VALID_STATUSES = {
-    "VALIDE",
-    "VALIDÉ",
-    "VALIDEE",
-    "VALIDÉE",
-    "FIGE",
-    "FIGÉ",
-    "NON VALIDE",
-    "NON VALIDÉ",
-    "EN ATTENTE",
-    "INCOMPLET",
-}
-
-
-# ==========================================
-# OUTILS
-# ==========================================
-
-def now_paris():
+def now():
     return datetime.now(PARIS)
-
-
-def today_paris():
-    return now_paris().date().isoformat()
-
-
-def utc_timestamp():
-    return datetime.now(timezone.utc).isoformat()
-
-
-def first_value(obj, keys, default=None):
-    if not isinstance(obj, dict):
-        return default
-
-    for key in keys:
-        value = obj.get(key)
-        if value is not None and value != "":
-            return value
-
-    return default
-
-
-def normalize_date(value):
-    if value is None:
-        return None
-
-    if isinstance(value, datetime):
-        return value.astimezone(PARIS).date().isoformat()
-
-    if isinstance(value, date):
-        return value.isoformat()
-
-    text = str(value).strip()
-
-    try:
-        return date.fromisoformat(text[:10]).isoformat()
-    except ValueError:
-        pass
-
-    try:
-        return datetime.fromisoformat(
-            text.replace("Z", "+00:00")
-        ).date().isoformat()
-    except ValueError:
-        pass
-
-    for fmt in ("%d/%m/%Y", "%d-%m-%Y"):
-        try:
-            return datetime.strptime(text, fmt).date().isoformat()
-        except ValueError:
-            continue
-
-    return None
-
-
-def clean_number(value):
-    if value is None:
-        return None
-
-    if isinstance(value, bool):
-        return None
-
-    try:
-        number = int(value)
-        return number if number > 0 else None
-    except (ValueError, TypeError):
-        return None
-
-
-def normalize_selection(value):
-    if isinstance(value, str):
-        parts = re.split(r"[\s,;>\-]+", value.strip())
-    elif isinstance(value, list):
-        parts = value
-    else:
-        return []
-
-    result = []
-    seen = set()
-
-    for item in parts:
-        number = clean_number(item)
-
-        if number is not None and number not in seen:
-            result.append(number)
-            seen.add(number)
-
-    return result
-
-
-def is_frozen(obj):
-    if not isinstance(obj, dict):
-        return False
-
-    value = first_value(obj, FREEZE_KEYS, False)
-
-    if isinstance(value, bool):
-        return value
-
-    if isinstance(value, str):
-        return value.strip().upper() in (
-            "TRUE", "OUI", "YES", "1", "FIGE", "FIGÉ"
-        )
-
-    return value == 1
-
-
-def atomic_write(path, data):
-    path.parent.mkdir(parents=True, exist_ok=True)
-
-    temporary = None
-
-    try:
-        with tempfile.NamedTemporaryFile(
-            mode="w",
-            encoding="utf-8",
-            dir=str(path.parent),
-            prefix=".turbo_",
-            suffix=".tmp",
-            delete=False,
-        ) as handle:
-            temporary = Path(handle.name)
-            json.dump(
-                data,
-                handle,
-                ensure_ascii=False,
-                indent=2,
-                allow_nan=False,
-            )
-            handle.write("\n")
-            handle.flush()
-            os.fsync(handle.fileno())
-
-        os.replace(temporary, path)
-
-    finally:
-        if temporary is not None and temporary.exists():
-            temporary.unlink()
 
 
 def read_json(path):
     try:
-        if path.stat().st_size > MAX_FILE_BYTES:
+        if path.stat().st_size > MAX_BYTES:
             LOG.warning("Fichier trop volumineux : %s", path)
             return None
 
-        with path.open("r", encoding="utf-8-sig") as handle:
-            return json.load(handle)
+        with path.open("r", encoding="utf-8-sig") as f:
+            return json.load(f)
 
     except (OSError, ValueError, UnicodeError) as exc:
         LOG.warning("Lecture impossible %s : %s", path, exc)
         return None
 
 
-# ==========================================
-# IDENTIFICATION DES COURSES
-# ==========================================
+def atomic_json(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = None
 
-def race_identity(race):
-    hippodrome = str(
-        first_value(
-            race,
-            ("hippodrome", "track", "lieu"),
-            "",
-        )
-    ).strip().upper()
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            dir=path.parent,
+            prefix=".turbofusion_",
+            suffix=".tmp",
+            delete=False
+        ) as f:
+            temporary = Path(f.name)
+            json.dump(
+                data, f,
+                ensure_ascii=False,
+                indent=2,
+                allow_nan=False
+            )
+            f.write("\n")
+            f.flush()
+            os.fsync(f.fileno())
 
-    reunion = clean_number(
-        first_value(race, ("reunion", "réunion", "r"))
-    )
+        os.replace(temporary, path)
 
-    course = clean_number(
-        first_value(race, ("course", "numero_course", "c"))
-    )
+    finally:
+        if temporary and temporary.exists():
+            temporary.unlink()
 
-    race_date = normalize_date(
-        first_value(race, DATE_KEYS)
-    )
 
-    if not race_date or not reunion or not course:
+def number(value):
+    if isinstance(value, bool):
         return None
 
-    return (
-        race_date,
-        hippodrome,
-        reunion,
-        course,
+    match = re.fullmatch(
+        r"[RC]?(\d+)",
+        str(value or "").strip(),
+        re.IGNORECASE
     )
 
-
-def race_id(race):
-    identity = race_identity(race)
-
-    if identity is None:
+    if not match:
         return None
 
-    race_date, track, reunion, course = identity
-
-    track = re.sub(r"[^A-Z0-9]+", "_", track).strip("_")
-
-    return (
-        f"{race_date}_"
-        f"{track or 'INCONNU'}_"
-        f"R{reunion}C{course}"
-    )
+    n = int(match.group(1))
+    return n if n > 0 else None
 
 
-# ==========================================
-# NORMALISATION DES MOTEURS
-# ==========================================
+def selection(value):
+    if isinstance(value, list):
+        items = value
+    elif isinstance(value, str):
+        items = re.split(r"[\s,;>\-]+", value)
+    else:
+        return []
 
-def normalize_motor(name, source):
-    if not isinstance(source, dict):
+    result = []
+    for item in items:
+        n = number(item)
+        if n and n not in result:
+            result.append(n)
+
+    return result
+
+
+def normalize_date(value):
+    if not value:
         return None
 
-    selection = normalize_selection(
-        first_value(
-            source,
-            (
-                "ordre_arrivee_espere",
-                "ordre_arrivée_espéré",
-                "selection",
-                "pronostic",
-                "combinaison",
-            ),
-            [],
-        )
+    try:
+        return date.fromisoformat(str(value)[:10]).isoformat()
+    except ValueError:
+        return None
+
+
+def normalize_motor(raw, name):
+    if not isinstance(raw, dict):
+        raw = {}
+
+    order = selection(
+        raw.get("ordre_espere")
+        or raw.get("ordre_arrivee_espere")
+        or raw.get("selection")
+        or []
     )
 
-    winner = clean_number(
-        first_value(
-            source,
-            ("gagnant_espere", "gagnant", "winner"),
-        )
+    winner = number(raw.get("gagnant_espere"))
+    placed = number(raw.get("meilleur_place"))
+
+    if not winner and order:
+        winner = order[0]
+
+    if not placed and len(order) > 1:
+        placed = order[1]
+
+    validation = str(
+        raw.get("validation") or "NON FIGÉ"
     )
 
-    placed = clean_number(
-        first_value(
-            source,
-            ("meilleur_place", "place", "placed"),
-        )
+    frozen = (
+        validation.upper().startswith("FIGÉ")
+        or raw.get("fige") is True
     )
-
-    if winner is None and selection:
-        winner = selection[0]
-
-    if winner is not None and winner not in selection:
-        selection.insert(0, winner)
-
-    status = str(
-        first_value(
-            source,
-            ("qualification", "statut", "status"),
-            "EN ATTENTE",
-        )
-    ).strip().upper()
-
-    frozen = is_frozen(source)
-
-    freeze_time = first_value(
-        source,
-        (
-            "heure_fige",
-            "heure_figé",
-            "fige_at",
-            "frozen_at",
-        ),
-    )
-
-    # Un FIGE doit avoir une heure traçable.
-    if frozen and not freeze_time:
-        LOG.warning(
-            "%s : FIGE sans horodatage, non confirme",
-            name,
-        )
-        frozen = False
-        status = "INCOMPLET"
-
-    if frozen:
-        status = "FIGÉ"
-
-    if status not in VALID_STATUSES:
-        status = "EN ATTENTE"
 
     return {
         "moteur": name,
         "gagnant_espere": winner,
         "meilleur_place": placed,
-        "ordre_arrivee_espere": selection,
-        "pari_retenu": first_value(
-            source,
-            ("pari_retenu", "pari", "bet"),
+        "ordre_espere": order,
+        "pari_retenu": raw.get("pari_retenu", "Aucun"),
+        "qualification": raw.get(
+            "qualification", "Non évalué"
         ),
-        "qualification": status,
-        "validation": first_value(
-            source,
-            ("validation", "validated"),
-        ),
-        "fige": frozen,
-        "heure_fige": freeze_time if frozen else None,
-        "score": first_value(
-            source,
-            ("score", "confidence", "confiance"),
-        ),
-        "analyse": first_value(
-            source,
-            ("analyse", "commentaire", "reason"),
-        ),
+        "validation": validation,
+        "heure_paris": raw.get("heure_paris"),
+        "fige": frozen
     }
 
 
-def extract_motors(race):
-    raw = first_value(race, MOTOR_KEYS, {})
-
+def motors_from(raw):
     result = {}
 
-    for name in MOTORS:
-        source = None
-
-        if isinstance(raw, dict):
-            source = raw.get(name) or raw.get(name.lower())
-
-        elif isinstance(raw, list):
-            for entry in raw:
-                if not isinstance(entry, dict):
-                    continue
-
-                entry_name = str(
-                    first_value(
-                        entry,
-                        ("moteur", "motor", "name"),
-                        "",
-                    )
+    if isinstance(raw, list):
+        for entry in raw:
+            if isinstance(entry, dict):
+                name = str(
+                    entry.get("moteur", "")
                 ).upper()
 
-                if entry_name == name:
-                    source = entry
-                    break
+                if name in MOTORS:
+                    result[name] = normalize_motor(
+                        entry, name
+                    )
 
-        if source is None:
-            source = race.get(name) or race.get(name.lower())
+    elif isinstance(raw, dict):
+        for name in MOTORS:
+            entry = raw.get(name) or raw.get(name.lower())
+            if entry:
+                result[name] = normalize_motor(entry, name)
 
-        result[name] = normalize_motor(name, source)
+    for name in MOTORS:
+        result.setdefault(
+            name, normalize_motor({}, name)
+        )
 
     return result
 
 
-# ==========================================
-# NORMALISATION DES RAPPORTS
-# ==========================================
+def race_key(day, reunion, course):
+    return f"{day}_R{reunion}_C{course}"
 
-def normalize_race(source, inherited_date=None):
-    if not isinstance(source, dict):
+
+def normalize_race(raw, day):
+    if not isinstance(raw, dict):
         return None
 
-    race = dict(source)
+    reunion = number(raw.get("reunion"))
+    course = number(raw.get("course"))
 
-    if not first_value(race, DATE_KEYS):
-        race["date_course"] = inherited_date
-
-    race["date_course"] = normalize_date(
-        first_value(race, DATE_KEYS)
-    )
-
-    identity = race_identity(race)
-
-    if identity is None:
-        LOG.warning("Course ignoree : identifiant incomplet")
+    if not reunion or not course:
         return None
 
-    identifier = race_id(race)
+    motors = motors_from(raw.get("moteurs", []))
 
-    motors = extract_motors(race)
+    horses = raw.get("partants", [])
+    if not isinstance(horses, list):
+        horses = []
 
-    participants = first_value(
-        race,
-        ("partants", "nombre_partants", "participants"),
-    )
-
-    if isinstance(participants, list):
-        participants = len(participants)
-    else:
-        participants = clean_number(participants)
-
-    non_runners = normalize_selection(
-        first_value(
-            race,
-            ("non_partants", "np", "non_runners"),
-            [],
-        )
-    )
+    active = [
+        h for h in horses
+        if isinstance(h, dict)
+        and not h.get("non_partant", False)
+    ]
 
     return {
-        "id": identifier,
-        "date_course": race["date_course"],
-        "hippodrome": first_value(
-            race, ("hippodrome", "track", "lieu")
+        "id": race_key(day, reunion, course),
+        "date_course": day,
+        "reunion": f"R{reunion}",
+        "course": f"C{course}",
+        "hippodrome": raw.get(
+            "hippodrome", "Non renseigné"
         ),
-        "reunion": identity[2],
-        "course": identity[3],
-        "heure_depart": first_value(
-            race,
-            ("heure_depart", "depart", "start_time"),
+        "depart_paris": raw.get("depart_paris"),
+        "nombre_partants": raw.get(
+            "nombre_partants", len(active)
         ),
-        "discipline": first_value(
-            race, ("discipline", "specialite")
+        "non_partants": raw.get(
+            "non_partants", []
         ),
-        "distance": first_value(
-            race, ("distance", "distance_m")
-        ),
-        "terrain": first_value(
-            race, ("terrain", "going")
-        ),
-        "partants": participants,
-        "non_partants": non_runners,
+        "partants": horses,
         "moteurs": motors,
-        "arrivee_officielle": normalize_selection(
-            first_value(
-                race,
-                ("arrivee_officielle", "official_result"),
-                [],
-            )
-        ),
-        "source": first_value(
-            race, ("source", "source_url")
-        ),
-        "source_verifiee": (
-            first_value(
-                race,
-                ("source_verifiee", "source_verified"),
-            ) is True
-        ),
+        "source": raw.get("source"),
+        "nouveaux_figes": raw.get(
+            "nouveaux_figes", []
+        )
     }
 
 
-def extract_races(document):
-    if isinstance(document, list):
-        return document, None
-
-    if not isinstance(document, dict):
-        return [], None
-
-    inherited_date = first_value(document, DATE_KEYS)
-
-    for key in RACE_KEYS:
-        value = document.get(key)
-
-        if isinstance(value, list):
-            return value, inherited_date
-
-    if any(
-        key in document
-        for key in ("reunion", "réunion")
-    ):
-        return [document], inherited_date
-
-    return [], inherited_date
-
-
-# ==========================================
-# PROTECTION DES FIGES
-# ==========================================
-
-def merge_races(old, new):
-    if old is None:
-        return new
-
-    if new is None:
-        return old
-
-    merged = dict(old)
-    merged.update(new)
-
-    old_motors = old.get("moteurs", {})
-    new_motors = new.get("moteurs", {})
-
-    merged_motors = {}
-
-    for name in MOTORS:
-        previous = old_motors.get(name)
-        current = new_motors.get(name)
-
-        # Un FIGE deja enregistre est immuable.
-        if isinstance(previous, dict) and previous.get("fige"):
-            merged_motors[name] = previous
-        else:
-            merged_motors[name] = current or previous
-
-    merged["moteurs"] = merged_motors
-
-    return merged
-
-
-def load_archive():
-    data = read_json(ARCHIVE) if ARCHIVE.exists() else {}
+def report_entries(data):
+    if isinstance(data, list):
+        return data
 
     if not isinstance(data, dict):
-        return {}
+        return []
 
-    return {
-        key: value
-        for key, value in data.items()
-        if isinstance(value, dict)
-    }
+    if isinstance(data.get("courses"), list):
+        return data["courses"]
 
+    if "reunion" in data and "course" in data:
+        return [data]
 
-def update_archive(archive, races):
-    for race in races:
-        identifier = race["id"]
-
-        frozen_motors = {
-            name: motor
-            for name, motor in race["moteurs"].items()
-            if isinstance(motor, dict)
-            and motor.get("fige") is True
-        }
-
-        if not frozen_motors:
-            continue
-
-        if identifier not in archive:
-            archive[identifier] = {
-                **race,
-                "moteurs": {
-                    name: None for name in MOTORS
-                },
-            }
-
-        previous = archive[identifier]
-        previous_motors = previous.setdefault("moteurs", {})
-
-        for name, motor in frozen_motors.items():
-            old = previous_motors.get(name)
-
-            if not isinstance(old, dict) or not old.get("fige"):
-                previous_motors[name] = motor
-
-    return archive
+    return []
 
 
-# ==========================================
-# LECTURE DES RAPPORTS
-# ==========================================
-
-def discover_files():
-    files = set()
-
-    for directory in REPORT_DIRS:
-        if not directory.is_dir():
-            continue
-
-        for path in directory.rglob("*.json"):
-            if path.is_file():
-                files.add(path)
-
-    return sorted(files, key=lambda p: str(p))[:MAX_FILES]
-
-
-def load_reports(target_date):
+def load_reports(day):
     races = {}
-    files = discover_files()
+    count = 0
 
-    LOG.info("Rapports trouves : %d", len(files))
+    if not REPORT_DIR.exists():
+        LOG.warning("Dossier des rapports absent")
+        return races, count
 
-    for path in files:
-        document = read_json(path)
+    paths = sorted(
+        REPORT_DIR.glob("*.json"),
+        key=lambda p: p.stat().st_mtime
+    )
 
-        if document is None:
+    for path in paths[-2000:]:
+        data = read_json(path)
+        if data is None:
             continue
 
-        entries, inherited_date = extract_races(document)
+        count += 1
 
-        for entry in entries:
-            race = normalize_race(entry, inherited_date)
+        report_day = None
+        if isinstance(data, dict):
+            report_day = normalize_date(
+                data.get("date_course")
+                or data.get("date")
+            )
 
+        for raw in report_entries(data):
+            if not isinstance(raw, dict):
+                continue
+
+            current_day = normalize_date(
+                raw.get("date_course")
+            ) or report_day
+
+            if not current_day:
+                departure = raw.get("depart_paris")
+                current_day = normalize_date(departure)
+
+            if current_day != day:
+                continue
+
+            race = normalize_race(raw, day)
             if race is None:
                 continue
 
-            if race["date_course"] != target_date:
-                continue
+            previous = races.get(race["id"])
 
-            identifier = race["id"]
+            if previous:
+                for name in MOTORS:
+                    old = previous["moteurs"][name]
+                    if old["fige"]:
+                        race["moteurs"][name] = old
 
-            races[identifier] = merge_races(
-                races.get(identifier),
-                race,
-            )
+            races[race["id"]] = race
 
-    return races, len(files)
-
-
-# ==========================================
-# CONTROLE DES COURSES
-# ==========================================
-
-def validate_race(race):
-    motors = race.get("moteurs", {})
-
-    available = sum(
-        isinstance(motors.get(name), dict)
-        for name in MOTORS
-    )
-
-    frozen = sum(
-        isinstance(motors.get(name), dict)
-        and motors[name].get("fige") is True
-        for name in MOTORS
-    )
-
-    race["nombre_moteurs_disponibles"] = available
-    race["nombre_figes"] = frozen
-
-    if frozen:
-        race["statut"] = "FIGÉ PARTIEL" if frozen < 5 else "FIGÉ"
-    elif available:
-        race["statut"] = "ANALYSE DISPONIBLE"
-    else:
-        race["statut"] = "DONNÉES INSUFFISANTES"
-
-    return race
+    return races, count
 
 
-def sort_key(race):
-    time_value = str(race.get("heure_depart") or "99:99")
+def restore_freezes(races, day):
+    if not FREEZE_DIR.exists():
+        return 0
 
-    match = re.search(r"(\d{1,2}):(\d{2})", time_value)
+    restored = 0
 
-    if match:
-        hour = int(match.group(1))
-        minute = int(match.group(2))
-        time_sort = hour * 60 + minute
-    else:
-        time_sort = 9999
+    for path in sorted(FREEZE_DIR.glob("*.json")):
+        data = read_json(path)
 
-    return (
-        time_sort,
-        race.get("reunion") or 999,
-        race.get("course") or 999,
-    )
-
-
-# ==========================================
-# SYNCHRONISATION
-# ==========================================
-
-def synchronize(target_date=None):
-    target_date = target_date or today_paris()
-
-    LOG.info("Synchronisation du %s", target_date)
-
-    archive = load_archive()
-    current, file_count = load_reports(target_date)
-
-    # Restaurer les FIGES archives du jour.
-    for identifier, archived in archive.items():
-        if archived.get("date_course") != target_date:
+        if not isinstance(data, dict):
             continue
 
-        current[identifier] = merge_races(
-            archived,
-            current.get(identifier),
+        if normalize_date(
+            data.get("date_course")
+        ) != day:
+            continue
+
+        reunion = None
+        course = None
+
+        match = re.fullmatch(
+            r"R(\d+)C(\d+)",
+            str(data.get("course", "")),
+            re.IGNORECASE
         )
 
-    races = [
-        validate_race(race)
-        for race in current.values()
-    ]
+        if match:
+            reunion = int(match.group(1))
+            course = int(match.group(2))
 
-    races.sort(key=sort_key)
+        if not reunion or not course:
+            continue
 
-    frozen_count = sum(
-        race["nombre_figes"]
-        for race in races
+        key = race_key(day, reunion, course)
+
+        if key not in races:
+            races[key] = normalize_race({
+                "reunion": reunion,
+                "course": course,
+                "hippodrome": data.get("hippodrome"),
+                "depart_paris": data.get("depart_paris"),
+                "partants": data.get("partants", []),
+                "source": data.get("source")
+            }, day)
+
+        race = races[key]
+        raw_motor = data.get("pronostic", {})
+
+        if not isinstance(raw_motor, dict):
+            continue
+
+        name = str(
+            raw_motor.get("moteur", "")
+        ).upper()
+
+        if name not in MOTORS:
+            continue
+
+        motor = normalize_motor(raw_motor, name)
+
+        # L'archive est la reference historique.
+        motor["validation"] = "FIGÉ HISTORIQUE (IMMUTABLE)"
+        motor["fige"] = True
+        motor["heure_paris"] = (
+            data.get("fige_a_paris")
+            or motor["heure_paris"]
+        )
+
+        race["moteurs"][name] = motor
+        restored += 1
+
+    return restored
+
+
+def sort_race(race):
+    departure = race.get("depart_paris") or ""
+    return (
+        departure,
+        race.get("reunion", ""),
+        race.get("course", "")
     )
 
-    motor_count = sum(
-        race["nombre_moteurs_disponibles"]
-        for race in races
+
+def synchronize(day):
+    races, count = load_reports(day)
+    restored = restore_freezes(races, day)
+
+    ordered = sorted(
+        races.values(), key=sort_race
     )
+
+    frozen_count = 0
+
+    for race in ordered:
+        motors = race["moteurs"]
+
+        frozen = sum(
+            bool(motors[name]["fige"])
+            for name in MOTORS
+        )
+
+        frozen_count += frozen
+        race["nombre_figes"] = frozen
+
+        if frozen == 5:
+            race["statut"] = "FIGÉ COMPLET"
+        elif frozen:
+            race["statut"] = "FIGÉ PARTIEL"
+        else:
+            race["statut"] = "NON FIGÉ"
+
+        race["fige"] = frozen > 0
+
+        # Compatibilite avec le dashboard existant.
+        race["moteurs"] = [
+            motors[name] for name in MOTORS
+        ]
+
+    timestamp = now().isoformat()
 
     dashboard = {
         "logiciel": "TURBOFUSION M1-M5",
-        "sous_titre": "Intelligence hippique specialisee",
+        "version_dashboard": "3.0",
+        "sous_titre": (
+            "Intelligence hippique spécialisée"
+        ),
         "devise": "La magie du savoir",
-        "version_schema": 1,
-        "date": target_date,
+        "date_courses": day,
+        "synchronise_a_paris": timestamp,
         "fuseau_horaire": "Europe/Paris",
-        "derniere_synchronisation": now_paris().isoformat(),
         "statut": (
-            "DONNEES DISPONIBLES"
-            if races else "AUCUNE DONNEE VALIDEE"
+            "DONNÉES DISPONIBLES"
+            if ordered else "AUCUNE DONNÉE"
         ),
         "statistiques": {
-            "fichiers_examines": file_count,
-            "courses": len(races),
-            "analyses_moteurs": motor_count,
+            "rapports_lus": count,
+            "courses": len(ordered),
             "figes_moteurs": frozen_count,
+            "archives_figees_lues": restored
         },
-        "moteurs": list(MOTORS),
-        "courses": races,
+        "courses": ordered,
         "avertissement": (
-            "Pronostics issus des rapports disponibles. "
-            "Aucune garantie de resultat. "
-            "Les donnees absentes ne sont pas inventees."
-        ),
+            "Analyses expérimentales. "
+            "Aucune garantie de résultat. "
+            "Aucun pari réel exécuté."
+        )
     }
 
-    # Archiver avant de publier le tableau.
-    archive = update_archive(archive, races)
-
-    atomic_write(ARCHIVE, archive)
-    atomic_write(DASHBOARD, dashboard)
+    atomic_json(DASHBOARD, dashboard)
 
     LOG.info(
-        "Termine : %d courses, %d analyses, %d FIGES",
-        len(races),
-        motor_count,
-        frozen_count,
+        "Synchronisation terminée : "
+        "%s courses, %s FIGÉS",
+        len(ordered), frozen_count
     )
 
     return dashboard
 
 
-# ==========================================
-# EXECUTION
-# ==========================================
-
 def main():
-    parser = argparse.ArgumentParser(
-        description="Synchronisation TURBOFUSION M1-M5"
-    )
-
+    parser = argparse.ArgumentParser()
     parser.add_argument(
         "--date",
-        default=None,
-        help="Date de course AAAA-MM-JJ",
+        help="Date AAAA-MM-JJ"
     )
-
-    parser.add_argument(
-        "--verbose",
-        action="store_true",
-    )
-
     args = parser.parse_args()
 
-    logging.basicConfig(
-        level=logging.DEBUG if args.verbose else logging.INFO,
-        format="%(asctime)s | %(levelname)s | %(message)s",
-    )
-
-    target = args.date or today_paris()
+    day = args.date or now().date().isoformat()
 
     try:
-        date.fromisoformat(target)
+        date.fromisoformat(day)
     except ValueError:
-        LOG.error("Date invalide : %s", target)
+        LOG.error("Date invalide : %s", day)
         return 2
 
     try:
-        result = synchronize(target)
-
-        print(
-            json.dumps(
-                result["statistiques"],
-                ensure_ascii=False,
-                indent=2,
-            )
-        )
-
+        dashboard = synchronize(day)
+        print(json.dumps(
+            dashboard["statistiques"],
+            indent=2,
+            ensure_ascii=False
+        ))
         return 0
 
     except Exception:
-        LOG.exception("Echec de synchronisation")
+        LOG.exception("Erreur de synchronisation")
         return 1
 
 
 if __name__ == "__main__":
     sys.exit(main())
-
