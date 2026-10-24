@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -5,7 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>🇸🇳 TURBOFUSION M1–M5 | Intelligence hippique</title>
 <style>
-:root {
+:root{
   color-scheme:dark;
   --bg:#081324;
   --panel:#12233b;
@@ -327,6 +328,20 @@ function moteurTable(data){
   </div>`;
 }
 
+function nombrePartants(c){
+  const nombre=val(c,'nombre_partants','nb_partants');
+
+  if(nombre!==null){
+    return nombre;
+  }
+
+  if(Array.isArray(c.partants)){
+    return c.partants.filter(h=>h && !h.non_partant).length;
+  }
+
+  return null;
+}
+
 function tableauMoteurs(x){
   const courses=list(val(x,'courses','races'));
 
@@ -338,9 +353,10 @@ function tableauMoteurs(x){
   <article class="course">
     <div class="coursehead">
       <h3>${e(val(c,'course','nom','libelle','name')||`Course ${i+1}`)}</h3>
-      <span class="tag">${e(val(c,'reunion','hippodrome','lieu'))}</span>
+      <span class="tag">${e(val(c,'hippodrome','lieu','reunion'))}</span>
+      <span class="tag">${e(val(c,'reunion'))}</span>
       <span class="tag">🕒 ${e(val(c,'depart_paris','heure','heure_depart','depart'))}</span>
-      <span class="tag">👥 ${e(val(c,'partants','nombre_partants','nb_partants'))} partants</span>
+      <span class="tag">👥 ${e(nombrePartants(c))} partants</span>
       <span class="tag">NP : ${e(val(c,'non_partants','np'))}</span>
     </div>
     <div class="coursebody">
@@ -456,5 +472,4 @@ document.addEventListener('visibilitychange',()=>{
 });
 </script>
 </body>
-                           </html>
-                           
+</html>
