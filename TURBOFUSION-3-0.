@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TURBOFUSION 3.0 | Intelligence Hippique</title>
+<style>
+:root {
+  --fond:#071c18;
+  --carte:#10372d;
+  --or:#e8bf66;
+  --texte:#f4f6ef;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  background:var(--fond);
+  color:var(--texte);
+  font-family:Arial,sans-serif;
+}
+header {
+  background:linear-gradient(120deg,#063b30,#10291f);
+  text-align:center;
+  padding:45px 15px;
+  border-bottom:3px solid var(--or);
+}
+h1 {
+  color:var(--or);
+  font-size:clamp(30px,7vw,58px);
+  margin:10px 0;
+}
+h2 { color:var(--or); }
+.subtitle { font-size:17px; }
+.motto { color:#c9d8c9; }
+main {
+  max-width:1250px;
+  margin:auto;
+  padding:20px;
+}
+.engines {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:15px;
+}
+.engine {
+  background:var(--carte);
+  padding:22px;
+  border-radius:15px;
+  border:1px solid #386657;
+}
+.engine h3 { margin:0 0 10px; }
+.m1 { border-top:5px solid #2196f3; }
+.m2 { border-top:5px solid #36ce77; }
+.m3 { border-top:5px solid #af70ed; }
+.m4 { border-top:5px solid #ffa928; }
+.m5 { border-top:5px solid #f45d63; }
+section {
+  margin-top:30px;
+  background:#0e3028;
+  border-radius:15px;
+  padding:20px;
+}
+.scroll { overflow-x:auto; }
+table {
+  border-collapse:collapse;
+  width:100%;
+  min-width:850px;
+}
+th,td {
+  padding:13px;
+  border-bottom:1px solid #3d6659;
+  text-align:left;
+}
+th { background:#205041;color:#f7d88b; }
+.status { color:#e9c676; }
+footer {
+  text-align:center;
+  padding:30px;
+  color:#b5cfc1;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div style="font-size:35px">🇸🇳 🧠 🔥 🐎 🇫🇷</div>
+  <h1>TURBOFUSION 3.0</h1>
+  <p class="subtitle">INTELLIGENCE HIPPIQUE SPÉCIALISÉE</p>
+  <p class="motto">
+    La mémoire conserve • L'analyse comprend • L'expérience enseigne
+  </p>
+</header>
+
+<main>
+  <h2>🧠 Deux moteurs — Cinq spécialités</h2>
+  <div class="engines">
+    <div class="engine m1">
+      <h3>🔵 M1</h3>
+      Forme et régularité
+      <p>Moteur A</p>
+    </div>
+    <div class="engine m2">
+      <h3>🟢 M2</h3>
+      Aptitudes et conditions
+      <p>Moteur A</p>
+    </div>
+    <div class="engine m3">
+      <h3>🟣 M3</h3>
+      Origines et entourage
+      <p>Moteur A</p>
+    </div>
+    <div class="engine m4">
+      <h3>🟠 M4</h3>
+      Classe et stratégie
+      <p>Moteur B</p>
+    </div>
+    <div class="engine m5">
+      <h3>🔴 M5</h3>
+      Risques et régularité
+      <p>Moteur B</p>
+    </div>
+  </div>
+
+  <section>
+    <h2>🏆 TABLEAU OFFICIEL TURBOFUSION 3.0</h2>
+    <p id="statut" class="status">Chargement des données...</p>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Hippodrome</th>
+            <th>Départ Paris</th>
+            <th>Partants</th>
+            <th>M1</th>
+            <th>M2</th>
+            <th>M3</th>
+            <th>M4</th>
+            <th>M5</th>
+          </tr>
+        </thead>
+        <tbody id="tableau"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>🔒 FIGÉS ET AUDITS</h2>
+    <p>
+      Les pronostics FIGÉS doivent être enregistrés avant le départ
+      et conservés sans modification.
+    </p>
+    <p>
+      Les résultats officiels et les audits seront affichés après
+      raccordement à une source de données vérifiée.
+    </p>
+  </section>
+</main>
+
+<footer>
+  🇸🇳 TURBOFUSION 3.0 — La magie du savoir
+  <p>Analyses expérimentales — Aucun pari réel exécuté</p>
+</footer>
+
+<script>
+const tbody = document.getElementById("tableau");
+const statut = document.getElementById("statut");
+
+function cellule(valeur) {
+  const td = document.createElement("td");
+  td.textContent = valeur == null ? "—" : String(valeur);
+  return td;
+}
+
+fetch("./dashboard.json", {cache:"no-store"})
+.then(reponse => {
+  if (!reponse.ok) throw new Error("Données indisponibles");
+  return reponse.json();
+})
+.then(data => {
+  if (!Array.isArray(data.courses)) {
+    throw new Error("Format invalide");
+  }
+  statut.textContent =
+    (data.statut_donnees || "Données non vérifiées") +
+    " — " + data.courses.length + " course(s)";
+
+  tbody.replaceChildren();
+
+  if (!data.courses.length) {
+    const tr = document.createElement("tr");
+    const td = cellule("Aucune course importée");
+    td.colSpan = 9;
+    tr.appendChild(td);
+    tbody.appendChild(tr);
+    return;
+  }
+
+  data.courses.forEach(course => {
+    const tr = document.createElement("tr");
+    [
+      course.id,
+      course.hippodrome,
+      course.depart_paris,
+      course.nombre_partants
+    ].forEach(v => tr.appendChild(cellule(v)));
+
+    for (let i = 1; i <= 5; i++) {
+      const moteur = (course.moteurs || [])
+        .find(m => m.moteur === "M" + i);
+
+      const affichage = moteur?.ordre_espere?.length
+        ? moteur.ordre_espere.join(" - ") +
+          " (" + moteur.validation + ")"
+        : moteur?.qualification || "Indisponible";
+
+      tr.appendChild(cellule(affichage));
+    }
+    tbody.appendChild(tr);
+  });
+})
+.catch(() => {
+  statut.textContent = "En attente des données officielles";
+  tbody.replaceChildren();
+  const tr = document.createElement("tr");
+  const td = cellule("Aucune donnée disponible");
+  td.colSpan = 9;
+  tr.appendChild(td);
+  tbody.appendChild(tr);
+});
+</script>
+
+</body>
+</html>
