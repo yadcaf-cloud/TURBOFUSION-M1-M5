@@ -10,16 +10,16 @@ permissions:
   contents: write
 
 concurrency:
-  group: turbofusion-data
+  group: turbofusion-automatic
   cancel-in-progress: false
 
 jobs:
-  actualisation:
+  analyse:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
-      - name: Recuperer le depot
+      - name: Recuperer le logiciel
         uses: actions/checkout@v4
 
       - name: Installer Python
@@ -27,106 +27,35 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Executer les analyses
-        id: analyse
-        continue-on-error: true
-        run: python main.py
-
-      - name: Construire le tableau officiel
-        env:
-          ANALYSE_OK: ${{ steps.analyse.outcome }}
+      - name: Installer les dependances
         run: |
-          python - <<'PY'
-          import json
-          import os
-          from pathlib import Path
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
 
-          paris = ZoneInfo("Europe/Paris")
-          now = datetime.now(paris).isoformat()
-          output = Path("dashboard.json")
-          folder = Path("rapports_turbofusion")
+      - name: Executer TURBOFUSION
+        env:
+          TZ: Europe/Paris
+          PYTHONUNBUFFERED: "1"
+        run: |
+          if [ -f main.py ]; then
+            python main.py
+          elif [ -f main-5.py ]; then
+            python main-5.py
+          else
+            echo "ERREUR: fichier Python introuvable"
+            exit 1
+          fi
 
-          def load(path):
-              try:
-                  return json.loads(path.read_text(encoding="utf-8"))
-              except (OSError, ValueError):
-                  return None
-
-          previous = load(output) or {}
-          reports = sorted(folder.glob("*.json")) if folder.exists() else []
-
-          if os.getenv("ANALYSE_OK") != "success" or not reports:
-              print("Analyse indisponible : conservation des donnees.")
-              if not output.exists():
-                  output.write_text(
-                      json.dumps({
-                          "derniere_actualisation": None,
-                          "moteurs": {},
-                          "courses": [],
-                          "figes": [],
-                          "audits": []
-                      }, ensure_ascii=False, indent=2),
-                      encoding="utf-8"
-                  )
-              raise SystemExit(0)
-
-          report = load(reports[-1])
-          if not isinstance(report, dict) or not isinstance(report.get("courses"), list):
-              print("Rapport invalide : conservation du tableau.")
-              raise SystemExit(0)
-
-          courses = []
-          moteurs = {}
-          for c in report["courses"]:
-              partants = c.get("partants", [])
-              courses.append({
-                  "course": str(c.get("reunion", "")) + str(c.get("course", "")),
-                  "hippodrome": c.get("hippodrome", "Inconnu"),
-                  "depart": c.get("depart"),
-                  "partants": sum(
-                      not p.get("non_partant", False)
-                      for p in partants
-                  ),
-                  "statut": "Analyse indicative - non FIGEE"
-              })
-
-              for m in c.get("moteurs", []):
-                  ident = m.get("moteur")
-                  if ident not in ("M1", "M2", "M3", "M4", "M5"):
-                      continue
-                  moteurs[ident] = {
-                      "gagnant_espere": m.get("gagnant_espere"),
-                      "meilleur_place": m.get("meilleur_place"),
-                      "ordre_arrivee_espere": m.get("ordre_espere", []),
-                      "pari_retenu": m.get("pari_retenu"),
-                      "qualification": m.get("qualification"),
-                      "validation": m.get("validation", "Non FIGE"),
-                      "heure_paris": now
-                  }
-
-          dashboard = {
-              "derniere_actualisation": now,
-              "moteurs": moteurs,
-              "courses": courses,
-              "figes": previous.get("figes", []),
-              "audits": previous.get("audits", [])
-          }
-
-          output.write_text(
-              json.dumps(dashboard, ensure_ascii=False, indent=2),
-              encoding="utf-8"
-          )
-          print("dashboard.json genere.")
-          PY
-
-      - name: Publier les donnees
+      - name: Enregistrer les resultats
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dashboard.json
+          git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "Actualisation TURBOFUSION"
+            git commit -m "Actualisation automatique TURBOFUSION"
             git push
           fi
+          
