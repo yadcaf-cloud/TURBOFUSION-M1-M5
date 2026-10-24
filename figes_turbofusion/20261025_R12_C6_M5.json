@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R12C6",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:45:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:34.004591+02:00",
+  "hippodrome": "NANTES",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "C. BUHIGNE",
+      "gains": null,
+      "jockey": "P. BUHIGNE",
+      "musique": "2aDa0a1a4aDaDa(25)Da1a",
+      "nom": "MATCHLESS SPEED",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mme Pauline MALQUET",
+      "gains": null,
+      "jockey": "MARTIAL VIEL",
+      "musique": "7a2a2a8aDa0a3a0a0a(25)",
+      "nom": "MANON ORANGE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. DUBOIS",
+      "gains": null,
+      "jockey": "J. DUBOIS",
+      "musique": "0aDa1aDaDaDaDa5a5a9a",
+      "nom": "MALIZIOSA",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "D. DAUVERNE",
+      "gains": null,
+      "jockey": "D. DAUVERNE",
+      "musique": "9a8a8a8a1a3a5a8a3a4a",
+      "nom": "MERALDA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Y. DOCQUIN",
+      "gains": null,
+      "jockey": "R. LAMY",
+      "musique": "Da1a0a5a2a4a4a3a4a(25)",
+      "nom": "MIRA DE PASSIEU",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "ET. DELAUNAY",
+      "musique": "Da8a2a3a9a4a2a0aDa4a",
+      "nom": "MAGNIFICA JOSSELYN",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Matthias CHOLLOUX",
+      "gains": null,
+      "jockey": "R.S. CHOLLOUX",
+      "musique": "Da7aDaDaDaDa5aDa0a0a",
+      "nom": "MY PRINCESS HAUFOR",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B. MARIE",
+      "gains": null,
+      "jockey": "M. LEGROS",
+      "musique": "1a1a8aDaDa0a6aDa0aDa",
+      "nom": "MINTRA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "K. LEBLANC",
+      "gains": null,
+      "jockey": "L. PELTIER",
+      "musique": "5a5m9a0a4aDa1a(25)8aDa",
+      "nom": "MISS LOVE BERRY",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "L. CASTEL",
+      "musique": "8a5a3aDa5a2aDa6a4a7a",
+      "nom": "MILA CAAL",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. HERARD",
+      "gains": null,
+      "jockey": "P. SORAIS",
+      "musique": "2a6a2a9a2a4a1a8a3a7a",
+      "nom": "MOLLY DEL GREEN",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "TH. BODIN",
+      "gains": null,
+      "jockey": "M. POTIER",
+      "musique": "1a9a8aDa3aDa2a5a(25)2a",
+      "nom": "MORAYA DU KASTEL",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "L. KOUBICHE",
+      "gains": null,
+      "jockey": "L. KOUBICHE",
+      "musique": "5a3a2aDa1a(25)2a3a2a8a",
+      "nom": "MINI MISS",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 13,
+    "heure_paris": "2026-10-25T00:16:34.004591+02:00",
+    "meilleur_place": 1,
+    "moteur": "M5",
+    "ordre_espere": [
+      13,
+      1,
+      5,
+      10,
+      2
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C6/participants"
+}

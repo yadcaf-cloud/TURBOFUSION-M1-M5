@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R5C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T17:18:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:25.700611+02:00",
+  "hippodrome": "ENGHIEN",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "A. GOCCIADORO",
+      "gains": null,
+      "jockey": "E. RAFFIN",
+      "musique": "3a5a1a1a2a1a",
+      "nom": "BILLY FERRO BR",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Vitale CIOTOLA",
+      "gains": null,
+      "jockey": "L. BECCHETTI",
+      "musique": "DaDaDaDa0aDa",
+      "nom": "FRISEE KB FONT",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. GHEKIERE",
+      "gains": null,
+      "jockey": "D. THOMAIN",
+      "musique": "Da2a1a1a1a3a",
+      "nom": "SANDYMAN",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "V. MARTENS",
+      "gains": null,
+      "jockey": "N. BAZIRE",
+      "musique": "4aDa3a8a(25)6a2a",
+      "nom": "L'AMOUR MEARAS",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "N. JAULNEAU",
+      "gains": null,
+      "jockey": "CEDRIC TERRY",
+      "musique": "2aDaDa9a8a6a0aDa1aDa",
+      "nom": "LUCKY PRIM",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "D. BROUWER",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "2a3a0a5aDa8a",
+      "nom": "SAMMY BOY (BEL)",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "E. BOT",
+      "gains": null,
+      "jockey": "A. ABRIVARD",
+      "musique": "4a5a7a1aDa(25)7a",
+      "nom": "KEEP GO GAGA",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. FERCHAUD",
+      "gains": null,
+      "jockey": "F. NIVARD",
+      "musique": "Da3a0a9a1a9a2aDaDaDa",
+      "nom": "L'ETONNANT TONIC",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "TH. BORDERIE",
+      "gains": null,
+      "jockey": "A. COLLETTE",
+      "musique": "8a3a0a7a(25)5a3a5a1a5a",
+      "nom": "LARRY DU DOUBS",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "C. FIORE",
+      "gains": null,
+      "jockey": "N. PACHA",
+      "musique": "3a1a1a2aDa4a",
+      "nom": "FATIMO DI FRANCK",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "B. LE BELLER",
+      "gains": null,
+      "jockey": "B. LE BELLER",
+      "musique": "Dm4a1a6a5a1a4a4a6a(25)",
+      "nom": "LUCIANO VET",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "S. HARDY",
+      "musique": "2a1aDa9a4a1a4a9a7a8a",
+      "nom": "LOWE DU BOUILLON",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. BLANDIN",
+      "gains": null,
+      "jockey": "F. BLANDIN",
+      "musique": "9a0a0a7a0a2aDaDa3a6a",
+      "nom": "LAFAYETTE DU BOURG",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. VARIN",
+      "gains": null,
+      "jockey": "F. LAGADEUC",
+      "musique": "6a2a6aDa4a1a1a7aDa6a",
+      "nom": "LOOK DE GINAI",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "CH.A. MARY",
+      "gains": null,
+      "jockey": "B. ROCHARD",
+      "musique": "9a7a5a1a(25)2a2a2a1a2a",
+      "nom": "LOUPIOT JACTA",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Matthias CHOLLOUX",
+      "gains": null,
+      "jockey": "F. OUVRIE",
+      "musique": "1a9a1a1a9a4a7a5a2a7a",
+      "nom": "LORD PAGUERIE",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 3,
+    "heure_paris": "2026-10-25T00:16:25.700611+02:00",
+    "meilleur_place": 10,
+    "moteur": "M5",
+    "ordre_espere": [
+      3,
+      10,
+      1,
+      11,
+      14
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C7/participants"
+}

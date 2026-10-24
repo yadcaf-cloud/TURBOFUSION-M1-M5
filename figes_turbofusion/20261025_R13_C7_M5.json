@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R13C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:40:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:35.740107+02:00",
+  "hippodrome": "CHARTRES",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "R. CHAUSSIER",
+      "gains": null,
+      "jockey": "T. OUVRIE",
+      "musique": "0a4aDa0aDa8m9a4a6a4a",
+      "nom": "MISTRAL D'OCQUE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. DUCROCQ",
+      "gains": null,
+      "jockey": "TH. DROMIGNY",
+      "musique": "6a3aDaDaDa5aDa3a4a",
+      "nom": "MINOTAURE DU SKY",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "P. GODINEAU",
+      "gains": null,
+      "jockey": "J.CH. PITON",
+      "musique": "5a3a2a7a8a6a9a",
+      "nom": "MARLET DU MELEUC",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "P. GODINEAU",
+      "gains": null,
+      "jockey": "P. GODINEAU",
+      "musique": "0a4aDa6aDaDa5a4a0a(25)",
+      "nom": "MONBOSS DU MELEUC",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mlle C. CHASSAGNE",
+      "gains": null,
+      "jockey": "F. GIARD",
+      "musique": "Da(25)7aDa4aDaDaDa2aDa",
+      "nom": "MENINO",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "D. DODIN",
+      "gains": null,
+      "jockey": "E. DE JESUS",
+      "musique": "5a3a1aDm0a0a7a",
+      "nom": "MAVERICK DOLUCIO",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "V. JARRY",
+      "gains": null,
+      "jockey": "Mlle L. DARLAY",
+      "musique": "8a6a7aDa2a0a2a3a4a7a",
+      "nom": "MORELLO JIVE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. TESSANDIER",
+      "gains": null,
+      "jockey": "D. ARMELLINI",
+      "musique": "1aDa4a5a6a6a9a5aDa5a",
+      "nom": "MAESTRO DU COQ",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "EMILIEN RAULLINE",
+      "gains": null,
+      "jockey": "EMILIEN RAULLINE",
+      "musique": "(25)DaDa1a2a",
+      "nom": "MYSTIC QUICK",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. CLAEYSSENS",
+      "gains": null,
+      "jockey": "M. BIZOUX",
+      "musique": "4a5aDa3a0aDa4a0a6a(25)",
+      "nom": "MERLIN SI",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "L. LAUDREN",
+      "gains": null,
+      "jockey": "L. LAUDREN",
+      "musique": "Da4a9a8mDa4aDa6aDa7m",
+      "nom": "MISTRAL DE CLERCE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. WESTHOLM",
+      "gains": null,
+      "jockey": "G. GELORMINI",
+      "musique": "2a1aDa2a4a",
+      "nom": "MUVRINI",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:35.740107+02:00",
+    "meilleur_place": 9,
+    "moteur": "M5",
+    "ordre_espere": [
+      12,
+      9,
+      2,
+      4,
+      10
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R13/C7/participants"
+}

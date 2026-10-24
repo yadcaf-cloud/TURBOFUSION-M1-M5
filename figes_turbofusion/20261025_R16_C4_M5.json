@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R16C4",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:39.432683+02:00",
+  "hippodrome": "MESLAY DU MAINE",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "Mlle Manon CAMPOUS",
+      "gains": null,
+      "jockey": "DAVID RENAULT",
+      "musique": "Da",
+      "nom": "MAGMA",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "H. SIONNEAU",
+      "gains": null,
+      "jockey": "H. SIONNEAU",
+      "musique": "DaDa5aDaDaDa4a0aDa(25)",
+      "nom": "MILORD DE BASSARD",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Bastien JOSEPH",
+      "gains": null,
+      "jockey": "BASTIEN JOSEPH",
+      "musique": "7a2a7a3a6a0a9a",
+      "nom": "MISTERLOVE BLOTAIE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.L. BIGEON",
+      "gains": null,
+      "jockey": "B. ROBIN",
+      "musique": "DaDm1mDaDa9aDa6a(25)Da",
+      "nom": "MYSTERIEUX",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "H. MARIE",
+      "gains": null,
+      "jockey": "H. MARIE",
+      "musique": "DmDaDa2a5a5aDaDa(25)Da",
+      "nom": "MATADOR DU PALAIS",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E. SZIRMAY",
+      "gains": null,
+      "jockey": "J.P. MAILLARD",
+      "musique": "7aDa4a5a5a1a2a(25)Da6a",
+      "nom": "MILAU TOLLEVILLE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Anthony PERRIN",
+      "gains": null,
+      "jockey": "R. MARTY",
+      "musique": "Da2aDmDaDa9a5aDaDaDa",
+      "nom": "MILORD D'ISSE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "L. JUBLOT",
+      "gains": null,
+      "jockey": "C. JANVIER",
+      "musique": "8a4a3a6a3a3a4a2a2a(25)",
+      "nom": "MIRACLE DE SAMCOF",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. FERCHAUD",
+      "gains": null,
+      "jockey": "CH. CHALON",
+      "musique": "1aDa1aDa4a8aDa4a6aDa",
+      "nom": "MUFASA ACE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. JOSEPH",
+      "gains": null,
+      "jockey": "F. JOSEPH",
+      "musique": "8a7a1a6a1a2a5aDaDa(25)",
+      "nom": "MAGIC DE VILLODON",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. BARRE",
+      "gains": null,
+      "jockey": "L. GUINOISEAU",
+      "musique": "3a9a3a8a9a4aDa3aDaDa",
+      "nom": "MAT DES CHARRONS",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "C. BUHIGNE",
+      "gains": null,
+      "jockey": "G. MARIN",
+      "musique": "9a4a6a5a1aDaDaDa3aDa",
+      "nom": "MISTER CAPELLO",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 5,
+    "heure_paris": "2026-10-25T00:16:39.432683+02:00",
+    "meilleur_place": 2,
+    "moteur": "M5",
+    "ordre_espere": [
+      5,
+      2,
+      9,
+      6,
+      8
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R16/C4/participants"
+}

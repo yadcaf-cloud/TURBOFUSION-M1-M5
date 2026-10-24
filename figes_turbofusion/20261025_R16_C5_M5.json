@@ -1,0 +1,116 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R16C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:39.761607+02:00",
+  "hippodrome": "MESLAY DU MAINE",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "L&M.VIEL (S)",
+      "gains": null,
+      "jockey": "T.CHEVILLARD",
+      "musique": "4h3cJc3s4s6h8s2s8s",
+      "nom": "JOURNEE D'LA FEMME",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 720.0
+    },
+    {
+      "age": 5,
+      "entraineur": "J.BOISNARD (S)",
+      "gains": null,
+      "jockey": "M.DUCHENE",
+      "musique": "5h4h(25)2s2s1h4s(24)2s3s",
+      "nom": "LACRYMA CHRISTI",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 700.0
+    },
+    {
+      "age": 5,
+      "entraineur": "P.JOURNIAC",
+      "gains": null,
+      "jockey": "THO .JOURNIAC",
+      "musique": "5s5s1sTs1s2s",
+      "nom": "MISS GOLIATH",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 700.0
+    },
+    {
+      "age": 10,
+      "entraineur": "S.DORY",
+      "gains": null,
+      "jockey": "LP.DORY",
+      "musique": "2s3s(25)2s6s8s6sAs2s7s",
+      "nom": "CAMERISE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 690.0
+    },
+    {
+      "age": 9,
+      "entraineur": "W.MENUET (S)",
+      "gains": null,
+      "jockey": "R.MAYEUR",
+      "musique": "Jc6s5p5c8p3p(25)6cJc6c",
+      "nom": "ADSUM",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 680.0
+    },
+    {
+      "age": 6,
+      "entraineur": "CH.DUBOURG (S)",
+      "gains": null,
+      "jockey": "K.DUBOURG",
+      "musique": "1h(24)2h2h3p3p6h",
+      "nom": "KANVILFLOMORINIERE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "J.MARION (S)",
+      "gains": null,
+      "jockey": "A.LEPAGE",
+      "musique": "Ts4s3s1s4s(25)4sAh3h6h",
+      "nom": "LONGUE VUE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "H.JUMELLE",
+      "gains": null,
+      "jockey": "C.RIOU",
+      "musique": "4s1h7h7h7s2h(25)6h3h1h",
+      "nom": "LAIKA TEK",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 650.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-25T00:16:39.761607+02:00",
+    "meilleur_place": 4,
+    "moteur": "M5",
+    "ordre_espere": [
+      6,
+      4,
+      7,
+      3,
+      2
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R16/C5/participants"
+}

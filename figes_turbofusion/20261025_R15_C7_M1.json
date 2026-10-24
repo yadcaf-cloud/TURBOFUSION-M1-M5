@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R15C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:38.200381+02:00",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "ST. DESHAYES",
+      "gains": null,
+      "jockey": "B. GALLON",
+      "musique": "2a6aDa3a8a5a(25)Da8a3a",
+      "nom": "LUDO DU VEILLEROT",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G.M. BERNIER",
+      "gains": null,
+      "jockey": "G.M. BERNIER",
+      "musique": "DmDaDa7aDaDaDa4a2a4a",
+      "nom": "LAGOS",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Arnaud MORIN",
+      "gains": null,
+      "jockey": "M. BARRE",
+      "musique": "0a4a0a6a7a3a8a5a5a9a",
+      "nom": "LABEL DODVILLE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. LEBREC",
+      "gains": null,
+      "jockey": "M. LEBREC",
+      "musique": "2aDa4aDa4aDaDa7aDaDa",
+      "nom": "LUPIN DU HOULEY",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "D. JAVELLE",
+      "gains": null,
+      "jockey": "B. MARIE",
+      "musique": "DaDaDa6aDmDaDa6a9aDa",
+      "nom": "LORD DE JAFA",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. BARASSIN",
+      "gains": null,
+      "jockey": "Y. LEBOURGEOIS",
+      "musique": "Da4a3aDa3a7a3a7a(25)6a",
+      "nom": "LUPIN CAMARO",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "H. LECOQ",
+      "gains": null,
+      "jockey": "H. LECOQ",
+      "musique": "6a9a2a9a8a3a5a0aDa9a",
+      "nom": "LUCIFER D'ARLINE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. GUILLEMIN",
+      "gains": null,
+      "jockey": "J.B. LELIEVRE",
+      "musique": "4a6aDa2a6a5a5a4aDa0a",
+      "nom": "LUTIN DU PERCHE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Arnaud MORIN",
+      "gains": null,
+      "jockey": "ARNAUD MORIN",
+      "musique": "0a1a8a8a0a7a8a6a(25)2a",
+      "nom": "LACKER DE GUEZ",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G. DELACOUR",
+      "gains": null,
+      "jockey": "P.A. DELACOUR",
+      "musique": "2a9a6a5aDm7aDa7mAaDa",
+      "nom": "LORENZO DE BUCY",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "JOEL HALLAIS",
+      "gains": null,
+      "jockey": "J.L.CL. DERSOIR",
+      "musique": "Da6aDmDaDmDaDa8a5a(25)",
+      "nom": "L'AVIS DU CHAILLOU",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "H. LE BEC",
+      "gains": null,
+      "jockey": "A. REBECHE",
+      "musique": "Da6aDa4a4a8a2a8a(25)Da",
+      "nom": "LUCKY FIX",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "R. JAJOLET",
+      "gains": null,
+      "jockey": "S. BAUDE",
+      "musique": "0a0a7a8a6a1a1a(25)3a3a",
+      "nom": "LINCOLN MAKS",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. CONSTANTIN",
+      "gains": null,
+      "jockey": "A. ANDRE",
+      "musique": "5a4a3a0a3aDa0a5a0a(25)",
+      "nom": "LOOKY HEULINOIS",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-25T00:16:38.200381+02:00",
+    "meilleur_place": 14,
+    "moteur": "M1",
+    "ordre_espere": [
+      6,
+      14,
+      2,
+      4,
+      8
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C7/participants"
+}

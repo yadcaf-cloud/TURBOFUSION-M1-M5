@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R15C4",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:37.809669+02:00",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "ST. DESHAYES",
+      "gains": null,
+      "jockey": "N. DESHAYES",
+      "musique": "8a8a5a9aDa0a6a5a5a5m",
+      "nom": "MALO DE CONNEE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.P. MARMION",
+      "gains": null,
+      "jockey": "J. LEVESQUE",
+      "musique": "Da0a(25)3a2a2a",
+      "nom": "MYRTILLE DU LUPIN",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "Mme L. PREEL",
+      "musique": "9a7aDa8a4a4a7aDa5a8a",
+      "nom": "MURPHY DES LANDES",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "C. GODARD",
+      "gains": null,
+      "jockey": "V. BOULTAREAU",
+      "musique": "Da4a3a4a4a(25)6a1a5a7a",
+      "nom": "MAGIQUE ATTITUDE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "L. LEGRAND",
+      "musique": "3aDaDa7aDaDaDa6aDa7a",
+      "nom": "MA PERLE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "N. LEMETAYER",
+      "gains": null,
+      "jockey": "JULIEN GRISON",
+      "musique": "9a6aDa4a2a(25)5a2a3a4a",
+      "nom": "MISTRAL DU REGENCY",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "PH. DAUGEARD",
+      "gains": null,
+      "jockey": "W. DEVENNE",
+      "musique": "4a1a3aDa1a7aDaDa(25)Da",
+      "nom": "MANGANOU DU DOME",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "V. SEGUIN",
+      "gains": null,
+      "jockey": "TH. GOUJON",
+      "musique": "3aDa8a4aDaDa2a1aDa6a",
+      "nom": "MACAME DU CAUX",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. COPPYN",
+      "gains": null,
+      "jockey": "E. CIVE",
+      "musique": "2aDa1mDaDa3a5a2a9a(25)",
+      "nom": "MAYA DE LA FYE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "D. HEON",
+      "gains": null,
+      "jockey": "J. PLASSAIS",
+      "musique": "2a3a4a2a6a5a5a3a3a(25)",
+      "nom": "MISS COCO",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.PH. DUBOIS",
+      "gains": null,
+      "jockey": "N. DESHORS",
+      "musique": "7a9a7a(25)4a2a7a7a2a6a",
+      "nom": "MERVEILLE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. ERNAULT",
+      "gains": null,
+      "jockey": "N. ERNAULT",
+      "musique": "5a2a3a0aDa3a1aDaDa(25)",
+      "nom": "MY LADY BLUE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "A. LEVEILLE",
+      "musique": "6aDa6a1aDa6a2a3a2a4a",
+      "nom": "MILANO BOCNEUF",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 9,
+    "heure_paris": "2026-10-25T00:16:37.809669+02:00",
+    "meilleur_place": 2,
+    "moteur": "M5",
+    "ordre_espere": [
+      9,
+      2,
+      12,
+      4,
+      10
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C4/participants"
+}

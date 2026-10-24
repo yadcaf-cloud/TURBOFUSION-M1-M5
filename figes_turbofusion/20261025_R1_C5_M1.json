@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:15:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:21.237690+02:00",
+  "hippodrome": "SAINT-CLOUD",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "JM.BEGUIGNE",
+      "gains": null,
+      "jockey": "M.VELON",
+      "musique": "6p9p6p(25)5p4p2p2p2p",
+      "nom": "AGILE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 615.0
+    },
+    {
+      "age": 4,
+      "entraineur": "C.FEY (S)",
+      "gains": null,
+      "jockey": "A.HAMELIN",
+      "musique": "2p8p1p3p5p(25)1p3p1p2p",
+      "nom": "SHRIHARA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 600.0
+    },
+    {
+      "age": 5,
+      "entraineur": "JPH .DUBOIS",
+      "gains": null,
+      "jockey": "PC.BOUDOT",
+      "musique": "4p2p0p3p0p(25)3p8p6p1p",
+      "nom": "MAIA STAR",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 585.0
+    },
+    {
+      "age": 5,
+      "entraineur": "N.PERRET (S)",
+      "gains": null,
+      "jockey": "A.LEMAITRE",
+      "musique": "0p3p8p2p0p5p1p5p0p9p",
+      "nom": "AMERICAN GLORY",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 580.0
+    },
+    {
+      "age": 6,
+      "entraineur": "S.WATTEL (S)",
+      "gains": null,
+      "jockey": "T.BACHELOT",
+      "musique": "0p7p5p3p(25)9p1p2p0p3p",
+      "nom": "HASAPIKO",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "J.ANDREU (S)",
+      "gains": null,
+      "jockey": "M.GRANDIN",
+      "musique": "1p2p4p3p0p0p2p(25)0p2p",
+      "nom": "WEEMAGATEE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 575.0
+    },
+    {
+      "age": 4,
+      "entraineur": "FH.GRAFFARD (S)",
+      "gains": null,
+      "jockey": "M.BARZALONA",
+      "musique": "1p9p1p(25)1p5p4p9p2p",
+      "nom": "AME D'OR",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 575.0
+    },
+    {
+      "age": 4,
+      "entraineur": "A.COUETIL (S)",
+      "gains": null,
+      "jockey": "O.ANDIGNE",
+      "musique": "4p6p3p5p5p(25)0p1p1p8p",
+      "nom": "CRISTABEL",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 575.0
+    },
+    {
+      "age": 4,
+      "entraineur": "M.BARATTI (S)",
+      "gains": null,
+      "jockey": "C.LECOEUVRE",
+      "musique": "1p9p4p7p9p2p2p2p(25)3p",
+      "nom": "MARINALEDA",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 565.0
+    },
+    {
+      "age": 4,
+      "entraineur": "F.ROHAUT (S)",
+      "gains": null,
+      "jockey": "I.MENDIZABAL",
+      "musique": "4p4p8p0p5p5p(25)3p2p1p",
+      "nom": "BRITANIA",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 560.0
+    },
+    {
+      "age": 5,
+      "entraineur": "A.FOUASSIER",
+      "gains": null,
+      "jockey": "M.GUYON",
+      "musique": "3p7p2p(25)2p3p6p4p2p3p",
+      "nom": "GOLDEN BELLE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 555.0
+    },
+    {
+      "age": 6,
+      "entraineur": "JM.BEGUIGNE",
+      "gains": null,
+      "jockey": "M.FAVRIAUX",
+      "musique": "4p0p3p5p3p8p1p3p8p",
+      "nom": "FOXEY LADY",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 545.0
+    },
+    {
+      "age": 3,
+      "entraineur": "C.FEY (S)",
+      "gains": null,
+      "jockey": "E.HARDOUIN",
+      "musique": "1p2p4p2p3p",
+      "nom": "NANCY DES PLACES",
+      "non_partant": false,
+      "numero": 13,
+      "poids": 545.0
+    },
+    {
+      "age": 5,
+      "entraineur": "C.BOUTIN (S)",
+      "gains": null,
+      "jockey": "F.VERON",
+      "musique": "9p1p8p3p6p0p3p1p(25)6p",
+      "nom": "TEARDROP EXPLODES",
+      "non_partant": false,
+      "numero": 14,
+      "poids": 545.0
+    },
+    {
+      "age": 4,
+      "entraineur": "CLEMENT & HERMANS (S)",
+      "gains": null,
+      "jockey": "S.PASQUIER",
+      "musique": "3p2p1p5p(25)2p2p4p4p",
+      "nom": "JANAH",
+      "non_partant": false,
+      "numero": 15,
+      "poids": 540.0
+    },
+    {
+      "age": 3,
+      "entraineur": "M.DELZANGLES",
+      "gains": null,
+      "jockey": "A.MADAMET",
+      "musique": "2p4p3p2p",
+      "nom": "GAREYA",
+      "non_partant": false,
+      "numero": 16,
+      "poids": 525.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-25T00:16:21.237690+02:00",
+    "meilleur_place": 13,
+    "moteur": "M1",
+    "ordre_espere": [
+      6,
+      13,
+      15,
+      16,
+      3
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C5/participants"
+}

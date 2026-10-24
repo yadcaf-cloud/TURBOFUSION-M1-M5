@@ -1,0 +1,127 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C8",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:35:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:23.922152+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 8,
+      "entraineur": "B. CURY",
+      "gains": null,
+      "jockey": "Mme A. ROMAN",
+      "musique": "7a4a7a1a9aDa0a3a2a3a",
+      "nom": "INCAS D'EURVAD",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "S. LALOUM",
+      "gains": null,
+      "jockey": "K. AXISA",
+      "musique": "0a8aDa6a5a9a7a7aDa4a",
+      "nom": "JAGUAR ATOUT",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "G. TOURON",
+      "gains": null,
+      "jockey": "Mlle K. FRESNEAU",
+      "musique": "4a9a7a7a0a4a6a7a3aDa",
+      "nom": "IOWA DE TOUCHYVON",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J.M. ROUBAUD",
+      "gains": null,
+      "jockey": "Mme M. ROUBAUD",
+      "musique": "4aAa7a8a6a0a2a6aDaDa",
+      "nom": "JEWELKIM",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "P. POLIZZI",
+      "gains": null,
+      "jockey": "F. YVANES",
+      "musique": "9a1a6a5a5a3a5aDa7a7a",
+      "nom": "HATOUT DE CONNEE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "S. CINGLAND",
+      "gains": null,
+      "jockey": "L. LIGOT",
+      "musique": "2a8a7a8a6a2a2a4aDa0a",
+      "nom": "JINA FAST",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "G. TOURON",
+      "gains": null,
+      "jockey": "Mme I. METZEMAEKERS",
+      "musique": "9a3a8a7a6aDm9aDa7a0a",
+      "nom": "JANGA DU BELLAY",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "Mlle S. BLANCHETIERE",
+      "musique": "0a3a5a7aDa9aDa5a8a4a",
+      "nom": "JOLIE MOME CHIC",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "R.F. PERRET",
+      "gains": null,
+      "jockey": "R.F. PERRET",
+      "musique": "1a5a2a4a3a6a3a1a5a7a",
+      "nom": "HACKER JULRY",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 9,
+    "heure_paris": "2026-10-25T00:16:23.922152+02:00",
+    "meilleur_place": 4,
+    "moteur": "M5",
+    "ordre_espere": [
+      9,
+      4,
+      5,
+      8,
+      3
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C8/participants"
+}

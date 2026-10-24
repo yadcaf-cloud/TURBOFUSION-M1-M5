@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R14C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:36.831447+02:00",
+  "hippodrome": "CHATELAILLON",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "A. GENDROT",
+      "musique": "1a4a2aDa5a(25)2a4a9a(24)",
+      "nom": "KATYLAND",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. JUBLOT",
+      "gains": null,
+      "jockey": "L. JUBLOT",
+      "musique": "4a2a2a3a8a5a6a2a4a(25)",
+      "nom": "LESDY MAGODA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "F. GUINE",
+      "gains": null,
+      "jockey": "F. GUINE",
+      "musique": "7a6a8a6a6a3a9a0a5a7a",
+      "nom": "HERMES DE L'ISAC",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Pierrick LE MOEL",
+      "gains": null,
+      "jockey": "CH. BOUTEILLER",
+      "musique": "4a7a3a3aDa1a3a5a5a4a",
+      "nom": "LOTHBROCK",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. PILLON",
+      "gains": null,
+      "jockey": "A. PILLON",
+      "musique": "0a6a7a3aDa3a(25)5aDa1a",
+      "nom": "LAPS GEDE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "TH. RAFFEGEAU",
+      "gains": null,
+      "jockey": "E. LAMY",
+      "musique": "0a9a0a5aDaDaDa5a3a1a",
+      "nom": "LAUSSAC DU BUISSON",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.PH. RAFFEGEAU",
+      "gains": null,
+      "jockey": "M. MAIGNAN",
+      "musique": "8aDm2m3m4a4a7m5m9aDa",
+      "nom": "LICAR SOMOLLI",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "CH. MOTTIER",
+      "gains": null,
+      "jockey": "LILIAN BERTIN",
+      "musique": "3aDa3a2a9a0a8a(25)4aDa",
+      "nom": "LIBERTY PAT",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Y. LACOMBE",
+      "gains": null,
+      "jockey": "Y. LACOMBE",
+      "musique": "7aDaDa5a3aDa6a8a(25)0a",
+      "nom": "JOYEUSE D'ATOUT",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. GUARATO",
+      "gains": null,
+      "jockey": "J.PH. MONCLIN",
+      "musique": "2a2a3a4a0aDa6a2a2aDa",
+      "nom": "LEWIS RIVER",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "Y. LACOMBE",
+      "gains": null,
+      "jockey": "F. GENCE",
+      "musique": "7m7a6a2a8a7a0a2a1a2a",
+      "nom": "ICARE DUNGY",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "CH.A. MARY",
+      "gains": null,
+      "jockey": "M. CHAMPENOIS",
+      "musique": "(25)Dm4a7m3m4m3a0a6a2a",
+      "nom": "KEYNOTE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 1,
+    "heure_paris": "2026-10-25T00:16:36.831447+02:00",
+    "meilleur_place": 10,
+    "moteur": "M1",
+    "ordre_espere": [
+      1,
+      10,
+      4,
+      2,
+      5
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C5/participants"
+}

@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R12C2",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T12:45:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:33.112933+02:00",
+  "hippodrome": "NANTES",
+  "partants": [
+    {
+      "age": 3,
+      "entraineur": "J. BLAVETTE",
+      "gains": null,
+      "jockey": "LEO BLAVETTE",
+      "musique": "",
+      "nom": "NALA DU BELVER",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "C. BUHIGNE",
+      "gains": null,
+      "jockey": "P. BUHIGNE",
+      "musique": "5a3a7a3a",
+      "nom": "NARCO DE CHANLECY",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "M. ABRIVARD",
+      "gains": null,
+      "jockey": "A. GOURGAND",
+      "musique": "7a3aDa2a",
+      "nom": "NATIVE DES LOYAUX",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "M. ABRIVARD",
+      "gains": null,
+      "jockey": "PIERRE ABRIVARD",
+      "musique": "5a9a2a6a3a6a",
+      "nom": "NOUMEA DE LA PIECE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "Guillaume JOUVE",
+      "gains": null,
+      "jockey": "R. LAMY",
+      "musique": "2a2aDa",
+      "nom": "NEED YOU FOR MONEY",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "S. PRIOUL",
+      "gains": null,
+      "jockey": "F. PRIOUL",
+      "musique": "9a5aDa4a6aDa2a5a5a",
+      "nom": "NOLIMIT DE HOUELLE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "B. MARIE",
+      "gains": null,
+      "jockey": "M. LEGROS",
+      "musique": "Da5a4a3a6aDa7a2a",
+      "nom": "NOLWENN DU VIVIER",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "S. ROGER",
+      "gains": null,
+      "jockey": "M. POTIER",
+      "musique": "8a3a5a6a3a3a4a",
+      "nom": "NOCE MIKA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "L. LAUDREN",
+      "gains": null,
+      "jockey": "P. VENTURA",
+      "musique": "8a1a4a5a",
+      "nom": "NOVA DU BOURG",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "V. POUPIOT",
+      "gains": null,
+      "jockey": "PH. DUPRE",
+      "musique": "3aDa9aDa7a6a1a5a",
+      "nom": "NATIF D'ORLY",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "S. ROGER",
+      "gains": null,
+      "jockey": "N. ROUSSEAU",
+      "musique": "Da2aDa8aDa2aDa4a",
+      "nom": "NECTAR DE LARRE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "A. HUBERT",
+      "gains": null,
+      "jockey": "A. HUBERT",
+      "musique": "2aDa7a3a3a4a",
+      "nom": "NEGUS PILLONNERIE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "A. MARION",
+      "gains": null,
+      "jockey": "A. LAMY",
+      "musique": "2a3a7a3a",
+      "nom": "NAJA DU PONT",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:33.112933+02:00",
+    "meilleur_place": 13,
+    "moteur": "M5",
+    "ordre_espere": [
+      12,
+      13,
+      3,
+      2,
+      11
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C2/participants"
+}

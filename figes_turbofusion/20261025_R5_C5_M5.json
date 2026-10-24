@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R5C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:07:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:25.436542+02:00",
+  "hippodrome": "ENGHIEN",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "F. COMBOT",
+      "gains": null,
+      "jockey": "F. NIVARD",
+      "musique": "7a0a8a3aDa0a3a2a5a3a",
+      "nom": "KUROKO LAUAR",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "D. BROHIER",
+      "gains": null,
+      "jockey": "D. BROHIER",
+      "musique": "8aDa2aDa1aDaDaAaDm(25)",
+      "nom": "KIDAM DU METZ",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "CH. CUILLER",
+      "gains": null,
+      "jockey": "B. ROCHARD",
+      "musique": "Da1a5a6a8a9a9aDa0a0a",
+      "nom": "KRUGER DU NORD",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "CH. MIRANDEL",
+      "gains": null,
+      "jockey": "N. BAZIRE",
+      "musique": "2a9a5a4a1a3a1a5aDaDa",
+      "nom": "KLARCK DE VANDEL",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "M. IZZO",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "9a4aDa1a0a8aDaAa2a0a",
+      "nom": "KRUNCHY",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "F. OUVRIE",
+      "gains": null,
+      "jockey": "F. OUVRIE",
+      "musique": "Da3a1a4a3a4a1a6a4a3a",
+      "nom": "KOKA DU DOUET",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "B. BOURGOIN",
+      "gains": null,
+      "jockey": "F. LAGADEUC",
+      "musique": "Da0a4aDa2a7a4aDa4aDa",
+      "nom": "KOCKTAIL WOOD",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "B. LE BELLER",
+      "gains": null,
+      "jockey": "B. LE BELLER",
+      "musique": "3a8a5a4a8a3a5a3a(25)7a",
+      "nom": "KNOK",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "P.Y. VERVA",
+      "gains": null,
+      "jockey": "A. ABRIVARD",
+      "musique": "2a1a1a5a5a0a1a(25)9a1a",
+      "nom": "KERVELEAN",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "Nils PACHA",
+      "gains": null,
+      "jockey": "N. PACHA",
+      "musique": "6a0a3a4a2a3a0a1a4a7a",
+      "nom": "KERNO",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "HUGHES LEVESQUE",
+      "gains": null,
+      "jockey": "E. RAFFIN",
+      "musique": "1a5a9a1a7a1a7a3a7a5a",
+      "nom": "KELLER DE L'ITON",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "TH. LARDILLIER",
+      "gains": null,
+      "jockey": "D. THOMAIN",
+      "musique": "2a2a2a1a1a8a(25)3a6a3a",
+      "nom": "KING FROMENTRO",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "V. LEBARQUE",
+      "gains": null,
+      "jockey": "A. COLLETTE",
+      "musique": "5a3a4a6a3a3a3a5a1a5a",
+      "nom": "KOUROUX",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "F. TERRY",
+      "gains": null,
+      "jockey": "CEDRIC TERRY",
+      "musique": "0a2a5a3a2a9a3a6a6aDa",
+      "nom": "KENTUCKY WOOD",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:25.436542+02:00",
+    "meilleur_place": 6,
+    "moteur": "M5",
+    "ordre_espere": [
+      12,
+      6,
+      9,
+      10,
+      13
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C5/participants"
+}

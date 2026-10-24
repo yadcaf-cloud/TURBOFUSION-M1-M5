@@ -1,0 +1,105 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R8C3",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:55:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:26.211514+02:00",
+  "hippodrome": "SAINT BRIEUC",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "B.LEFEVRE (S)",
+      "gains": null,
+      "jockey": "L.VANDAMME",
+      "musique": "Ah9p1p5p9p",
+      "nom": "MDIDJO",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "S.GOUYETTE (S)",
+      "gains": null,
+      "jockey": "Y.BARILLE",
+      "musique": "2p8p9p2p1p",
+      "nom": "LITTLE LULU",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "B.DENIEL",
+      "gains": null,
+      "jockey": "A.RENARD",
+      "musique": "2p3p7h0h6p(25)7s(24)0hAh",
+      "nom": "LONG JUMP",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 655.0
+    },
+    {
+      "age": 4,
+      "entraineur": "C.DOMALAIN",
+      "gains": null,
+      "jockey": "N.FOUILLARD",
+      "musique": "(25)2h4h2h",
+      "nom": "MONGARY",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 655.0
+    },
+    {
+      "age": 4,
+      "entraineur": "E.GRALL (S)",
+      "gains": null,
+      "jockey": "M.JUSTUM",
+      "musique": "(25)0hAh3p",
+      "nom": "MASTER LAW",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 655.0
+    },
+    {
+      "age": 4,
+      "entraineur": "J.DELAUNAY (S)",
+      "gains": null,
+      "jockey": "A.BERNARD",
+      "musique": "5h",
+      "nom": "MERLAW",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 655.0
+    },
+    {
+      "age": 4,
+      "entraineur": "F.FOUCHER",
+      "gains": null,
+      "jockey": "T.BEAURAIN",
+      "musique": "1s3h",
+      "nom": "MUSTANG DE JADE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 655.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 4,
+    "heure_paris": "2026-10-25T00:16:26.211514+02:00",
+    "meilleur_place": 5,
+    "moteur": "M1",
+    "ordre_espere": [
+      4,
+      5,
+      3,
+      2,
+      1
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C3/participants"
+}

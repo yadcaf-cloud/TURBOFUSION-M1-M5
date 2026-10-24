@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R14C4",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:36.669335+02:00",
+  "hippodrome": "CHATELAILLON",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "Y.R. LE MEE",
+      "gains": null,
+      "jockey": "Y.R. LE MEE",
+      "musique": "3a8aDa0a5a5a6a0aDa(25)",
+      "nom": "LADY DE GUEHAM",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. SOURICE",
+      "gains": null,
+      "jockey": "CL. GUILLON",
+      "musique": "Da7aDa2a6aDa2aDa6a2a",
+      "nom": "LUCKY SOTHO",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "K. AIT OUAKLI",
+      "gains": null,
+      "jockey": "K. AIT OUAKLI",
+      "musique": "8m6m8a0aDmDm7a6m1m8a",
+      "nom": "LANCELOT DE BEYLEV",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "ARNAUD DESMOTTES",
+      "gains": null,
+      "jockey": "L.G. RICHARD",
+      "musique": "3a3a5a1a1a4a(25)DaDa4a",
+      "nom": "LOLA DE VILLARD",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.PH. MONCLIN",
+      "gains": null,
+      "jockey": "J.PH. MONCLIN",
+      "musique": "DaDa2aDa7a2a1a1a(25)1a",
+      "nom": "LUPIN DES TOURS",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "A. BESCHER",
+      "musique": "0a4a2a2a1a3a3a6a6a1a",
+      "nom": "L'ETOILE D'ETE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "E. LAMY",
+      "gains": null,
+      "jockey": "E. LAMY",
+      "musique": "5a1a1a5a4a2aDa3a8a1a",
+      "nom": "LEOPARD WIT",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. CHAVATTE",
+      "gains": null,
+      "jockey": "TH. CONSTANS",
+      "musique": "1a9a1a2a9a(25)4a3a2a2a",
+      "nom": "L'AS DE SAINT JEAN",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "A. GENDROT",
+      "musique": "9a4a1a2a5a5a2aDa3a2a",
+      "nom": "LAMATTA",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. MONTHULE",
+      "gains": null,
+      "jockey": "P. MONTHULE",
+      "musique": "Dm1m3mDm4m(25)2m1m1mDm",
+      "nom": "LYRIC",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Nicolas Richard BROSSARD",
+      "gains": null,
+      "jockey": "F. GENCE",
+      "musique": "9a2a5aDa7a3a3a1a5aDa",
+      "nom": "LE MAESTRO",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.PH. RAFFEGEAU",
+      "gains": null,
+      "jockey": "M. MAIGNAN",
+      "musique": "7aDaDaDa2a1a2a2a(25)3a",
+      "nom": "LE MIRACLE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-25T00:16:36.669335+02:00",
+    "meilleur_place": 4,
+    "moteur": "M5",
+    "ordre_espere": [
+      6,
+      4,
+      10,
+      5,
+      12
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C4/participants"
+}

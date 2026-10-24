@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R14C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T17:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:37.179065+02:00",
+  "hippodrome": "CHATELAILLON",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "W. DAVID",
+      "gains": null,
+      "jockey": "B. DAVID",
+      "musique": "9a4a6a0a9a9a6a2aDa3a",
+      "nom": "KERBEROS",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J. GIROUARD",
+      "gains": null,
+      "jockey": "CH. BRIZARD",
+      "musique": "0a8a0a1a8a3a3a6a9mDa",
+      "nom": "KESARO FIRST",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "D. FAIVRE",
+      "gains": null,
+      "jockey": "TH. MARTIN",
+      "musique": "Da0a9aDa0aDaDa(25)DaDa",
+      "nom": "KRISTAL DU ROCHER",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J.J. BEAUSSE",
+      "gains": null,
+      "jockey": "A. MOURAUD",
+      "musique": "DaDa4aDa9aDa0aDaDa(25)",
+      "nom": "KOLANTA DU LOISIR",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J. GIROUARD",
+      "gains": null,
+      "jockey": "M. RAHAULT",
+      "musique": "Da8a0a0a0aAa0aDm8a4a",
+      "nom": "KUEEN DES PRES",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "TH. XICLUNA",
+      "gains": null,
+      "jockey": "TH. XICLUNA",
+      "musique": "3a5a4a5a8a5a3a1a0aDa",
+      "nom": "KIMBAMBA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "B. GRONDIN",
+      "gains": null,
+      "jockey": "D. RABILLER",
+      "musique": "8a3a5a6aDa3a3aDa8aDa",
+      "nom": "JAZZMAN ERDE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "M.X. CHARLOT",
+      "gains": null,
+      "jockey": "C. LANGLOIS",
+      "musique": "9aDa8a9a8a2a7a0a4a7a",
+      "nom": "KOSAK PIEMONT",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "L. RIVRON",
+      "gains": null,
+      "jockey": "H. DENIS",
+      "musique": "0a0a8a2a0a6aDa9a4a0a",
+      "nom": "JUS DE COCO",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "O. RAFFIN",
+      "gains": null,
+      "jockey": "A. RAFFIN",
+      "musique": "DaDa4aDa3a4a3aDa1a1a",
+      "nom": "KAOUITO DES GLENAN",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "G. PRAT",
+      "gains": null,
+      "jockey": "M. PRAT",
+      "musique": "4a1a2a7aDa7a0a3a0a2a",
+      "nom": "KALINDA SPOKEN",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "J.PH. DERRIAN",
+      "gains": null,
+      "jockey": "J.PH. DERRIAN",
+      "musique": "2aDa4a7aDa0a(25)9aDa8a",
+      "nom": "INAO SAINT CLAIR",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "D.M. RENAULT",
+      "gains": null,
+      "jockey": "JULIEN RENAULT",
+      "musique": "2a6a7a4a2a0aAaDa7aDa",
+      "nom": "KEN DE CORDAY",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "M. CORBES",
+      "gains": null,
+      "jockey": "TH. CORBES",
+      "musique": "0a0aDa0a(25)0a0aDa0a8a",
+      "nom": "JADE DALAMEDA",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "D. FAIVRE",
+      "gains": null,
+      "jockey": "Q. FAIVRE",
+      "musique": "9a0a0a4a0a0a0a5a(25)6m",
+      "nom": "INOPINE",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "F. GUINHUT",
+      "gains": null,
+      "jockey": "TH. HERNANDEZ",
+      "musique": "6a4a3a4a2a8a3a3a3a3a",
+      "nom": "KELROC",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 10,
+    "heure_paris": "2026-10-25T00:16:37.179065+02:00",
+    "meilleur_place": 16,
+    "moteur": "M1",
+    "ordre_espere": [
+      10,
+      16,
+      12,
+      11,
+      13
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C7/participants"
+}

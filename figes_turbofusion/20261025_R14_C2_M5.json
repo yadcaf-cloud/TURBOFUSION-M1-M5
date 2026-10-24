@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R14C2",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:36.343599+02:00",
+  "hippodrome": "CHATELAILLON",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "Pierrick LE MOEL",
+      "gains": null,
+      "jockey": "Mme B. GUENET",
+      "musique": "Da0aDa8a3aDa4a1a2a2a",
+      "nom": "JIJI DOUZOU",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Fabio PASQUALIN",
+      "gains": null,
+      "jockey": "C. LANGLOIS",
+      "musique": "8a5a6a5a1a2a0a(25)0a0a",
+      "nom": "JEZABEL DUFOURNEAU",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J. PAILLE",
+      "gains": null,
+      "jockey": "S. GRIGNON",
+      "musique": "0m0a9a2a2a4a3aDa5a8a",
+      "nom": "JALBA DU CHAPT",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "M. MOREAU",
+      "gains": null,
+      "jockey": "M. PRAT",
+      "musique": "Da1a4a5a4aDaDa0a0a4a",
+      "nom": "JASON DE BERTRANGE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "E. PEREKRESTOFF",
+      "gains": null,
+      "jockey": "E. PEREKRESTOFF",
+      "musique": "0a9a8a0a0a0a0a0a0a6a",
+      "nom": "JOCEANO BELLO",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "P. BILLON",
+      "gains": null,
+      "jockey": "D. RABILLER",
+      "musique": "DmDa3aDm2a3a2a7aDm5a",
+      "nom": "IGOR THEPOL",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Mme J. NADEAU",
+      "gains": null,
+      "jockey": "Mme J. NADEAU",
+      "musique": "3a6aDa9aDa3a4aDa8a7a",
+      "nom": "JAMES BOND GWEN",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Mlle CL. BEILEARD",
+      "gains": null,
+      "jockey": "J. MOUCHARD",
+      "musique": "2a0a7a0a6aDa7a3a0a9a",
+      "nom": "JALIDA DE LA ROQUE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "G. RIVIERE",
+      "gains": null,
+      "jockey": "M. RAHAULT",
+      "musique": "4a0a3a5a8a0a4a7a6a4a",
+      "nom": "HERCULE BRILLOUARD",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Mme A. MICHEL",
+      "gains": null,
+      "jockey": "A. SLIMANE",
+      "musique": "0a4a9a4a3aDa1a5aDa4a",
+      "nom": "JALISCA DES AMBRES",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "Jean-Noël PECCOT",
+      "gains": null,
+      "jockey": "D. GRIMAULT",
+      "musique": "0m5a1aDa9a9a5a8aDa4a",
+      "nom": "INGLORIOUS",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Guillaume JOUVE",
+      "gains": null,
+      "jockey": "Q. CHAMPENOIS",
+      "musique": "Da6a0a0a7a0a4a2a0a(25)",
+      "nom": "JOSEPHA MESLOISE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "CL. GUILLON",
+      "gains": null,
+      "jockey": "Mme K. GUILLON",
+      "musique": "4a0a4a9mDa8a9a2a0aDa",
+      "nom": "ISEO PRIOR",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "P. GODINEAU",
+      "gains": null,
+      "jockey": "Mlle A. LEYSSENNE",
+      "musique": "4a2a1a2a9a3a6aDa6aDa",
+      "nom": "JAGER BOUMBOUM",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "E. LAMY",
+      "gains": null,
+      "jockey": "J.PH. DERRIAN",
+      "musique": "5m6aDa7aDm3a6a5m7a(25)",
+      "nom": "JAZZ IN JEEP",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "C. CHESNE",
+      "gains": null,
+      "jockey": "C. CHESNE",
+      "musique": "0a9a2a6a1a0a9a5a1a0a",
+      "nom": "HEZA DE L'ERDRE",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 4,
+    "heure_paris": "2026-10-25T00:16:36.343599+02:00",
+    "meilleur_place": 6,
+    "moteur": "M5",
+    "ordre_espere": [
+      4,
+      6,
+      1,
+      12,
+      14
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C2/participants"
+}

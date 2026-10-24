@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:05:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:30.120987+02:00",
+  "hippodrome": "LA CAPELLE",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "J. LESNE",
+      "gains": null,
+      "jockey": "G. LEMAITRE",
+      "musique": "6a3a6a4a7aDa6a8a0aDa",
+      "nom": "LUBERON",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. DE MEYER",
+      "gains": null,
+      "jockey": "Mlle M. DE MEYER",
+      "musique": "Da0a3a4a1a7a8a4a5a3a",
+      "nom": "LUTIN DES CHAMPS",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Mme Suzanne VACHET",
+      "gains": null,
+      "jockey": "J. DENISOT",
+      "musique": "6a9a0a2a0a8a7a3a6aDa",
+      "nom": "LADY DU MIREL",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "JEROME DAVID",
+      "gains": null,
+      "jockey": "K. DAVID",
+      "musique": "7a9a8aDaDaDaDa6aDa7a",
+      "nom": "LUNA DE BELFONDS",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "CH. MOTTIER",
+      "gains": null,
+      "jockey": "L. PITON",
+      "musique": "1a4aDa2a2a0aDa0aDaDm",
+      "nom": "LILIUM TUILERIE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. VERVA",
+      "gains": null,
+      "jockey": "P. VERVA",
+      "musique": "3aDa8aDa2a7aDa2a5a0a",
+      "nom": "LANCELOT DU NORD",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Maurice VAN DE MOER",
+      "gains": null,
+      "jockey": "GAETAN MARTENS",
+      "musique": "2aDa5a2aDa1aDa4aDa1a",
+      "nom": "LEONE MAGNIFIQUE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. LANNOO",
+      "gains": null,
+      "jockey": "L. CUEFF",
+      "musique": "7a4a9a5a2a4a(25)0a2a8a",
+      "nom": "LAURA D'OSTENDE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Ch. NICOLE",
+      "gains": null,
+      "jockey": "A. THOLLAS",
+      "musique": "DaDa4a5a6a7a0a(25)0a9a",
+      "nom": "LORD D'OCCAGNES",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G. LEFEBVRE",
+      "gains": null,
+      "jockey": "G. DESPREZ",
+      "musique": "DaAm8mDaDa7aDaDm7a6m",
+      "nom": "LOVELY DE TILLARD",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G. LEFEBVRE",
+      "gains": null,
+      "jockey": "M. GARCON",
+      "musique": "9a6a9a7a7a5a3a4a2a5a",
+      "nom": "L'INCROYABLE HULK",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "K. VANDEMOORTELE",
+      "gains": null,
+      "jockey": "LORIS BIZOUX",
+      "musique": "8a1aDa4aDaDaDa2a7a7a",
+      "nom": "LA SAMBA DE LOU",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G. LEFEBVRE",
+      "gains": null,
+      "jockey": "L. CRUNELLE",
+      "musique": "7a7a0aDaDa7a6aDa(25)4a",
+      "nom": "LAMBADA SPORT",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 5,
+    "heure_paris": "2026-10-25T00:16:30.120987+02:00",
+    "meilleur_place": 7,
+    "moteur": "M5",
+    "ordre_espere": [
+      5,
+      7,
+      9,
+      1,
+      6
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C5/participants"
+}

@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R13C8",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T17:10:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:35.899176+02:00",
+  "hippodrome": "CHARTRES",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "P. GODEY",
+      "gains": null,
+      "jockey": "P. OLLITRAULT",
+      "musique": "0aDaDaDa0a3aDa(25)Da3a",
+      "nom": "MALICIO",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Sté. Ent. Rodolphe DOUYERE",
+      "gains": null,
+      "jockey": "R. DOUYERE",
+      "musique": "7a7a7a7a4a5a5a7a7aDa",
+      "nom": "MAJOR MAB",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "PH. DAUGEARD",
+      "gains": null,
+      "jockey": "PH. DAUGEARD",
+      "musique": "DaDa1aDa(25)5aDaDa",
+      "nom": "MYSTREAM DU DOME",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. MONACO",
+      "gains": null,
+      "jockey": "Mlle E. KARLEN",
+      "musique": "1a5a",
+      "nom": "MOONKNIGHT GARETTE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. GIARD",
+      "gains": null,
+      "jockey": "F. GIARD",
+      "musique": "0a7a5a6a8a6a5a8a(25)5a",
+      "nom": "MAMBO MIX",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. CHAUSSIER",
+      "gains": null,
+      "jockey": "M. BIZOUX",
+      "musique": "7aDaDa1a4aDa7a8aDaDa",
+      "nom": "MALTESE KNIGHT",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. TABU",
+      "gains": null,
+      "jockey": "J.CH. PITON",
+      "musique": "9a7a8a5a8a3aDm2a7a8a",
+      "nom": "MAGIC FADO",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "PH. DAUGEARD",
+      "gains": null,
+      "jockey": "T. OUVRIE",
+      "musique": "DaDa3a2a6aDa5a5a5aDa",
+      "nom": "MONTANA DE THABE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Lorenzo ZOLLO",
+      "gains": null,
+      "jockey": "TH. DROMIGNY",
+      "musique": "Da5a0a0a(25)0aDa1a2a6a",
+      "nom": "MONDER DU CAPRE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B. GUILLOT",
+      "gains": null,
+      "jockey": "E. DE JESUS",
+      "musique": "8a3a2a2aDa5aDa(25)0a7a",
+      "nom": "MYLOVE D'AUVILLIER",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. HOUEL",
+      "gains": null,
+      "jockey": "D. ARMELLINI",
+      "musique": "Da6a4a2aAa0a(25)1a",
+      "nom": "MOTUS",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mlle Estelle BRIALLON",
+      "gains": null,
+      "jockey": "B. DANIELO",
+      "musique": "4a7a7a0a0aDa0a9a4a7a",
+      "nom": "MAO DU PARC",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 9,
+    "heure_paris": "2026-10-25T00:16:35.899176+02:00",
+    "meilleur_place": 1,
+    "moteur": "M1",
+    "ordre_espere": [
+      9,
+      1,
+      3,
+      11,
+      10
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R13/C8/participants"
+}

@@ -1,0 +1,105 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C4",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:33:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:21.082558+02:00",
+  "hippodrome": "SAINT-CLOUD",
+  "partants": [
+    {
+      "age": 2,
+      "entraineur": "AP.O'BRIEN",
+      "gains": null,
+      "jockey": "C.SOUMILLON",
+      "musique": "4p7p1p2p3p",
+      "nom": "SHAKESPEARE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 570.0
+    },
+    {
+      "age": 2,
+      "entraineur": "C.APPLEBY",
+      "gains": null,
+      "jockey": "W.BUICK",
+      "musique": "3p1p2p",
+      "nom": "AL JABBAR",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 570.0
+    },
+    {
+      "age": 2,
+      "entraineur": "C.APPLEBY",
+      "gains": null,
+      "jockey": "B.LOUGHNANE",
+      "musique": "1p2p2p3p",
+      "nom": "ROYAL ACCLAMATION",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 570.0
+    },
+    {
+      "age": 2,
+      "entraineur": "AP.O'BRIEN",
+      "gains": null,
+      "jockey": "WM.LORDAN",
+      "musique": "9p1p2p",
+      "nom": "VICTORY SPEECH",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 570.0
+    },
+    {
+      "age": 2,
+      "entraineur": "JP.O'BRIEN",
+      "gains": null,
+      "jockey": "D.BROWNE MCMONAGLE",
+      "musique": "1p2p2p",
+      "nom": "JESUS GREEN",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 570.0
+    },
+    {
+      "age": 2,
+      "entraineur": "AP.O'BRIEN",
+      "gains": null,
+      "jockey": "RL.MOORE",
+      "musique": "1p3p1p3p6p",
+      "nom": "DRUMBEAT",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 570.0
+    },
+    {
+      "age": 2,
+      "entraineur": "PE.DUBOIS (S)",
+      "gains": null,
+      "jockey": "M.GRANDIN",
+      "musique": "1p3p1p7p",
+      "nom": "JUST YET",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 555.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 5,
+    "heure_paris": "2026-10-25T00:16:21.082558+02:00",
+    "meilleur_place": 2,
+    "moteur": "M1",
+    "ordre_espere": [
+      5,
+      2,
+      3,
+      6,
+      7
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C4/participants"
+}

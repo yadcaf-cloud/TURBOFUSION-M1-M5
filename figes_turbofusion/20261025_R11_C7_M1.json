@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R11C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T17:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:32.398340+02:00",
+  "hippodrome": "SAINT GALMIER",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "R. GUESTHON",
+      "gains": null,
+      "jockey": "H. CHAUCESSE",
+      "musique": "2a5a9aDa0a7a6m8aDa7a",
+      "nom": "LORD DE BUCHATIERE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "R. MOURICE",
+      "gains": null,
+      "jockey": "M. LAFFAY",
+      "musique": "DaDa2a2a8a6aDa0a(25)Da",
+      "nom": "L'ECU DALAMEDA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Bastien CLAIRET",
+      "gains": null,
+      "jockey": "C. TRIBOLET",
+      "musique": "Da1a5a2a1a(25)9aDaDa2a",
+      "nom": "LEXKI DU GERS",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "R. MOURICE",
+      "gains": null,
+      "jockey": "G. TUGEND",
+      "musique": "7a2a3aDaDa3a2a1aDaDa",
+      "nom": "LLUC DES BOSC",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. RANDON",
+      "gains": null,
+      "jockey": "R. VILAULT",
+      "musique": "DaDa0a5a2a5a1a3a6a1a",
+      "nom": "LATINO CASTELETS",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. LERENARD",
+      "gains": null,
+      "jockey": "B. THIENNE",
+      "musique": "DaDa2a0a1a8a9a8aDaDa",
+      "nom": "LA BELLE AFFAIRE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Mme G. MASSCHAELE",
+      "gains": null,
+      "jockey": "M. WEISS",
+      "musique": "Da0a2a1a2a2a7a(25)1m4a",
+      "nom": "LOIR BOURBON",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. ROGER",
+      "gains": null,
+      "jockey": "TH. BORODAJKO",
+      "musique": "7a7aDa0a0a3a5a3a5aDa",
+      "nom": "LA BELLE MIKA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. DUJMIC",
+      "gains": null,
+      "jockey": "Mlle V. LEMETAYER",
+      "musique": "DaDa9a5a7a9a1a4aDaDa",
+      "nom": "LE GRAND MASSIF",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Théo RADOUX",
+      "gains": null,
+      "jockey": "D. BARANGER",
+      "musique": "3a0a5a4a2a6a(25)Da2a4a",
+      "nom": "LIPARI",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. DURANTET",
+      "gains": null,
+      "jockey": "L. PACIFICO",
+      "musique": "5a2a4aDaDaDa2aDa5a2a",
+      "nom": "LUPIN DE LA VALLEE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. CALLIER",
+      "gains": null,
+      "jockey": "N. CORMY",
+      "musique": "6a4a4a2a8a2a1a0a5aDa",
+      "nom": "LOVA DE BOURGOGNE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P.L. DESAUNETTE",
+      "gains": null,
+      "jockey": "M. LELOUTRE",
+      "musique": "Da1a1a3a3a5a1aDaDa5a",
+      "nom": "LONDON LADY",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. DURANTET",
+      "gains": null,
+      "jockey": "Mlle E. DUMAS",
+      "musique": "1a2a2a1a(25)2a4a1a(24)1a",
+      "nom": "LOU GEHRIG",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 14,
+    "heure_paris": "2026-10-25T00:16:32.398340+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      14,
+      3,
+      13,
+      7,
+      5
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C7/participants"
+}

@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C9",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T17:05:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:30.788357+02:00",
+  "hippodrome": "LA CAPELLE",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "Mme Betty REMY",
+      "gains": null,
+      "jockey": "TH. LEVASSEUR",
+      "musique": "3a4a9a4a0a4a0a9a5a0a",
+      "nom": "JOYAU DE REM",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "Dr Cees P. BOEKEL",
+      "gains": null,
+      "jockey": "Mlle A. RENAULT",
+      "musique": "5a6a2a5aDa7a7a2a3a0a",
+      "nom": "ICAM",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "A. LEBOURGEOIS",
+      "gains": null,
+      "jockey": "N. RIZZO",
+      "musique": "0a6a6a4a0aDa5a0a4a4a",
+      "nom": "IPSOS MARANCOURT",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "W. VAN DER ZWAAN",
+      "gains": null,
+      "jockey": "Mme M. CHAZAL",
+      "musique": "2a3a6a3a1a0a0a4a3aDa",
+      "nom": "HICONE DOREE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "St. PROVOOST",
+      "gains": null,
+      "jockey": "Mlle E. GOETZ",
+      "musique": "5a9a0a0a0a0a0aDa0a0a",
+      "nom": "IDYLLE DU CHATAULT",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "A. LANNOO",
+      "gains": null,
+      "jockey": "L. DE NEVE",
+      "musique": "0a7a0a1aDa3a0a(25)6a6a",
+      "nom": "JAZZ DU CHATAULT",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "JEROME DAVID",
+      "gains": null,
+      "jockey": "T. PERRIER",
+      "musique": "0a2a0a0a0aDaDa0a3a0a",
+      "nom": "IDYLLE MIKA",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "W. VAN DER ZWAAN",
+      "gains": null,
+      "jockey": "Mme C. CHAZAL",
+      "musique": "2a7a9a6a7a4aDa5aDa1a",
+      "nom": "JAGUAR DU DOLLAR",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J. LESNE",
+      "gains": null,
+      "jockey": "Mme L. LESNE",
+      "musique": "3a5a6a1a6a2a4a1a2a3a",
+      "nom": "JALOUX",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "G. DEMOULIN",
+      "gains": null,
+      "jockey": "J.Y. DESCAMPS",
+      "musique": "0aDaDa6aDa8a8a5a7aDa",
+      "nom": "IMEA DE LA POTEL",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Pavel TAMSIN",
+      "gains": null,
+      "jockey": "S. HOSTE",
+      "musique": "6aDa3a2aDa2a1a1a1a1a",
+      "nom": "JAZZ OPERA",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "B. PITON",
+      "gains": null,
+      "jockey": "V.J. FERREIRA D. SANTOS",
+      "musique": "7a8a8a9aDa0aDa6aDa6a",
+      "nom": "JIVE BOY",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "Mme G. MASSCHAELE",
+      "gains": null,
+      "jockey": "Mme L. VERPLANCKEN",
+      "musique": "0a0a4a7a5a1aDa9a8aDa",
+      "nom": "HEAVEN JIEL",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "W. VAN DER ZWAAN",
+      "gains": null,
+      "jockey": "J. ROUX",
+      "musique": "5a4a3aDa1a0a6a0a4aDa",
+      "nom": "HERRA D'AVENIR",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "L. VERVA",
+      "gains": null,
+      "jockey": "M. BRIDAULT",
+      "musique": "0a5a6a3a1a4a2a5a0a(25)",
+      "nom": "IDOLE DU MONCEL",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "Mme I. HUYGENS-DE WITTE",
+      "gains": null,
+      "jockey": "E. VAN DEN BERGH",
+      "musique": "4a3a7a6m2a3a4a4m2a4a",
+      "nom": "IT'S ME DIESCHOOT",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 11,
+    "heure_paris": "2026-10-25T00:16:30.788357+02:00",
+    "meilleur_place": 4,
+    "moteur": "M1",
+    "ordre_espere": [
+      11,
+      4,
+      6,
+      14,
+      15
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C9/participants"
+}

@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R14C6",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:36.993998+02:00",
+  "hippodrome": "CHATELAILLON",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "M. MOREAU",
+      "gains": null,
+      "jockey": "F.A. WARTEL",
+      "musique": "7a5a5a3a7aDa6a4a",
+      "nom": "LA VITA VEETA",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J. RIVIERE",
+      "gains": null,
+      "jockey": "CH. BOUTEILLER",
+      "musique": "4m(25)3mDmDmDm5m5m5mDm",
+      "nom": "LADY MILLION ANAJO",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. LELIEVRE",
+      "gains": null,
+      "jockey": "Mlle L. PLANCHENAULT",
+      "musique": "4mDm4m9m5m5m6mDa7a7a",
+      "nom": "LIKA D'ARPENT",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J. CERISIER",
+      "gains": null,
+      "jockey": "J. CERISIER",
+      "musique": "9m(25)Dm2m1m2m6m5m(24)0a",
+      "nom": "LUCKY MACKER",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "B. GUILLOUX",
+      "gains": null,
+      "jockey": "LILIAN BERTIN",
+      "musique": "3m8m6m9aDa0a5aDa6a8a",
+      "nom": "LEWIS D'ESPOIR",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "CH.A. MARY",
+      "gains": null,
+      "jockey": "A. GENDROT",
+      "musique": "0aDa8m7aDa(25)DaDaDa1a",
+      "nom": "LUST FOR KYDE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. JUBLOT",
+      "gains": null,
+      "jockey": "L. JUBLOT",
+      "musique": "Da5a9a9a5aDaDaDaDa(25)",
+      "nom": "LADY DU JOUR",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Y. DOUSSET",
+      "gains": null,
+      "jockey": "Mme M. DOUSSET",
+      "musique": "Dm8a4a5aDa5a6aDa4a5a",
+      "nom": "LUIGI DELAROUE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. CONSTANTIN",
+      "gains": null,
+      "jockey": "Mme A. CONSTANTIN",
+      "musique": "4aDa7m8m4m8m4mDa7a(25)",
+      "nom": "LIVINGSTONE DU HAC",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G. CHAMPENOIS",
+      "gains": null,
+      "jockey": "M. CHAMPENOIS",
+      "musique": "5a3a5a6a5a6a5m5a4a(25)",
+      "nom": "LADY BOVARY",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G. RIVIERE",
+      "gains": null,
+      "jockey": "Mlle L. DELAHAYE",
+      "musique": "9a6a9aDa0a4a1a4aDa4a",
+      "nom": "LASKA TURGOT",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "ARNAUD DESMOTTES",
+      "gains": null,
+      "jockey": "O. PLACIER",
+      "musique": "7aDaDa1a1a5a4a4m(25)5m",
+      "nom": "LASER SEDUISANT",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "N. LANGLOIS",
+      "gains": null,
+      "jockey": "Mme A. VAUTIER",
+      "musique": "5m5a3m2m5m7a6m0a4m0m",
+      "nom": "LILY DES CARREAUX",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "E. LAMY",
+      "gains": null,
+      "jockey": "Mlle ALEXIANE LEPAGE",
+      "musique": "5a3m8a6a5a2a6aDa9aDa",
+      "nom": "LADY DE L'ELLE",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. ABRIVARD",
+      "gains": null,
+      "jockey": "Mme L. CHARRIAUD",
+      "musique": "2a5a4aDa5a2a9a0a4a(25)",
+      "nom": "LOVE TO RUN",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "E. BEUDARD",
+      "gains": null,
+      "jockey": "Mlle M. BEUDARD",
+      "musique": "2m9a6a0a3a3a4aDa0a1a",
+      "nom": "LORD DES SOURCES",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:36.993998+02:00",
+    "meilleur_place": 15,
+    "moteur": "M1",
+    "ordre_espere": [
+      12,
+      15,
+      2,
+      4,
+      13
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C6/participants"
+}

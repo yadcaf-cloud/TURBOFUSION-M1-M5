@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R5C3",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:50:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:24.926595+02:00",
+  "hippodrome": "ENGHIEN",
+  "partants": [
+    {
+      "age": 3,
+      "entraineur": "Sté. Ent. Etienne DUBOIS",
+      "gains": null,
+      "jockey": "ETIENNE DUBOIS",
+      "musique": "Da8a8aDaDa1a2a4aDa3a",
+      "nom": "NUTTY DREAM",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "ST. MEUNIER",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "3a3a2a1aDa3a",
+      "nom": "NICE GIRL CASTELLE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "Nils PACHA",
+      "gains": null,
+      "jockey": "N. PACHA",
+      "musique": "Da1aDa3a1a",
+      "nom": "NICE FLASH SEMILLY",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "Y. DESMET",
+      "gains": null,
+      "jockey": "E. RAFFIN",
+      "musique": "2a2a5a3aDa3a(25)7a3a2a",
+      "nom": "NYANNIC DE MUZE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "B. MICHARDIERE",
+      "gains": null,
+      "jockey": "A. CHERADAME",
+      "musique": "3a5aDa(25)5a4a2a1a",
+      "nom": "NOCE ROYALE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "J.P. DUBOIS",
+      "gains": null,
+      "jockey": "J.P. DUBOIS",
+      "musique": "0a0a7a1a1a2a",
+      "nom": "NANCY BOURBON",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "L. BAUDRON",
+      "gains": null,
+      "jockey": "G. JUNOD",
+      "musique": "1a2aDa2a",
+      "nom": "NETCHKA",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "M. MOTTIER",
+      "gains": null,
+      "jockey": "A. COLLETTE",
+      "musique": "5a4a3a5a5a1aDa(25)5a",
+      "nom": "NATACHA CASTEL",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "F. TERRY",
+      "gains": null,
+      "jockey": "CEDRIC TERRY",
+      "musique": "Da3a5a3a3aDaDa4a1a6a",
+      "nom": "NOZELENN D'AVEL",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "LEO ABRIVARD",
+      "gains": null,
+      "jockey": "LEO ABRIVARD",
+      "musique": "8a4a4aDaDa1aDa(25)4a4a",
+      "nom": "NEURO BELLA",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "J. BRUNEAU",
+      "gains": null,
+      "jockey": "D. THOMAIN",
+      "musique": "DaDa2a3a7a4a2a7a",
+      "nom": "NOUBA DE CHINE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "Dariusz CZERWINSKI",
+      "gains": null,
+      "jockey": "B. ROCHARD",
+      "musique": "(25)0a3a3a1a5a4a",
+      "nom": "NASHVILLE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "Sté. Ent. Fabrice SOULOY",
+      "gains": null,
+      "jockey": "F. LAGADEUC",
+      "musique": "Da2aDaDa1aDa6a2a",
+      "nom": "NYALA BILOU",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "J.PH. DUBOIS",
+      "gains": null,
+      "jockey": "J.PH. DUBOIS",
+      "musique": "0a6a7a2a7a1aDa2a",
+      "nom": "NOBLE INTENTION",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "J. BORDAS",
+      "gains": null,
+      "jockey": "F. NIVARD",
+      "musique": "6a7a5a3a4a1a5a9a9a",
+      "nom": "NABUCA",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 3,
+      "entraineur": "TANGUY DEVOUASSOUX",
+      "gains": null,
+      "jockey": "J. VANMEERBECK",
+      "musique": "7a6a0aDa9a1a4a4aDa7a",
+      "nom": "NOUCHKA ROYALE",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 7,
+    "heure_paris": "2026-10-25T00:16:24.926595+02:00",
+    "meilleur_place": 3,
+    "moteur": "M5",
+    "ordre_espere": [
+      7,
+      3,
+      2,
+      12,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C3/participants"
+}

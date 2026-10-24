@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C3",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:05:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:29.484098+02:00",
+  "hippodrome": "LA CAPELLE",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "Mme M. GIBON",
+      "gains": null,
+      "jockey": "Mlle S. BRETHEAU",
+      "musique": "Dm3a9a0a4a0a0a(25)DmDa",
+      "nom": "KRACK JIHESSE",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "CH. MOTTIER",
+      "gains": null,
+      "jockey": "ALEXANDRE BODIN",
+      "musique": "Dm9mDmDmDmDa2mDmDaDa",
+      "nom": "KECOU DE VILLABON",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "A. LAURENT",
+      "gains": null,
+      "jockey": "Mlle M. SOISMIER",
+      "musique": "6m2mDm0a4m6m1m2mDaDa",
+      "nom": "KALYPSO DU CAUX",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "A. LEDUC",
+      "gains": null,
+      "jockey": "A. ANGOT",
+      "musique": "1m5a3mDm1mDmDmDmDaDm",
+      "nom": "KIF DE COSSE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "Vitale CIOTOLA",
+      "gains": null,
+      "jockey": "Mme CLEA ROGER",
+      "musique": "0a0a3a7m3a5a4m7a9a4a",
+      "nom": "KRACDARCHE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "F. DESMIGNEUX",
+      "musique": "2m8mDm5m2m(25)Dm1mDm2m",
+      "nom": "KALIE GEMA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "A. LEDUC",
+      "gains": null,
+      "jockey": "AURELIEN DESMARRES",
+      "musique": "0a9m6m4m7m8m6m5m7a8a",
+      "nom": "JUNIOR INTRIGANT",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J.Y. MARECHAL",
+      "gains": null,
+      "jockey": "G. WILLEMS",
+      "musique": "6m0a5a3a3a8m9a0a8aDa",
+      "nom": "KAP NORMAND",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "B. PITON",
+      "gains": null,
+      "jockey": "L. PITON",
+      "musique": "5m1m1m5m5m8m6m3m7m5m",
+      "nom": "JOKE DU HOUSSEL",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "J.CH. PITON",
+      "gains": null,
+      "jockey": "Mlle M. MENDIBOURE",
+      "musique": "2aDa4aDa7a6aDa9a3a0a",
+      "nom": "IPAD LILA",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J. LE MER",
+      "gains": null,
+      "jockey": "W. DERSOIR-HABIB",
+      "musique": "3m4m4m3mDm2m(25)Dm1m3m",
+      "nom": "KINGALO DU CHENE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "J.M. LEGROS",
+      "gains": null,
+      "jockey": "L. OTT",
+      "musique": "Dm2m1mDa5aDaDa6aDmDm",
+      "nom": "ITAC DE PICDOM",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "TH. LONCKE",
+      "gains": null,
+      "jockey": "V. SAUSSAYE",
+      "musique": "1a0a6a6a1a3a0a1a4a(25)",
+      "nom": "KAABA RINGEAT",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 4,
+    "heure_paris": "2026-10-25T00:16:29.484098+02:00",
+    "meilleur_place": 11,
+    "moteur": "M5",
+    "ordre_espere": [
+      4,
+      11,
+      9,
+      12,
+      13
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C3/participants"
+}

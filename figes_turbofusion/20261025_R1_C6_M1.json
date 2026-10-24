@@ -1,0 +1,116 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C6",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:50:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:21.533815+02:00",
+  "hippodrome": "SAINT-CLOUD",
+  "partants": [
+    {
+      "age": 8,
+      "entraineur": "TP.CLOVER",
+      "gains": null,
+      "jockey": "W.BUICK",
+      "musique": "1p7p2p3p1p(25)3p2p3p8p",
+      "nom": "AL NAYYIR",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 590.0
+    },
+    {
+      "age": 6,
+      "entraineur": "AP.O'BRIEN",
+      "gains": null,
+      "jockey": "RL.MOORE",
+      "musique": "2p3p2p1p(25)2p3p3p6p3p",
+      "nom": "QUEENSTOWN",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 590.0
+    },
+    {
+      "age": 6,
+      "entraineur": "C.FERLAND (S)",
+      "gains": null,
+      "jockey": "M.GUYON",
+      "musique": "4p2p3p3p6p2p2p2p(25)5p",
+      "nom": "DOUBLE MAJOR",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 590.0
+    },
+    {
+      "age": 8,
+      "entraineur": "R.O'SULLIVAN",
+      "gains": null,
+      "jockey": "D.O'CONNOR",
+      "musique": "1p5p2p(25)1p2p1p(24)0p5p",
+      "nom": "CHALLY CHUTE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 590.0
+    },
+    {
+      "age": 4,
+      "entraineur": "SIR M.PRESCOTT",
+      "gains": null,
+      "jockey": "L.MORRIS",
+      "musique": "4p3p4p9p(25)1p2p2p1p",
+      "nom": "CONSENT",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 575.0
+    },
+    {
+      "age": 4,
+      "entraineur": "P.DECOUZ (S)",
+      "gains": null,
+      "jockey": "M.GRANDIN",
+      "musique": "1p2p3p0p2p1p1p4p(25)2p",
+      "nom": "HIGHARA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 575.0
+    },
+    {
+      "age": 3,
+      "entraineur": "A.MURPHY (S)",
+      "gains": null,
+      "jockey": "E.VERHESTRAETEN",
+      "musique": "1p1p5p2p1p1p1p(25)4p0p",
+      "nom": "JABRACADABRA",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 560.0
+    },
+    {
+      "age": 3,
+      "entraineur": "AP.O'BRIEN",
+      "gains": null,
+      "jockey": "WM.LORDAN",
+      "musique": "6p3p3p2p5p5p6p1p(25)1p",
+      "nom": "AMELIA EARHART",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 545.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-25T00:16:21.533815+02:00",
+    "meilleur_place": 2,
+    "moteur": "M1",
+    "ordre_espere": [
+      6,
+      2,
+      7,
+      1,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C6/participants"
+}

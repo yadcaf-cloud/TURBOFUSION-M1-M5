@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:05:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:30.450881+02:00",
+  "hippodrome": "LA CAPELLE",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "B. HOJKA",
+      "gains": null,
+      "jockey": "P. LEFEVRE",
+      "musique": "7aDaDaDaDaDaDa",
+      "nom": "MOON SLAP",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "V. COLLARD",
+      "gains": null,
+      "jockey": "L. PITON",
+      "musique": "3a4aDaDa9a0a0a5aDaDa",
+      "nom": "MAD WAY",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. LAUREYS",
+      "gains": null,
+      "jockey": "R. HEMERY",
+      "musique": "5a2aDa2a4a6a8a(25)0a4a",
+      "nom": "MEDOC",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "L. VERVA",
+      "gains": null,
+      "jockey": "LAURENT VERVA",
+      "musique": "4a6a7a5aDaDa6aDm7aDa",
+      "nom": "MAJOR DU COUDOU",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mme Jill VERSTRAETE",
+      "gains": null,
+      "jockey": "G. WILLEMS",
+      "musique": "5a7aDa4aDa8aDa(25)Da1a",
+      "nom": "MYSTIC VERTAC",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "D. MOES",
+      "gains": null,
+      "jockey": "MARC MOES",
+      "musique": "3aDa1a3a7a(25)Da2a",
+      "nom": "MIRACLE D'ESCAUT",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. BETHOUART",
+      "gains": null,
+      "jockey": "F. DESMIGNEUX",
+      "musique": "1a2a5a8aDaDa3a5aDa7a",
+      "nom": "MINIE DE TOUCHYVON",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "PH. DAUGEARD",
+      "gains": null,
+      "jockey": "K. BROSSARD",
+      "musique": "3a4a2aDaDaDa0aDa(25)2a",
+      "nom": "MIGHTY DU DOME",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. KOUBICHE",
+      "gains": null,
+      "jockey": "J. KOUBICHE",
+      "musique": "8aDa1a5a1aDaDa(25)7a4a",
+      "nom": "MACARENA WIND",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "St. PROVOOST",
+      "gains": null,
+      "jockey": "W. CHANTELARD",
+      "musique": "Da0aDm6a0a4m3m2a6a7a",
+      "nom": "MY TOP GIFT",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Sté. Ent. Charles CRIADO",
+      "gains": null,
+      "jockey": "CH. CRIADO",
+      "musique": "Da7a6a7a6aDa(25)7a6a6a",
+      "nom": "MANGA DES RACQUES",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mme Betty REMY",
+      "gains": null,
+      "jockey": "M. VERVA",
+      "musique": "2aDa2aDaDa2a4a3a6aDa",
+      "nom": "MIKOLYTO DE REM",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.R. DELLIAUX",
+      "gains": null,
+      "jockey": "D. BONNE",
+      "musique": "1aDa6aDa0aDa1a3a4a(25)",
+      "nom": "MAJAX DE REVE D'OR",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. GARANDEAU",
+      "gains": null,
+      "jockey": "A. GARANDEAU",
+      "musique": "3a9a3aDa(25)5a5a4a5a5a",
+      "nom": "MATRIONA",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:30.450881+02:00",
+    "meilleur_place": 13,
+    "moteur": "M1",
+    "ordre_espere": [
+      12,
+      13,
+      6,
+      8,
+      9
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C7/participants"
+}

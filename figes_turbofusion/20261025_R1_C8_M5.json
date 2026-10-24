@@ -1,0 +1,193 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C8",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T17:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:21.892202+02:00",
+  "hippodrome": "SAINT-CLOUD",
+  "partants": [
+    {
+      "age": 3,
+      "entraineur": "P.GROUALLE (S)",
+      "gains": null,
+      "jockey": "C.LECOEUVRE",
+      "musique": "0p2p7p6p5p1p5p3p(25)3p",
+      "nom": "NOTIONI FAL",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 600.0
+    },
+    {
+      "age": 4,
+      "entraineur": "MME J.SOUDAN",
+      "gains": null,
+      "jockey": "A.HAMELIN",
+      "musique": "2p3p1p6p5p4p(25)0p5p4p",
+      "nom": "SEVENNA'S BAY",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 595.0
+    },
+    {
+      "age": 5,
+      "entraineur": "H.SHIMIZU",
+      "gains": null,
+      "jockey": "A.POUCHIN",
+      "musique": "5p6p4p4p(25)2p0p2p0p",
+      "nom": "WASABI",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 595.0
+    },
+    {
+      "age": 6,
+      "entraineur": "A.FOUASSIER",
+      "gains": null,
+      "jockey": "M.VELON",
+      "musique": "9p1p2p3p3p2p8p5p1p1p",
+      "nom": "LOFSONGUR ISLANDE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 590.0
+    },
+    {
+      "age": 5,
+      "entraineur": "P.ADDA (S)",
+      "gains": null,
+      "jockey": "M.GRANDIN",
+      "musique": "0p5pJhAh3p5p1p(25)7p1p",
+      "nom": "BRIONA",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 590.0
+    },
+    {
+      "age": 4,
+      "entraineur": "M.GUARNIERI",
+      "gains": null,
+      "jockey": "F.VALLE SKAR",
+      "musique": "0p6p5p3p5p3p1p5p7p",
+      "nom": "ALPE MOTTA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 585.0
+    },
+    {
+      "age": 5,
+      "entraineur": "E.LECOIFFIER",
+      "gains": null,
+      "jockey": "PC.BOUDOT",
+      "musique": "0p1p1p5p2p0p0p1p6p1p",
+      "nom": "VIANETA",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "L.BAUDRON (S)",
+      "gains": null,
+      "jockey": "R.MANGIONE",
+      "musique": "0p3p2p9p1p7p4p5p0h8p",
+      "nom": "QUEEN D'AUNOU",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 580.0
+    },
+    {
+      "age": 6,
+      "entraineur": "D.ARTU (S)",
+      "gains": null,
+      "jockey": "M.BARZALONA",
+      "musique": "2p3p0p7p0p7p9p4p0p1p",
+      "nom": "CLICCLIC PANPANPAN",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 575.0
+    },
+    {
+      "age": 3,
+      "entraineur": "F.ROHAUT (S)",
+      "gains": null,
+      "jockey": "C.SOUMILLON",
+      "musique": "1p0p4p2p3p",
+      "nom": "FLEUR D'ORANGER",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 575.0
+    },
+    {
+      "age": 8,
+      "entraineur": "MME M.DESVAUX",
+      "gains": null,
+      "jockey": "M.GUYON",
+      "musique": "6p7p6p7p3p5p0p7p(25)2p",
+      "nom": "ILUMINE PRECIEUSE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 575.0
+    },
+    {
+      "age": 3,
+      "entraineur": "HA.PANTALL (S)",
+      "gains": null,
+      "jockey": "T.PICCONE",
+      "musique": "7p0p4p2p2p1p0p6p",
+      "nom": "AUTOROUTE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 570.0
+    },
+    {
+      "age": 7,
+      "entraineur": "A.FOUASSIER",
+      "gains": null,
+      "jockey": "A.CRASTUS",
+      "musique": "7p3p3p0p3p0p(25)9p(24)0p",
+      "nom": "LORNE",
+      "non_partant": false,
+      "numero": 13,
+      "poids": 570.0
+    },
+    {
+      "age": 8,
+      "entraineur": "C.BOUTIN (S)",
+      "gains": null,
+      "jockey": "A.DUQUESNOY",
+      "musique": "9p8p6p0p5p4p2p6p0p3p",
+      "nom": "PINGO",
+      "non_partant": false,
+      "numero": 14,
+      "poids": 555.0
+    },
+    {
+      "age": 5,
+      "entraineur": "D.ARTU (S)",
+      "gains": null,
+      "jockey": "T.BACHELOT",
+      "musique": "2p3p2p7p5p6p3p3p6p3p",
+      "nom": "QUEENFLEUR",
+      "non_partant": false,
+      "numero": 15,
+      "poids": 545.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 7,
+    "heure_paris": "2026-10-25T00:16:21.892202+02:00",
+    "meilleur_place": 10,
+    "moteur": "M5",
+    "ordre_espere": [
+      7,
+      10,
+      5,
+      2,
+      12
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C8/participants"
+}

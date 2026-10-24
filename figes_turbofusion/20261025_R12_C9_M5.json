@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R12C9",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:15:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:34.594433+02:00",
+  "hippodrome": "NANTES",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "Mlle M. LE BOURHIS",
+      "gains": null,
+      "jockey": "C. HERIVAUX",
+      "musique": "6a0mDaDm9m0a4a0a2a7m",
+      "nom": "JACOMO DANICA",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "H. LECOQ",
+      "gains": null,
+      "jockey": "MAXENCE LECOQ",
+      "musique": "5a9a3aDa5a1a2a7a7m8a",
+      "nom": "JUNIOR D'AVRAN",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J. BAUDRON",
+      "gains": null,
+      "jockey": "CL. CIMAROSTI",
+      "musique": "Da5a4a4a(25)1a7a5a4a0a",
+      "nom": "JAMAIS SANS TOI",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "V. LEBARQUE",
+      "gains": null,
+      "jockey": "L. TRAVERT",
+      "musique": "8a0a3a8a(25)3a0a8a0a2a",
+      "nom": "JUBILATION",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "M. DABOUIS",
+      "gains": null,
+      "jockey": "N. ROUSSEAU",
+      "musique": "9a5a0m7a0a7a0a9a0a6a",
+      "nom": "JUMPER DE LA NADE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "B. PELLAN",
+      "gains": null,
+      "jockey": "V.M. MORIN",
+      "musique": "8a4aDa0a6a4a3aDa0a5a",
+      "nom": "JAVA DU MONCEL",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J.CH. AUDRAN",
+      "gains": null,
+      "jockey": "FL. BUTTIER",
+      "musique": "4a9a2a3a7a6a4a4a0a0a",
+      "nom": "JEMMA D'ANARDEL",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Louis BEILEARD",
+      "gains": null,
+      "jockey": "TH. VIAUD",
+      "musique": "5a7a6aDa1aDa3a1a5a(25)",
+      "nom": "JOUR DU TRESOR",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Mme E. DESSARTRE",
+      "gains": null,
+      "jockey": "PIERRE ABRIVARD",
+      "musique": "3a0a8a2a3a6a9aDa6a0a",
+      "nom": "JAGGER DANICA",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "E. LAMY",
+      "gains": null,
+      "jockey": "M. POTIER",
+      "musique": "2a1a2a2a4a4a4a1a0aDa",
+      "nom": "JANGO DU THANA",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "A. GUYARD",
+      "gains": null,
+      "jockey": "M. BEAUVAIS",
+      "musique": "9a7a4a2a3a5a1a3a6a5a",
+      "nom": "JOW PIQUENARD",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "P. CASTEL",
+      "gains": null,
+      "jockey": "A. TRINQUART",
+      "musique": "Da4a5a3a2aDa1a2a5a8a",
+      "nom": "JACKPOT DE L'ENVOL",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J.P. MARMION",
+      "gains": null,
+      "jockey": "R. HERNOT",
+      "musique": "9a6a8a1a2aDaDa(25)2a4a",
+      "nom": "JUTONNIERE",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "G. CARDINE",
+      "gains": null,
+      "jockey": "L. CASTEL",
+      "musique": "0a7a8a0aDaDaDaDa9a(25)",
+      "nom": "JOCKSTRAP",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Anthony DOLLION",
+      "gains": null,
+      "jockey": "A. GALLARD",
+      "musique": "1a3aDa3a2a6a3aDa9a5a",
+      "nom": "JAYA DES BROUSSES",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "F. JOSEPH",
+      "gains": null,
+      "jockey": "P. BUHIGNE",
+      "musique": "5a8a3a2a2a3a3a(25)Dm4a",
+      "nom": "JAGUAR DE DALINE",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 10,
+    "heure_paris": "2026-10-25T00:16:34.594433+02:00",
+    "meilleur_place": 12,
+    "moteur": "M5",
+    "ordre_espere": [
+      10,
+      12,
+      15,
+      3,
+      16
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C9/participants"
+}

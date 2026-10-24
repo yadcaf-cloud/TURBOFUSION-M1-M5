@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R12C8",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:45:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:34.351159+02:00",
+  "hippodrome": "NANTES",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "Mme E. VAN PETTEN",
+      "gains": null,
+      "jockey": "Mlle E. VAN PETTEN",
+      "musique": "(25)7a6aDa5a7a7a4a(24)1a",
+      "nom": "LIBERTY SMART",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.PH. GUIBOUT",
+      "gains": null,
+      "jockey": "J.PH. GUIBOUT",
+      "musique": "Da6aDa6a9a7a8a6a6a4a",
+      "nom": "LE LIBERTY",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.L. BIGEON",
+      "gains": null,
+      "jockey": "M. HERRAULT",
+      "musique": "Da0a1a3aDa6a5aDa(25)7a",
+      "nom": "LUCKY BLUE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Alexis POPOT",
+      "gains": null,
+      "jockey": "A. POPOT",
+      "musique": "Da5a5a3aDa2aDa5a1aDa",
+      "nom": "LE FRENCH DU SCION",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. FERCHAUD",
+      "gains": null,
+      "jockey": "P. FERCHAUD",
+      "musique": "Da0a7a5aDa9a9a4a9a4a",
+      "nom": "LAZZARO THE BEST",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "D. LEFAUCHEUX",
+      "gains": null,
+      "jockey": "A. LEFAUCHEUX",
+      "musique": "4a8a2a5a6aDa0aDa8aDa",
+      "nom": "LAURIANE DU RIED",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "B. HARDY",
+      "musique": "4a8a8a6aDa8a7a6a5a2a",
+      "nom": "LOLITA DES LANDES",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "K. CHAMPENOIS",
+      "gains": null,
+      "jockey": "GUILLAUME MARTIN",
+      "musique": "4a2a3a3a2a0a(25)0a6a3a",
+      "nom": "LANCIER DE REANA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "H. MARIE",
+      "gains": null,
+      "jockey": "ANTHONY DOLLION",
+      "musique": "9a0a0a4a8aDa3a3aDa5a",
+      "nom": "LEFORT FLIGNY",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "R. JOLY",
+      "gains": null,
+      "jockey": "R. JOLY",
+      "musique": "2aDa3aDa2a2a3a(25)Da8a",
+      "nom": "LAUREL",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. ROULLEAU",
+      "gains": null,
+      "jockey": "A. LAMY",
+      "musique": "5a7a8a6a2a1a4a3a1a3a",
+      "nom": "LUTIN DU GUINOUX",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "V. MARQUEZ",
+      "gains": null,
+      "jockey": "V. MARQUEZ",
+      "musique": "8aDa7a9a3a3a5a2a4a1a",
+      "nom": "LA RIVER D'ECCAM",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Thomas LEBREC",
+      "gains": null,
+      "jockey": "R. LAMY",
+      "musique": "9aDaDaDmDa1a6aDa5a4a",
+      "nom": "LASTRONAUT DANOVER",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 10,
+    "heure_paris": "2026-10-25T00:16:34.351159+02:00",
+    "meilleur_place": 8,
+    "moteur": "M1",
+    "ordre_espere": [
+      10,
+      8,
+      3,
+      4,
+      1
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C8/participants"
+}

@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R5C4",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:32:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:25.058145+02:00",
+  "hippodrome": "ENGHIEN",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "Nils PACHA",
+      "gains": null,
+      "jockey": "N. PACHA",
+      "musique": "0a8aDa0a8a7aDa6aDaDm",
+      "nom": "LA MOME",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "B. BOURGOIN",
+      "gains": null,
+      "jockey": "N. BAZIRE",
+      "musique": "Da8a1aDa8aDaDaDa8a0a",
+      "nom": "LUDIVINE DE BAILLY",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "S. HARDY",
+      "musique": "9a4a0a3a0a2a6a8a6a7a",
+      "nom": "LOLA D'OHARA",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. HENARD",
+      "gains": null,
+      "jockey": "F. LAGADEUC",
+      "musique": "Da5a6a8aDaDa6a2a6a3a",
+      "nom": "LILI DES ORMES",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "CH. CUILLER",
+      "gains": null,
+      "jockey": "CH. CUILLER",
+      "musique": "Da5m2aDaDm2mDa5a9a4a",
+      "nom": "LETTY DE BEYLEV",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. OUVRIE",
+      "gains": null,
+      "jockey": "F. OUVRIE",
+      "musique": "DaDaDa8a1a2aDa3aDa4a",
+      "nom": "LA BOISBONNIERE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. VAUBERT",
+      "gains": null,
+      "jockey": "F. NIVARD",
+      "musique": "8a0a7a0a2a6a(25)5aDaDa",
+      "nom": "LA MITIDJA",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "V. RAIMBAULT",
+      "gains": null,
+      "jockey": "A. ABRIVARD",
+      "musique": "5a5a6a5a0a1a2a4a6a2a",
+      "nom": "LIBERTE DE L'AUNAY",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Sté. Ent. Etienne DUBOIS",
+      "gains": null,
+      "jockey": "ETIENNE DUBOIS",
+      "musique": "4a3a4a(25)7a0aDa5a9aDa",
+      "nom": "LAST QUEEN",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "V. LEBARQUE",
+      "gains": null,
+      "jockey": "A. COLLETTE",
+      "musique": "3aDa6a3aDaDa6aDaDa0a",
+      "nom": "LADY DES ARRIS",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. MOTTIER",
+      "gains": null,
+      "jockey": "E. RAFFIN",
+      "musique": "Da1a3a1a1a4a6aDa(25)4a",
+      "nom": "LUMIERE DE BAILLE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. ROELENS",
+      "gains": null,
+      "jockey": "G. D'HAENENS",
+      "musique": "5a6a9a6a7a6a4m6a9a4a",
+      "nom": "LUCIOLE DU VERTAIN",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "E. VARIN",
+      "gains": null,
+      "jockey": "D. THOMAIN",
+      "musique": "3a2aDa0aDaDaDaDa5a5a",
+      "nom": "LAIKA DES MARES",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P.Y. ROCHARD",
+      "gains": null,
+      "jockey": "B. ROCHARD",
+      "musique": "0a1a2a1aDa2aDa1a3aDa",
+      "nom": "LUBIE DE CELINIERE",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "C. GODARD",
+      "gains": null,
+      "jockey": "P.PH. PLOQUIN",
+      "musique": "3a7a8a4a6a2a5a3a8a(25)",
+      "nom": "LAISSEZ FAIRE",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Sté. Ent. Jonathan VANMEERBECK",
+      "gains": null,
+      "jockey": "J. VANMEERBECK",
+      "musique": "Da5a2aDaDm7aDa5a1a7a",
+      "nom": "LADY QUEEN",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 14,
+    "heure_paris": "2026-10-25T00:16:25.058145+02:00",
+    "meilleur_place": 11,
+    "moteur": "M5",
+    "ordre_espere": [
+      14,
+      11,
+      9,
+      13,
+      6
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C4/participants"
+}

@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R5C6",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:42:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:25.571739+02:00",
+  "hippodrome": "ENGHIEN",
+  "partants": [
+    {
+      "age": 11,
+      "entraineur": "J.B. LEMOINE",
+      "gains": null,
+      "jockey": "LOUIS FORTIN",
+      "musique": "5m4m6m6m0m0a(25)4m3m3m",
+      "nom": "VASTERBO IMTHEMAN",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 580.0
+    },
+    {
+      "age": 6,
+      "entraineur": "MICKAEL CORMY",
+      "gains": null,
+      "jockey": "Mlle E. BOUCLET",
+      "musique": "2m1mDa4mDmDm1m1m(25)1m",
+      "nom": "KOALA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 590.0
+    },
+    {
+      "age": 6,
+      "entraineur": "H.E. BONDO",
+      "gains": null,
+      "jockey": "Mme CL. VERVA",
+      "musique": "7a3a5aDaDa9a1a6a(25)5a",
+      "nom": "EXPRESS D'ARC",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 570.0
+    },
+    {
+      "age": 8,
+      "entraineur": "M. SASSIER",
+      "gains": null,
+      "jockey": "E. ROGY",
+      "musique": "3m6mDm5m3m(25)Dm5aDm6m",
+      "nom": "IDEAL DU NOYER",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 560.0
+    },
+    {
+      "age": 8,
+      "entraineur": "TH. LEVESQUE",
+      "gains": null,
+      "jockey": "Mme C. BLAIZOT",
+      "musique": "5m0m2m3m3m5m5m5m(25)3m",
+      "nom": "IGOR DU PARC",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 560.0
+    },
+    {
+      "age": 6,
+      "entraineur": "CH. MOTTIER",
+      "gains": null,
+      "jockey": "J. FERRON",
+      "musique": "Dm3m1m3m1m3mDmDm2m5m",
+      "nom": "KATCHINA FOR CLARA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 580.0
+    },
+    {
+      "age": 8,
+      "entraineur": "W. NIMCZYK",
+      "gains": null,
+      "jockey": "J. MAILLARD",
+      "musique": "3m1m3m7m4m3m",
+      "nom": "STACCATO HL",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 600.0
+    },
+    {
+      "age": 8,
+      "entraineur": "CH. MIRANDEL",
+      "gains": null,
+      "jockey": "A. LAY POTTIER",
+      "musique": "Dm2m8m7m0m4m5mDm2m2m",
+      "nom": "IBIS DE CHAHAINS",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 580.0
+    },
+    {
+      "age": 7,
+      "entraineur": "D. BROHIER",
+      "gains": null,
+      "jockey": "Mlle A. GERVAIS",
+      "musique": "4m7m3m1m3m2m3mDmDmDm",
+      "nom": "JUBLA VIKING",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 590.0
+    },
+    {
+      "age": 10,
+      "entraineur": "CHRISTOPHE MARIE",
+      "gains": null,
+      "jockey": "Mlle A. POULAIN",
+      "musique": "1m1m6m9m4m2mDaDmDaDm",
+      "nom": "GIFTOVER",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 590.0
+    },
+    {
+      "age": 10,
+      "entraineur": "Nils PACHA",
+      "gains": null,
+      "jockey": "Mlle C. JARY",
+      "musique": "Dm(25)9m3m(24)1m2m1m1m1m",
+      "nom": "GOUTIER CELESTE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 590.0
+    },
+    {
+      "age": 9,
+      "entraineur": "F. TERRY",
+      "gains": null,
+      "jockey": "G. GILARD",
+      "musique": "4mDm8m2m6m6mDm9m7m0m",
+      "nom": "HANDSOME BOY",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 600.0
+    },
+    {
+      "age": 6,
+      "entraineur": "M. BEZIER",
+      "gains": null,
+      "jockey": "Mlle CL. SAUVAGE",
+      "musique": "4m2m9a0a4m2m1m1m1m4m",
+      "nom": "KRACK CLEA",
+      "non_partant": false,
+      "numero": 13,
+      "poids": 560.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 2,
+    "heure_paris": "2026-10-25T00:16:25.571739+02:00",
+    "meilleur_place": 6,
+    "moteur": "M1",
+    "ordre_espere": [
+      2,
+      6,
+      5,
+      7,
+      9
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C6/participants"
+}

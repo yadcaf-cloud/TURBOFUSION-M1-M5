@@ -1,0 +1,116 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R9C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:40:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:28.527255+02:00",
+  "hippodrome": "AGEN LA GARENNE",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "B.LEGROS (S)",
+      "gains": null,
+      "jockey": "A.GAVILAN",
+      "musique": "5p0p5p4p9p9p2p9p2p5p",
+      "nom": "CHUNKA WAKAN",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 590.0
+    },
+    {
+      "age": 5,
+      "entraineur": "D.CHENU",
+      "gains": null,
+      "jockey": "M.FOREST",
+      "musique": "0p8p9p6p0p4p2p1p3p2p",
+      "nom": "LOYAL PRINCE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 580.0
+    },
+    {
+      "age": 9,
+      "entraineur": "B.LEGROS (S)",
+      "gains": null,
+      "jockey": "J.LACROIX",
+      "musique": "6p2p5p4p9p2p5p7p7p5p",
+      "nom": "STRANGER",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 580.0
+    },
+    {
+      "age": 6,
+      "entraineur": "L.BERNHARDT",
+      "gains": null,
+      "jockey": "H.MOUESAN",
+      "musique": "6p4p2p2p3p4p1p2p6p6p",
+      "nom": "GO JOHNNY GO GO GO",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 575.0
+    },
+    {
+      "age": 4,
+      "entraineur": "B.LEGROS (S)",
+      "gains": null,
+      "jockey": "G.GUEDJ-GAY",
+      "musique": "0p5p2p5p9p0p0p0p0p8p",
+      "nom": "HEMATITE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 565.0
+    },
+    {
+      "age": 7,
+      "entraineur": "J.RESIMONT",
+      "gains": null,
+      "jockey": "C.MERILLE",
+      "musique": "4p6p0p(25)4p9p5p8p9p4p",
+      "nom": "SHOWMAN",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 560.0
+    },
+    {
+      "age": 9,
+      "entraineur": "O.TRIGODET (S)",
+      "gains": null,
+      "jockey": "I.CHABIRON",
+      "musique": "0p5pDp7p7p7p4p7p4p",
+      "nom": "HONG KONG STAR",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 545.0
+    },
+    {
+      "age": 5,
+      "entraineur": "EJ.FERREIRA ANTUNES",
+      "gains": null,
+      "jockey": "N.M..LOPES DUARTE",
+      "musique": "7p0p5p5p5p4p0p2p0p",
+      "nom": "ROSADORA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 545.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 4,
+    "heure_paris": "2026-10-25T00:16:28.527255+02:00",
+    "meilleur_place": 6,
+    "moteur": "M1",
+    "ordre_espere": [
+      4,
+      6,
+      3,
+      8,
+      2
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C7/participants"
+}

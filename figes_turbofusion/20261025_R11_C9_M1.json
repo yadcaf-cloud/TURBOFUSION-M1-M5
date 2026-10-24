@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R11C9",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T18:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:32.725745+02:00",
+  "hippodrome": "SAINT GALMIER",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "P. CALLIER",
+      "gains": null,
+      "jockey": "R. BOUDAH",
+      "musique": "9aDa0aDa0a0aDa6a0a(25)",
+      "nom": "JICKY DE L'ITON",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J.L. VERRIERE",
+      "gains": null,
+      "jockey": "A. LEGRAND",
+      "musique": "7m3m6a8a2a8a3a6a0mDa",
+      "nom": "KALINE LAURA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "S. JAMARD",
+      "gains": null,
+      "jockey": "PHILIPPE SEILER",
+      "musique": "2a3a7a4a5a3a5a2a2a3a",
+      "nom": "ISIS DE REYNALD",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "B. PALEAU",
+      "gains": null,
+      "jockey": "E. FAVIER",
+      "musique": "2a8a8aDa7a5a1a2a3a1a",
+      "nom": "JAIKA DES BORDES",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "Mme Jennifer VALETTE",
+      "gains": null,
+      "jockey": "LUC DUMONT",
+      "musique": "0aDa0a9a(25)8aDaDaDa6a",
+      "nom": "KIYOUNI",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "B. CURY",
+      "gains": null,
+      "jockey": "Mme L. CURY",
+      "musique": "4a0a5a8a4a6aDa1aDaDa",
+      "nom": "KIF DE L'UNE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Mme N. DESPRES",
+      "gains": null,
+      "jockey": "S. ZEGHOUANI",
+      "musique": "DaDa1a4a6a9a4aDa4aDa",
+      "nom": "JULIANA DU LOISIR",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "D. MARASCO",
+      "gains": null,
+      "jockey": "D. LAPRAY",
+      "musique": "4a0a7a3a9a6a0a0a3a6a",
+      "nom": "JO DE L'ETANG",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "J.M. GAUDIN",
+      "gains": null,
+      "jockey": "Mlle CL.A. THOMAS",
+      "musique": "5a3aDa3a5aDa6a8a5a3a",
+      "nom": "HARKANSAS DE L'OZE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "F.J. PELTIER",
+      "gains": null,
+      "jockey": "G. BLANCHARD",
+      "musique": "6aDaDaDaDaDa4a1aDa3a",
+      "nom": "JOB DE CORDAY",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "L. LERENARD",
+      "gains": null,
+      "jockey": "Y. LERENARD",
+      "musique": "Da0a5a7a4a9a6a2a(24)Da",
+      "nom": "JULIUS GRIFF",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "G. FOURNIGAULT",
+      "gains": null,
+      "jockey": "Mlle M. GOBET",
+      "musique": "0a8aAa0a4a0a(25)7m1aDa",
+      "nom": "JETSTAR DE VRIE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "B. VALLETTE",
+      "gains": null,
+      "jockey": "T. VALLETTE",
+      "musique": "8a5a3a2a2a1a2a5a2a5a",
+      "nom": "KING IMPERIAL",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "F. CARPENTIER",
+      "gains": null,
+      "jockey": "M.M. MUTEL",
+      "musique": "9a6a5a8a6a7a3aDa0a2a",
+      "nom": "JUDYRA BOISSIERE",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 10,
+    "heure_paris": "2026-10-25T00:16:32.725745+02:00",
+    "meilleur_place": 13,
+    "moteur": "M1",
+    "ordre_espere": [
+      10,
+      13,
+      3,
+      9,
+      7
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C9/participants"
+}

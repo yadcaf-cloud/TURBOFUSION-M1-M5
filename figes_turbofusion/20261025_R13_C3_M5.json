@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R13C3",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:35.078823+02:00",
+  "hippodrome": "CHARTRES",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "F. CHRISTOPHE",
+      "gains": null,
+      "jockey": "F. CHRISTOPHE",
+      "musique": "0a0a4a0a7a6aDa0a5a",
+      "nom": "MAYA DES DUNES",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "X. THEVENET",
+      "gains": null,
+      "jockey": "X. THEVENET",
+      "musique": "Dm5a5a6a8a5a5a5m5m6m",
+      "nom": "MA BELLE DU THIL",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "W. BOURDON",
+      "gains": null,
+      "jockey": "W. BOURDON",
+      "musique": "9a4a3a2a4a",
+      "nom": "MISI DESJY",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. RIPOLL RIGO",
+      "gains": null,
+      "jockey": "K. ACHARD",
+      "musique": "DaDaDa5a(25)DmDmDmDm1m",
+      "nom": "MALICIA JIEL",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E. BEAUVAIS",
+      "gains": null,
+      "jockey": "E. DE JESUS",
+      "musique": "8a7a3a1a9a5a6a6a9a5a",
+      "nom": "MANDALIKA",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "CH.J. BIGEON",
+      "gains": null,
+      "jockey": "CH.J. BIGEON",
+      "musique": "DaDa5aDa6a3aDa6a(25)0a",
+      "nom": "MISS DE JAFRAN",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Alexandre GUILLEMIN",
+      "gains": null,
+      "jockey": "A. GUILLEMIN",
+      "musique": "(25)DaDa3aDa2a5a7a(24)4a",
+      "nom": "MAGA DE BOISNEY",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. LIGERON",
+      "gains": null,
+      "jockey": "G. GELORMINI",
+      "musique": "Da(25)Da6a2a5a0mDm5aDa",
+      "nom": "MINI COOPER'S ERA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B. DE FOLLEVILLE",
+      "gains": null,
+      "jockey": "B. DE FOLLEVILLE",
+      "musique": "1aDa1a",
+      "nom": "MARIE GALANTE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. BORDAS",
+      "gains": null,
+      "jockey": "TH. DROMIGNY",
+      "musique": "Da8a3a8a3a0a5a1a5a(25)",
+      "nom": "MAGICAL TOUCH",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "PH. MARIE",
+      "gains": null,
+      "jockey": "PH. MARIE",
+      "musique": "8a3a5a6a5a9aDa7a4aDa",
+      "nom": "MAJORA BELLA",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "ALEXANDRE CHEVRIER",
+      "gains": null,
+      "jockey": "ALEXANDRE CHEVRIER",
+      "musique": "3a4a3aDa4a2aDm9aDa2a",
+      "nom": "MAUVE DE FELLIERE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:35.078823+02:00",
+    "meilleur_place": 7,
+    "moteur": "M5",
+    "ordre_espere": [
+      12,
+      7,
+      4,
+      8,
+      6
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R13/C3/participants"
+}

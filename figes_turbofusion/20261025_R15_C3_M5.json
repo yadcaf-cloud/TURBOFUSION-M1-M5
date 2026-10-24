@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R15C3",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T13:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:37.672584+02:00",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "Mlle AUDE LEMOINE",
+      "gains": null,
+      "jockey": "E. CIVE",
+      "musique": "",
+      "nom": "MAJESTIC WILLIAMS",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. LECOURT",
+      "gains": null,
+      "jockey": "TH. ROULLIER",
+      "musique": "Dm6a4m4m3a3a8a5a(25)2a",
+      "nom": "MEGA DJOB",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "L. LEGRAND",
+      "musique": "2a7a0a5a6m8a4m7m7a8a",
+      "nom": "MADONE ROCHEL",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "JOEL HALLAIS",
+      "gains": null,
+      "jockey": "Mme F. TOLMER",
+      "musique": "6a0a6a5a9a6a4a7a2a9a",
+      "nom": "MACUMBA DU RIB",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. DE JESUS",
+      "gains": null,
+      "jockey": "Y. JULIEN",
+      "musique": "5aDaDa7aDaDa6aDa6a2a",
+      "nom": "MARNAON VINGUY",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "CH. PETREMENT",
+      "gains": null,
+      "jockey": "J. DEVILLE",
+      "musique": "4a6a5a3a2aDa7aDa7aDa",
+      "nom": "MELISSE D'ELOGES",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "CL. THOMAIN",
+      "gains": null,
+      "jockey": "TH. BIZOUX",
+      "musique": "3aDa7aDm7a3a7a6aDa1a",
+      "nom": "MASCARET DEFF",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B. MARIE",
+      "gains": null,
+      "jockey": "TH. BELLET",
+      "musique": "Da4a6a4a7a4a3aDa5a5a",
+      "nom": "MUST PLEIN CHENE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. CHAVATTE",
+      "gains": null,
+      "jockey": "F. HERIVAUX",
+      "musique": "1a1a8a1aDa(25)0a1a3a",
+      "nom": "MALEKOUM SEVEN",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. GUARATO",
+      "gains": null,
+      "jockey": "A. FOSSARD",
+      "musique": "4a7a4a6a6a7a1a1a2a9a",
+      "nom": "MAGIC D'ESPACE",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. HOUYVET",
+      "gains": null,
+      "jockey": "W. PLAIRE",
+      "musique": "5a5a5a7a2a5a2a6a3a5a",
+      "nom": "MADE IN MOUROTAIS",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. HOUEL",
+      "gains": null,
+      "jockey": "FRANCOIS LECATHELINAIS",
+      "musique": "5aDa0a6a2a1a2a6a6a6a",
+      "nom": "MUST GO FAST",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. NIVARD",
+      "gains": null,
+      "jockey": "A. GUARATO",
+      "musique": "9a6a7a3aDa5a7a5a1a0a",
+      "nom": "MELODISYVA",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:37.672584+02:00",
+    "meilleur_place": 9,
+    "moteur": "M5",
+    "ordre_espere": [
+      12,
+      9,
+      2,
+      6,
+      11
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C3/participants"
+}

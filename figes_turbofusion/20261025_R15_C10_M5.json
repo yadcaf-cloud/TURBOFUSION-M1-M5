@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R15C10",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T17:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:38.834024+02:00",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "TH. CHALON",
+      "gains": null,
+      "jockey": "M. MAUSSION",
+      "musique": "6a8a0a3a2a4a8a5a3a8a",
+      "nom": "KEL AMOUR BARBES",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "A. CANCOUET",
+      "gains": null,
+      "jockey": "A. CANCOUET",
+      "musique": "4a6a7a5a7a5a7a8aDa9a",
+      "nom": "INTUITION MAGIC",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "F. CHRISTOPHE",
+      "gains": null,
+      "jockey": "A. BRUN",
+      "musique": "4a9a7a9a2a(25)8mDa7aDa",
+      "nom": "JAYA STARDUST",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "G.Y. POIRIER",
+      "gains": null,
+      "jockey": "G.Y. POIRIER",
+      "musique": "6aDaDaDaDa5a(25)Dm2a3a",
+      "nom": "KAID BOURGEOIS",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "A.H. POST",
+      "gains": null,
+      "jockey": "N. POST",
+      "musique": "3a2a3aDaDaDa2a4a8a(25)",
+      "nom": "KAIROS ECUS",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "D. DUTHEIL",
+      "gains": null,
+      "jockey": "F. CHAPDELAINE",
+      "musique": "DaDa0a6aDa7aDm5mAaDa",
+      "nom": "KADOR DE SEVRE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "ARNAUD GIRARD",
+      "musique": "0m6a6aDa7a8a8a1a0m8a",
+      "nom": "KICK DES LANDES",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "P. FRERET",
+      "gains": null,
+      "jockey": "M. BOUREE",
+      "musique": "Dm9m0a8a0a2a7aDa0a(25)",
+      "nom": "JOUVENCE DE KACY",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "M. DONIO",
+      "gains": null,
+      "jockey": "K. BAUDRY",
+      "musique": "0a4a0a6a1a0a3a2a2a0a",
+      "nom": "HOLD UP IDEF",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "JOEL HALLAIS",
+      "gains": null,
+      "jockey": "Mlle AUXANE HALLAIS",
+      "musique": "0a2a1a9a9a(25)5a3a7a7a",
+      "nom": "JUMPING DU RIB",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "F. TABESSE",
+      "gains": null,
+      "jockey": "Mlle P. HUGELE",
+      "musique": "Da0a0aAa4a8a0a8a3a0a",
+      "nom": "INES DE GLADJESS",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "C. CHENU",
+      "gains": null,
+      "jockey": "Mlle CL. LOUICHE",
+      "musique": "0a1a2a1a2a1a1a3a1a(25)",
+      "nom": "KANDY VENESI",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Arnaud MORIN",
+      "gains": null,
+      "jockey": "Mme M. HERGNO",
+      "musique": "DaAa1aDaDa1a6aDa7a(25)",
+      "nom": "JULIA DE MARZY",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "D. BROHIER",
+      "gains": null,
+      "jockey": "L. BROHIER",
+      "musique": "9a4a1a3a8a4a2a7a9a8a",
+      "nom": "KLOE D'ARRY",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "J. HERARD",
+      "gains": null,
+      "jockey": "A. LAIR",
+      "musique": "4a0a1a6a3a0a(25)0a8a2a",
+      "nom": "KING EVOLUTION",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "D. DELAROCHE",
+      "gains": null,
+      "jockey": "J.PH. BAZIRE",
+      "musique": "4a5aAa2a0a6a4a1a3a1a",
+      "nom": "JAZZ DES MANIS",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:38.834024+02:00",
+    "meilleur_place": 5,
+    "moteur": "M5",
+    "ordre_espere": [
+      12,
+      5,
+      9,
+      15,
+      16
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C10/participants"
+}

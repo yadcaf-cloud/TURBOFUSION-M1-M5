@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C6",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:35:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:30.285764+02:00",
+  "hippodrome": "LA CAPELLE",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "R. HEMERY",
+      "gains": null,
+      "jockey": "Mme S. DECAUDIN",
+      "musique": "9a6a0a2m3aDa8a0aDa7a",
+      "nom": "LUTIN DU VAUTOUR",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Pavel TAMSIN",
+      "gains": null,
+      "jockey": "G. DESPREZ",
+      "musique": "9a1a1a2a1a2a9a5a1a2a",
+      "nom": "LOUNA FIX",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. DUCROCQ",
+      "gains": null,
+      "jockey": "Mlle C. DA COSTA",
+      "musique": "Da7a1a5a2aDa9a(25)8a2a",
+      "nom": "LISTED DU FOSSE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "F. DUCROCQ",
+      "gains": null,
+      "jockey": "L. CRUNELLE",
+      "musique": "2aDaDmDaDaDa1aDmDmDa",
+      "nom": "LADY NANIE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "ST. MEUNIER",
+      "gains": null,
+      "jockey": "P. DEVESLY",
+      "musique": "1aDa2aAaDa(25)Da6a4aDa",
+      "nom": "LA BIO JOSSELYN",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.L. DERSOIR",
+      "gains": null,
+      "jockey": "CH. PLANCHAIS",
+      "musique": "Da9a6aDa9a7a8a0a6aDa",
+      "nom": "LITTLE STAR JIEL",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "E. MARTIN",
+      "gains": null,
+      "jockey": "K. BROSSARD",
+      "musique": "Da2aDaDaDm3aDaDa8a5a",
+      "nom": "LIONEL DU DERBY",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "B. HOJKA",
+      "gains": null,
+      "jockey": "R. HOJKA",
+      "musique": "Aa0a0aDa5a7a0a2a4a0a",
+      "nom": "LIKE YOU MADRIK",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. HAWAS",
+      "gains": null,
+      "jockey": "LORIS BIZOUX",
+      "musique": "7a5a0aDa8a4aDa(25)0a0a",
+      "nom": "LUCKY LOSER",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Mme C. DE SOETE",
+      "gains": null,
+      "jockey": "N. BECQUET",
+      "musique": "Da2a7a2aDa6a5a8aDa3a",
+      "nom": "LUCKY PARC",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. LANNOO",
+      "gains": null,
+      "jockey": "M. GARCON",
+      "musique": "0a6a7aDa0a4a0aDa(25)Da",
+      "nom": "LOLA RONVILLAIS",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J.M. LEGROS",
+      "gains": null,
+      "jockey": "L. OTT",
+      "musique": "2a4a4a2a4a4a4a8aDa9a",
+      "nom": "LE REGENT",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Mme M. GIBON",
+      "gains": null,
+      "jockey": "G. LEMAITRE",
+      "musique": "Da7aDa0a3aDa0m5a6a0a",
+      "nom": "LOVER DREAM",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 2,
+    "heure_paris": "2026-10-25T00:16:30.285764+02:00",
+    "meilleur_place": 5,
+    "moteur": "M1",
+    "ordre_espere": [
+      2,
+      5,
+      12,
+      10,
+      7
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C6/participants"
+}

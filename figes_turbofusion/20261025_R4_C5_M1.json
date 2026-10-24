@@ -1,0 +1,149 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T13:05:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:23.305125+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 9,
+      "entraineur": "M. BONNEFOY",
+      "gains": null,
+      "jockey": "J.CH. SOREL",
+      "musique": "4a3a3a0a3a3a3a1a(25)0a",
+      "nom": "HARLEQUIN",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "Y.A. BRIAND",
+      "musique": "8a7a2a3a5a7a9aDa3a0a",
+      "nom": "IBIZA EVENING",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 10,
+      "entraineur": "K. BUSNEL",
+      "gains": null,
+      "jockey": "K. BUSNEL",
+      "musique": "Da0aDa0a9a1a0a9a2a2a",
+      "nom": "GOLZAC DE REM",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "Y. HENRY",
+      "gains": null,
+      "jockey": "Mme LANA HENRY",
+      "musique": "0a8a3aDa2aDa(25)9a1a2a",
+      "nom": "IPSON DU VERNAY",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "H. CHAUVE-LAFFAY",
+      "gains": null,
+      "jockey": "Q. CHAUVE-LAFFAY",
+      "musique": "0a6a2a4a2a1a1a1a0a(25)",
+      "nom": "INESKA",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "J.M. ROUBAUD",
+      "gains": null,
+      "jockey": "S. STEFANO",
+      "musique": "3a6a0a9a9a(25)Da3a3a9a",
+      "nom": "IDEAL GREEN",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "E. BOUYER",
+      "gains": null,
+      "jockey": "K. DEVIENNE",
+      "musique": "5a2a0a0a3a7m7m8a4a5a",
+      "nom": "ILIANO DES PLAINES",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "R.F. PERRET",
+      "gains": null,
+      "jockey": "D. BEKAERT",
+      "musique": "9a0a3a9a0a7a3a8aDa4a",
+      "nom": "IRIS RIVOISE",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "R. DERIEUX",
+      "gains": null,
+      "jockey": "R. DERIEUX",
+      "musique": "4a0aDa1aDa2a4a2a0a(25)",
+      "nom": "I LOVE JOSSELYN",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "G. FOURNIGAULT",
+      "gains": null,
+      "jockey": "J.CH. FERON",
+      "musique": "9a1a6a4a(25)4a1a3a2a4a",
+      "nom": "ILTON DE BELLANDE",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "N. ENSCH",
+      "gains": null,
+      "jockey": "TH. BRIAND",
+      "musique": "5a1aDa2a5a5a4aDaDa4a",
+      "nom": "IGGY FAFA",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 9,
+    "heure_paris": "2026-10-25T00:16:23.305125+02:00",
+    "meilleur_place": 5,
+    "moteur": "M1",
+    "ordre_espere": [
+      9,
+      5,
+      1,
+      11,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C5/participants"
+}

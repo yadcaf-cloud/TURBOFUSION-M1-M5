@@ -1,0 +1,193 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R15C2",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T13:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:37.511037+02:00",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "D. CHERADAME",
+      "gains": null,
+      "jockey": "Mme N. ALEXANDRE",
+      "musique": "7mDaDaAaDaDaDa9aDa(25)",
+      "nom": "MADDY DES LANDIERS",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.P. MARMION",
+      "gains": null,
+      "jockey": "J. LEVESQUE",
+      "musique": "5mDm2m(25)DaDm4aDm",
+      "nom": "MELOPEE BELLA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. BRETON",
+      "gains": null,
+      "jockey": "E. ALRON",
+      "musique": "9aDa0a5a9a6a9a7a7a0a",
+      "nom": "MADONA DE VILLABON",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "C. GODARD",
+      "gains": null,
+      "jockey": "Mme G. VERNET",
+      "musique": "0aDa7a9aDaDa5aDaDa4a",
+      "nom": "MIKAO DU BAS BOSQ",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.M. GODARD",
+      "gains": null,
+      "jockey": "Mlle L. HERARD",
+      "musique": "4a5a5a6a6a8a6a7a8a2a",
+      "nom": "MALIN DICARI",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E. VARIN",
+      "gains": null,
+      "jockey": "Mme C. BERNA",
+      "musique": "DmDaDm7a8aDa9aDa1a5a",
+      "nom": "MAHANA OF LOVE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. DELACOUR",
+      "gains": null,
+      "jockey": "Mme N. LE BEC",
+      "musique": "6a5m9m3m5a1mDm4m3mDa",
+      "nom": "MARILOU D'ERI",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. HERARD",
+      "gains": null,
+      "jockey": "V. HERARD",
+      "musique": "0a5a0a3a2a2a9a2a7a3a",
+      "nom": "MANDATED",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Ch. DREUX",
+      "gains": null,
+      "jockey": "L. ROUXEL-PINSON",
+      "musique": "3a3a4a4aDm3m5mDa1aDa",
+      "nom": "MAIA BOURGEOISE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "LOIC GROUSSARD",
+      "gains": null,
+      "jockey": "Mme Z. LE PARC",
+      "musique": "DmDm4m3m0mDmDaDm1m2m",
+      "nom": "MANIFESTO",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "Mme L. PREEL",
+      "musique": "Da2m2m4m0m6m1m2m5mDa",
+      "nom": "MALINE DES LANDES",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Nicolas DEVIGNE",
+      "gains": null,
+      "jockey": "NON-PARTANT",
+      "musique": "Dm",
+      "nom": "MAURICE DE VIVOIN",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Ch. DREUX",
+      "gains": null,
+      "jockey": "P. MAUGENDRE-LE MEUR",
+      "musique": "DmDa9a",
+      "nom": "MISTER FOUTEAU",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Nicolas DEVIGNE",
+      "gains": null,
+      "jockey": "M. DELORME",
+      "musique": "5a9a6a3m0a2a2a(25)7a0m",
+      "nom": "MADONA DU CLOS",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. LECOURT",
+      "gains": null,
+      "jockey": "TH. ROULLIER",
+      "musique": "DaDa3a2a1a6aDa(25)0a3a",
+      "nom": "MADDALENA JEEP",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 10,
+    "heure_paris": "2026-10-25T00:16:37.511037+02:00",
+    "meilleur_place": 15,
+    "moteur": "M5",
+    "ordre_espere": [
+      10,
+      15,
+      9,
+      11,
+      2
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C2/participants"
+}

@@ -1,0 +1,127 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R9C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:40:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:28.116230+02:00",
+  "hippodrome": "AGEN LA GARENNE",
+  "partants": [
+    {
+      "age": 7,
+      "entraineur": "G.HEURTAULT",
+      "gains": null,
+      "jockey": "N.M..LOPES DUARTE",
+      "musique": "6p2p2p6p0p1p9p3p9p9p",
+      "nom": "ATLANTIGO",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 590.0
+    },
+    {
+      "age": 10,
+      "entraineur": "MME L.LE GEAY",
+      "gains": null,
+      "jockey": "L.LE GEAY",
+      "musique": "1p0p2p3p0p0p5p2p(25)0p",
+      "nom": "QUDILLERO",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 590.0
+    },
+    {
+      "age": 5,
+      "entraineur": "MME V.SEIGNOUX",
+      "gains": null,
+      "jockey": "M.ROMARY",
+      "musique": "6p4p2p9p6p0p9p0p(24)0p",
+      "nom": "VALKANA",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 565.0
+    },
+    {
+      "age": 10,
+      "entraineur": "D.MAHE",
+      "gains": null,
+      "jockey": "V.CHENET",
+      "musique": "0p6p0p(25)Ah0p5p5p1h4h",
+      "nom": "KIROZ",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 560.0
+    },
+    {
+      "age": 11,
+      "entraineur": "J.RESIMONT",
+      "gains": null,
+      "jockey": "C.MERILLE",
+      "musique": "6p9p0p(25)9p6p1p3p0p0p",
+      "nom": "PARABAK",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 560.0
+    },
+    {
+      "age": 7,
+      "entraineur": "H.FROIDEFOND",
+      "gains": null,
+      "jockey": "A.GAVILAN",
+      "musique": "7p6p2p3p4p2p3p4p4p6p",
+      "nom": "KHELLE TARTARE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 555.0
+    },
+    {
+      "age": 5,
+      "entraineur": "D.CHENU",
+      "gains": null,
+      "jockey": "G.FRADELIN",
+      "musique": "(25)0p7p5p6p8p0p6p3p0p",
+      "nom": "LIANE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 545.0
+    },
+    {
+      "age": 5,
+      "entraineur": "A.LOPEZ",
+      "gains": null,
+      "jockey": "H.MOUESAN",
+      "musique": "7p6p7p4p7p7p9p0p0p3p",
+      "nom": "MADGIC'M",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 545.0
+    },
+    {
+      "age": 4,
+      "entraineur": "P.SOGORB (S)",
+      "gains": null,
+      "jockey": "S.TOPIN",
+      "musique": "5p6p4p(25)9p5p3p",
+      "nom": "LORETTEDESOUCHEZ",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 545.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 2,
+    "heure_paris": "2026-10-25T00:16:28.116230+02:00",
+    "meilleur_place": 1,
+    "moteur": "M1",
+    "ordre_espere": [
+      2,
+      1,
+      6,
+      9,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C5/participants"
+}

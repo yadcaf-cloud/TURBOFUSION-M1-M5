@@ -1,0 +1,116 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R8C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:26.652713+02:00",
+  "hippodrome": "SAINT BRIEUC",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "E.ANDIGNE D'",
+      "gains": null,
+      "jockey": "Y.BARILLE",
+      "musique": "2p6p3p2p4p1p5s5s4h",
+      "nom": "MA SAYNTE BALME",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "F.FOUCHER",
+      "gains": null,
+      "jockey": "T.BEAURAIN",
+      "musique": "1p8s4s6h(24)3p2p",
+      "nom": "LILI D'ANGOS",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 670.0
+    },
+    {
+      "age": 4,
+      "entraineur": "T.VIEL",
+      "gains": null,
+      "jockey": "L.BRECHET",
+      "musique": "5p9pAh7p1p6hAs(25)0p5p",
+      "nom": "MARIGOLD SACREE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 670.0
+    },
+    {
+      "age": 4,
+      "entraineur": "MME M.DESVAUX",
+      "gains": null,
+      "jockey": "A.BERNARD",
+      "musique": "6p1p6p5p7p9p0p0p(25)6p",
+      "nom": "MAZERATYPRECIEUSE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "MME M.BALLY",
+      "gains": null,
+      "jockey": "C.SPERRY",
+      "musique": "0p7p(25)0p5p",
+      "nom": "LA PASSEE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 655.0
+    },
+    {
+      "age": 4,
+      "entraineur": "V.CHATELLIER",
+      "gains": null,
+      "jockey": "E.CRUBLET",
+      "musique": "2p",
+      "nom": "MIRIANDA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 655.0
+    },
+    {
+      "age": 4,
+      "entraineur": "E.LECOIFFIER",
+      "gains": null,
+      "jockey": "R.JUTEAU",
+      "musique": "2p4p2p4p",
+      "nom": "MILS BAM'S",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 655.0
+    },
+    {
+      "age": 5,
+      "entraineur": "PO.ROBERT",
+      "gains": null,
+      "jockey": "A.BOUILLE",
+      "musique": "",
+      "nom": "LIPSTICK DU GRANIT",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 655.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 7,
+    "heure_paris": "2026-10-25T00:16:26.652713+02:00",
+    "meilleur_place": 1,
+    "moteur": "M5",
+    "ordre_espere": [
+      7,
+      1,
+      5,
+      2,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C5/participants"
+}

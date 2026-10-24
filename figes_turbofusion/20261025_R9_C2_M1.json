@@ -1,0 +1,138 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R9C2",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:10:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:27.693988+02:00",
+  "hippodrome": "AGEN LA GARENNE",
+  "partants": [
+    {
+      "age": 3,
+      "entraineur": "MME C.COURTADE",
+      "gains": null,
+      "jockey": "V.CHENET",
+      "musique": "7p1p7p0p2p6p(25)0p",
+      "nom": "RAINSILVER",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 600.0
+    },
+    {
+      "age": 3,
+      "entraineur": "J.RESIMONT",
+      "gains": null,
+      "jockey": "M.FOREST",
+      "musique": "8p0p1p7p1p0p(25)8p0p0p",
+      "nom": "DANICA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 585.0
+    },
+    {
+      "age": 3,
+      "entraineur": "D.GUILLEMIN (S)",
+      "gains": null,
+      "jockey": "C.MERILLE",
+      "musique": "5p9p1p3p2p2p8p5p(25)1p",
+      "nom": "LEHA",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 585.0
+    },
+    {
+      "age": 3,
+      "entraineur": "CH.GOURDAIN (S)",
+      "gains": null,
+      "jockey": "W.LEVESQUE",
+      "musique": "6p4p7p3p0p2p4p2p1p3p",
+      "nom": "GENERAL CHOP",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "O.TRIGODET (S)",
+      "gains": null,
+      "jockey": "N.M..LOPES DUARTE",
+      "musique": "5p4p7p(25)0p9p3p7p",
+      "nom": "HISTO CHOP",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "MME E.BAZIRE",
+      "gains": null,
+      "jockey": "M.LAURON",
+      "musique": "5p",
+      "nom": "VAIANA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 565.0
+    },
+    {
+      "age": 3,
+      "entraineur": "G.HEURTAULT",
+      "gains": null,
+      "jockey": "S.TOPIN",
+      "musique": "0p8p7p7p0p(25)0p",
+      "nom": "GOLDY BIRD",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 565.0
+    },
+    {
+      "age": 3,
+      "entraineur": "K.TAVARES (S)",
+      "gains": null,
+      "jockey": "H.MOUESAN",
+      "musique": "6p9p4p0p3p4p3p8p8p",
+      "nom": "MISSES LILY",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 565.0
+    },
+    {
+      "age": 3,
+      "entraineur": "F.SANCHEZ",
+      "gains": null,
+      "jockey": "C.CADEL",
+      "musique": "9p4p2p3p4p3p1p4p6p0p",
+      "nom": "JOUR DE COEUR",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 565.0
+    },
+    {
+      "age": 3,
+      "entraineur": "MLG .DE CARVALHO",
+      "gains": null,
+      "jockey": "M.ROMARY",
+      "musique": "5p0p9p(25)8p0p7p9p4p7p",
+      "nom": "DREAM IN PINK",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 560.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 2,
+    "heure_paris": "2026-10-25T00:16:27.693988+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      2,
+      3,
+      4,
+      9,
+      1
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C2/participants"
+}

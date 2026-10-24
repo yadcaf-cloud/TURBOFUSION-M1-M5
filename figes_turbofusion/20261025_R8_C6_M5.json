@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R8C6",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:26.883428+02:00",
+  "hippodrome": "SAINT BRIEUC",
+  "partants": [
+    {
+      "age": 8,
+      "entraineur": "MME R.TOUDIC-GOURDON",
+      "gains": null,
+      "jockey": "A.RENARD",
+      "musique": "1h6p6p0p2p5p2p9p0p6p",
+      "nom": "JOSHUA MOON",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 700.0
+    },
+    {
+      "age": 5,
+      "entraineur": "F.FOUCHER",
+      "gains": null,
+      "jockey": "T.BEAURAIN",
+      "musique": "0p(25)6h1h(24)2p",
+      "nom": "LOUP DU LARGE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 690.0
+    },
+    {
+      "age": 6,
+      "entraineur": "J.BOISNARD (S)",
+      "gains": null,
+      "jockey": "V.MORIN",
+      "musique": "(25)3h3h5hJs2s6s(24)Ah3h",
+      "nom": "BROOKS",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 690.0
+    },
+    {
+      "age": 6,
+      "entraineur": "L&M.VIEL (S)",
+      "gains": null,
+      "jockey": "Y.FOLLIN",
+      "musique": "1s3h(25)Ts8s1s2h(24)1h2s",
+      "nom": "KALCA MOME",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 690.0
+    },
+    {
+      "age": 7,
+      "entraineur": "JPH .DUBOIS",
+      "gains": null,
+      "jockey": "T.VABOIS",
+      "musique": "2p(25)2p3p8p(23)5h1p4p",
+      "nom": "KING DINO",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 680.0
+    },
+    {
+      "age": 7,
+      "entraineur": "D.BRESSOU",
+      "gains": null,
+      "jockey": "G.MEUNIER",
+      "musique": "Js4s5s4s(24)Js1s5s4s4s",
+      "nom": "ROYAL TURF",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 680.0
+    },
+    {
+      "age": 8,
+      "entraineur": "B.LE REGENT",
+      "gains": null,
+      "jockey": "G.PINARD",
+      "musique": "7h0hThAh(24)1h1h(23)6h8h",
+      "nom": "CAPE COD",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 680.0
+    },
+    {
+      "age": 6,
+      "entraineur": "V.CHATELLIER",
+      "gains": null,
+      "jockey": "D.GALLON",
+      "musique": "5hTs(24)0pJh2hTh3h0p7p",
+      "nom": "PIPER'S HILL",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 680.0
+    },
+    {
+      "age": 5,
+      "entraineur": "P.DENIS",
+      "gains": null,
+      "jockey": "L.FABRE",
+      "musique": "Ts6h(25)7p6p0p9p2p3p",
+      "nom": "JEAN DU DYP",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "H.JUMELLE",
+      "gains": null,
+      "jockey": "L.BRECHET",
+      "musique": "1p(25)4p",
+      "nom": "COEUR ET COURAGE",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 670.0
+    },
+    {
+      "age": 5,
+      "entraineur": "E.GRALL (S)",
+      "gains": null,
+      "jockey": "A.DUVACHER",
+      "musique": "(25)Ah6h3h6h7h(24)3h1p2p",
+      "nom": "LOOK AT ME NOW",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 670.0
+    },
+    {
+      "age": 6,
+      "entraineur": "B.LEFEVRE (S)",
+      "gains": null,
+      "jockey": "A.GAUTRON",
+      "musique": "As4sAh(23)1h1hAh0p7p",
+      "nom": "KENIE DU BOULAY",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 660.0
+    },
+    {
+      "age": 5,
+      "entraineur": "MME O.ELLART",
+      "gains": null,
+      "jockey": "G.FAIVRE-PICON",
+      "musique": "2p(25)4h",
+      "nom": "LOGUIVY SAPI",
+      "non_partant": false,
+      "numero": 13,
+      "poids": 650.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:26.883428+02:00",
+    "meilleur_place": 5,
+    "moteur": "M5",
+    "ordre_espere": [
+      12,
+      5,
+      8,
+      10,
+      13
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C6/participants"
+}

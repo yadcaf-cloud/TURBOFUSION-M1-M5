@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R4C3",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T11:56:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:22.693421+02:00",
+  "hippodrome": "SALON DE PROVENCE",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "S. CINGLAND",
+      "gains": null,
+      "jockey": "S. CINGLAND",
+      "musique": "8a3a3a5a8aDa7a3a6a0a",
+      "nom": "KORSIKO",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "P.L. DESAUNETTE",
+      "gains": null,
+      "jockey": "TH. BRIAND",
+      "musique": "6a6a2a7a3a0a(25)7a7a7a",
+      "nom": "JAGUAR D'ERABLE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "B. CURY",
+      "gains": null,
+      "jockey": "K. DEVIENNE",
+      "musique": "Da0a9a0a8a8a5a9a4a6a",
+      "nom": "KRACK DESBOIS",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "E. BOUYER",
+      "gains": null,
+      "jockey": "Q. CHAUVE-LAFFAY",
+      "musique": "3a0a0a8a2a4aDa5a0aDa",
+      "nom": "INDIE DE YOR",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "G. RAFFESTIN",
+      "gains": null,
+      "jockey": "J.CH. FERON",
+      "musique": "5aDa5a7a8a8a0a4a0a6a",
+      "nom": "JIPSY DES AIRES",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "E. GOUT",
+      "gains": null,
+      "jockey": "E. GOUT",
+      "musique": "0aDa5a8a8m5a9a9a7a(25)",
+      "nom": "ICARE DE MONTFORT",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "D. ALEXANDRE",
+      "gains": null,
+      "jockey": "NICOLAS GERMAIN LEFEVRE",
+      "musique": "6aDa9aDa8a4a5a1a5a1a",
+      "nom": "ILTON BEAUREGARD",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "CHARLES BOUVIER",
+      "gains": null,
+      "jockey": "L. GOETZ",
+      "musique": "0a4a2a1a1a2a1a1a2a(25)",
+      "nom": "KAPTA JELOCA",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "A. TOMASELLI",
+      "gains": null,
+      "jockey": "D. BEKAERT",
+      "musique": "Da1a4a6a4a3aDaDa5a0a",
+      "nom": "KLASSIC DE SYVA",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "K. BUSNEL",
+      "gains": null,
+      "jockey": "K. BUSNEL",
+      "musique": "DaDaDa2aDaDaDaDaDa0a",
+      "nom": "JIMIR DE GUEZ",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "CHARLES BOUVIER",
+      "gains": null,
+      "jockey": "R. BOUVIER",
+      "musique": "5a7aDaDa8a7a5a7a3a1a",
+      "nom": "IBIS DE FRECA",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "S. GUELPA",
+      "gains": null,
+      "jockey": "J.CH. SOREL",
+      "musique": "0a0aDa0aDa3a3aDaDa7a",
+      "nom": "INES DE MAJEAN",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Sté. Ent. Quentin DAOUGABEL",
+      "gains": null,
+      "jockey": "Q. DAOUGABEL",
+      "musique": "0a0a6a0aDa1a3aDa7m4m",
+      "nom": "JACQUIE DU GARDEN",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "TH. BONNARDEL",
+      "gains": null,
+      "jockey": "Y.A. BRIAND",
+      "musique": "9aDa(25)7aDa6a4a0aDm4a",
+      "nom": "JAZZ BLUE",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J. GUELPA",
+      "gains": null,
+      "jockey": "J. GUELPA",
+      "musique": "Aa7a0a6a6a0a0aDa2a2a",
+      "nom": "JOLI CHARMEUR",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "G. TOURON",
+      "gains": null,
+      "jockey": "R. DERIEUX",
+      "musique": "8a0a6aDaDmDa2a3aDa8a",
+      "nom": "JERICHO DU BELLAY",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 8,
+    "heure_paris": "2026-10-25T00:16:22.693421+02:00",
+    "meilleur_place": 9,
+    "moteur": "M5",
+    "ordre_espere": [
+      8,
+      9,
+      12,
+      13,
+      4
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C3/participants"
+}

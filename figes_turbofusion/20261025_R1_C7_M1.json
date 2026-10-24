@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:25:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:21.748228+02:00",
+  "hippodrome": "SAINT-CLOUD",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "D.O'MEARA",
+      "gains": null,
+      "jockey": "PC.BOUDOT",
+      "musique": "4p8p6p(25)1p2p1p0p1p",
+      "nom": "RYKA",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "A&L.FABRE (S)",
+      "gains": null,
+      "jockey": "O.MURPHY",
+      "musique": "5p2p5p4p(25)3p1p",
+      "nom": "ELEGANZ",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 580.0
+    },
+    {
+      "age": 5,
+      "entraineur": "JP.O'BRIEN",
+      "gains": null,
+      "jockey": "D.BROWNE MCMONAGLE",
+      "musique": "2p1p5p2p1p(25)1p2p9p5p",
+      "nom": "BESET",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "R.VARIAN",
+      "gains": null,
+      "jockey": "R.DAWSON",
+      "musique": "3p4p5p(25)8p4p5p1p0p",
+      "nom": "LITTLE DORRIT",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "MME A.FABRE",
+      "gains": null,
+      "jockey": "A.POUCHIN",
+      "musique": "3p3p3p5p6p0p(25)3p4p4p",
+      "nom": "MAHIYA",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 580.0
+    },
+    {
+      "age": 5,
+      "entraineur": "S.WATTEL (S)",
+      "gains": null,
+      "jockey": "A.MADAMET",
+      "musique": "1p1p0p5p6p3p(25)7p5p2p",
+      "nom": "LE COMBAT CONTINUE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "P.DECOUZ (S)",
+      "gains": null,
+      "jockey": "M.GRANDIN",
+      "musique": "2p0p9p1p2p2p(25)2p2p3p",
+      "nom": "CARDINAL POINT",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 580.0
+    },
+    {
+      "age": 6,
+      "entraineur": "WJ.HAGGAS",
+      "gains": null,
+      "jockey": "M.BARZALONA",
+      "musique": "9p4p4p(25)2p5p9p(24)9p7p",
+      "nom": "FRANCES ETHEL",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "S.WATTEL (S)",
+      "gains": null,
+      "jockey": "T.BACHELOT",
+      "musique": "4p1p1p(25)7p4p1p1p6p2p",
+      "nom": "QUEST FOR MAGIC",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 580.0
+    },
+    {
+      "age": 4,
+      "entraineur": "RM.BECKETT",
+      "gains": null,
+      "jockey": "H.CROUCH",
+      "musique": "6p4p2p4p5p(25)2p7p7p1p",
+      "nom": "LADY VIVIAN",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 580.0
+    },
+    {
+      "age": 3,
+      "entraineur": "JOHN & THADY GOSDEN",
+      "gains": null,
+      "jockey": "C.SOUMILLON",
+      "musique": "1p4p5p1p1p(25)2p",
+      "nom": "BRILLIANT STAR",
+      "non_partant": false,
+      "numero": 11,
+      "poids": 550.0
+    },
+    {
+      "age": 3,
+      "entraineur": "WJ.HAGGAS",
+      "gains": null,
+      "jockey": "C.FALLON",
+      "musique": "4p1p0p4p1p1p2p",
+      "nom": "PIERIAN",
+      "non_partant": false,
+      "numero": 12,
+      "poids": 550.0
+    },
+    {
+      "age": 3,
+      "entraineur": "A&L.FABRE (S)",
+      "gains": null,
+      "jockey": "M.GUYON",
+      "musique": "5p2p2p6p(25)1p",
+      "nom": "ZLATA",
+      "non_partant": false,
+      "numero": 13,
+      "poids": 550.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 3,
+    "heure_paris": "2026-10-25T00:16:21.748228+02:00",
+    "meilleur_place": 12,
+    "moteur": "M1",
+    "ordre_espere": [
+      3,
+      12,
+      11,
+      9,
+      6
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C7/participants"
+}

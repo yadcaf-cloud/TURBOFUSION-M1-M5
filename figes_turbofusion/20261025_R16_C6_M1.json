@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R16C6",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:39.947756+02:00",
+  "hippodrome": "MESLAY DU MAINE",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "D. STOEHR",
+      "gains": null,
+      "jockey": "D. STOEHR",
+      "musique": "Da",
+      "nom": "MAROILLES DE KIDOR",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. POILANE",
+      "gains": null,
+      "jockey": "S. POILANE",
+      "musique": "Da8aDa9a4a5aDaDa6aDa",
+      "nom": "MOKO DE BOUERE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B. GOGLIN",
+      "gains": null,
+      "jockey": "R. MARTY",
+      "musique": "8aDaDaDa3a5a2a5aDa2a",
+      "nom": "MALOIN D'ELMA",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. MARIN",
+      "gains": null,
+      "jockey": "G. MARIN",
+      "musique": "7a5a6aDa3a8a1a(25)8a2a",
+      "nom": "MUSTANG DU PONT",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Y. DOUSSET",
+      "gains": null,
+      "jockey": "Y. DOUSSET",
+      "musique": "Dm3m3a2aDa2a2aDaDm(25)",
+      "nom": "MARTIN DE REGO",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Sté. Ent. Matilde HERLEIKSPLASS",
+      "gains": null,
+      "jockey": "F. POISSON",
+      "musique": "2a1aDa2a6a",
+      "nom": "MAGICIEN DU SABLE",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B. VALLETTE",
+      "gains": null,
+      "jockey": "B. VALLETTE",
+      "musique": "DaDaDaDaDaDaDa3a(25)2a",
+      "nom": "MILO JO",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. HUBERT",
+      "gains": null,
+      "jockey": "R. LEVILLAIN",
+      "musique": "2a1a(25)7m3a9a3a4aDa0a",
+      "nom": "MUGUET DE MAI",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "K. CHAMPENOIS",
+      "gains": null,
+      "jockey": "K. CHAMPENOIS",
+      "musique": "7a9a1a5aDa(25)4a9a3a8a",
+      "nom": "MARCO DES GACHERES",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. RETAUX",
+      "gains": null,
+      "jockey": "ADRIEN BLANDIN",
+      "musique": "1a1aDa7mDaDaDaDaDa3a",
+      "nom": "MISTRAL D'ERI",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. PALIERNE",
+      "gains": null,
+      "jockey": "R. PALIERNE",
+      "musique": "3a3a2aDa4a4a6a7a7a(25)",
+      "nom": "MISTER DE L'AUMOY",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Bastien JOSEPH",
+      "gains": null,
+      "jockey": "F. JOSEPH",
+      "musique": "8a2a0a2aDa3a6a3a7a(25)",
+      "nom": "MAKE A WISH",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 5,
+    "heure_paris": "2026-10-25T00:16:39.947756+02:00",
+    "meilleur_place": 6,
+    "moteur": "M1",
+    "ordre_espere": [
+      5,
+      6,
+      7,
+      10,
+      11
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R16/C6/participants"
+}

@@ -1,0 +1,160 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R13C4",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:35.245517+02:00",
+  "hippodrome": "CHARTRES",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "Mme A. MORISSE",
+      "gains": null,
+      "jockey": "Mlle A. MORISSE",
+      "musique": "7aDa5a8a7aDa8aDa3a5a",
+      "nom": "MALA STRANA DE MA",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. CURENS",
+      "gains": null,
+      "jockey": "J.CH. PITON",
+      "musique": "6a9a9a8a2a3aDaDaDa4a",
+      "nom": "MANUREVA TEAM",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "TH. ROUSSEL",
+      "gains": null,
+      "jockey": "PH. DAUGEARD",
+      "musique": "Da0aDa9a9a0a0a0aDa8a",
+      "nom": "MADY DU POMMEREUX",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "PH. MARIE",
+      "gains": null,
+      "jockey": "PH. MARIE",
+      "musique": "8aDaDaDa4a(25)Da2aDa8a",
+      "nom": "MAFLORA BELLA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Renaud JULIEN",
+      "gains": null,
+      "jockey": "RENAUD JULIEN",
+      "musique": "DaDmDaDa2a(25)6aDm2mDa",
+      "nom": "MUSEA",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "X. THEVENET",
+      "gains": null,
+      "jockey": "X. THEVENET",
+      "musique": "7a9a6a5aDa8m4a7a6m4a",
+      "nom": "MALYCIA GOLD",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "V. JARRY",
+      "gains": null,
+      "jockey": "Mlle L. DARLAY",
+      "musique": "7a9a3a7a8a7a8a1a9a5a",
+      "nom": "MAEVIA CAUVELLIERE",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. SIMON",
+      "gains": null,
+      "jockey": "G. SIMON",
+      "musique": "8a0a3a1aDa4a5aDa9a(25)",
+      "nom": "MY GIRL DE TAGOR",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "F. GIARD",
+      "gains": null,
+      "jockey": "F. GIARD",
+      "musique": "6aDa3aDaDa3a3a6a(25)5a",
+      "nom": "MYSTIC LEGEND",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "CH. DAGNICOURT",
+      "gains": null,
+      "jockey": "E. DE JESUS",
+      "musique": "7a3a1a4aDa7aDa5a(25)0a",
+      "nom": "MALOU DIESCHOOT",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E. VARIN",
+      "gains": null,
+      "jockey": "P. OLLITRAULT",
+      "musique": "0a7a7a7mDa8a8aDa4a3a",
+      "nom": "MADELIA",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. LEBLOND",
+      "gains": null,
+      "jockey": "TH. DROMIGNY",
+      "musique": "Da8mDaDa2a2aDa(25)7a5a",
+      "nom": "MINE D'OR",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 5,
+    "heure_paris": "2026-10-25T00:16:35.245517+02:00",
+    "meilleur_place": 9,
+    "moteur": "M5",
+    "ordre_espere": [
+      5,
+      9,
+      12,
+      4,
+      8
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R13/C4/participants"
+}

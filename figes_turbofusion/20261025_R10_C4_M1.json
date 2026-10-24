@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C4",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:35:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:29.964733+02:00",
+  "hippodrome": "LA CAPELLE",
+  "partants": [
+    {
+      "age": 9,
+      "entraineur": "L. VERVA",
+      "gains": null,
+      "jockey": "LAURENT VERVA",
+      "musique": "0a8aDa6a(25)5a4a0a9a3a",
+      "nom": "HILTON DU HOULET",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "G.A. POU POU",
+      "gains": null,
+      "jockey": "G.A. POU POU",
+      "musique": "0aDa8a5a4a6a6a0a4a6a",
+      "nom": "HELALI DE MONTCEAU",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Antoine TRIHOLLET",
+      "gains": null,
+      "jockey": "D. BONNE",
+      "musique": "2a2a1a2a6a4aDaDa2a2a",
+      "nom": "JANNIG D'EREVAN",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "P.Y. VERVA",
+      "gains": null,
+      "jockey": "J. KOUBICHE",
+      "musique": "7m3m9aDaDa5a0a0a0aDa",
+      "nom": "INFIEL",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Mme C. DE SOETE",
+      "gains": null,
+      "jockey": "K. DEPUYDT",
+      "musique": "1a1a6a1a4a5a9a1a7a4a",
+      "nom": "JIMBO SPORT",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "Ph.E. TRIBLE",
+      "gains": null,
+      "jockey": "F. DESMIGNEUX",
+      "musique": "1a0a1a3a3a2a9a(25)Da5a",
+      "nom": "JAGUAR D'OBRET",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "G. CURENS",
+      "gains": null,
+      "jockey": "CH. MARTENS",
+      "musique": "6a6a0a8aDa7a3a6a9a0a",
+      "nom": "JOKER D'OCCAGNES",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "J. CORBANIE",
+      "gains": null,
+      "jockey": "J. CORBANIE",
+      "musique": "0a5a5a9a2a4a2a6a2aDa",
+      "nom": "JERICHO",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "Y. DESMET",
+      "gains": null,
+      "jockey": "M. VERVA",
+      "musique": "6m7mDaDaDa0aDa3a8a8a",
+      "nom": "INSIDE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 9,
+      "entraineur": "J.L. DERSOIR",
+      "gains": null,
+      "jockey": "A. GARANDEAU",
+      "musique": "7a2a4a0a5a3aDa4a4a0a",
+      "nom": "HEAVEN D'ECAJEUL",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "G.A. POU POU",
+      "gains": null,
+      "jockey": "V. SAUSSAYE",
+      "musique": "8a5a0a2a3a5a8a0a0a(25)",
+      "nom": "IRINA DE MONTCEAU",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 8,
+      "entraineur": "A. LANNOO",
+      "gains": null,
+      "jockey": "G. LANNOO",
+      "musique": "3aDa7a6a7a2a9a6a6a6a",
+      "nom": "ISSI TOP",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 7,
+      "entraineur": "G. CURENS",
+      "gains": null,
+      "jockey": "L. CUEFF",
+      "musique": "9a5a2aDa4a2a5a6a0a7a",
+      "nom": "JUMBO D'AUVILLIER",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 6,
+    "heure_paris": "2026-10-25T00:16:29.964733+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      6,
+      3,
+      5,
+      10,
+      13
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C4/participants"
+}

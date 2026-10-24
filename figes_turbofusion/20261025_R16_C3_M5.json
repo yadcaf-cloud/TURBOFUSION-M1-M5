@@ -1,0 +1,138 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R16C3",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:30:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:39.300379+02:00",
+  "hippodrome": "MESLAY DU MAINE",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "S.DORY",
+      "gains": null,
+      "jockey": "LP.DORY",
+      "musique": "2c5cTc4s6sAc(25)5s9s3s",
+      "nom": "TARA KIND",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 730.0
+    },
+    {
+      "age": 5,
+      "entraineur": "N.MOISSON (S)",
+      "gains": null,
+      "jockey": "M.BESNARD",
+      "musique": "7h9h5h(25)4h5sAh3sTs7s",
+      "nom": "DASHKA",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 730.0
+    },
+    {
+      "age": 5,
+      "entraineur": "J.MARION (S)",
+      "gains": null,
+      "jockey": "A.LEPAGE",
+      "musique": "3s3s(25)5s3s1h7p9h2p",
+      "nom": "LA RONDA",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 700.0
+    },
+    {
+      "age": 5,
+      "entraineur": "T.POCHE",
+      "gains": null,
+      "jockey": "K.MICHEL",
+      "musique": "4c6s8p8p(25)5h5h3hTh",
+      "nom": "EUFRASIA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 680.0
+    },
+    {
+      "age": 5,
+      "entraineur": "CH.DUBOURG (S)",
+      "gains": null,
+      "jockey": "K.DUBOURG",
+      "musique": "7h(25)1h1h5h3p7h5p",
+      "nom": "LOVELY JAP",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 680.0
+    },
+    {
+      "age": 4,
+      "entraineur": "P.JOURNIAC",
+      "gains": null,
+      "jockey": "THO .JOURNIAC",
+      "musique": "Ts2s2sTs9h6h(25)8h3h1p",
+      "nom": "SHEZALA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 680.0
+    },
+    {
+      "age": 4,
+      "entraineur": "MME M.SCHULER",
+      "gains": null,
+      "jockey": "K.GEFFROY",
+      "musique": "1s0h6h7p(25)0p",
+      "nom": "MALICE DES BLINS",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 680.0
+    },
+    {
+      "age": 4,
+      "entraineur": "J.DELAUNAY (S)",
+      "gains": null,
+      "jockey": "C.RIOU",
+      "musique": "4sAs3h1h1h(25)5h4h1h",
+      "nom": "ISULA SENAM",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 660.0
+    },
+    {
+      "age": 4,
+      "entraineur": "CHAILLE-CHAILLE & PAMART",
+      "gains": null,
+      "jockey": "Q.GAIGNARD",
+      "musique": "4h1p",
+      "nom": "COSTA BIANCA",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 660.0
+    },
+    {
+      "age": 4,
+      "entraineur": "GAB.LEENDERS (S)",
+      "gains": null,
+      "jockey": "T.CHEVILLARD",
+      "musique": "TsJs4h(25)2h",
+      "nom": "N'ATTENDONS PAS",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 660.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 8,
+    "heure_paris": "2026-10-25T00:16:39.300379+02:00",
+    "meilleur_place": 10,
+    "moteur": "M5",
+    "ordre_espere": [
+      8,
+      10,
+      3,
+      1,
+      5
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R16/C3/participants"
+}

@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R12C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T14:15:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:33.845556+02:00",
+  "hippodrome": "NANTES",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "B. MARIE",
+      "gains": null,
+      "jockey": "M. LEGROS",
+      "musique": "2aDa8a3a5a4a2a5a3a3a",
+      "nom": "MELODY DJALMATS",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. CARDINE",
+      "gains": null,
+      "jockey": "R. LAMY",
+      "musique": "0aDa4a8a5aDa1a(25)7a4a",
+      "nom": "MAIN ABSOLUE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.P. MARMION",
+      "gains": null,
+      "jockey": "A. WIELS",
+      "musique": "1aDaDa8a2a(25)4a2a2a",
+      "nom": "MOME DU LUPIN",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "K. CHAMPENOIS",
+      "gains": null,
+      "jockey": "GUILLAUME MARTIN",
+      "musique": "0a1a3a6a4a3a2a5a4a(25)",
+      "nom": "MERVEILLEUSE BEY",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "N. MARTINEAU",
+      "gains": null,
+      "jockey": "R. CONGARD",
+      "musique": "9a7aDm2a7a8a2a2a5a6a",
+      "nom": "MAYA DU LANDREAU",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. DUBREIL",
+      "gains": null,
+      "jockey": "J. DUBREIL",
+      "musique": "7a6a1a1a6a(25)5a1a",
+      "nom": "MISS DE GUEZ",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E. LETOUZE",
+      "gains": null,
+      "jockey": "C. LETOUZE",
+      "musique": "Da6aDm0a8a0a2a3a8a(25)",
+      "nom": "MANDARINE BAM",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. MARION",
+      "gains": null,
+      "jockey": "A. LAMY",
+      "musique": "9aDa5mDa1a2a3aDaDa7a",
+      "nom": "MARA DE MALABRY",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. BEZIER",
+      "gains": null,
+      "jockey": "M. BEZIER",
+      "musique": "8aDa8a3a1a5a2a5a(25)Da",
+      "nom": "MELODY MADJI",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. GUYARD",
+      "gains": null,
+      "jockey": "A. GUYARD",
+      "musique": "7a7a8m4m5aDa7a2a1a6a",
+      "nom": "MA JYL",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "A. THOMAS",
+      "gains": null,
+      "jockey": "A. THOMAS",
+      "musique": "Da7a0a6a2a2a9a(25)6a8a",
+      "nom": "MISS MAGIQUE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. ROGER",
+      "gains": null,
+      "jockey": "N. ROUSSEAU",
+      "musique": "Da5a5aDa7aDaDa1a6a(25)",
+      "nom": "MARIE LOU DE LARRE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "L. LE TEXIER",
+      "gains": null,
+      "jockey": "L. LE TEXIER",
+      "musique": "7a6a0a7a1a3aDa4a7a(25)",
+      "nom": "MADEMOISELLE KYDE",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 4,
+    "heure_paris": "2026-10-25T00:16:33.845556+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      4,
+      3,
+      2,
+      8,
+      6
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C5/participants"
+}

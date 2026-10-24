@@ -1,0 +1,138 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R1C3",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T13:58:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:20.849638+02:00",
+  "hippodrome": "SAINT-CLOUD",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "S.WATTEL (S)",
+      "gains": null,
+      "jockey": "T.BACHELOT",
+      "musique": "6p7p1p(25)8p1p1p1p5p4p",
+      "nom": "DREAMLINER",
+      "non_partant": false,
+      "numero": 1,
+      "poids": 575.0
+    },
+    {
+      "age": 5,
+      "entraineur": "P&J.BRANDT (S)",
+      "gains": null,
+      "jockey": "M.BARZALONA",
+      "musique": "1p1p1p1p2p6p(25)2p7p6p",
+      "nom": "CLAVUS",
+      "non_partant": false,
+      "numero": 2,
+      "poids": 575.0
+    },
+    {
+      "age": 6,
+      "entraineur": "P&J.BRANDT (S)",
+      "gains": null,
+      "jockey": "PC.BOUDOT",
+      "musique": "1p4p2p1p1p5p(25)1p5p0p",
+      "nom": "CALAS",
+      "non_partant": false,
+      "numero": 3,
+      "poids": 575.0
+    },
+    {
+      "age": 6,
+      "entraineur": "D.SMAGA",
+      "gains": null,
+      "jockey": "C.SOUMILLON",
+      "musique": "1p2p1p3p4p2p1p5p2p3p",
+      "nom": "HALF HALF",
+      "non_partant": false,
+      "numero": 4,
+      "poids": 575.0
+    },
+    {
+      "age": 7,
+      "entraineur": "N.CAULLERY",
+      "gains": null,
+      "jockey": "S.PASQUIER",
+      "musique": "5p7p8p7p9p3p(25)5p4p5p",
+      "nom": "TUMBLER",
+      "non_partant": false,
+      "numero": 5,
+      "poids": 575.0
+    },
+    {
+      "age": 4,
+      "entraineur": "WJ.HAGGAS",
+      "gains": null,
+      "jockey": "C.FALLON",
+      "musique": "2p9p7p(25)1p3p1p1p3p3p",
+      "nom": "CROWN OF OAKS",
+      "non_partant": false,
+      "numero": 6,
+      "poids": 575.0
+    },
+    {
+      "age": 5,
+      "entraineur": "JP.O'BRIEN",
+      "gains": null,
+      "jockey": "D.BROWNE MCMONAGLE",
+      "musique": "1p2p6p6p0p0p5p2p7p",
+      "nom": "PRINCESS CHILD",
+      "non_partant": false,
+      "numero": 7,
+      "poids": 560.0
+    },
+    {
+      "age": 3,
+      "entraineur": "C.FERLAND (S)",
+      "gains": null,
+      "jockey": "M.GUYON",
+      "musique": "6p2p5p3p1p(25)2p1p2p",
+      "nom": "ELASTIC",
+      "non_partant": false,
+      "numero": 8,
+      "poids": 560.0
+    },
+    {
+      "age": 3,
+      "entraineur": "HA.PANTALL (S)",
+      "gains": null,
+      "jockey": "W.BUICK",
+      "musique": "1p6p3p2p1p1p1p",
+      "nom": "FORTUNA DIAMOND",
+      "non_partant": false,
+      "numero": 9,
+      "poids": 555.0
+    },
+    {
+      "age": 3,
+      "entraineur": "DG.HOGAN",
+      "gains": null,
+      "jockey": "CD.HAYES",
+      "musique": "1p7p6p2p1p1p1p1p1p6p",
+      "nom": "MERIDEN",
+      "non_partant": false,
+      "numero": 10,
+      "poids": 545.0
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 2,
+    "heure_paris": "2026-10-25T00:16:20.849638+02:00",
+    "meilleur_place": 3,
+    "moteur": "M5",
+    "ordre_espere": [
+      2,
+      3,
+      4,
+      9,
+      8
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C3/participants"
+}

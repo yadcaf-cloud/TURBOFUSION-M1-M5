@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R15C8",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:38.330038+02:00",
+  "hippodrome": "LE MONT SAINT MICHEL",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "Y. HALLAIS",
+      "gains": null,
+      "jockey": "Y. HALLAIS",
+      "musique": "Da0a(25)0a9aDaDaDaDa9a",
+      "nom": "LADY BABEL",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "E. CHEDEVILLE",
+      "gains": null,
+      "jockey": "D. DELAROCHE",
+      "musique": "9a5a1a3a4aDa(25)DaDa7a",
+      "nom": "LINDA FORGETIERE",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "E. PELTIER",
+      "gains": null,
+      "jockey": "FLORENT PELTIER",
+      "musique": "2a0a6a0a4a3a0a(25)5a5a",
+      "nom": "LANIA DU MESLE",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A.A. GUIBOUT",
+      "gains": null,
+      "jockey": "J.B. LELIEVRE",
+      "musique": "3aDaDaDa7a7a4aDa6a(25)",
+      "nom": "LUNIDOLE",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. PLARD",
+      "gains": null,
+      "jockey": "A. MARIE",
+      "musique": "8aDa2aDa6a8a2a1a(25)8a",
+      "nom": "LILY BIRD DU ROYAL",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. DONIO",
+      "gains": null,
+      "jockey": "G. DONIO",
+      "musique": "3a1a6m0m3m9mDmAa5m2m",
+      "nom": "LELSA RUSH",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "L. LEGRAND",
+      "musique": "5a8a3aDa2a6a3aDaDa6a",
+      "nom": "LAURE DE LORIOL",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J. BESCHER",
+      "gains": null,
+      "jockey": "J. BESCHER",
+      "musique": "Da6aDa5a4a0a8a2a1a9a",
+      "nom": "LOVELY DEVOL",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. BARRE",
+      "gains": null,
+      "jockey": "M. BARRE",
+      "musique": "7a2aDa4a3a4a4a5aDaDm",
+      "nom": "LIBERTY NOIRE",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "O. LECHARPENTIER",
+      "gains": null,
+      "jockey": "A. REBECHE",
+      "musique": "5a3a6a7a9a0a9a1a8a7a",
+      "nom": "LILY BECO",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "C. CHENU",
+      "gains": null,
+      "jockey": "A. ANDRE",
+      "musique": "0aDa5a5a3a1a7a(25)0aDa",
+      "nom": "LIZZY VENESI",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "P. JANNIER",
+      "gains": null,
+      "jockey": "A. JANNIER",
+      "musique": "9a6aDa8a6a5a1a0a4a0a",
+      "nom": "LEELOO MATCH",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "C. GODARD",
+      "gains": null,
+      "jockey": "Y. LEBOURGEOIS",
+      "musique": "Da6a1a4a3a1a4a(25)Da8a",
+      "nom": "LA VERITE",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A.H. POST",
+      "gains": null,
+      "jockey": "S. BAUDE",
+      "musique": "1a0a8a3a4a5a7a9a(25)4a",
+      "nom": "LADY SLAVE TEK",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 13,
+    "heure_paris": "2026-10-25T00:16:38.330038+02:00",
+    "meilleur_place": 3,
+    "moteur": "M5",
+    "ordre_espere": [
+      13,
+      3,
+      9,
+      11,
+      14
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C8/participants"
+}

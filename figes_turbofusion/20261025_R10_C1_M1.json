@@ -1,0 +1,149 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R10C1",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T13:05:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:28.702715+02:00",
+  "hippodrome": "LA CAPELLE",
+  "partants": [
+    {
+      "age": 5,
+      "entraineur": "Mme Betty REMY",
+      "gains": null,
+      "jockey": "A. THOLLAS",
+      "musique": "0a9aDa2a5aDmDm9m9m9a",
+      "nom": "LYNKO DE REM",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. ROELENS",
+      "gains": null,
+      "jockey": "G. WILLEMS",
+      "musique": "5m0a6aDmDmDa1mDm2mDm",
+      "nom": "LOUVAIN",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "J. VANDOORNE",
+      "gains": null,
+      "jockey": "ALEXANDRE BODIN",
+      "musique": "4m1m6a5mDa9aDmDm3mDm",
+      "nom": "LASCO DE LOU",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "B. PITON",
+      "gains": null,
+      "jockey": "L. OTT",
+      "musique": "Da0m9a0m8m5m3m6m4m8m",
+      "nom": "LOVA DE SANA",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. BOUCHEZ",
+      "gains": null,
+      "jockey": "Mlle M. MENDIBOURE",
+      "musique": "8m7m0mDmDa9mDm3m9m(25)",
+      "nom": "LUXELLA",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "L. VERVA",
+      "gains": null,
+      "jockey": "K. PETITJEAN",
+      "musique": "Da5m7mDa9a7m5m1mDmDm",
+      "nom": "LABEL DADDY",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "Eric HEIRBRANDT",
+      "gains": null,
+      "jockey": "Mme Y. HEIRBRANDT",
+      "musique": "DmDa0m3m1m2m8mDaDm6m",
+      "nom": "LALY DE CELLES",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "M. VERVA",
+      "gains": null,
+      "jockey": "V. SAUSSAYE",
+      "musique": "2m3mDa3a5m2mDa5m3mDa",
+      "nom": "LADY DES VALOIS",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "A. LAURENT",
+      "gains": null,
+      "jockey": "F. DESMIGNEUX",
+      "musique": "3a3a1a6a3a6a8a(25)1a8a",
+      "nom": "LEOGNAN",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "B. PITON",
+      "gains": null,
+      "jockey": "Mme CLEA ROGER",
+      "musique": "1m8a2m4m7m9a4m2m1mDm",
+      "nom": "LOOKING DU CAIEU",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 5,
+      "entraineur": "G. VERVA",
+      "gains": null,
+      "jockey": "Mme C. HOUZEAU",
+      "musique": "4a9a7a4aDa4a6a8a4a5a",
+      "nom": "LAPIN AGILE",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 8,
+    "heure_paris": "2026-10-25T00:16:28.702715+02:00",
+    "meilleur_place": 9,
+    "moteur": "M1",
+    "ordre_espere": [
+      8,
+      9,
+      2,
+      7,
+      10
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C1/participants"
+}

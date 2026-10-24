@@ -1,0 +1,204 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R12C7",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T15:15:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:34.190864+02:00",
+  "hippodrome": "NANTES",
+  "partants": [
+    {
+      "age": 6,
+      "entraineur": "J. LEBOUTEILLER",
+      "gains": null,
+      "jockey": "J. LEBOUTEILLER",
+      "musique": "Da5a5aDaDa5a(25)9a2aDa",
+      "nom": "KINKAJOU",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "M. DABOUIS",
+      "gains": null,
+      "jockey": "R. JOLY",
+      "musique": "0m3m5m4m7m7m5m3m8m7m",
+      "nom": "KING DEL PHEDO",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "S. HARDY",
+      "gains": null,
+      "jockey": "B. HARDY",
+      "musique": "2a1a6a0aDa9a6a6a7a0a",
+      "nom": "KOITRO DE QUERY",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "H. LECOQ",
+      "gains": null,
+      "jockey": "MAXENCE LECOQ",
+      "musique": "8a9a2a5aDa5a6a1a3a0a",
+      "nom": "KARMA D'AVRAN",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "N. PERRELLE",
+      "gains": null,
+      "jockey": "N. PERRELLE",
+      "musique": "2a0a7a3a2a9a7a3a0a(25)",
+      "nom": "KOOL D'AUBERVILLE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "F. DELANOE",
+      "gains": null,
+      "jockey": "F. DELANOE",
+      "musique": "7m9a7aDa7aDa0a(25)0m7a",
+      "nom": "KENJY LUCAXELO",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "Y.R. LE MEE",
+      "gains": null,
+      "jockey": "MARTIAL VIEL",
+      "musique": "Da2aDa7a3a5a8a0a0a4a",
+      "nom": "KRACK DES VIGNES",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "L. LE TEXIER",
+      "gains": null,
+      "jockey": "L. LE TEXIER",
+      "musique": "0aDaDa6a8a2a9a0a6a(25)",
+      "nom": "KAPORAL DU JOUR",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "M. BEZIER",
+      "gains": null,
+      "jockey": "M. BEZIER",
+      "musique": "5a5a4a1a3a9a8a8a(25)6a",
+      "nom": "KOOPER",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "M. HELBERT",
+      "gains": null,
+      "jockey": "M. HELBERT",
+      "musique": "3a2a2a2aDa1a6a(25)6a4a",
+      "nom": "KOUIDITCH D'ABOMEY",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "M. CHARUEL",
+      "gains": null,
+      "jockey": "M. CHARUEL",
+      "musique": "4m6m1m3m1m7m9a0a(25)0m",
+      "nom": "KIKI DU ROC",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "A. CHAVATTE",
+      "gains": null,
+      "jockey": "A.A. CHAVATTE",
+      "musique": "1a4a1a6a3aDa4a5a4aDa",
+      "nom": "KING STEED",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "Mlle O. TOUILLET",
+      "gains": null,
+      "jockey": "GUILLAUME MARTIN",
+      "musique": "8a1a6a3aDa5aDa8a(25)8a",
+      "nom": "KALIO DE BRAYE",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "CH. CUILLER",
+      "gains": null,
+      "jockey": "A. LAMY",
+      "musique": "0a0a4a5a(25)DaDa7a5aDa",
+      "nom": "KANDEL DE BEYLEV",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "Y. SALIOT",
+      "gains": null,
+      "jockey": "Y. SALIOT",
+      "musique": "7a2a4a6a6a1a(25)5a6a2a",
+      "nom": "KOLBY DE CLARAFLOR",
+      "non_partant": false,
+      "numero": 15,
+      "poids": null
+    },
+    {
+      "age": 6,
+      "entraineur": "K. LEBLANC",
+      "gains": null,
+      "jockey": "A. WIELS",
+      "musique": "5a0a4a5a3a7a8a(25)3aDa",
+      "nom": "KERRO DE HOUELLE",
+      "non_partant": false,
+      "numero": 16,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 10,
+    "heure_paris": "2026-10-25T00:16:34.190864+02:00",
+    "meilleur_place": 11,
+    "moteur": "M1",
+    "ordre_espere": [
+      10,
+      11,
+      12,
+      9,
+      1
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C7/participants"
+}

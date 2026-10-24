@@ -1,0 +1,171 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R12C4",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T13:45:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:33.509237+02:00",
+  "hippodrome": "NANTES",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "Y. SALIOT",
+      "gains": null,
+      "jockey": "Y. SALIOT",
+      "musique": "8a1a5a3a6a5a3a2a(25)4a",
+      "nom": "MADMAX DE L'AUMOY",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "M. DABOUIS",
+      "gains": null,
+      "jockey": "R. JOLY",
+      "musique": "5a1a8a5a8a6a0a4a8aDa",
+      "nom": "MERAPI",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "E. LETOUZE",
+      "gains": null,
+      "jockey": "GUILLAUME MARTIN",
+      "musique": "1a5aDa3aDa4a4aDaDa8a",
+      "nom": "MAGIC DELADOU",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. LIZEE",
+      "gains": null,
+      "jockey": "A. LAMY",
+      "musique": "0a7a7a5a4a1a4a(25)3a2a",
+      "nom": "MIKADO",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "S. PILLON",
+      "gains": null,
+      "jockey": "S. PILLON",
+      "musique": "9a5a6a6a2aDa6a3aDa(25)",
+      "nom": "MAGIC DE BELAISE",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J. DUBREIL",
+      "gains": null,
+      "jockey": "J. DUBREIL",
+      "musique": "2a1a3a3a9a8a2aDaDa2a",
+      "nom": "MANUREVA LOUNA",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "L. KOUBICHE",
+      "gains": null,
+      "jockey": "L. KOUBICHE",
+      "musique": "2a2a2a1a(25)5a7a4a4a",
+      "nom": "MIRACLE D'ENFER",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "V. GOUIN",
+      "gains": null,
+      "jockey": "V. GOUIN",
+      "musique": "4a5a0a0aDa6a4a6aDa1a",
+      "nom": "MAJOR AR CARAC",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.P. MARMION",
+      "gains": null,
+      "jockey": "A. WIELS",
+      "musique": "8aDa5a(25)2a1aDa1a",
+      "nom": "MELILOT BELLO",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Anthony DOLLION",
+      "gains": null,
+      "jockey": "ANTHONY DOLLION",
+      "musique": "7a3a1a(25)1a3a4a4a0a",
+      "nom": "MEARAS PAULOIS",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "D. BLOND",
+      "gains": null,
+      "jockey": "D. BLOND",
+      "musique": "6aDa4a2a4a4a2aDaDa5a",
+      "nom": "MIGOVE DU CHARME",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Ch. HENRY",
+      "gains": null,
+      "jockey": "R. LAMY",
+      "musique": "5a2a7a3a1a2a1a",
+      "nom": "MICKEY D'APIGNE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "PH. DAUGEARD",
+      "gains": null,
+      "jockey": "S. OLIVIER",
+      "musique": "5a1a6a4aDaDa4a(25)1a3a",
+      "nom": "MAXIMUS DU DOME",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 7,
+    "heure_paris": "2026-10-25T00:16:33.509237+02:00",
+    "meilleur_place": 3,
+    "moteur": "M1",
+    "ordre_espere": [
+      7,
+      3,
+      6,
+      10,
+      12
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C4/participants"
+}

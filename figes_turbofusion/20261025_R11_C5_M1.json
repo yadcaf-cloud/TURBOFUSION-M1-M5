@@ -1,0 +1,182 @@
+{
+  "avertissement": "Pronostic experimental; aucune garantie de gain.",
+  "course": "R11C5",
+  "date_course": "2026-10-25",
+  "depart_paris": "2026-10-25T16:00:00+01:00",
+  "fige_a_paris": "2026-10-25T00:16:32.071286+02:00",
+  "hippodrome": "SAINT GALMIER",
+  "partants": [
+    {
+      "age": 4,
+      "entraineur": "Y. LAVIGNE",
+      "gains": null,
+      "jockey": "Y. LAVIGNE",
+      "musique": "8aDaDa4aDaDm",
+      "nom": "MOON STRYCK",
+      "non_partant": false,
+      "numero": 1,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. BOUTEILLER",
+      "gains": null,
+      "jockey": "G. BOUTEILLER",
+      "musique": "4a0aDa7a8a7a7aDa7aDa",
+      "nom": "MAILLOTINE DE CYM",
+      "non_partant": false,
+      "numero": 2,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "G. BOUTEILLER",
+      "gains": null,
+      "jockey": "S. TRIBOURDEAU",
+      "musique": "Da7a4aDa7a8aDaDa7a0a",
+      "nom": "MILORD DU THEIL",
+      "non_partant": false,
+      "numero": 3,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "O. CHENE",
+      "gains": null,
+      "jockey": "PH. DANTHU",
+      "musique": "0a0a8a0a4a6a0a7a5a9a",
+      "nom": "MARLAU DU FOREZ",
+      "non_partant": false,
+      "numero": 4,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "D.M. OLIVIER",
+      "gains": null,
+      "jockey": "P. CALLIER",
+      "musique": "DaDa1aDaDaDa9a",
+      "nom": "MADE IN BERRY",
+      "non_partant": false,
+      "numero": 5,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.P. GAUVIN",
+      "gains": null,
+      "jockey": "J.P. GAUVIN",
+      "musique": "Da0aDm1a4aDaDa",
+      "nom": "MOOVE ON JULRY",
+      "non_partant": false,
+      "numero": 6,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "Mlle J. TRIOMPHE",
+      "gains": null,
+      "jockey": "F. BROUST",
+      "musique": "Da6a7a6aDa8a5a4a(25)5a",
+      "nom": "MERIDIA MENUET",
+      "non_partant": false,
+      "numero": 7,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "B. THOMAS",
+      "gains": null,
+      "jockey": "B. THOMAS",
+      "musique": "0a8a4aDa7a8a0a5a9a0a",
+      "nom": "MAGIC DU SABLIER",
+      "non_partant": false,
+      "numero": 8,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.P. GAUVIN",
+      "gains": null,
+      "jockey": "L. LAMAZIERE",
+      "musique": "7a2aDaDa1a",
+      "nom": "MIAMI JULRY",
+      "non_partant": false,
+      "numero": 9,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "L. LERENARD",
+      "gains": null,
+      "jockey": "ALEXIS LERENARD",
+      "musique": "4mDa3a7aDaDa3a5a7aDa",
+      "nom": "MAGHEERA GRIFF",
+      "non_partant": false,
+      "numero": 10,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "R. GONCET",
+      "gains": null,
+      "jockey": "R. GONCET",
+      "musique": "4a5a0a(25)8a3a7a0a2a5a",
+      "nom": "MALBROUK DE L'ISOP",
+      "non_partant": false,
+      "numero": 11,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "J.P. GAUVIN",
+      "gains": null,
+      "jockey": "ET. GAUVIN",
+      "musique": "2a3a1aDa(25)Da",
+      "nom": "MERCI RAFALE",
+      "non_partant": false,
+      "numero": 12,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "O. MERLE",
+      "gains": null,
+      "jockey": "O. MERLE",
+      "musique": "7a3a7a4a9a2a2a4a7a7a",
+      "nom": "MARQUIS DES CHAMPS",
+      "non_partant": false,
+      "numero": 13,
+      "poids": null
+    },
+    {
+      "age": 4,
+      "entraineur": "D. MARASCO",
+      "gains": null,
+      "jockey": "D. MARASCO",
+      "musique": "Da5a5aDa7aDaDa0a(25)Da",
+      "nom": "MISS DE MAI",
+      "non_partant": false,
+      "numero": 14,
+      "poids": null
+    }
+  ],
+  "pronostic": {
+    "gagnant_espere": 12,
+    "heure_paris": "2026-10-25T00:16:32.071286+02:00",
+    "meilleur_place": 9,
+    "moteur": "M1",
+    "ordre_espere": [
+      12,
+      9,
+      10,
+      11,
+      14
+    ],
+    "pari_retenu": "Simulation uniquement - aucun pari execute",
+    "qualification": "Heuristique expérimentale, non validée statistiquement",
+    "validation": "FIGÉ"
+  },
+  "schema": 2,
+  "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C5/participants"
+}
