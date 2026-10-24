@@ -4,11 +4,11 @@
   "sous_titre": "Intelligence hippique spécialisée",
   "devise": "La magie du savoir",
   "date_courses": "2026-10-25",
-  "synchronise_a_paris": "2026-10-25T00:16:40.288164+02:00",
+  "synchronise_a_paris": "2026-10-25T00:51:33.476119+02:00",
   "fuseau_horaire": "Europe/Paris",
   "statut": "DONNÉES DISPONIBLES",
   "statistiques": {
-    "rapports_lus": 43,
+    "rapports_lus": 44,
     "courses": 97,
     "figes_moteurs": 152,
     "archives_figees_lues": 152
@@ -194,7 +194,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.024993+02:00",
+          "heure_paris": "2026-10-25T00:51:13.536803+02:00",
           "fige": false
         },
         {
@@ -205,7 +205,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.024993+02:00",
+          "heure_paris": "2026-10-25T00:51:13.536803+02:00",
           "fige": false
         },
         {
@@ -216,7 +216,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.024993+02:00",
+          "heure_paris": "2026-10-25T00:51:13.536803+02:00",
           "fige": false
         },
         {
@@ -238,10 +238,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C1/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R4_C1_M1.json",
-        "figes_turbofusion/20261025_R4_C1_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -437,7 +434,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.542488+02:00",
+          "heure_paris": "2026-10-25T00:51:13.738569+02:00",
           "fige": false
         },
         {
@@ -448,7 +445,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.542488+02:00",
+          "heure_paris": "2026-10-25T00:51:13.738569+02:00",
           "fige": false
         },
         {
@@ -459,7 +456,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.542488+02:00",
+          "heure_paris": "2026-10-25T00:51:13.738569+02:00",
           "fige": false
         },
         {
@@ -481,10 +478,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C2/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R4_C2_M1.json",
-        "figes_turbofusion/20261025_R4_C2_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -702,7 +696,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.693421+02:00",
+          "heure_paris": "2026-10-25T00:51:13.943859+02:00",
           "fige": false
         },
         {
@@ -713,7 +707,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.693421+02:00",
+          "heure_paris": "2026-10-25T00:51:13.943859+02:00",
           "fige": false
         },
         {
@@ -724,7 +718,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:22.693421+02:00",
+          "heure_paris": "2026-10-25T00:51:13.943859+02:00",
           "fige": false
         },
         {
@@ -746,10 +740,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R4_C3_M1.json",
-        "figes_turbofusion/20261025_R4_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -895,7 +886,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.858499+02:00",
+          "heure_paris": "2026-10-25T00:51:24.164184+02:00",
           "fige": false
         },
         {
@@ -906,7 +897,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.858499+02:00",
+          "heure_paris": "2026-10-25T00:51:24.164184+02:00",
           "fige": false
         },
         {
@@ -917,7 +908,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.858499+02:00",
+          "heure_paris": "2026-10-25T00:51:24.164184+02:00",
           "fige": false
         },
         {
@@ -928,7 +919,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.858499+02:00",
+          "heure_paris": "2026-10-25T00:51:24.164184+02:00",
           "fige": false
         },
         {
@@ -939,7 +930,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.858499+02:00",
+          "heure_paris": "2026-10-25T00:51:24.164184+02:00",
           "fige": false
         }
       ],
@@ -1118,7 +1109,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.072064+02:00",
+          "heure_paris": "2026-10-25T00:51:14.140927+02:00",
           "fige": false
         },
         {
@@ -1129,7 +1120,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.072064+02:00",
+          "heure_paris": "2026-10-25T00:51:14.140927+02:00",
           "fige": false
         },
         {
@@ -1140,7 +1131,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.072064+02:00",
+          "heure_paris": "2026-10-25T00:51:14.140927+02:00",
           "fige": false
         },
         {
@@ -1162,10 +1153,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R4_C4_M1.json",
-        "figes_turbofusion/20261025_R4_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -1322,7 +1310,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.339494+02:00",
+          "heure_paris": "2026-10-25T00:51:29.889598+02:00",
           "fige": false
         },
         {
@@ -1333,7 +1321,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.339494+02:00",
+          "heure_paris": "2026-10-25T00:51:29.889598+02:00",
           "fige": false
         },
         {
@@ -1344,7 +1332,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.339494+02:00",
+          "heure_paris": "2026-10-25T00:51:29.889598+02:00",
           "fige": false
         },
         {
@@ -1355,7 +1343,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.339494+02:00",
+          "heure_paris": "2026-10-25T00:51:29.889598+02:00",
           "fige": false
         },
         {
@@ -1366,7 +1354,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.339494+02:00",
+          "heure_paris": "2026-10-25T00:51:29.889598+02:00",
           "fige": false
         }
       ],
@@ -1556,7 +1544,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.112933+02:00",
+          "heure_paris": "2026-10-25T00:51:24.367513+02:00",
           "fige": false
         },
         {
@@ -1567,7 +1555,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.112933+02:00",
+          "heure_paris": "2026-10-25T00:51:24.367513+02:00",
           "fige": false
         },
         {
@@ -1578,7 +1566,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.112933+02:00",
+          "heure_paris": "2026-10-25T00:51:24.367513+02:00",
           "fige": false
         },
         {
@@ -1600,10 +1588,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C2/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R12_C2_M1.json",
-        "figes_turbofusion/20261025_R12_C2_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -1744,7 +1729,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.281894+02:00",
+          "heure_paris": "2026-10-25T00:51:10.833766+02:00",
           "fige": false
         },
         {
@@ -1755,7 +1740,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.281894+02:00",
+          "heure_paris": "2026-10-25T00:51:10.833766+02:00",
           "fige": false
         },
         {
@@ -1766,7 +1751,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.281894+02:00",
+          "heure_paris": "2026-10-25T00:51:10.833766+02:00",
           "fige": false
         },
         {
@@ -1788,10 +1773,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C1/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R1_C1_M1.json",
-        "figes_turbofusion/20261025_R1_C1_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -1998,7 +1980,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.511037+02:00",
+          "heure_paris": "2026-10-25T00:51:30.089686+02:00",
           "fige": false
         },
         {
@@ -2009,7 +1991,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.511037+02:00",
+          "heure_paris": "2026-10-25T00:51:30.089686+02:00",
           "fige": false
         },
         {
@@ -2020,7 +2002,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.511037+02:00",
+          "heure_paris": "2026-10-25T00:51:30.089686+02:00",
           "fige": false
         },
         {
@@ -2042,10 +2024,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C2/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C2_M1.json",
-        "figes_turbofusion/20261025_R15_C2_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -2208,7 +2187,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.702715+02:00",
+          "heure_paris": "2026-10-25T00:51:20.078319+02:00",
           "fige": false
         },
         {
@@ -2219,7 +2198,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.702715+02:00",
+          "heure_paris": "2026-10-25T00:51:20.078319+02:00",
           "fige": false
         },
         {
@@ -2230,7 +2209,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.702715+02:00",
+          "heure_paris": "2026-10-25T00:51:20.078319+02:00",
           "fige": false
         },
         {
@@ -2252,10 +2231,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C1/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C1_M1.json",
-        "figes_turbofusion/20261025_R10_C1_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -2418,7 +2394,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.305125+02:00",
+          "heure_paris": "2026-10-25T00:51:14.338913+02:00",
           "fige": false
         },
         {
@@ -2429,7 +2405,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.305125+02:00",
+          "heure_paris": "2026-10-25T00:51:14.338913+02:00",
           "fige": false
         },
         {
@@ -2440,7 +2416,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.305125+02:00",
+          "heure_paris": "2026-10-25T00:51:14.338913+02:00",
           "fige": false
         },
         {
@@ -2462,10 +2438,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R4_C5_M1.json",
-        "figes_turbofusion/20261025_R4_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -2633,7 +2606,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.343096+02:00",
+          "heure_paris": "2026-10-25T00:51:24.598573+02:00",
           "fige": false
         },
         {
@@ -2644,7 +2617,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.343096+02:00",
+          "heure_paris": "2026-10-25T00:51:24.598573+02:00",
           "fige": false
         },
         {
@@ -2655,7 +2628,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.343096+02:00",
+          "heure_paris": "2026-10-25T00:51:24.598573+02:00",
           "fige": false
         },
         {
@@ -2666,7 +2639,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.343096+02:00",
+          "heure_paris": "2026-10-25T00:51:24.598573+02:00",
           "fige": false
         },
         {
@@ -2677,7 +2650,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.343096+02:00",
+          "heure_paris": "2026-10-25T00:51:24.598573+02:00",
           "fige": false
         }
       ],
@@ -2801,7 +2774,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.619220+02:00",
+          "heure_paris": "2026-10-25T00:51:11.420865+02:00",
           "fige": false
         },
         {
@@ -2812,7 +2785,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.619220+02:00",
+          "heure_paris": "2026-10-25T00:51:11.420865+02:00",
           "fige": false
         },
         {
@@ -2823,7 +2796,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.619220+02:00",
+          "heure_paris": "2026-10-25T00:51:11.420865+02:00",
           "fige": false
         },
         {
@@ -2845,10 +2818,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C2/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R1_C2_M1.json",
-        "figes_turbofusion/20261025_R1_C2_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -3005,7 +2975,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.754250+02:00",
+          "heure_paris": "2026-10-25T00:51:26.160257+02:00",
           "fige": false
         },
         {
@@ -3016,7 +2986,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.754250+02:00",
+          "heure_paris": "2026-10-25T00:51:26.160257+02:00",
           "fige": false
         },
         {
@@ -3027,7 +2997,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.754250+02:00",
+          "heure_paris": "2026-10-25T00:51:26.160257+02:00",
           "fige": false
         },
         {
@@ -3038,7 +3008,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.754250+02:00",
+          "heure_paris": "2026-10-25T00:51:26.160257+02:00",
           "fige": false
         },
         {
@@ -3049,7 +3019,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.754250+02:00",
+          "heure_paris": "2026-10-25T00:51:26.160257+02:00",
           "fige": false
         }
       ],
@@ -3239,7 +3209,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.672584+02:00",
+          "heure_paris": "2026-10-25T00:51:30.285582+02:00",
           "fige": false
         },
         {
@@ -3250,7 +3220,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.672584+02:00",
+          "heure_paris": "2026-10-25T00:51:30.285582+02:00",
           "fige": false
         },
         {
@@ -3261,7 +3231,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.672584+02:00",
+          "heure_paris": "2026-10-25T00:51:30.285582+02:00",
           "fige": false
         },
         {
@@ -3283,10 +3253,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C3_M1.json",
-        "figes_turbofusion/20261025_R15_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -3410,7 +3377,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.997120+02:00",
+          "heure_paris": "2026-10-25T00:51:32.083583+02:00",
           "fige": false
         },
         {
@@ -3421,7 +3388,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.997120+02:00",
+          "heure_paris": "2026-10-25T00:51:32.083583+02:00",
           "fige": false
         },
         {
@@ -3432,7 +3399,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.997120+02:00",
+          "heure_paris": "2026-10-25T00:51:32.083583+02:00",
           "fige": false
         },
         {
@@ -3443,7 +3410,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.997120+02:00",
+          "heure_paris": "2026-10-25T00:51:32.083583+02:00",
           "fige": false
         },
         {
@@ -3454,7 +3421,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.997120+02:00",
+          "heure_paris": "2026-10-25T00:51:32.083583+02:00",
           "fige": false
         }
       ],
@@ -3655,7 +3622,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.990875+02:00",
+          "heure_paris": "2026-10-25T00:51:20.277636+02:00",
           "fige": false
         },
         {
@@ -3666,7 +3633,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.990875+02:00",
+          "heure_paris": "2026-10-25T00:51:20.277636+02:00",
           "fige": false
         },
         {
@@ -3677,7 +3644,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.990875+02:00",
+          "heure_paris": "2026-10-25T00:51:20.277636+02:00",
           "fige": false
         },
         {
@@ -3699,10 +3666,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C2/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C2_M1.json",
-        "figes_turbofusion/20261025_R10_C2_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -3920,7 +3884,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.543757+02:00",
+          "heure_paris": "2026-10-25T00:51:14.556707+02:00",
           "fige": false
         },
         {
@@ -3931,7 +3895,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.543757+02:00",
+          "heure_paris": "2026-10-25T00:51:14.556707+02:00",
           "fige": false
         },
         {
@@ -3942,7 +3906,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.543757+02:00",
+          "heure_paris": "2026-10-25T00:51:14.556707+02:00",
           "fige": false
         },
         {
@@ -3964,10 +3928,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R4_C6_M1.json",
-        "figes_turbofusion/20261025_R4_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -4080,7 +4041,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.214710+02:00",
+          "heure_paris": "2026-10-25T00:51:15.349323+02:00",
           "fige": false
         },
         {
@@ -4091,7 +4052,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.214710+02:00",
+          "heure_paris": "2026-10-25T00:51:15.349323+02:00",
           "fige": false
         },
         {
@@ -4102,7 +4063,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.214710+02:00",
+          "heure_paris": "2026-10-25T00:51:15.349323+02:00",
           "fige": false
         },
         {
@@ -4113,7 +4074,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.214710+02:00",
+          "heure_paris": "2026-10-25T00:51:15.349323+02:00",
           "fige": false
         },
         {
@@ -4124,7 +4085,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.214710+02:00",
+          "heure_paris": "2026-10-25T00:51:15.349323+02:00",
           "fige": false
         }
       ],
@@ -4242,7 +4203,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.533533+02:00",
+          "heure_paris": "2026-10-25T00:51:18.664474+02:00",
           "fige": false
         },
         {
@@ -4253,7 +4214,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.533533+02:00",
+          "heure_paris": "2026-10-25T00:51:18.664474+02:00",
           "fige": false
         },
         {
@@ -4264,7 +4225,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.533533+02:00",
+          "heure_paris": "2026-10-25T00:51:18.664474+02:00",
           "fige": false
         },
         {
@@ -4275,7 +4236,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.533533+02:00",
+          "heure_paris": "2026-10-25T00:51:18.664474+02:00",
           "fige": false
         },
         {
@@ -4286,7 +4247,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.533533+02:00",
+          "heure_paris": "2026-10-25T00:51:18.664474+02:00",
           "fige": false
         }
       ],
@@ -4476,7 +4437,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.509237+02:00",
+          "heure_paris": "2026-10-25T00:51:24.849197+02:00",
           "fige": false
         },
         {
@@ -4487,7 +4448,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.509237+02:00",
+          "heure_paris": "2026-10-25T00:51:24.849197+02:00",
           "fige": false
         },
         {
@@ -4498,7 +4459,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.509237+02:00",
+          "heure_paris": "2026-10-25T00:51:24.849197+02:00",
           "fige": false
         },
         {
@@ -4520,10 +4481,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R12_C4_M1.json",
-        "figes_turbofusion/20261025_R12_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -4653,7 +4611,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.956617+02:00",
+          "heure_paris": "2026-10-25T00:51:17.116883+02:00",
           "fige": false
         },
         {
@@ -4664,7 +4622,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.956617+02:00",
+          "heure_paris": "2026-10-25T00:51:17.116883+02:00",
           "fige": false
         },
         {
@@ -4675,7 +4633,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.956617+02:00",
+          "heure_paris": "2026-10-25T00:51:17.116883+02:00",
           "fige": false
         },
         {
@@ -4697,10 +4655,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C1/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R8_C1_M1.json",
-        "figes_turbofusion/20261025_R8_C1_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -4852,7 +4807,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.849638+02:00",
+          "heure_paris": "2026-10-25T00:51:11.632498+02:00",
           "fige": false
         },
         {
@@ -4863,7 +4818,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.849638+02:00",
+          "heure_paris": "2026-10-25T00:51:11.632498+02:00",
           "fige": false
         },
         {
@@ -4874,7 +4829,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:20.849638+02:00",
+          "heure_paris": "2026-10-25T00:51:11.632498+02:00",
           "fige": false
         },
         {
@@ -4896,10 +4851,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R1_C3_M1.json",
-        "figes_turbofusion/20261025_R1_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -5095,7 +5047,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.942104+02:00",
+          "heure_paris": "2026-10-25T00:51:22.042007+02:00",
           "fige": false
         },
         {
@@ -5106,7 +5058,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.942104+02:00",
+          "heure_paris": "2026-10-25T00:51:22.042007+02:00",
           "fige": false
         },
         {
@@ -5117,7 +5069,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.942104+02:00",
+          "heure_paris": "2026-10-25T00:51:22.042007+02:00",
           "fige": false
         },
         {
@@ -5139,10 +5091,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C1/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R11_C1_M1.json",
-        "figes_turbofusion/20261025_R11_C1_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -5299,7 +5248,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.918365+02:00",
+          "heure_paris": "2026-10-25T00:51:26.401277+02:00",
           "fige": false
         },
         {
@@ -5310,7 +5259,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.918365+02:00",
+          "heure_paris": "2026-10-25T00:51:26.401277+02:00",
           "fige": false
         },
         {
@@ -5321,7 +5270,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.918365+02:00",
+          "heure_paris": "2026-10-25T00:51:26.401277+02:00",
           "fige": false
         },
         {
@@ -5332,7 +5281,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.918365+02:00",
+          "heure_paris": "2026-10-25T00:51:26.401277+02:00",
           "fige": false
         },
         {
@@ -5343,7 +5292,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.918365+02:00",
+          "heure_paris": "2026-10-25T00:51:26.401277+02:00",
           "fige": false
         }
       ],
@@ -5549,7 +5498,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.082321+02:00",
+          "heure_paris": "2026-10-25T00:51:28.343609+02:00",
           "fige": false
         },
         {
@@ -5560,7 +5509,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.082321+02:00",
+          "heure_paris": "2026-10-25T00:51:28.343609+02:00",
           "fige": false
         },
         {
@@ -5571,7 +5520,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.082321+02:00",
+          "heure_paris": "2026-10-25T00:51:28.343609+02:00",
           "fige": false
         },
         {
@@ -5582,7 +5531,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.082321+02:00",
+          "heure_paris": "2026-10-25T00:51:28.343609+02:00",
           "fige": false
         },
         {
@@ -5593,7 +5542,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.082321+02:00",
+          "heure_paris": "2026-10-25T00:51:28.343609+02:00",
           "fige": false
         }
       ],
@@ -5783,7 +5732,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.809669+02:00",
+          "heure_paris": "2026-10-25T00:51:30.482781+02:00",
           "fige": false
         },
         {
@@ -5794,7 +5743,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.809669+02:00",
+          "heure_paris": "2026-10-25T00:51:30.482781+02:00",
           "fige": false
         },
         {
@@ -5805,7 +5754,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.809669+02:00",
+          "heure_paris": "2026-10-25T00:51:30.482781+02:00",
           "fige": false
         },
         {
@@ -5827,10 +5776,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C4_M1.json",
-        "figes_turbofusion/20261025_R15_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -5987,7 +5933,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.125892+02:00",
+          "heure_paris": "2026-10-25T00:51:32.279526+02:00",
           "fige": false
         },
         {
@@ -5998,7 +5944,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.125892+02:00",
+          "heure_paris": "2026-10-25T00:51:32.279526+02:00",
           "fige": false
         },
         {
@@ -6009,7 +5955,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.125892+02:00",
+          "heure_paris": "2026-10-25T00:51:32.279526+02:00",
           "fige": false
         },
         {
@@ -6020,7 +5966,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.125892+02:00",
+          "heure_paris": "2026-10-25T00:51:32.279526+02:00",
           "fige": false
         },
         {
@@ -6031,7 +5977,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.125892+02:00",
+          "heure_paris": "2026-10-25T00:51:32.279526+02:00",
           "fige": false
         }
       ],
@@ -6221,7 +6167,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:29.484098+02:00",
+          "heure_paris": "2026-10-25T00:51:20.619495+02:00",
           "fige": false
         },
         {
@@ -6232,7 +6178,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:29.484098+02:00",
+          "heure_paris": "2026-10-25T00:51:20.619495+02:00",
           "fige": false
         },
         {
@@ -6243,7 +6189,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:29.484098+02:00",
+          "heure_paris": "2026-10-25T00:51:20.619495+02:00",
           "fige": false
         },
         {
@@ -6265,10 +6211,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C3_M1.json",
-        "figes_turbofusion/20261025_R10_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -6398,7 +6341,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.792739+02:00",
+          "heure_paris": "2026-10-25T00:51:14.754994+02:00",
           "fige": false
         },
         {
@@ -6409,7 +6352,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.792739+02:00",
+          "heure_paris": "2026-10-25T00:51:14.754994+02:00",
           "fige": false
         },
         {
@@ -6420,7 +6363,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.792739+02:00",
+          "heure_paris": "2026-10-25T00:51:14.754994+02:00",
           "fige": false
         },
         {
@@ -6442,10 +6385,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R4_C7_M1.json",
-        "figes_turbofusion/20261025_R4_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -6597,7 +6537,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.693988+02:00",
+          "heure_paris": "2026-10-25T00:51:18.866116+02:00",
           "fige": false
         },
         {
@@ -6608,7 +6548,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.693988+02:00",
+          "heure_paris": "2026-10-25T00:51:18.866116+02:00",
           "fige": false
         },
         {
@@ -6619,7 +6559,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.693988+02:00",
+          "heure_paris": "2026-10-25T00:51:18.866116+02:00",
           "fige": false
         },
         {
@@ -6641,10 +6581,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C2/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R9_C2_M1.json",
-        "figes_turbofusion/20261025_R9_C2_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -6829,7 +6766,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.845556+02:00",
+          "heure_paris": "2026-10-25T00:51:25.087560+02:00",
           "fige": false
         },
         {
@@ -6840,7 +6777,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.845556+02:00",
+          "heure_paris": "2026-10-25T00:51:25.087560+02:00",
           "fige": false
         },
         {
@@ -6851,7 +6788,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:33.845556+02:00",
+          "heure_paris": "2026-10-25T00:51:25.087560+02:00",
           "fige": false
         },
         {
@@ -6873,10 +6810,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R12_C5_M1.json",
-        "figes_turbofusion/20261025_R12_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -7061,7 +6995,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.446354+02:00",
+          "heure_paris": "2026-10-25T00:51:15.561751+02:00",
           "fige": false
         },
         {
@@ -7072,7 +7006,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.446354+02:00",
+          "heure_paris": "2026-10-25T00:51:15.561751+02:00",
           "fige": false
         },
         {
@@ -7083,7 +7017,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.446354+02:00",
+          "heure_paris": "2026-10-25T00:51:15.561751+02:00",
           "fige": false
         },
         {
@@ -7105,10 +7039,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C2/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R5_C2_M1.json",
-        "figes_turbofusion/20261025_R5_C2_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -7276,7 +7207,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.085291+02:00",
+          "heure_paris": "2026-10-25T00:51:17.382477+02:00",
           "fige": false
         },
         {
@@ -7287,7 +7218,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.085291+02:00",
+          "heure_paris": "2026-10-25T00:51:17.382477+02:00",
           "fige": false
         },
         {
@@ -7298,7 +7229,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.085291+02:00",
+          "heure_paris": "2026-10-25T00:51:17.382477+02:00",
           "fige": false
         },
         {
@@ -7309,7 +7240,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.085291+02:00",
+          "heure_paris": "2026-10-25T00:51:17.382477+02:00",
           "fige": false
         },
         {
@@ -7320,7 +7251,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.085291+02:00",
+          "heure_paris": "2026-10-25T00:51:17.382477+02:00",
           "fige": false
         }
       ],
@@ -7482,7 +7413,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.098915+02:00",
+          "heure_paris": "2026-10-25T00:51:22.238588+02:00",
           "fige": false
         },
         {
@@ -7493,7 +7424,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.098915+02:00",
+          "heure_paris": "2026-10-25T00:51:22.238588+02:00",
           "fige": false
         },
         {
@@ -7504,7 +7435,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.098915+02:00",
+          "heure_paris": "2026-10-25T00:51:22.238588+02:00",
           "fige": false
         },
         {
@@ -7515,7 +7446,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.098915+02:00",
+          "heure_paris": "2026-10-25T00:51:22.238588+02:00",
           "fige": false
         },
         {
@@ -7526,7 +7457,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.098915+02:00",
+          "heure_paris": "2026-10-25T00:51:22.238588+02:00",
           "fige": false
         }
       ],
@@ -7705,7 +7636,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.078823+02:00",
+          "heure_paris": "2026-10-25T00:51:26.630391+02:00",
           "fige": false
         },
         {
@@ -7716,7 +7647,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.078823+02:00",
+          "heure_paris": "2026-10-25T00:51:26.630391+02:00",
           "fige": false
         },
         {
@@ -7727,7 +7658,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.078823+02:00",
+          "heure_paris": "2026-10-25T00:51:26.630391+02:00",
           "fige": false
         },
         {
@@ -7749,10 +7680,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R13/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R13_C3_M1.json",
-        "figes_turbofusion/20261025_R13_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -7970,7 +7898,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.343599+02:00",
+          "heure_paris": "2026-10-25T00:51:28.538778+02:00",
           "fige": false
         },
         {
@@ -7981,7 +7909,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.343599+02:00",
+          "heure_paris": "2026-10-25T00:51:28.538778+02:00",
           "fige": false
         },
         {
@@ -7992,7 +7920,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.343599+02:00",
+          "heure_paris": "2026-10-25T00:51:28.538778+02:00",
           "fige": false
         },
         {
@@ -8014,10 +7942,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C2/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R14_C2_M1.json",
-        "figes_turbofusion/20261025_R14_C2_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -8257,7 +8182,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.942691+02:00",
+          "heure_paris": "2026-10-25T00:51:30.680244+02:00",
           "fige": false
         },
         {
@@ -8268,7 +8193,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.942691+02:00",
+          "heure_paris": "2026-10-25T00:51:30.680244+02:00",
           "fige": false
         },
         {
@@ -8279,7 +8204,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.942691+02:00",
+          "heure_paris": "2026-10-25T00:51:30.680244+02:00",
           "fige": false
         },
         {
@@ -8301,10 +8226,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C5_M1.json",
-        "figes_turbofusion/20261025_R15_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -8456,7 +8378,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.300379+02:00",
+          "heure_paris": "2026-10-25T00:51:32.474264+02:00",
           "fige": false
         },
         {
@@ -8467,7 +8389,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.300379+02:00",
+          "heure_paris": "2026-10-25T00:51:32.474264+02:00",
           "fige": false
         },
         {
@@ -8478,7 +8400,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.300379+02:00",
+          "heure_paris": "2026-10-25T00:51:32.474264+02:00",
           "fige": false
         },
         {
@@ -8500,10 +8422,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R16/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R16_C3_M1.json",
-        "figes_turbofusion/20261025_R16_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -8622,7 +8541,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.082558+02:00",
+          "heure_paris": "2026-10-25T00:51:11.855234+02:00",
           "fige": false
         },
         {
@@ -8633,7 +8552,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.082558+02:00",
+          "heure_paris": "2026-10-25T00:51:11.855234+02:00",
           "fige": false
         },
         {
@@ -8644,7 +8563,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.082558+02:00",
+          "heure_paris": "2026-10-25T00:51:11.855234+02:00",
           "fige": false
         },
         {
@@ -8666,10 +8585,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R1_C4_M1.json",
-        "figes_turbofusion/20261025_R1_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -8854,7 +8770,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:29.964733+02:00",
+          "heure_paris": "2026-10-25T00:51:20.820547+02:00",
           "fige": false
         },
         {
@@ -8865,7 +8781,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:29.964733+02:00",
+          "heure_paris": "2026-10-25T00:51:20.820547+02:00",
           "fige": false
         },
         {
@@ -8876,7 +8792,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:29.964733+02:00",
+          "heure_paris": "2026-10-25T00:51:20.820547+02:00",
           "fige": false
         },
         {
@@ -8898,10 +8814,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C4_M1.json",
-        "figes_turbofusion/20261025_R10_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -9042,7 +8955,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.922152+02:00",
+          "heure_paris": "2026-10-25T00:51:14.987471+02:00",
           "fige": false
         },
         {
@@ -9053,7 +8966,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.922152+02:00",
+          "heure_paris": "2026-10-25T00:51:14.987471+02:00",
           "fige": false
         },
         {
@@ -9064,7 +8977,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:23.922152+02:00",
+          "heure_paris": "2026-10-25T00:51:14.987471+02:00",
           "fige": false
         },
         {
@@ -9086,10 +8999,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R4/C8/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R4_C8_M1.json",
-        "figes_turbofusion/20261025_R4_C8_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -9241,7 +9151,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.853718+02:00",
+          "heure_paris": "2026-10-25T00:51:19.064622+02:00",
           "fige": false
         },
         {
@@ -9252,7 +9162,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.853718+02:00",
+          "heure_paris": "2026-10-25T00:51:19.064622+02:00",
           "fige": false
         },
         {
@@ -9263,7 +9173,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.853718+02:00",
+          "heure_paris": "2026-10-25T00:51:19.064622+02:00",
           "fige": false
         },
         {
@@ -9285,10 +9195,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R9_C3_M1.json",
-        "figes_turbofusion/20261025_R9_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -9473,7 +9380,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.004591+02:00",
+          "heure_paris": "2026-10-25T00:51:25.284614+02:00",
           "fige": false
         },
         {
@@ -9484,7 +9391,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.004591+02:00",
+          "heure_paris": "2026-10-25T00:51:25.284614+02:00",
           "fige": false
         },
         {
@@ -9495,7 +9402,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.004591+02:00",
+          "heure_paris": "2026-10-25T00:51:25.284614+02:00",
           "fige": false
         },
         {
@@ -9517,10 +9424,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R12_C6_M1.json",
-        "figes_turbofusion/20261025_R12_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -9738,7 +9642,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.926595+02:00",
+          "heure_paris": "2026-10-25T00:51:15.827050+02:00",
           "fige": false
         },
         {
@@ -9749,7 +9653,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.926595+02:00",
+          "heure_paris": "2026-10-25T00:51:15.827050+02:00",
           "fige": false
         },
         {
@@ -9760,7 +9664,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:24.926595+02:00",
+          "heure_paris": "2026-10-25T00:51:15.827050+02:00",
           "fige": false
         },
         {
@@ -9782,10 +9686,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R5_C3_M1.json",
-        "figes_turbofusion/20261025_R5_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -9904,7 +9805,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.211514+02:00",
+          "heure_paris": "2026-10-25T00:51:17.611582+02:00",
           "fige": false
         },
         {
@@ -9915,7 +9816,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.211514+02:00",
+          "heure_paris": "2026-10-25T00:51:17.611582+02:00",
           "fige": false
         },
         {
@@ -9926,7 +9827,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.211514+02:00",
+          "heure_paris": "2026-10-25T00:51:17.611582+02:00",
           "fige": false
         },
         {
@@ -9948,10 +9849,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R8_C3_M1.json",
-        "figes_turbofusion/20261025_R8_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -10130,7 +10028,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.261540+02:00",
+          "heure_paris": "2026-10-25T00:51:22.440068+02:00",
           "fige": false
         },
         {
@@ -10141,7 +10039,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.261540+02:00",
+          "heure_paris": "2026-10-25T00:51:22.440068+02:00",
           "fige": false
         },
         {
@@ -10152,7 +10050,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.261540+02:00",
+          "heure_paris": "2026-10-25T00:51:22.440068+02:00",
           "fige": false
         },
         {
@@ -10163,7 +10061,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.261540+02:00",
+          "heure_paris": "2026-10-25T00:51:22.440068+02:00",
           "fige": false
         },
         {
@@ -10174,7 +10072,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.261540+02:00",
+          "heure_paris": "2026-10-25T00:51:22.440068+02:00",
           "fige": false
         }
       ],
@@ -10353,7 +10251,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.245517+02:00",
+          "heure_paris": "2026-10-25T00:51:26.857159+02:00",
           "fige": false
         },
         {
@@ -10364,7 +10262,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.245517+02:00",
+          "heure_paris": "2026-10-25T00:51:26.857159+02:00",
           "fige": false
         },
         {
@@ -10375,7 +10273,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.245517+02:00",
+          "heure_paris": "2026-10-25T00:51:26.857159+02:00",
           "fige": false
         },
         {
@@ -10397,10 +10295,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R13/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R13_C4_M1.json",
-        "figes_turbofusion/20261025_R13_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -10618,7 +10513,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.515384+02:00",
+          "heure_paris": "2026-10-25T00:51:28.770818+02:00",
           "fige": false
         },
         {
@@ -10629,7 +10524,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.515384+02:00",
+          "heure_paris": "2026-10-25T00:51:28.770818+02:00",
           "fige": false
         },
         {
@@ -10640,7 +10535,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.515384+02:00",
+          "heure_paris": "2026-10-25T00:51:28.770818+02:00",
           "fige": false
         },
         {
@@ -10662,10 +10557,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C3/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R14_C3_M1.json",
-        "figes_turbofusion/20261025_R14_C3_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -10861,7 +10753,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.070778+02:00",
+          "heure_paris": "2026-10-25T00:51:30.879757+02:00",
           "fige": false
         },
         {
@@ -10872,7 +10764,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.070778+02:00",
+          "heure_paris": "2026-10-25T00:51:30.879757+02:00",
           "fige": false
         },
         {
@@ -10883,7 +10775,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.070778+02:00",
+          "heure_paris": "2026-10-25T00:51:30.879757+02:00",
           "fige": false
         },
         {
@@ -10905,10 +10797,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C6_M1.json",
-        "figes_turbofusion/20261025_R15_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -11082,7 +10971,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.432683+02:00",
+          "heure_paris": "2026-10-25T00:51:32.670565+02:00",
           "fige": false
         },
         {
@@ -11093,7 +10982,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.432683+02:00",
+          "heure_paris": "2026-10-25T00:51:32.670565+02:00",
           "fige": false
         },
         {
@@ -11104,7 +10993,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.432683+02:00",
+          "heure_paris": "2026-10-25T00:51:32.670565+02:00",
           "fige": false
         },
         {
@@ -11126,10 +11015,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R16/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R16_C4_M1.json",
-        "figes_turbofusion/20261025_R16_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -11314,7 +11200,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.120987+02:00",
+          "heure_paris": "2026-10-25T00:51:21.018432+02:00",
           "fige": false
         },
         {
@@ -11325,7 +11211,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.120987+02:00",
+          "heure_paris": "2026-10-25T00:51:21.018432+02:00",
           "fige": false
         },
         {
@@ -11336,7 +11222,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.120987+02:00",
+          "heure_paris": "2026-10-25T00:51:21.018432+02:00",
           "fige": false
         },
         {
@@ -11358,10 +11244,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C5_M1.json",
-        "figes_turbofusion/20261025_R10_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -11474,7 +11357,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.984820+02:00",
+          "heure_paris": "2026-10-25T00:51:19.261352+02:00",
           "fige": false
         },
         {
@@ -11485,7 +11368,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.984820+02:00",
+          "heure_paris": "2026-10-25T00:51:19.261352+02:00",
           "fige": false
         },
         {
@@ -11496,7 +11379,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.984820+02:00",
+          "heure_paris": "2026-10-25T00:51:19.261352+02:00",
           "fige": false
         },
         {
@@ -11507,7 +11390,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.984820+02:00",
+          "heure_paris": "2026-10-25T00:51:19.261352+02:00",
           "fige": false
         },
         {
@@ -11518,7 +11401,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.984820+02:00",
+          "heure_paris": "2026-10-25T00:51:19.261352+02:00",
           "fige": false
         }
       ],
@@ -11741,7 +11624,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.237690+02:00",
+          "heure_paris": "2026-10-25T00:51:12.059268+02:00",
           "fige": false
         },
         {
@@ -11752,7 +11635,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.237690+02:00",
+          "heure_paris": "2026-10-25T00:51:12.059268+02:00",
           "fige": false
         },
         {
@@ -11763,7 +11646,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.237690+02:00",
+          "heure_paris": "2026-10-25T00:51:12.059268+02:00",
           "fige": false
         },
         {
@@ -11785,10 +11668,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R1_C5_M1.json",
-        "figes_turbofusion/20261025_R1_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -12006,7 +11886,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.190864+02:00",
+          "heure_paris": "2026-10-25T00:51:25.487108+02:00",
           "fige": false
         },
         {
@@ -12017,7 +11897,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.190864+02:00",
+          "heure_paris": "2026-10-25T00:51:25.487108+02:00",
           "fige": false
         },
         {
@@ -12028,7 +11908,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.190864+02:00",
+          "heure_paris": "2026-10-25T00:51:25.487108+02:00",
           "fige": false
         },
         {
@@ -12050,10 +11930,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R12_C7_M1.json",
-        "figes_turbofusion/20261025_R12_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -12232,7 +12109,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.666530+02:00",
+          "heure_paris": "2026-10-25T00:51:22.639758+02:00",
           "fige": false
         },
         {
@@ -12243,7 +12120,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.666530+02:00",
+          "heure_paris": "2026-10-25T00:51:22.639758+02:00",
           "fige": false
         },
         {
@@ -12254,7 +12131,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.666530+02:00",
+          "heure_paris": "2026-10-25T00:51:22.639758+02:00",
           "fige": false
         },
         {
@@ -12265,7 +12142,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.666530+02:00",
+          "heure_paris": "2026-10-25T00:51:22.639758+02:00",
           "fige": false
         },
         {
@@ -12276,7 +12153,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:31.666530+02:00",
+          "heure_paris": "2026-10-25T00:51:22.639758+02:00",
           "fige": false
         }
       ],
@@ -12438,7 +12315,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.414396+02:00",
+          "heure_paris": "2026-10-25T00:51:27.417916+02:00",
           "fige": false
         },
         {
@@ -12449,7 +12326,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.414396+02:00",
+          "heure_paris": "2026-10-25T00:51:27.417916+02:00",
           "fige": false
         },
         {
@@ -12460,7 +12337,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.414396+02:00",
+          "heure_paris": "2026-10-25T00:51:27.417916+02:00",
           "fige": false
         },
         {
@@ -12471,7 +12348,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.414396+02:00",
+          "heure_paris": "2026-10-25T00:51:27.417916+02:00",
           "fige": false
         },
         {
@@ -12482,7 +12359,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.414396+02:00",
+          "heure_paris": "2026-10-25T00:51:27.417916+02:00",
           "fige": false
         }
       ],
@@ -12661,7 +12538,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.669335+02:00",
+          "heure_paris": "2026-10-25T00:51:29.016410+02:00",
           "fige": false
         },
         {
@@ -12672,7 +12549,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.669335+02:00",
+          "heure_paris": "2026-10-25T00:51:29.016410+02:00",
           "fige": false
         },
         {
@@ -12683,7 +12560,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.669335+02:00",
+          "heure_paris": "2026-10-25T00:51:29.016410+02:00",
           "fige": false
         },
         {
@@ -12705,10 +12582,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R14_C4_M1.json",
-        "figes_turbofusion/20261025_R14_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -12904,7 +12778,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.200381+02:00",
+          "heure_paris": "2026-10-25T00:51:31.079183+02:00",
           "fige": false
         },
         {
@@ -12915,7 +12789,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.200381+02:00",
+          "heure_paris": "2026-10-25T00:51:31.079183+02:00",
           "fige": false
         },
         {
@@ -12926,7 +12800,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.200381+02:00",
+          "heure_paris": "2026-10-25T00:51:31.079183+02:00",
           "fige": false
         },
         {
@@ -12948,10 +12822,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C7_M1.json",
-        "figes_turbofusion/20261025_R15_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -13081,7 +12952,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.761607+02:00",
+          "heure_paris": "2026-10-25T00:51:32.870323+02:00",
           "fige": false
         },
         {
@@ -13092,7 +12963,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.761607+02:00",
+          "heure_paris": "2026-10-25T00:51:32.870323+02:00",
           "fige": false
         },
         {
@@ -13103,7 +12974,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.761607+02:00",
+          "heure_paris": "2026-10-25T00:51:32.870323+02:00",
           "fige": false
         },
         {
@@ -13125,10 +12996,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R16/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R16_C5_M1.json",
-        "figes_turbofusion/20261025_R16_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -13296,7 +13164,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.341418+02:00",
+          "heure_paris": "2026-10-25T00:51:17.840008+02:00",
           "fige": false
         },
         {
@@ -13307,7 +13175,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.341418+02:00",
+          "heure_paris": "2026-10-25T00:51:17.840008+02:00",
           "fige": false
         },
         {
@@ -13318,7 +13186,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.341418+02:00",
+          "heure_paris": "2026-10-25T00:51:17.840008+02:00",
           "fige": false
         },
         {
@@ -13329,7 +13197,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.341418+02:00",
+          "heure_paris": "2026-10-25T00:51:17.840008+02:00",
           "fige": false
         },
         {
@@ -13340,7 +13208,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.341418+02:00",
+          "heure_paris": "2026-10-25T00:51:17.840008+02:00",
           "fige": false
         }
       ],
@@ -13563,7 +13431,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.058145+02:00",
+          "heure_paris": "2026-10-25T00:51:16.027480+02:00",
           "fige": false
         },
         {
@@ -13574,7 +13442,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.058145+02:00",
+          "heure_paris": "2026-10-25T00:51:16.027480+02:00",
           "fige": false
         },
         {
@@ -13585,7 +13453,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.058145+02:00",
+          "heure_paris": "2026-10-25T00:51:16.027480+02:00",
           "fige": false
         },
         {
@@ -13607,10 +13475,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C4/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R5_C4_M1.json",
-        "figes_turbofusion/20261025_R5_C4_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -13795,7 +13660,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.285764+02:00",
+          "heure_paris": "2026-10-25T00:51:21.218751+02:00",
           "fige": false
         },
         {
@@ -13806,7 +13671,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.285764+02:00",
+          "heure_paris": "2026-10-25T00:51:21.218751+02:00",
           "fige": false
         },
         {
@@ -13817,7 +13682,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.285764+02:00",
+          "heure_paris": "2026-10-25T00:51:21.218751+02:00",
           "fige": false
         },
         {
@@ -13839,10 +13704,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C6_M1.json",
-        "figes_turbofusion/20261025_R10_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -13983,7 +13845,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.116230+02:00",
+          "heure_paris": "2026-10-25T00:51:19.460681+02:00",
           "fige": false
         },
         {
@@ -13994,7 +13856,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.116230+02:00",
+          "heure_paris": "2026-10-25T00:51:19.460681+02:00",
           "fige": false
         },
         {
@@ -14005,7 +13867,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.116230+02:00",
+          "heure_paris": "2026-10-25T00:51:19.460681+02:00",
           "fige": false
         },
         {
@@ -14027,10 +13889,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R9_C5_M1.json",
-        "figes_turbofusion/20261025_R9_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -14215,7 +14074,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.351159+02:00",
+          "heure_paris": "2026-10-25T00:51:25.684561+02:00",
           "fige": false
         },
         {
@@ -14226,7 +14085,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.351159+02:00",
+          "heure_paris": "2026-10-25T00:51:25.684561+02:00",
           "fige": false
         },
         {
@@ -14237,7 +14096,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.351159+02:00",
+          "heure_paris": "2026-10-25T00:51:25.684561+02:00",
           "fige": false
         },
         {
@@ -14259,10 +14118,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C8/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R12_C8_M1.json",
-        "figes_turbofusion/20261025_R12_C8_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -14392,7 +14248,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.533815+02:00",
+          "heure_paris": "2026-10-25T00:51:12.280230+02:00",
           "fige": false
         },
         {
@@ -14403,7 +14259,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.533815+02:00",
+          "heure_paris": "2026-10-25T00:51:12.280230+02:00",
           "fige": false
         },
         {
@@ -14414,7 +14270,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.533815+02:00",
+          "heure_paris": "2026-10-25T00:51:12.280230+02:00",
           "fige": false
         },
         {
@@ -14436,10 +14292,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R1_C6_M1.json",
-        "figes_turbofusion/20261025_R1_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -14635,7 +14488,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.071286+02:00",
+          "heure_paris": "2026-10-25T00:51:22.841369+02:00",
           "fige": false
         },
         {
@@ -14646,7 +14499,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.071286+02:00",
+          "heure_paris": "2026-10-25T00:51:22.841369+02:00",
           "fige": false
         },
         {
@@ -14657,7 +14510,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.071286+02:00",
+          "heure_paris": "2026-10-25T00:51:22.841369+02:00",
           "fige": false
         },
         {
@@ -14679,10 +14532,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R11_C5_M1.json",
-        "figes_turbofusion/20261025_R11_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -14839,7 +14689,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.577298+02:00",
+          "heure_paris": "2026-10-25T00:51:27.662877+02:00",
           "fige": false
         },
         {
@@ -14850,7 +14700,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.577298+02:00",
+          "heure_paris": "2026-10-25T00:51:27.662877+02:00",
           "fige": false
         },
         {
@@ -14861,7 +14711,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.577298+02:00",
+          "heure_paris": "2026-10-25T00:51:27.662877+02:00",
           "fige": false
         },
         {
@@ -14872,7 +14722,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.577298+02:00",
+          "heure_paris": "2026-10-25T00:51:27.662877+02:00",
           "fige": false
         },
         {
@@ -14883,7 +14733,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.577298+02:00",
+          "heure_paris": "2026-10-25T00:51:27.662877+02:00",
           "fige": false
         }
       ],
@@ -15062,7 +14912,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.831447+02:00",
+          "heure_paris": "2026-10-25T00:51:29.251513+02:00",
           "fige": false
         },
         {
@@ -15073,7 +14923,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.831447+02:00",
+          "heure_paris": "2026-10-25T00:51:29.251513+02:00",
           "fige": false
         },
         {
@@ -15084,7 +14934,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.831447+02:00",
+          "heure_paris": "2026-10-25T00:51:29.251513+02:00",
           "fige": false
         },
         {
@@ -15106,10 +14956,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R14_C5_M1.json",
-        "figes_turbofusion/20261025_R14_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -15305,7 +15152,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.330038+02:00",
+          "heure_paris": "2026-10-25T00:51:31.282306+02:00",
           "fige": false
         },
         {
@@ -15316,7 +15163,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.330038+02:00",
+          "heure_paris": "2026-10-25T00:51:31.282306+02:00",
           "fige": false
         },
         {
@@ -15327,7 +15174,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.330038+02:00",
+          "heure_paris": "2026-10-25T00:51:31.282306+02:00",
           "fige": false
         },
         {
@@ -15349,10 +15196,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C8/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C8_M1.json",
-        "figes_turbofusion/20261025_R15_C8_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -15526,7 +15370,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.947756+02:00",
+          "heure_paris": "2026-10-25T00:51:33.071343+02:00",
           "fige": false
         },
         {
@@ -15537,7 +15381,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.947756+02:00",
+          "heure_paris": "2026-10-25T00:51:33.071343+02:00",
           "fige": false
         },
         {
@@ -15548,7 +15392,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:39.947756+02:00",
+          "heure_paris": "2026-10-25T00:51:33.071343+02:00",
           "fige": false
         },
         {
@@ -15570,10 +15414,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R16/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R16_C6_M1.json",
-        "figes_turbofusion/20261025_R16_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -15703,7 +15544,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.652713+02:00",
+          "heure_paris": "2026-10-25T00:51:18.039368+02:00",
           "fige": false
         },
         {
@@ -15714,7 +15555,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.652713+02:00",
+          "heure_paris": "2026-10-25T00:51:18.039368+02:00",
           "fige": false
         },
         {
@@ -15725,7 +15566,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.652713+02:00",
+          "heure_paris": "2026-10-25T00:51:18.039368+02:00",
           "fige": false
         },
         {
@@ -15747,10 +15588,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R8_C5_M1.json",
-        "figes_turbofusion/20261025_R8_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -15946,7 +15784,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.450881+02:00",
+          "heure_paris": "2026-10-25T00:51:21.418002+02:00",
           "fige": false
         },
         {
@@ -15957,7 +15795,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.450881+02:00",
+          "heure_paris": "2026-10-25T00:51:21.418002+02:00",
           "fige": false
         },
         {
@@ -15968,7 +15806,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.450881+02:00",
+          "heure_paris": "2026-10-25T00:51:21.418002+02:00",
           "fige": false
         },
         {
@@ -15990,10 +15828,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C7_M1.json",
-        "figes_turbofusion/20261025_R10_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -16189,7 +16024,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.436542+02:00",
+          "heure_paris": "2026-10-25T00:51:16.253188+02:00",
           "fige": false
         },
         {
@@ -16200,7 +16035,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.436542+02:00",
+          "heure_paris": "2026-10-25T00:51:16.253188+02:00",
           "fige": false
         },
         {
@@ -16211,7 +16046,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.436542+02:00",
+          "heure_paris": "2026-10-25T00:51:16.253188+02:00",
           "fige": false
         },
         {
@@ -16233,10 +16068,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C5/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R5_C5_M1.json",
-        "figes_turbofusion/20261025_R5_C5_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -16360,7 +16192,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.398451+02:00",
+          "heure_paris": "2026-10-25T00:51:19.654348+02:00",
           "fige": false
         },
         {
@@ -16371,7 +16203,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.398451+02:00",
+          "heure_paris": "2026-10-25T00:51:19.654348+02:00",
           "fige": false
         },
         {
@@ -16382,7 +16214,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.398451+02:00",
+          "heure_paris": "2026-10-25T00:51:19.654348+02:00",
           "fige": false
         },
         {
@@ -16393,7 +16225,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.398451+02:00",
+          "heure_paris": "2026-10-25T00:51:19.654348+02:00",
           "fige": false
         },
         {
@@ -16404,7 +16236,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.398451+02:00",
+          "heure_paris": "2026-10-25T00:51:19.654348+02:00",
           "fige": false
         }
       ],
@@ -16627,7 +16459,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.594433+02:00",
+          "heure_paris": "2026-10-25T00:51:25.930381+02:00",
           "fige": false
         },
         {
@@ -16638,7 +16470,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.594433+02:00",
+          "heure_paris": "2026-10-25T00:51:25.930381+02:00",
           "fige": false
         },
         {
@@ -16649,7 +16481,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:34.594433+02:00",
+          "heure_paris": "2026-10-25T00:51:25.930381+02:00",
           "fige": false
         },
         {
@@ -16671,10 +16503,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C9/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R12_C9_M1.json",
-        "figes_turbofusion/20261025_R12_C9_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -16859,7 +16688,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.748228+02:00",
+          "heure_paris": "2026-10-25T00:51:12.487124+02:00",
           "fige": false
         },
         {
@@ -16870,7 +16699,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.748228+02:00",
+          "heure_paris": "2026-10-25T00:51:12.487124+02:00",
           "fige": false
         },
         {
@@ -16881,7 +16710,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.748228+02:00",
+          "heure_paris": "2026-10-25T00:51:12.487124+02:00",
           "fige": false
         },
         {
@@ -16903,10 +16732,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R1_C7_M1.json",
-        "figes_turbofusion/20261025_R1_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -17102,7 +16928,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.242335+02:00",
+          "heure_paris": "2026-10-25T00:51:23.036223+02:00",
           "fige": false
         },
         {
@@ -17113,7 +16939,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.242335+02:00",
+          "heure_paris": "2026-10-25T00:51:23.036223+02:00",
           "fige": false
         },
         {
@@ -17124,7 +16950,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.242335+02:00",
+          "heure_paris": "2026-10-25T00:51:23.036223+02:00",
           "fige": false
         },
         {
@@ -17146,10 +16972,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R11_C6_M1.json",
-        "figes_turbofusion/20261025_R11_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -17367,7 +17190,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.993998+02:00",
+          "heure_paris": "2026-10-25T00:51:29.487965+02:00",
           "fige": false
         },
         {
@@ -17378,7 +17201,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.993998+02:00",
+          "heure_paris": "2026-10-25T00:51:29.487965+02:00",
           "fige": false
         },
         {
@@ -17389,7 +17212,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:36.993998+02:00",
+          "heure_paris": "2026-10-25T00:51:29.487965+02:00",
           "fige": false
         },
         {
@@ -17411,10 +17234,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R14_C6_M1.json",
-        "figes_turbofusion/20261025_R14_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -17610,7 +17430,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.702880+02:00",
+          "heure_paris": "2026-10-25T00:51:31.519689+02:00",
           "fige": false
         },
         {
@@ -17621,7 +17441,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.702880+02:00",
+          "heure_paris": "2026-10-25T00:51:31.519689+02:00",
           "fige": false
         },
         {
@@ -17632,7 +17452,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.702880+02:00",
+          "heure_paris": "2026-10-25T00:51:31.519689+02:00",
           "fige": false
         },
         {
@@ -17654,10 +17474,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C9/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C9_M1.json",
-        "figes_turbofusion/20261025_R15_C9_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -17726,7 +17543,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:40.102842+02:00",
+          "heure_paris": "2026-10-25T00:51:33.271583+02:00",
           "fige": false
         },
         {
@@ -17737,7 +17554,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:40.102842+02:00",
+          "heure_paris": "2026-10-25T00:51:33.271583+02:00",
           "fige": false
         },
         {
@@ -17748,7 +17565,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:40.102842+02:00",
+          "heure_paris": "2026-10-25T00:51:33.271583+02:00",
           "fige": false
         },
         {
@@ -17759,7 +17576,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:40.102842+02:00",
+          "heure_paris": "2026-10-25T00:51:33.271583+02:00",
           "fige": false
         },
         {
@@ -17770,7 +17587,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:40.102842+02:00",
+          "heure_paris": "2026-10-25T00:51:33.271583+02:00",
           "fige": false
         }
       ],
@@ -17960,7 +17777,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.883428+02:00",
+          "heure_paris": "2026-10-25T00:51:18.271114+02:00",
           "fige": false
         },
         {
@@ -17971,7 +17788,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.883428+02:00",
+          "heure_paris": "2026-10-25T00:51:18.271114+02:00",
           "fige": false
         },
         {
@@ -17982,7 +17799,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:26.883428+02:00",
+          "heure_paris": "2026-10-25T00:51:18.271114+02:00",
           "fige": false
         },
         {
@@ -18004,10 +17821,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R8_C6_M1.json",
-        "figes_turbofusion/20261025_R8_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -18203,7 +18017,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.625227+02:00",
+          "heure_paris": "2026-10-25T00:51:21.617980+02:00",
           "fige": false
         },
         {
@@ -18214,7 +18028,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.625227+02:00",
+          "heure_paris": "2026-10-25T00:51:21.617980+02:00",
           "fige": false
         },
         {
@@ -18225,7 +18039,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.625227+02:00",
+          "heure_paris": "2026-10-25T00:51:21.617980+02:00",
           "fige": false
         },
         {
@@ -18247,10 +18061,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C8/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C8_M1.json",
-        "figes_turbofusion/20261025_R10_C8_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -18424,7 +18235,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.740107+02:00",
+          "heure_paris": "2026-10-25T00:51:27.903514+02:00",
           "fige": false
         },
         {
@@ -18435,7 +18246,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.740107+02:00",
+          "heure_paris": "2026-10-25T00:51:27.903514+02:00",
           "fige": false
         },
         {
@@ -18446,7 +18257,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.740107+02:00",
+          "heure_paris": "2026-10-25T00:51:27.903514+02:00",
           "fige": false
         },
         {
@@ -18468,10 +18279,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R13/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R13_C7_M1.json",
-        "figes_turbofusion/20261025_R13_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -18601,7 +18409,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.527255+02:00",
+          "heure_paris": "2026-10-25T00:51:19.880034+02:00",
           "fige": false
         },
         {
@@ -18612,7 +18420,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.527255+02:00",
+          "heure_paris": "2026-10-25T00:51:19.880034+02:00",
           "fige": false
         },
         {
@@ -18623,7 +18431,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:28.527255+02:00",
+          "heure_paris": "2026-10-25T00:51:19.880034+02:00",
           "fige": false
         },
         {
@@ -18645,10 +18453,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R9_C7_M1.json",
-        "figes_turbofusion/20261025_R9_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -18833,7 +18638,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.571739+02:00",
+          "heure_paris": "2026-10-25T00:51:16.450341+02:00",
           "fige": false
         },
         {
@@ -18844,7 +18649,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.571739+02:00",
+          "heure_paris": "2026-10-25T00:51:16.450341+02:00",
           "fige": false
         },
         {
@@ -18855,7 +18660,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.571739+02:00",
+          "heure_paris": "2026-10-25T00:51:16.450341+02:00",
           "fige": false
         },
         {
@@ -18877,10 +18682,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C6/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R5_C6_M1.json",
-        "figes_turbofusion/20261025_R5_C6_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -19087,7 +18889,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.892202+02:00",
+          "heure_paris": "2026-10-25T00:51:13.265912+02:00",
           "fige": false
         },
         {
@@ -19098,7 +18900,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.892202+02:00",
+          "heure_paris": "2026-10-25T00:51:13.265912+02:00",
           "fige": false
         },
         {
@@ -19109,7 +18911,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:21.892202+02:00",
+          "heure_paris": "2026-10-25T00:51:13.265912+02:00",
           "fige": false
         },
         {
@@ -19131,10 +18933,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R1/C8/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R1_C8_M1.json",
-        "figes_turbofusion/20261025_R1_C8_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -19330,7 +19129,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.398340+02:00",
+          "heure_paris": "2026-10-25T00:51:23.300230+02:00",
           "fige": false
         },
         {
@@ -19341,7 +19140,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.398340+02:00",
+          "heure_paris": "2026-10-25T00:51:23.300230+02:00",
           "fige": false
         },
         {
@@ -19352,7 +19151,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.398340+02:00",
+          "heure_paris": "2026-10-25T00:51:23.300230+02:00",
           "fige": false
         },
         {
@@ -19374,10 +19173,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R11_C7_M1.json",
-        "figes_turbofusion/20261025_R11_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -19595,7 +19391,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.179065+02:00",
+          "heure_paris": "2026-10-25T00:51:29.691973+02:00",
           "fige": false
         },
         {
@@ -19606,7 +19402,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.179065+02:00",
+          "heure_paris": "2026-10-25T00:51:29.691973+02:00",
           "fige": false
         },
         {
@@ -19617,7 +19413,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:37.179065+02:00",
+          "heure_paris": "2026-10-25T00:51:29.691973+02:00",
           "fige": false
         },
         {
@@ -19639,10 +19435,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R14/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R14_C7_M1.json",
-        "figes_turbofusion/20261025_R14_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -19860,7 +19653,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.834024+02:00",
+          "heure_paris": "2026-10-25T00:51:31.881702+02:00",
           "fige": false
         },
         {
@@ -19871,7 +19664,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.834024+02:00",
+          "heure_paris": "2026-10-25T00:51:31.881702+02:00",
           "fige": false
         },
         {
@@ -19882,7 +19675,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:38.834024+02:00",
+          "heure_paris": "2026-10-25T00:51:31.881702+02:00",
           "fige": false
         },
         {
@@ -19904,10 +19697,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R15/C10/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R15_C10_M1.json",
-        "figes_turbofusion/20261025_R15_C10_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -20059,7 +19849,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.136071+02:00",
+          "heure_paris": "2026-10-25T00:51:18.468028+02:00",
           "fige": false
         },
         {
@@ -20070,7 +19860,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.136071+02:00",
+          "heure_paris": "2026-10-25T00:51:18.468028+02:00",
           "fige": false
         },
         {
@@ -20081,7 +19871,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:27.136071+02:00",
+          "heure_paris": "2026-10-25T00:51:18.468028+02:00",
           "fige": false
         },
         {
@@ -20103,10 +19893,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R8_C7_M1.json",
-        "figes_turbofusion/20261025_R8_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -20324,7 +20111,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.788357+02:00",
+          "heure_paris": "2026-10-25T00:51:21.815704+02:00",
           "fige": false
         },
         {
@@ -20335,7 +20122,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.788357+02:00",
+          "heure_paris": "2026-10-25T00:51:21.815704+02:00",
           "fige": false
         },
         {
@@ -20346,7 +20133,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:30.788357+02:00",
+          "heure_paris": "2026-10-25T00:51:21.815704+02:00",
           "fige": false
         },
         {
@@ -20368,10 +20155,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C9/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R10_C9_M1.json",
-        "figes_turbofusion/20261025_R10_C9_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -20545,7 +20329,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.899176+02:00",
+          "heure_paris": "2026-10-25T00:51:28.144387+02:00",
           "fige": false
         },
         {
@@ -20556,7 +20340,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.899176+02:00",
+          "heure_paris": "2026-10-25T00:51:28.144387+02:00",
           "fige": false
         },
         {
@@ -20567,7 +20351,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:35.899176+02:00",
+          "heure_paris": "2026-10-25T00:51:28.144387+02:00",
           "fige": false
         },
         {
@@ -20589,10 +20373,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R13/C8/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R13_C8_M1.json",
-        "figes_turbofusion/20261025_R13_C8_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -20810,7 +20591,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.700611+02:00",
+          "heure_paris": "2026-10-25T00:51:16.683305+02:00",
           "fige": false
         },
         {
@@ -20821,7 +20602,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.700611+02:00",
+          "heure_paris": "2026-10-25T00:51:16.683305+02:00",
           "fige": false
         },
         {
@@ -20832,7 +20613,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.700611+02:00",
+          "heure_paris": "2026-10-25T00:51:16.683305+02:00",
           "fige": false
         },
         {
@@ -20854,10 +20635,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R5/C7/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R5_C7_M1.json",
-        "figes_turbofusion/20261025_R5_C7_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -21053,7 +20831,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.572627+02:00",
+          "heure_paris": "2026-10-25T00:51:23.663759+02:00",
           "fige": false
         },
         {
@@ -21064,7 +20842,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.572627+02:00",
+          "heure_paris": "2026-10-25T00:51:23.663759+02:00",
           "fige": false
         },
         {
@@ -21075,7 +20853,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.572627+02:00",
+          "heure_paris": "2026-10-25T00:51:23.663759+02:00",
           "fige": false
         },
         {
@@ -21097,10 +20875,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C8/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R11_C8_M1.json",
-        "figes_turbofusion/20261025_R11_C8_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
@@ -21224,7 +20999,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.832019+02:00",
+          "heure_paris": "2026-10-25T00:51:16.882030+02:00",
           "fige": false
         },
         {
@@ -21235,7 +21010,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.832019+02:00",
+          "heure_paris": "2026-10-25T00:51:16.882030+02:00",
           "fige": false
         },
         {
@@ -21246,7 +21021,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.832019+02:00",
+          "heure_paris": "2026-10-25T00:51:16.882030+02:00",
           "fige": false
         },
         {
@@ -21257,7 +21032,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.832019+02:00",
+          "heure_paris": "2026-10-25T00:51:16.882030+02:00",
           "fige": false
         },
         {
@@ -21268,7 +21043,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:25.832019+02:00",
+          "heure_paris": "2026-10-25T00:51:16.882030+02:00",
           "fige": false
         }
       ],
@@ -21469,7 +21244,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.725745+02:00",
+          "heure_paris": "2026-10-25T00:51:23.928482+02:00",
           "fige": false
         },
         {
@@ -21480,7 +21255,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.725745+02:00",
+          "heure_paris": "2026-10-25T00:51:23.928482+02:00",
           "fige": false
         },
         {
@@ -21491,7 +21266,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T00:16:32.725745+02:00",
+          "heure_paris": "2026-10-25T00:51:23.928482+02:00",
           "fige": false
         },
         {
@@ -21513,10 +21288,7 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C9/participants",
-      "nouveaux_figes": [
-        "figes_turbofusion/20261025_R11_C9_M1.json",
-        "figes_turbofusion/20261025_R11_C9_M5.json"
-      ],
+      "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
