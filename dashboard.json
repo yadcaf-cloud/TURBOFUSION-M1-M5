@@ -4,11 +4,11 @@
   "sous_titre": "Intelligence hippique spécialisée",
   "devise": "La magie du savoir",
   "date_courses": "2026-10-25",
-  "synchronise_a_paris": "2026-10-25T10:23:18.594677+01:00",
+  "synchronise_a_paris": "2026-10-25T10:56:29.103596+01:00",
   "fuseau_horaire": "Europe/Paris",
   "statut": "DONNÉES DISPONIBLES",
   "statistiques": {
-    "rapports_lus": 61,
+    "rapports_lus": 62,
     "courses": 97,
     "figes_moteurs": 152,
     "archives_figees_lues": 152
@@ -20,7 +20,7 @@
       "reunion": "R4",
       "course": "C1",
       "hippodrome": "SALON DE PROVENCE",
-      "depart_paris": "2026-10-25T10:54:00+01:00",
+      "depart_paris": "2026-10-25T10:56:00+01:00",
       "nombre_partants": 13,
       "non_partants": [],
       "partants": [
@@ -194,7 +194,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.498884+01:00",
+          "heure_paris": "2026-10-25T10:56:08.587734+01:00",
           "fige": false
         },
         {
@@ -205,7 +205,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.498884+01:00",
+          "heure_paris": "2026-10-25T10:56:08.587734+01:00",
           "fige": false
         },
         {
@@ -216,7 +216,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.498884+01:00",
+          "heure_paris": "2026-10-25T10:56:08.587734+01:00",
           "fige": false
         },
         {
@@ -434,7 +434,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.715375+01:00",
+          "heure_paris": "2026-10-25T10:56:08.786149+01:00",
           "fige": false
         },
         {
@@ -445,7 +445,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.715375+01:00",
+          "heure_paris": "2026-10-25T10:56:08.786149+01:00",
           "fige": false
         },
         {
@@ -456,7 +456,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.715375+01:00",
+          "heure_paris": "2026-10-25T10:56:08.786149+01:00",
           "fige": false
         },
         {
@@ -696,7 +696,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.061364+01:00",
+          "heure_paris": "2026-10-25T10:56:09.056965+01:00",
           "fige": false
         },
         {
@@ -707,7 +707,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.061364+01:00",
+          "heure_paris": "2026-10-25T10:56:09.056965+01:00",
           "fige": false
         },
         {
@@ -718,7 +718,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.061364+01:00",
+          "heure_paris": "2026-10-25T10:56:09.056965+01:00",
           "fige": false
         },
         {
@@ -886,7 +886,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.307467+01:00",
+          "heure_paris": "2026-10-25T10:56:19.749678+01:00",
           "fige": false
         },
         {
@@ -897,7 +897,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.307467+01:00",
+          "heure_paris": "2026-10-25T10:56:19.749678+01:00",
           "fige": false
         },
         {
@@ -908,7 +908,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.307467+01:00",
+          "heure_paris": "2026-10-25T10:56:19.749678+01:00",
           "fige": false
         },
         {
@@ -919,7 +919,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.307467+01:00",
+          "heure_paris": "2026-10-25T10:56:19.749678+01:00",
           "fige": false
         },
         {
@@ -930,7 +930,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.307467+01:00",
+          "heure_paris": "2026-10-25T10:56:19.749678+01:00",
           "fige": false
         }
       ],
@@ -1109,7 +1109,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.275473+01:00",
+          "heure_paris": "2026-10-25T10:56:09.323317+01:00",
           "fige": false
         },
         {
@@ -1120,7 +1120,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.275473+01:00",
+          "heure_paris": "2026-10-25T10:56:09.323317+01:00",
           "fige": false
         },
         {
@@ -1131,7 +1131,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.275473+01:00",
+          "heure_paris": "2026-10-25T10:56:09.323317+01:00",
           "fige": false
         },
         {
@@ -1310,7 +1310,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.818335+01:00",
+          "heure_paris": "2026-10-25T10:56:25.071219+01:00",
           "fige": false
         },
         {
@@ -1321,7 +1321,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.818335+01:00",
+          "heure_paris": "2026-10-25T10:56:25.071219+01:00",
           "fige": false
         },
         {
@@ -1332,7 +1332,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.818335+01:00",
+          "heure_paris": "2026-10-25T10:56:25.071219+01:00",
           "fige": false
         },
         {
@@ -1343,7 +1343,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.818335+01:00",
+          "heure_paris": "2026-10-25T10:56:25.071219+01:00",
           "fige": false
         },
         {
@@ -1354,7 +1354,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.818335+01:00",
+          "heure_paris": "2026-10-25T10:56:25.071219+01:00",
           "fige": false
         }
       ],
@@ -1544,7 +1544,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.520073+01:00",
+          "heure_paris": "2026-10-25T10:56:19.951217+01:00",
           "fige": false
         },
         {
@@ -1555,7 +1555,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.520073+01:00",
+          "heure_paris": "2026-10-25T10:56:19.951217+01:00",
           "fige": false
         },
         {
@@ -1566,7 +1566,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.520073+01:00",
+          "heure_paris": "2026-10-25T10:56:19.951217+01:00",
           "fige": false
         },
         {
@@ -1729,7 +1729,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:53.182846+01:00",
+          "heure_paris": "2026-10-25T10:56:05.762228+01:00",
           "fige": false
         },
         {
@@ -1740,7 +1740,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:53.182846+01:00",
+          "heure_paris": "2026-10-25T10:56:05.762228+01:00",
           "fige": false
         },
         {
@@ -1751,7 +1751,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:53.182846+01:00",
+          "heure_paris": "2026-10-25T10:56:05.762228+01:00",
           "fige": false
         },
         {
@@ -1980,7 +1980,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.196282+01:00",
+          "heure_paris": "2026-10-25T10:56:25.302244+01:00",
           "fige": false
         },
         {
@@ -1991,7 +1991,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.196282+01:00",
+          "heure_paris": "2026-10-25T10:56:25.302244+01:00",
           "fige": false
         },
         {
@@ -2002,7 +2002,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.196282+01:00",
+          "heure_paris": "2026-10-25T10:56:25.302244+01:00",
           "fige": false
         },
         {
@@ -2187,7 +2187,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.350080+01:00",
+          "heure_paris": "2026-10-25T10:56:15.631243+01:00",
           "fige": false
         },
         {
@@ -2198,7 +2198,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.350080+01:00",
+          "heure_paris": "2026-10-25T10:56:15.631243+01:00",
           "fige": false
         },
         {
@@ -2209,7 +2209,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.350080+01:00",
+          "heure_paris": "2026-10-25T10:56:15.631243+01:00",
           "fige": false
         },
         {
@@ -2394,7 +2394,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.533084+01:00",
+          "heure_paris": "2026-10-25T10:56:09.519867+01:00",
           "fige": false
         },
         {
@@ -2405,7 +2405,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.533084+01:00",
+          "heure_paris": "2026-10-25T10:56:09.519867+01:00",
           "fige": false
         },
         {
@@ -2416,7 +2416,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.533084+01:00",
+          "heure_paris": "2026-10-25T10:56:09.519867+01:00",
           "fige": false
         },
         {
@@ -2606,7 +2606,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.735461+01:00",
+          "heure_paris": "2026-10-25T10:56:20.151402+01:00",
           "fige": false
         },
         {
@@ -2617,7 +2617,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.735461+01:00",
+          "heure_paris": "2026-10-25T10:56:20.151402+01:00",
           "fige": false
         },
         {
@@ -2628,7 +2628,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.735461+01:00",
+          "heure_paris": "2026-10-25T10:56:20.151402+01:00",
           "fige": false
         },
         {
@@ -2639,7 +2639,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.735461+01:00",
+          "heure_paris": "2026-10-25T10:56:20.151402+01:00",
           "fige": false
         },
         {
@@ -2650,7 +2650,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.735461+01:00",
+          "heure_paris": "2026-10-25T10:56:20.151402+01:00",
           "fige": false
         }
       ],
@@ -2774,7 +2774,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:53.717344+01:00",
+          "heure_paris": "2026-10-25T10:56:06.039826+01:00",
           "fige": false
         },
         {
@@ -2785,7 +2785,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:53.717344+01:00",
+          "heure_paris": "2026-10-25T10:56:06.039826+01:00",
           "fige": false
         },
         {
@@ -2796,7 +2796,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:53.717344+01:00",
+          "heure_paris": "2026-10-25T10:56:06.039826+01:00",
           "fige": false
         },
         {
@@ -2975,7 +2975,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.237730+01:00",
+          "heure_paris": "2026-10-25T10:56:21.866045+01:00",
           "fige": false
         },
         {
@@ -2986,7 +2986,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.237730+01:00",
+          "heure_paris": "2026-10-25T10:56:21.866045+01:00",
           "fige": false
         },
         {
@@ -2997,7 +2997,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.237730+01:00",
+          "heure_paris": "2026-10-25T10:56:21.866045+01:00",
           "fige": false
         },
         {
@@ -3008,7 +3008,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.237730+01:00",
+          "heure_paris": "2026-10-25T10:56:21.866045+01:00",
           "fige": false
         },
         {
@@ -3019,7 +3019,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.237730+01:00",
+          "heure_paris": "2026-10-25T10:56:21.866045+01:00",
           "fige": false
         }
       ],
@@ -3209,7 +3209,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.447117+01:00",
+          "heure_paris": "2026-10-25T10:56:25.498872+01:00",
           "fige": false
         },
         {
@@ -3220,7 +3220,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.447117+01:00",
+          "heure_paris": "2026-10-25T10:56:25.498872+01:00",
           "fige": false
         },
         {
@@ -3231,7 +3231,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.447117+01:00",
+          "heure_paris": "2026-10-25T10:56:25.498872+01:00",
           "fige": false
         },
         {
@@ -3377,7 +3377,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.641369+01:00",
+          "heure_paris": "2026-10-25T10:56:27.579551+01:00",
           "fige": false
         },
         {
@@ -3388,7 +3388,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.641369+01:00",
+          "heure_paris": "2026-10-25T10:56:27.579551+01:00",
           "fige": false
         },
         {
@@ -3399,7 +3399,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.641369+01:00",
+          "heure_paris": "2026-10-25T10:56:27.579551+01:00",
           "fige": false
         },
         {
@@ -3410,7 +3410,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.641369+01:00",
+          "heure_paris": "2026-10-25T10:56:27.579551+01:00",
           "fige": false
         },
         {
@@ -3421,7 +3421,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.641369+01:00",
+          "heure_paris": "2026-10-25T10:56:27.579551+01:00",
           "fige": false
         }
       ],
@@ -3622,7 +3622,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.592255+01:00",
+          "heure_paris": "2026-10-25T10:56:15.831235+01:00",
           "fige": false
         },
         {
@@ -3633,7 +3633,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.592255+01:00",
+          "heure_paris": "2026-10-25T10:56:15.831235+01:00",
           "fige": false
         },
         {
@@ -3644,7 +3644,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.592255+01:00",
+          "heure_paris": "2026-10-25T10:56:15.831235+01:00",
           "fige": false
         },
         {
@@ -3884,7 +3884,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.866171+01:00",
+          "heure_paris": "2026-10-25T10:56:09.717104+01:00",
           "fige": false
         },
         {
@@ -3895,7 +3895,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.866171+01:00",
+          "heure_paris": "2026-10-25T10:56:09.717104+01:00",
           "fige": false
         },
         {
@@ -3906,7 +3906,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:57.866171+01:00",
+          "heure_paris": "2026-10-25T10:56:09.717104+01:00",
           "fige": false
         },
         {
@@ -4041,7 +4041,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.578329+01:00",
+          "heure_paris": "2026-10-25T10:56:10.477492+01:00",
           "fige": false
         },
         {
@@ -4052,7 +4052,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.578329+01:00",
+          "heure_paris": "2026-10-25T10:56:10.477492+01:00",
           "fige": false
         },
         {
@@ -4063,7 +4063,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.578329+01:00",
+          "heure_paris": "2026-10-25T10:56:10.477492+01:00",
           "fige": false
         },
         {
@@ -4074,7 +4074,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.578329+01:00",
+          "heure_paris": "2026-10-25T10:56:10.477492+01:00",
           "fige": false
         },
         {
@@ -4085,7 +4085,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.578329+01:00",
+          "heure_paris": "2026-10-25T10:56:10.477492+01:00",
           "fige": false
         }
       ],
@@ -4203,7 +4203,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.662866+01:00",
+          "heure_paris": "2026-10-25T10:56:14.101338+01:00",
           "fige": false
         },
         {
@@ -4214,7 +4214,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.662866+01:00",
+          "heure_paris": "2026-10-25T10:56:14.101338+01:00",
           "fige": false
         },
         {
@@ -4225,7 +4225,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.662866+01:00",
+          "heure_paris": "2026-10-25T10:56:14.101338+01:00",
           "fige": false
         },
         {
@@ -4236,7 +4236,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.662866+01:00",
+          "heure_paris": "2026-10-25T10:56:14.101338+01:00",
           "fige": false
         },
         {
@@ -4247,7 +4247,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.662866+01:00",
+          "heure_paris": "2026-10-25T10:56:14.101338+01:00",
           "fige": false
         }
       ],
@@ -4437,7 +4437,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.961599+01:00",
+          "heure_paris": "2026-10-25T10:56:20.350629+01:00",
           "fige": false
         },
         {
@@ -4448,7 +4448,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.961599+01:00",
+          "heure_paris": "2026-10-25T10:56:20.350629+01:00",
           "fige": false
         },
         {
@@ -4459,7 +4459,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.961599+01:00",
+          "heure_paris": "2026-10-25T10:56:20.350629+01:00",
           "fige": false
         },
         {
@@ -4611,7 +4611,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.937877+01:00",
+          "heure_paris": "2026-10-25T10:56:12.323680+01:00",
           "fige": false
         },
         {
@@ -4622,7 +4622,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.937877+01:00",
+          "heure_paris": "2026-10-25T10:56:12.323680+01:00",
           "fige": false
         },
         {
@@ -4633,7 +4633,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.937877+01:00",
+          "heure_paris": "2026-10-25T10:56:12.323680+01:00",
           "fige": false
         },
         {
@@ -4807,7 +4807,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.062782+01:00",
+          "heure_paris": "2026-10-25T10:56:06.735607+01:00",
           "fige": false
         },
         {
@@ -4818,7 +4818,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.062782+01:00",
+          "heure_paris": "2026-10-25T10:56:06.735607+01:00",
           "fige": false
         },
         {
@@ -4829,7 +4829,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.062782+01:00",
+          "heure_paris": "2026-10-25T10:56:06.735607+01:00",
           "fige": false
         },
         {
@@ -5047,7 +5047,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.376269+01:00",
+          "heure_paris": "2026-10-25T10:56:17.590659+01:00",
           "fige": false
         },
         {
@@ -5058,7 +5058,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.376269+01:00",
+          "heure_paris": "2026-10-25T10:56:17.590659+01:00",
           "fige": false
         },
         {
@@ -5069,7 +5069,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.376269+01:00",
+          "heure_paris": "2026-10-25T10:56:17.590659+01:00",
           "fige": false
         },
         {
@@ -5248,7 +5248,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.449694+01:00",
+          "heure_paris": "2026-10-25T10:56:22.064151+01:00",
           "fige": false
         },
         {
@@ -5259,7 +5259,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.449694+01:00",
+          "heure_paris": "2026-10-25T10:56:22.064151+01:00",
           "fige": false
         },
         {
@@ -5270,7 +5270,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.449694+01:00",
+          "heure_paris": "2026-10-25T10:56:22.064151+01:00",
           "fige": false
         },
         {
@@ -5281,7 +5281,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.449694+01:00",
+          "heure_paris": "2026-10-25T10:56:22.064151+01:00",
           "fige": false
         },
         {
@@ -5292,7 +5292,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.449694+01:00",
+          "heure_paris": "2026-10-25T10:56:22.064151+01:00",
           "fige": false
         }
       ],
@@ -5498,7 +5498,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.937510+01:00",
+          "heure_paris": "2026-10-25T10:56:23.464276+01:00",
           "fige": false
         },
         {
@@ -5509,7 +5509,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.937510+01:00",
+          "heure_paris": "2026-10-25T10:56:23.464276+01:00",
           "fige": false
         },
         {
@@ -5520,7 +5520,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.937510+01:00",
+          "heure_paris": "2026-10-25T10:56:23.464276+01:00",
           "fige": false
         },
         {
@@ -5531,7 +5531,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.937510+01:00",
+          "heure_paris": "2026-10-25T10:56:23.464276+01:00",
           "fige": false
         },
         {
@@ -5542,7 +5542,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.937510+01:00",
+          "heure_paris": "2026-10-25T10:56:23.464276+01:00",
           "fige": false
         }
       ],
@@ -5732,7 +5732,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.659754+01:00",
+          "heure_paris": "2026-10-25T10:56:25.700164+01:00",
           "fige": false
         },
         {
@@ -5743,7 +5743,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.659754+01:00",
+          "heure_paris": "2026-10-25T10:56:25.700164+01:00",
           "fige": false
         },
         {
@@ -5754,7 +5754,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.659754+01:00",
+          "heure_paris": "2026-10-25T10:56:25.700164+01:00",
           "fige": false
         },
         {
@@ -5933,7 +5933,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.883839+01:00",
+          "heure_paris": "2026-10-25T10:56:27.777298+01:00",
           "fige": false
         },
         {
@@ -5944,7 +5944,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.883839+01:00",
+          "heure_paris": "2026-10-25T10:56:27.777298+01:00",
           "fige": false
         },
         {
@@ -5955,7 +5955,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.883839+01:00",
+          "heure_paris": "2026-10-25T10:56:27.777298+01:00",
           "fige": false
         },
         {
@@ -5966,7 +5966,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.883839+01:00",
+          "heure_paris": "2026-10-25T10:56:27.777298+01:00",
           "fige": false
         },
         {
@@ -5977,7 +5977,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.883839+01:00",
+          "heure_paris": "2026-10-25T10:56:27.777298+01:00",
           "fige": false
         }
       ],
@@ -6167,7 +6167,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.836738+01:00",
+          "heure_paris": "2026-10-25T10:56:16.030189+01:00",
           "fige": false
         },
         {
@@ -6178,7 +6178,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.836738+01:00",
+          "heure_paris": "2026-10-25T10:56:16.030189+01:00",
           "fige": false
         },
         {
@@ -6189,7 +6189,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.836738+01:00",
+          "heure_paris": "2026-10-25T10:56:16.030189+01:00",
           "fige": false
         },
         {
@@ -6341,7 +6341,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.147064+01:00",
+          "heure_paris": "2026-10-25T10:56:09.914435+01:00",
           "fige": false
         },
         {
@@ -6352,7 +6352,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.147064+01:00",
+          "heure_paris": "2026-10-25T10:56:09.914435+01:00",
           "fige": false
         },
         {
@@ -6363,7 +6363,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.147064+01:00",
+          "heure_paris": "2026-10-25T10:56:09.914435+01:00",
           "fige": false
         },
         {
@@ -6537,7 +6537,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.873413+01:00",
+          "heure_paris": "2026-10-25T10:56:14.299490+01:00",
           "fige": false
         },
         {
@@ -6548,7 +6548,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.873413+01:00",
+          "heure_paris": "2026-10-25T10:56:14.299490+01:00",
           "fige": false
         },
         {
@@ -6559,7 +6559,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.873413+01:00",
+          "heure_paris": "2026-10-25T10:56:14.299490+01:00",
           "fige": false
         },
         {
@@ -6766,7 +6766,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.177519+01:00",
+          "heure_paris": "2026-10-25T10:56:20.548747+01:00",
           "fige": false
         },
         {
@@ -6777,7 +6777,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.177519+01:00",
+          "heure_paris": "2026-10-25T10:56:20.548747+01:00",
           "fige": false
         },
         {
@@ -6788,7 +6788,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.177519+01:00",
+          "heure_paris": "2026-10-25T10:56:20.548747+01:00",
           "fige": false
         },
         {
@@ -6995,7 +6995,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.791513+01:00",
+          "heure_paris": "2026-10-25T10:56:10.675074+01:00",
           "fige": false
         },
         {
@@ -7006,7 +7006,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.791513+01:00",
+          "heure_paris": "2026-10-25T10:56:10.675074+01:00",
           "fige": false
         },
         {
@@ -7017,7 +7017,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.791513+01:00",
+          "heure_paris": "2026-10-25T10:56:10.675074+01:00",
           "fige": false
         },
         {
@@ -7207,7 +7207,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.151406+01:00",
+          "heure_paris": "2026-10-25T10:56:12.522119+01:00",
           "fige": false
         },
         {
@@ -7218,7 +7218,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.151406+01:00",
+          "heure_paris": "2026-10-25T10:56:12.522119+01:00",
           "fige": false
         },
         {
@@ -7229,7 +7229,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.151406+01:00",
+          "heure_paris": "2026-10-25T10:56:12.522119+01:00",
           "fige": false
         },
         {
@@ -7240,7 +7240,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.151406+01:00",
+          "heure_paris": "2026-10-25T10:56:12.522119+01:00",
           "fige": false
         },
         {
@@ -7251,7 +7251,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.151406+01:00",
+          "heure_paris": "2026-10-25T10:56:12.522119+01:00",
           "fige": false
         }
       ],
@@ -7413,7 +7413,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.587850+01:00",
+          "heure_paris": "2026-10-25T10:56:17.787187+01:00",
           "fige": false
         },
         {
@@ -7424,7 +7424,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.587850+01:00",
+          "heure_paris": "2026-10-25T10:56:17.787187+01:00",
           "fige": false
         },
         {
@@ -7435,7 +7435,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.587850+01:00",
+          "heure_paris": "2026-10-25T10:56:17.787187+01:00",
           "fige": false
         },
         {
@@ -7446,7 +7446,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.587850+01:00",
+          "heure_paris": "2026-10-25T10:56:17.787187+01:00",
           "fige": false
         },
         {
@@ -7457,7 +7457,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.587850+01:00",
+          "heure_paris": "2026-10-25T10:56:17.787187+01:00",
           "fige": false
         }
       ],
@@ -7636,7 +7636,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.660224+01:00",
+          "heure_paris": "2026-10-25T10:56:22.263331+01:00",
           "fige": false
         },
         {
@@ -7647,7 +7647,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.660224+01:00",
+          "heure_paris": "2026-10-25T10:56:22.263331+01:00",
           "fige": false
         },
         {
@@ -7658,7 +7658,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.660224+01:00",
+          "heure_paris": "2026-10-25T10:56:22.263331+01:00",
           "fige": false
         },
         {
@@ -7898,7 +7898,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.344422+01:00",
+          "heure_paris": "2026-10-25T10:56:23.698717+01:00",
           "fige": false
         },
         {
@@ -7909,7 +7909,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.344422+01:00",
+          "heure_paris": "2026-10-25T10:56:23.698717+01:00",
           "fige": false
         },
         {
@@ -7920,7 +7920,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.344422+01:00",
+          "heure_paris": "2026-10-25T10:56:23.698717+01:00",
           "fige": false
         },
         {
@@ -8182,7 +8182,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.912169+01:00",
+          "heure_paris": "2026-10-25T10:56:25.900721+01:00",
           "fige": false
         },
         {
@@ -8193,7 +8193,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.912169+01:00",
+          "heure_paris": "2026-10-25T10:56:25.900721+01:00",
           "fige": false
         },
         {
@@ -8204,7 +8204,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:14.912169+01:00",
+          "heure_paris": "2026-10-25T10:56:25.900721+01:00",
           "fige": false
         },
         {
@@ -8378,7 +8378,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.105108+01:00",
+          "heure_paris": "2026-10-25T10:56:27.977314+01:00",
           "fige": false
         },
         {
@@ -8389,7 +8389,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.105108+01:00",
+          "heure_paris": "2026-10-25T10:56:27.977314+01:00",
           "fige": false
         },
         {
@@ -8400,7 +8400,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.105108+01:00",
+          "heure_paris": "2026-10-25T10:56:27.977314+01:00",
           "fige": false
         },
         {
@@ -8541,7 +8541,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.651315+01:00",
+          "heure_paris": "2026-10-25T10:56:07.042058+01:00",
           "fige": false
         },
         {
@@ -8552,7 +8552,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.651315+01:00",
+          "heure_paris": "2026-10-25T10:56:07.042058+01:00",
           "fige": false
         },
         {
@@ -8563,7 +8563,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.651315+01:00",
+          "heure_paris": "2026-10-25T10:56:07.042058+01:00",
           "fige": false
         },
         {
@@ -8770,7 +8770,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.057395+01:00",
+          "heure_paris": "2026-10-25T10:56:16.230146+01:00",
           "fige": false
         },
         {
@@ -8781,7 +8781,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.057395+01:00",
+          "heure_paris": "2026-10-25T10:56:16.230146+01:00",
           "fige": false
         },
         {
@@ -8792,7 +8792,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.057395+01:00",
+          "heure_paris": "2026-10-25T10:56:16.230146+01:00",
           "fige": false
         },
         {
@@ -8955,7 +8955,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.362121+01:00",
+          "heure_paris": "2026-10-25T10:56:10.275736+01:00",
           "fige": false
         },
         {
@@ -8966,7 +8966,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.362121+01:00",
+          "heure_paris": "2026-10-25T10:56:10.275736+01:00",
           "fige": false
         },
         {
@@ -8977,7 +8977,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:58.362121+01:00",
+          "heure_paris": "2026-10-25T10:56:10.275736+01:00",
           "fige": false
         },
         {
@@ -9151,7 +9151,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.091614+01:00",
+          "heure_paris": "2026-10-25T10:56:14.498242+01:00",
           "fige": false
         },
         {
@@ -9162,7 +9162,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.091614+01:00",
+          "heure_paris": "2026-10-25T10:56:14.498242+01:00",
           "fige": false
         },
         {
@@ -9173,7 +9173,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.091614+01:00",
+          "heure_paris": "2026-10-25T10:56:14.498242+01:00",
           "fige": false
         },
         {
@@ -9380,7 +9380,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.390138+01:00",
+          "heure_paris": "2026-10-25T10:56:20.748508+01:00",
           "fige": false
         },
         {
@@ -9391,7 +9391,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.390138+01:00",
+          "heure_paris": "2026-10-25T10:56:20.748508+01:00",
           "fige": false
         },
         {
@@ -9402,7 +9402,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.390138+01:00",
+          "heure_paris": "2026-10-25T10:56:20.748508+01:00",
           "fige": false
         },
         {
@@ -9642,7 +9642,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:59.486850+01:00",
+          "heure_paris": "2026-10-25T10:56:10.873248+01:00",
           "fige": false
         },
         {
@@ -9653,7 +9653,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:59.486850+01:00",
+          "heure_paris": "2026-10-25T10:56:10.873248+01:00",
           "fige": false
         },
         {
@@ -9664,7 +9664,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:59.486850+01:00",
+          "heure_paris": "2026-10-25T10:56:10.873248+01:00",
           "fige": false
         },
         {
@@ -9805,7 +9805,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.362657+01:00",
+          "heure_paris": "2026-10-25T10:56:12.739867+01:00",
           "fige": false
         },
         {
@@ -9816,7 +9816,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.362657+01:00",
+          "heure_paris": "2026-10-25T10:56:12.739867+01:00",
           "fige": false
         },
         {
@@ -9827,7 +9827,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.362657+01:00",
+          "heure_paris": "2026-10-25T10:56:12.739867+01:00",
           "fige": false
         },
         {
@@ -10028,7 +10028,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.802506+01:00",
+          "heure_paris": "2026-10-25T10:56:18.174171+01:00",
           "fige": false
         },
         {
@@ -10039,7 +10039,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.802506+01:00",
+          "heure_paris": "2026-10-25T10:56:18.174171+01:00",
           "fige": false
         },
         {
@@ -10050,7 +10050,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.802506+01:00",
+          "heure_paris": "2026-10-25T10:56:18.174171+01:00",
           "fige": false
         },
         {
@@ -10061,7 +10061,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.802506+01:00",
+          "heure_paris": "2026-10-25T10:56:18.174171+01:00",
           "fige": false
         },
         {
@@ -10072,7 +10072,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.802506+01:00",
+          "heure_paris": "2026-10-25T10:56:18.174171+01:00",
           "fige": false
         }
       ],
@@ -10251,7 +10251,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.874273+01:00",
+          "heure_paris": "2026-10-25T10:56:22.463619+01:00",
           "fige": false
         },
         {
@@ -10262,7 +10262,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.874273+01:00",
+          "heure_paris": "2026-10-25T10:56:22.463619+01:00",
           "fige": false
         },
         {
@@ -10273,7 +10273,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.874273+01:00",
+          "heure_paris": "2026-10-25T10:56:22.463619+01:00",
           "fige": false
         },
         {
@@ -10513,7 +10513,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.590196+01:00",
+          "heure_paris": "2026-10-25T10:56:23.932240+01:00",
           "fige": false
         },
         {
@@ -10524,7 +10524,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.590196+01:00",
+          "heure_paris": "2026-10-25T10:56:23.932240+01:00",
           "fige": false
         },
         {
@@ -10535,7 +10535,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.590196+01:00",
+          "heure_paris": "2026-10-25T10:56:23.932240+01:00",
           "fige": false
         },
         {
@@ -10753,7 +10753,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.124345+01:00",
+          "heure_paris": "2026-10-25T10:56:26.579121+01:00",
           "fige": false
         },
         {
@@ -10764,7 +10764,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.124345+01:00",
+          "heure_paris": "2026-10-25T10:56:26.579121+01:00",
           "fige": false
         },
         {
@@ -10775,7 +10775,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.124345+01:00",
+          "heure_paris": "2026-10-25T10:56:26.579121+01:00",
           "fige": false
         },
         {
@@ -10971,7 +10971,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.405476+01:00",
+          "heure_paris": "2026-10-25T10:56:28.173905+01:00",
           "fige": false
         },
         {
@@ -10982,7 +10982,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.405476+01:00",
+          "heure_paris": "2026-10-25T10:56:28.173905+01:00",
           "fige": false
         },
         {
@@ -10993,7 +10993,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.405476+01:00",
+          "heure_paris": "2026-10-25T10:56:28.173905+01:00",
           "fige": false
         },
         {
@@ -11200,7 +11200,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.293691+01:00",
+          "heure_paris": "2026-10-25T10:56:16.427909+01:00",
           "fige": false
         },
         {
@@ -11211,7 +11211,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.293691+01:00",
+          "heure_paris": "2026-10-25T10:56:16.427909+01:00",
           "fige": false
         },
         {
@@ -11222,7 +11222,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.293691+01:00",
+          "heure_paris": "2026-10-25T10:56:16.427909+01:00",
           "fige": false
         },
         {
@@ -11357,7 +11357,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.396554+01:00",
+          "heure_paris": "2026-10-25T10:56:14.697862+01:00",
           "fige": false
         },
         {
@@ -11368,7 +11368,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.396554+01:00",
+          "heure_paris": "2026-10-25T10:56:14.697862+01:00",
           "fige": false
         },
         {
@@ -11379,7 +11379,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.396554+01:00",
+          "heure_paris": "2026-10-25T10:56:14.697862+01:00",
           "fige": false
         },
         {
@@ -11390,7 +11390,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.396554+01:00",
+          "heure_paris": "2026-10-25T10:56:14.697862+01:00",
           "fige": false
         },
         {
@@ -11401,7 +11401,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.396554+01:00",
+          "heure_paris": "2026-10-25T10:56:14.697862+01:00",
           "fige": false
         }
       ],
@@ -11624,7 +11624,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.884647+01:00",
+          "heure_paris": "2026-10-25T10:56:07.403511+01:00",
           "fige": false
         },
         {
@@ -11635,7 +11635,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.884647+01:00",
+          "heure_paris": "2026-10-25T10:56:07.403511+01:00",
           "fige": false
         },
         {
@@ -11646,7 +11646,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:54.884647+01:00",
+          "heure_paris": "2026-10-25T10:56:07.403511+01:00",
           "fige": false
         },
         {
@@ -11886,7 +11886,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.600525+01:00",
+          "heure_paris": "2026-10-25T10:56:21.104893+01:00",
           "fige": false
         },
         {
@@ -11897,7 +11897,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.600525+01:00",
+          "heure_paris": "2026-10-25T10:56:21.104893+01:00",
           "fige": false
         },
         {
@@ -11908,7 +11908,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.600525+01:00",
+          "heure_paris": "2026-10-25T10:56:21.104893+01:00",
           "fige": false
         },
         {
@@ -12109,7 +12109,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.019038+01:00",
+          "heure_paris": "2026-10-25T10:56:18.372083+01:00",
           "fige": false
         },
         {
@@ -12120,7 +12120,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.019038+01:00",
+          "heure_paris": "2026-10-25T10:56:18.372083+01:00",
           "fige": false
         },
         {
@@ -12131,7 +12131,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.019038+01:00",
+          "heure_paris": "2026-10-25T10:56:18.372083+01:00",
           "fige": false
         },
         {
@@ -12142,7 +12142,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.019038+01:00",
+          "heure_paris": "2026-10-25T10:56:18.372083+01:00",
           "fige": false
         },
         {
@@ -12153,7 +12153,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.019038+01:00",
+          "heure_paris": "2026-10-25T10:56:18.372083+01:00",
           "fige": false
         }
       ],
@@ -12315,7 +12315,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.084327+01:00",
+          "heure_paris": "2026-10-25T10:56:22.662407+01:00",
           "fige": false
         },
         {
@@ -12326,7 +12326,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.084327+01:00",
+          "heure_paris": "2026-10-25T10:56:22.662407+01:00",
           "fige": false
         },
         {
@@ -12337,7 +12337,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.084327+01:00",
+          "heure_paris": "2026-10-25T10:56:22.662407+01:00",
           "fige": false
         },
         {
@@ -12348,7 +12348,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.084327+01:00",
+          "heure_paris": "2026-10-25T10:56:22.662407+01:00",
           "fige": false
         },
         {
@@ -12359,7 +12359,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.084327+01:00",
+          "heure_paris": "2026-10-25T10:56:22.662407+01:00",
           "fige": false
         }
       ],
@@ -12538,7 +12538,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.805605+01:00",
+          "heure_paris": "2026-10-25T10:56:24.168244+01:00",
           "fige": false
         },
         {
@@ -12549,7 +12549,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.805605+01:00",
+          "heure_paris": "2026-10-25T10:56:24.168244+01:00",
           "fige": false
         },
         {
@@ -12560,7 +12560,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:12.805605+01:00",
+          "heure_paris": "2026-10-25T10:56:24.168244+01:00",
           "fige": false
         },
         {
@@ -12778,7 +12778,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.372194+01:00",
+          "heure_paris": "2026-10-25T10:56:26.779160+01:00",
           "fige": false
         },
         {
@@ -12789,7 +12789,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.372194+01:00",
+          "heure_paris": "2026-10-25T10:56:26.779160+01:00",
           "fige": false
         },
         {
@@ -12800,7 +12800,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.372194+01:00",
+          "heure_paris": "2026-10-25T10:56:26.779160+01:00",
           "fige": false
         },
         {
@@ -12952,7 +12952,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.657934+01:00",
+          "heure_paris": "2026-10-25T10:56:28.374690+01:00",
           "fige": false
         },
         {
@@ -12963,7 +12963,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.657934+01:00",
+          "heure_paris": "2026-10-25T10:56:28.374690+01:00",
           "fige": false
         },
         {
@@ -12974,7 +12974,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:17.657934+01:00",
+          "heure_paris": "2026-10-25T10:56:28.374690+01:00",
           "fige": false
         },
         {
@@ -13164,7 +13164,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.740506+01:00",
+          "heure_paris": "2026-10-25T10:56:12.939781+01:00",
           "fige": false
         },
         {
@@ -13175,7 +13175,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.740506+01:00",
+          "heure_paris": "2026-10-25T10:56:12.939781+01:00",
           "fige": false
         },
         {
@@ -13186,7 +13186,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.740506+01:00",
+          "heure_paris": "2026-10-25T10:56:12.939781+01:00",
           "fige": false
         },
         {
@@ -13197,7 +13197,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.740506+01:00",
+          "heure_paris": "2026-10-25T10:56:12.939781+01:00",
           "fige": false
         },
         {
@@ -13208,7 +13208,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.740506+01:00",
+          "heure_paris": "2026-10-25T10:56:12.939781+01:00",
           "fige": false
         }
       ],
@@ -13431,7 +13431,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:59.701490+01:00",
+          "heure_paris": "2026-10-25T10:56:11.085891+01:00",
           "fige": false
         },
         {
@@ -13442,7 +13442,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:59.701490+01:00",
+          "heure_paris": "2026-10-25T10:56:11.085891+01:00",
           "fige": false
         },
         {
@@ -13453,7 +13453,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:59.701490+01:00",
+          "heure_paris": "2026-10-25T10:56:11.085891+01:00",
           "fige": false
         },
         {
@@ -13660,7 +13660,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.520842+01:00",
+          "heure_paris": "2026-10-25T10:56:16.627370+01:00",
           "fige": false
         },
         {
@@ -13671,7 +13671,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.520842+01:00",
+          "heure_paris": "2026-10-25T10:56:16.627370+01:00",
           "fige": false
         },
         {
@@ -13682,7 +13682,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.520842+01:00",
+          "heure_paris": "2026-10-25T10:56:16.627370+01:00",
           "fige": false
         },
         {
@@ -13845,7 +13845,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.639057+01:00",
+          "heure_paris": "2026-10-25T10:56:14.896522+01:00",
           "fige": false
         },
         {
@@ -13856,7 +13856,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.639057+01:00",
+          "heure_paris": "2026-10-25T10:56:14.896522+01:00",
           "fige": false
         },
         {
@@ -13867,7 +13867,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.639057+01:00",
+          "heure_paris": "2026-10-25T10:56:14.896522+01:00",
           "fige": false
         },
         {
@@ -14074,7 +14074,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.812868+01:00",
+          "heure_paris": "2026-10-25T10:56:21.467011+01:00",
           "fige": false
         },
         {
@@ -14085,7 +14085,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.812868+01:00",
+          "heure_paris": "2026-10-25T10:56:21.467011+01:00",
           "fige": false
         },
         {
@@ -14096,7 +14096,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:09.812868+01:00",
+          "heure_paris": "2026-10-25T10:56:21.467011+01:00",
           "fige": false
         },
         {
@@ -14248,7 +14248,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:55.419282+01:00",
+          "heure_paris": "2026-10-25T10:56:07.703125+01:00",
           "fige": false
         },
         {
@@ -14259,7 +14259,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:55.419282+01:00",
+          "heure_paris": "2026-10-25T10:56:07.703125+01:00",
           "fige": false
         },
         {
@@ -14270,7 +14270,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:55.419282+01:00",
+          "heure_paris": "2026-10-25T10:56:07.703125+01:00",
           "fige": false
         },
         {
@@ -14488,7 +14488,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.238849+01:00",
+          "heure_paris": "2026-10-25T10:56:18.569448+01:00",
           "fige": false
         },
         {
@@ -14499,7 +14499,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.238849+01:00",
+          "heure_paris": "2026-10-25T10:56:18.569448+01:00",
           "fige": false
         },
         {
@@ -14510,7 +14510,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.238849+01:00",
+          "heure_paris": "2026-10-25T10:56:18.569448+01:00",
           "fige": false
         },
         {
@@ -14689,7 +14689,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.299119+01:00",
+          "heure_paris": "2026-10-25T10:56:22.864877+01:00",
           "fige": false
         },
         {
@@ -14700,7 +14700,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.299119+01:00",
+          "heure_paris": "2026-10-25T10:56:22.864877+01:00",
           "fige": false
         },
         {
@@ -14711,7 +14711,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.299119+01:00",
+          "heure_paris": "2026-10-25T10:56:22.864877+01:00",
           "fige": false
         },
         {
@@ -14722,7 +14722,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.299119+01:00",
+          "heure_paris": "2026-10-25T10:56:22.864877+01:00",
           "fige": false
         },
         {
@@ -14733,7 +14733,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.299119+01:00",
+          "heure_paris": "2026-10-25T10:56:22.864877+01:00",
           "fige": false
         }
       ],
@@ -14912,7 +14912,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.174937+01:00",
+          "heure_paris": "2026-10-25T10:56:24.394684+01:00",
           "fige": false
         },
         {
@@ -14923,7 +14923,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.174937+01:00",
+          "heure_paris": "2026-10-25T10:56:24.394684+01:00",
           "fige": false
         },
         {
@@ -14934,7 +14934,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.174937+01:00",
+          "heure_paris": "2026-10-25T10:56:24.394684+01:00",
           "fige": false
         },
         {
@@ -15152,7 +15152,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.717892+01:00",
+          "heure_paris": "2026-10-25T10:56:26.975539+01:00",
           "fige": false
         },
         {
@@ -15163,7 +15163,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.717892+01:00",
+          "heure_paris": "2026-10-25T10:56:26.975539+01:00",
           "fige": false
         },
         {
@@ -15174,7 +15174,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:15.717892+01:00",
+          "heure_paris": "2026-10-25T10:56:26.975539+01:00",
           "fige": false
         },
         {
@@ -15370,7 +15370,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:18.098595+01:00",
+          "heure_paris": "2026-10-25T10:56:28.572491+01:00",
           "fige": false
         },
         {
@@ -15381,7 +15381,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:18.098595+01:00",
+          "heure_paris": "2026-10-25T10:56:28.572491+01:00",
           "fige": false
         },
         {
@@ -15392,7 +15392,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:18.098595+01:00",
+          "heure_paris": "2026-10-25T10:56:28.572491+01:00",
           "fige": false
         },
         {
@@ -15544,7 +15544,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.956632+01:00",
+          "heure_paris": "2026-10-25T10:56:13.182856+01:00",
           "fige": false
         },
         {
@@ -15555,7 +15555,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.956632+01:00",
+          "heure_paris": "2026-10-25T10:56:13.182856+01:00",
           "fige": false
         },
         {
@@ -15566,7 +15566,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:01.956632+01:00",
+          "heure_paris": "2026-10-25T10:56:13.182856+01:00",
           "fige": false
         },
         {
@@ -15784,7 +15784,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.736853+01:00",
+          "heure_paris": "2026-10-25T10:56:16.827604+01:00",
           "fige": false
         },
         {
@@ -15795,7 +15795,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.736853+01:00",
+          "heure_paris": "2026-10-25T10:56:16.827604+01:00",
           "fige": false
         },
         {
@@ -15806,7 +15806,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.736853+01:00",
+          "heure_paris": "2026-10-25T10:56:16.827604+01:00",
           "fige": false
         },
         {
@@ -16024,7 +16024,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.075241+01:00",
+          "heure_paris": "2026-10-25T10:56:11.517599+01:00",
           "fige": false
         },
         {
@@ -16035,7 +16035,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.075241+01:00",
+          "heure_paris": "2026-10-25T10:56:11.517599+01:00",
           "fige": false
         },
         {
@@ -16046,7 +16046,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.075241+01:00",
+          "heure_paris": "2026-10-25T10:56:11.517599+01:00",
           "fige": false
         },
         {
@@ -16192,7 +16192,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.882365+01:00",
+          "heure_paris": "2026-10-25T10:56:15.234654+01:00",
           "fige": false
         },
         {
@@ -16203,7 +16203,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.882365+01:00",
+          "heure_paris": "2026-10-25T10:56:15.234654+01:00",
           "fige": false
         },
         {
@@ -16214,7 +16214,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.882365+01:00",
+          "heure_paris": "2026-10-25T10:56:15.234654+01:00",
           "fige": false
         },
         {
@@ -16225,7 +16225,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.882365+01:00",
+          "heure_paris": "2026-10-25T10:56:15.234654+01:00",
           "fige": false
         },
         {
@@ -16236,7 +16236,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:03.882365+01:00",
+          "heure_paris": "2026-10-25T10:56:15.234654+01:00",
           "fige": false
         }
       ],
@@ -16459,7 +16459,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.027005+01:00",
+          "heure_paris": "2026-10-25T10:56:21.667443+01:00",
           "fige": false
         },
         {
@@ -16470,7 +16470,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.027005+01:00",
+          "heure_paris": "2026-10-25T10:56:21.667443+01:00",
           "fige": false
         },
         {
@@ -16481,7 +16481,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:10.027005+01:00",
+          "heure_paris": "2026-10-25T10:56:21.667443+01:00",
           "fige": false
         },
         {
@@ -16688,7 +16688,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:55.693916+01:00",
+          "heure_paris": "2026-10-25T10:56:07.921560+01:00",
           "fige": false
         },
         {
@@ -16699,7 +16699,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:55.693916+01:00",
+          "heure_paris": "2026-10-25T10:56:07.921560+01:00",
           "fige": false
         },
         {
@@ -16710,7 +16710,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:55.693916+01:00",
+          "heure_paris": "2026-10-25T10:56:07.921560+01:00",
           "fige": false
         },
         {
@@ -16928,7 +16928,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.451437+01:00",
+          "heure_paris": "2026-10-25T10:56:18.769370+01:00",
           "fige": false
         },
         {
@@ -16939,7 +16939,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.451437+01:00",
+          "heure_paris": "2026-10-25T10:56:18.769370+01:00",
           "fige": false
         },
         {
@@ -16950,7 +16950,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.451437+01:00",
+          "heure_paris": "2026-10-25T10:56:18.769370+01:00",
           "fige": false
         },
         {
@@ -17190,7 +17190,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.388477+01:00",
+          "heure_paris": "2026-10-25T10:56:24.639886+01:00",
           "fige": false
         },
         {
@@ -17201,7 +17201,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.388477+01:00",
+          "heure_paris": "2026-10-25T10:56:24.639886+01:00",
           "fige": false
         },
         {
@@ -17212,7 +17212,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.388477+01:00",
+          "heure_paris": "2026-10-25T10:56:24.639886+01:00",
           "fige": false
         },
         {
@@ -17430,7 +17430,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.112642+01:00",
+          "heure_paris": "2026-10-25T10:56:27.181843+01:00",
           "fige": false
         },
         {
@@ -17441,7 +17441,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.112642+01:00",
+          "heure_paris": "2026-10-25T10:56:27.181843+01:00",
           "fige": false
         },
         {
@@ -17452,7 +17452,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.112642+01:00",
+          "heure_paris": "2026-10-25T10:56:27.181843+01:00",
           "fige": false
         },
         {
@@ -17543,7 +17543,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:18.344084+01:00",
+          "heure_paris": "2026-10-25T10:56:28.767700+01:00",
           "fige": false
         },
         {
@@ -17554,7 +17554,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:18.344084+01:00",
+          "heure_paris": "2026-10-25T10:56:28.767700+01:00",
           "fige": false
         },
         {
@@ -17565,7 +17565,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:18.344084+01:00",
+          "heure_paris": "2026-10-25T10:56:28.767700+01:00",
           "fige": false
         },
         {
@@ -17576,7 +17576,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:18.344084+01:00",
+          "heure_paris": "2026-10-25T10:56:28.767700+01:00",
           "fige": false
         },
         {
@@ -17587,7 +17587,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:18.344084+01:00",
+          "heure_paris": "2026-10-25T10:56:28.767700+01:00",
           "fige": false
         }
       ],
@@ -17777,7 +17777,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.172586+01:00",
+          "heure_paris": "2026-10-25T10:56:13.544636+01:00",
           "fige": false
         },
         {
@@ -17788,7 +17788,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.172586+01:00",
+          "heure_paris": "2026-10-25T10:56:13.544636+01:00",
           "fige": false
         },
         {
@@ -17799,7 +17799,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.172586+01:00",
+          "heure_paris": "2026-10-25T10:56:13.544636+01:00",
           "fige": false
         },
         {
@@ -18017,7 +18017,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.952203+01:00",
+          "heure_paris": "2026-10-25T10:56:17.060694+01:00",
           "fige": false
         },
         {
@@ -18028,7 +18028,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.952203+01:00",
+          "heure_paris": "2026-10-25T10:56:17.060694+01:00",
           "fige": false
         },
         {
@@ -18039,7 +18039,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:05.952203+01:00",
+          "heure_paris": "2026-10-25T10:56:17.060694+01:00",
           "fige": false
         },
         {
@@ -18235,7 +18235,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.511402+01:00",
+          "heure_paris": "2026-10-25T10:56:23.068317+01:00",
           "fige": false
         },
         {
@@ -18246,7 +18246,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.511402+01:00",
+          "heure_paris": "2026-10-25T10:56:23.068317+01:00",
           "fige": false
         },
         {
@@ -18257,7 +18257,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.511402+01:00",
+          "heure_paris": "2026-10-25T10:56:23.068317+01:00",
           "fige": false
         },
         {
@@ -18409,7 +18409,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.135389+01:00",
+          "heure_paris": "2026-10-25T10:56:15.434464+01:00",
           "fige": false
         },
         {
@@ -18420,7 +18420,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.135389+01:00",
+          "heure_paris": "2026-10-25T10:56:15.434464+01:00",
           "fige": false
         },
         {
@@ -18431,7 +18431,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:04.135389+01:00",
+          "heure_paris": "2026-10-25T10:56:15.434464+01:00",
           "fige": false
         },
         {
@@ -18638,7 +18638,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.288097+01:00",
+          "heure_paris": "2026-10-25T10:56:11.718744+01:00",
           "fige": false
         },
         {
@@ -18649,7 +18649,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.288097+01:00",
+          "heure_paris": "2026-10-25T10:56:11.718744+01:00",
           "fige": false
         },
         {
@@ -18660,7 +18660,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.288097+01:00",
+          "heure_paris": "2026-10-25T10:56:11.718744+01:00",
           "fige": false
         },
         {
@@ -18889,7 +18889,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.197259+01:00",
+          "heure_paris": "2026-10-25T10:56:08.210673+01:00",
           "fige": false
         },
         {
@@ -18900,7 +18900,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.197259+01:00",
+          "heure_paris": "2026-10-25T10:56:08.210673+01:00",
           "fige": false
         },
         {
@@ -18911,7 +18911,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:22:56.197259+01:00",
+          "heure_paris": "2026-10-25T10:56:08.210673+01:00",
           "fige": false
         },
         {
@@ -19129,7 +19129,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.663808+01:00",
+          "heure_paris": "2026-10-25T10:56:19.128458+01:00",
           "fige": false
         },
         {
@@ -19140,7 +19140,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.663808+01:00",
+          "heure_paris": "2026-10-25T10:56:19.128458+01:00",
           "fige": false
         },
         {
@@ -19151,7 +19151,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.663808+01:00",
+          "heure_paris": "2026-10-25T10:56:19.128458+01:00",
           "fige": false
         },
         {
@@ -19391,7 +19391,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.604996+01:00",
+          "heure_paris": "2026-10-25T10:56:24.873701+01:00",
           "fige": false
         },
         {
@@ -19402,7 +19402,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.604996+01:00",
+          "heure_paris": "2026-10-25T10:56:24.873701+01:00",
           "fige": false
         },
         {
@@ -19413,7 +19413,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:13.604996+01:00",
+          "heure_paris": "2026-10-25T10:56:24.873701+01:00",
           "fige": false
         },
         {
@@ -19653,7 +19653,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.430470+01:00",
+          "heure_paris": "2026-10-25T10:56:27.378385+01:00",
           "fige": false
         },
         {
@@ -19664,7 +19664,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.430470+01:00",
+          "heure_paris": "2026-10-25T10:56:27.378385+01:00",
           "fige": false
         },
         {
@@ -19675,7 +19675,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:16.430470+01:00",
+          "heure_paris": "2026-10-25T10:56:27.378385+01:00",
           "fige": false
         },
         {
@@ -19849,7 +19849,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.414854+01:00",
+          "heure_paris": "2026-10-25T10:56:13.902888+01:00",
           "fige": false
         },
         {
@@ -19860,7 +19860,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.414854+01:00",
+          "heure_paris": "2026-10-25T10:56:13.902888+01:00",
           "fige": false
         },
         {
@@ -19871,7 +19871,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:02.414854+01:00",
+          "heure_paris": "2026-10-25T10:56:13.902888+01:00",
           "fige": false
         },
         {
@@ -20111,7 +20111,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.164388+01:00",
+          "heure_paris": "2026-10-25T10:56:17.258424+01:00",
           "fige": false
         },
         {
@@ -20122,7 +20122,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.164388+01:00",
+          "heure_paris": "2026-10-25T10:56:17.258424+01:00",
           "fige": false
         },
         {
@@ -20133,7 +20133,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:06.164388+01:00",
+          "heure_paris": "2026-10-25T10:56:17.258424+01:00",
           "fige": false
         },
         {
@@ -20329,7 +20329,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.723868+01:00",
+          "heure_paris": "2026-10-25T10:56:23.268164+01:00",
           "fige": false
         },
         {
@@ -20340,7 +20340,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.723868+01:00",
+          "heure_paris": "2026-10-25T10:56:23.268164+01:00",
           "fige": false
         },
         {
@@ -20351,7 +20351,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:11.723868+01:00",
+          "heure_paris": "2026-10-25T10:56:23.268164+01:00",
           "fige": false
         },
         {
@@ -20591,7 +20591,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.504860+01:00",
+          "heure_paris": "2026-10-25T10:56:11.917458+01:00",
           "fige": false
         },
         {
@@ -20602,7 +20602,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.504860+01:00",
+          "heure_paris": "2026-10-25T10:56:11.917458+01:00",
           "fige": false
         },
         {
@@ -20613,7 +20613,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.504860+01:00",
+          "heure_paris": "2026-10-25T10:56:11.917458+01:00",
           "fige": false
         },
         {
@@ -20831,7 +20831,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.878915+01:00",
+          "heure_paris": "2026-10-25T10:56:19.325903+01:00",
           "fige": false
         },
         {
@@ -20842,7 +20842,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.878915+01:00",
+          "heure_paris": "2026-10-25T10:56:19.325903+01:00",
           "fige": false
         },
         {
@@ -20853,7 +20853,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:07.878915+01:00",
+          "heure_paris": "2026-10-25T10:56:19.325903+01:00",
           "fige": false
         },
         {
@@ -20999,7 +20999,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.722575+01:00",
+          "heure_paris": "2026-10-25T10:56:12.115625+01:00",
           "fige": false
         },
         {
@@ -21010,7 +21010,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.722575+01:00",
+          "heure_paris": "2026-10-25T10:56:12.115625+01:00",
           "fige": false
         },
         {
@@ -21021,7 +21021,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.722575+01:00",
+          "heure_paris": "2026-10-25T10:56:12.115625+01:00",
           "fige": false
         },
         {
@@ -21032,7 +21032,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.722575+01:00",
+          "heure_paris": "2026-10-25T10:56:12.115625+01:00",
           "fige": false
         },
         {
@@ -21043,7 +21043,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:00.722575+01:00",
+          "heure_paris": "2026-10-25T10:56:12.115625+01:00",
           "fige": false
         }
       ],
@@ -21244,7 +21244,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.093917+01:00",
+          "heure_paris": "2026-10-25T10:56:19.549597+01:00",
           "fige": false
         },
         {
@@ -21255,7 +21255,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.093917+01:00",
+          "heure_paris": "2026-10-25T10:56:19.549597+01:00",
           "fige": false
         },
         {
@@ -21266,7 +21266,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T10:23:08.093917+01:00",
+          "heure_paris": "2026-10-25T10:56:19.549597+01:00",
           "fige": false
         },
         {
