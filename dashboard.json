@@ -4,11 +4,11 @@
   "sous_titre": "Intelligence hippique spécialisée",
   "devise": "La magie du savoir",
   "date_courses": "2026-10-25",
-  "synchronise_a_paris": "2026-10-25T15:18:48.535971+01:00",
+  "synchronise_a_paris": "2026-10-25T15:55:01.840774+01:00",
   "fuseau_horaire": "Europe/Paris",
   "statut": "DONNÉES DISPONIBLES",
   "statistiques": {
-    "rapports_lus": 70,
+    "rapports_lus": 71,
     "courses": 97,
     "figes_moteurs": 152,
     "archives_figees_lues": 152
@@ -194,7 +194,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.970696+01:00",
+          "heure_paris": "2026-10-25T15:54:47.085437+01:00",
           "fige": false
         },
         {
@@ -205,7 +205,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.970696+01:00",
+          "heure_paris": "2026-10-25T15:54:47.085437+01:00",
           "fige": false
         },
         {
@@ -216,7 +216,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.970696+01:00",
+          "heure_paris": "2026-10-25T15:54:47.085437+01:00",
           "fige": false
         },
         {
@@ -434,7 +434,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:24.187727+01:00",
+          "heure_paris": "2026-10-25T15:54:47.558675+01:00",
           "fige": false
         },
         {
@@ -445,7 +445,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:24.187727+01:00",
+          "heure_paris": "2026-10-25T15:54:47.558675+01:00",
           "fige": false
         },
         {
@@ -456,7 +456,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:24.187727+01:00",
+          "heure_paris": "2026-10-25T15:54:47.558675+01:00",
           "fige": false
         },
         {
@@ -696,7 +696,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:24.899559+01:00",
+          "heure_paris": "2026-10-25T15:54:47.785149+01:00",
           "fige": false
         },
         {
@@ -707,7 +707,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:24.899559+01:00",
+          "heure_paris": "2026-10-25T15:54:47.785149+01:00",
           "fige": false
         },
         {
@@ -718,7 +718,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:24.899559+01:00",
+          "heure_paris": "2026-10-25T15:54:47.785149+01:00",
           "fige": false
         },
         {
@@ -886,7 +886,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.201066+01:00",
+          "heure_paris": "2026-10-25T15:54:55.525827+01:00",
           "fige": false
         },
         {
@@ -897,7 +897,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.201066+01:00",
+          "heure_paris": "2026-10-25T15:54:55.525827+01:00",
           "fige": false
         },
         {
@@ -908,7 +908,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.201066+01:00",
+          "heure_paris": "2026-10-25T15:54:55.525827+01:00",
           "fige": false
         },
         {
@@ -919,7 +919,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.201066+01:00",
+          "heure_paris": "2026-10-25T15:54:55.525827+01:00",
           "fige": false
         },
         {
@@ -930,7 +930,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.201066+01:00",
+          "heure_paris": "2026-10-25T15:54:55.525827+01:00",
           "fige": false
         }
       ],
@@ -1092,7 +1092,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.995751+01:00",
+          "heure_paris": "2026-10-25T15:54:58.936055+01:00",
           "fige": false
         },
         {
@@ -1103,7 +1103,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.995751+01:00",
+          "heure_paris": "2026-10-25T15:54:58.936055+01:00",
           "fige": false
         },
         {
@@ -1114,7 +1114,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.995751+01:00",
+          "heure_paris": "2026-10-25T15:54:58.936055+01:00",
           "fige": false
         },
         {
@@ -1125,7 +1125,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.995751+01:00",
+          "heure_paris": "2026-10-25T15:54:58.936055+01:00",
           "fige": false
         },
         {
@@ -1136,7 +1136,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.995751+01:00",
+          "heure_paris": "2026-10-25T15:54:58.936055+01:00",
           "fige": false
         }
       ],
@@ -1315,7 +1315,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:25.129713+01:00",
+          "heure_paris": "2026-10-25T15:54:47.995699+01:00",
           "fige": false
         },
         {
@@ -1326,7 +1326,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:25.129713+01:00",
+          "heure_paris": "2026-10-25T15:54:47.995699+01:00",
           "fige": false
         },
         {
@@ -1337,7 +1337,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:25.129713+01:00",
+          "heure_paris": "2026-10-25T15:54:47.995699+01:00",
           "fige": false
         },
         {
@@ -1544,7 +1544,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.471791+01:00",
+          "heure_paris": "2026-10-25T15:54:55.654179+01:00",
           "fige": false
         },
         {
@@ -1555,7 +1555,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.471791+01:00",
+          "heure_paris": "2026-10-25T15:54:55.654179+01:00",
           "fige": false
         },
         {
@@ -1566,7 +1566,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.471791+01:00",
+          "heure_paris": "2026-10-25T15:54:55.654179+01:00",
           "fige": false
         },
         {
@@ -1729,7 +1729,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:21.106929+01:00",
+          "heure_paris": "2026-10-25T15:54:45.098345+01:00",
           "fige": false
         },
         {
@@ -1740,7 +1740,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:21.106929+01:00",
+          "heure_paris": "2026-10-25T15:54:45.098345+01:00",
           "fige": false
         },
         {
@@ -1751,7 +1751,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:21.106929+01:00",
+          "heure_paris": "2026-10-25T15:54:45.098345+01:00",
           "fige": false
         },
         {
@@ -1980,7 +1980,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.280981+01:00",
+          "heure_paris": "2026-10-25T15:54:59.063874+01:00",
           "fige": false
         },
         {
@@ -1991,7 +1991,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.280981+01:00",
+          "heure_paris": "2026-10-25T15:54:59.063874+01:00",
           "fige": false
         },
         {
@@ -2002,7 +2002,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.280981+01:00",
+          "heure_paris": "2026-10-25T15:54:59.063874+01:00",
           "fige": false
         },
         {
@@ -2187,7 +2187,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.628452+01:00",
+          "heure_paris": "2026-10-25T15:54:52.823057+01:00",
           "fige": false
         },
         {
@@ -2198,7 +2198,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.628452+01:00",
+          "heure_paris": "2026-10-25T15:54:52.823057+01:00",
           "fige": false
         },
         {
@@ -2209,7 +2209,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.628452+01:00",
+          "heure_paris": "2026-10-25T15:54:52.823057+01:00",
           "fige": false
         },
         {
@@ -2394,7 +2394,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:25.866919+01:00",
+          "heure_paris": "2026-10-25T15:54:48.221500+01:00",
           "fige": false
         },
         {
@@ -2405,7 +2405,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:25.866919+01:00",
+          "heure_paris": "2026-10-25T15:54:48.221500+01:00",
           "fige": false
         },
         {
@@ -2416,7 +2416,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:25.866919+01:00",
+          "heure_paris": "2026-10-25T15:54:48.221500+01:00",
           "fige": false
         },
         {
@@ -2606,7 +2606,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.726326+01:00",
+          "heure_paris": "2026-10-25T15:54:55.782733+01:00",
           "fige": false
         },
         {
@@ -2617,7 +2617,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.726326+01:00",
+          "heure_paris": "2026-10-25T15:54:55.782733+01:00",
           "fige": false
         },
         {
@@ -2628,7 +2628,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.726326+01:00",
+          "heure_paris": "2026-10-25T15:54:55.782733+01:00",
           "fige": false
         },
         {
@@ -2639,7 +2639,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.726326+01:00",
+          "heure_paris": "2026-10-25T15:54:55.782733+01:00",
           "fige": false
         },
         {
@@ -2650,7 +2650,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.726326+01:00",
+          "heure_paris": "2026-10-25T15:54:55.782733+01:00",
           "fige": false
         }
       ],
@@ -2774,7 +2774,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:21.696755+01:00",
+          "heure_paris": "2026-10-25T15:54:45.341018+01:00",
           "fige": false
         },
         {
@@ -2785,7 +2785,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:21.696755+01:00",
+          "heure_paris": "2026-10-25T15:54:45.341018+01:00",
           "fige": false
         },
         {
@@ -2796,7 +2796,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:21.696755+01:00",
+          "heure_paris": "2026-10-25T15:54:45.341018+01:00",
           "fige": false
         },
         {
@@ -2975,7 +2975,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.423961+01:00",
+          "heure_paris": "2026-10-25T15:54:56.756560+01:00",
           "fige": false
         },
         {
@@ -2986,7 +2986,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.423961+01:00",
+          "heure_paris": "2026-10-25T15:54:56.756560+01:00",
           "fige": false
         },
         {
@@ -2997,7 +2997,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.423961+01:00",
+          "heure_paris": "2026-10-25T15:54:56.756560+01:00",
           "fige": false
         },
         {
@@ -3008,7 +3008,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.423961+01:00",
+          "heure_paris": "2026-10-25T15:54:56.756560+01:00",
           "fige": false
         },
         {
@@ -3019,7 +3019,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.423961+01:00",
+          "heure_paris": "2026-10-25T15:54:56.756560+01:00",
           "fige": false
         }
       ],
@@ -3209,7 +3209,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.567747+01:00",
+          "heure_paris": "2026-10-25T15:54:59.190198+01:00",
           "fige": false
         },
         {
@@ -3220,7 +3220,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.567747+01:00",
+          "heure_paris": "2026-10-25T15:54:59.190198+01:00",
           "fige": false
         },
         {
@@ -3231,7 +3231,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.567747+01:00",
+          "heure_paris": "2026-10-25T15:54:59.190198+01:00",
           "fige": false
         },
         {
@@ -3377,7 +3377,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.678833+01:00",
+          "heure_paris": "2026-10-25T15:55:00.548989+01:00",
           "fige": false
         },
         {
@@ -3388,7 +3388,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.678833+01:00",
+          "heure_paris": "2026-10-25T15:55:00.548989+01:00",
           "fige": false
         },
         {
@@ -3399,7 +3399,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.678833+01:00",
+          "heure_paris": "2026-10-25T15:55:00.548989+01:00",
           "fige": false
         },
         {
@@ -3410,7 +3410,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.678833+01:00",
+          "heure_paris": "2026-10-25T15:55:00.548989+01:00",
           "fige": false
         },
         {
@@ -3421,7 +3421,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.678833+01:00",
+          "heure_paris": "2026-10-25T15:55:00.548989+01:00",
           "fige": false
         }
       ],
@@ -3622,7 +3622,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.907866+01:00",
+          "heure_paris": "2026-10-25T15:54:52.952767+01:00",
           "fige": false
         },
         {
@@ -3633,7 +3633,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.907866+01:00",
+          "heure_paris": "2026-10-25T15:54:52.952767+01:00",
           "fige": false
         },
         {
@@ -3644,7 +3644,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.907866+01:00",
+          "heure_paris": "2026-10-25T15:54:52.952767+01:00",
           "fige": false
         },
         {
@@ -3884,7 +3884,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:26.122204+01:00",
+          "heure_paris": "2026-10-25T15:54:48.436392+01:00",
           "fige": false
         },
         {
@@ -3895,7 +3895,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:26.122204+01:00",
+          "heure_paris": "2026-10-25T15:54:48.436392+01:00",
           "fige": false
         },
         {
@@ -3906,7 +3906,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:26.122204+01:00",
+          "heure_paris": "2026-10-25T15:54:48.436392+01:00",
           "fige": false
         },
         {
@@ -4041,7 +4041,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.952365+01:00",
+          "heure_paris": "2026-10-25T15:54:51.613922+01:00",
           "fige": false
         },
         {
@@ -4052,7 +4052,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.952365+01:00",
+          "heure_paris": "2026-10-25T15:54:51.613922+01:00",
           "fige": false
         },
         {
@@ -4063,7 +4063,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.952365+01:00",
+          "heure_paris": "2026-10-25T15:54:51.613922+01:00",
           "fige": false
         },
         {
@@ -4074,7 +4074,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.952365+01:00",
+          "heure_paris": "2026-10-25T15:54:51.613922+01:00",
           "fige": false
         },
         {
@@ -4085,7 +4085,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.952365+01:00",
+          "heure_paris": "2026-10-25T15:54:51.613922+01:00",
           "fige": false
         }
       ],
@@ -4203,7 +4203,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.309043+01:00",
+          "heure_paris": "2026-10-25T15:54:49.245685+01:00",
           "fige": false
         },
         {
@@ -4214,7 +4214,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.309043+01:00",
+          "heure_paris": "2026-10-25T15:54:49.245685+01:00",
           "fige": false
         },
         {
@@ -4225,7 +4225,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.309043+01:00",
+          "heure_paris": "2026-10-25T15:54:49.245685+01:00",
           "fige": false
         },
         {
@@ -4236,7 +4236,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.309043+01:00",
+          "heure_paris": "2026-10-25T15:54:49.245685+01:00",
           "fige": false
         },
         {
@@ -4247,7 +4247,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.309043+01:00",
+          "heure_paris": "2026-10-25T15:54:49.245685+01:00",
           "fige": false
         }
       ],
@@ -4437,7 +4437,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.994860+01:00",
+          "heure_paris": "2026-10-25T15:54:55.908128+01:00",
           "fige": false
         },
         {
@@ -4448,7 +4448,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.994860+01:00",
+          "heure_paris": "2026-10-25T15:54:55.908128+01:00",
           "fige": false
         },
         {
@@ -4459,7 +4459,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:37.994860+01:00",
+          "heure_paris": "2026-10-25T15:54:55.908128+01:00",
           "fige": false
         },
         {
@@ -4611,7 +4611,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.305686+01:00",
+          "heure_paris": "2026-10-25T15:54:50.591597+01:00",
           "fige": false
         },
         {
@@ -4622,7 +4622,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.305686+01:00",
+          "heure_paris": "2026-10-25T15:54:50.591597+01:00",
           "fige": false
         },
         {
@@ -4633,7 +4633,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.305686+01:00",
+          "heure_paris": "2026-10-25T15:54:50.591597+01:00",
           "fige": false
         },
         {
@@ -4807,7 +4807,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:22.391285+01:00",
+          "heure_paris": "2026-10-25T15:54:45.675701+01:00",
           "fige": false
         },
         {
@@ -4818,7 +4818,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:22.391285+01:00",
+          "heure_paris": "2026-10-25T15:54:45.675701+01:00",
           "fige": false
         },
         {
@@ -4829,7 +4829,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:22.391285+01:00",
+          "heure_paris": "2026-10-25T15:54:45.675701+01:00",
           "fige": false
         },
         {
@@ -5047,7 +5047,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.862949+01:00",
+          "heure_paris": "2026-10-25T15:54:54.088628+01:00",
           "fige": false
         },
         {
@@ -5058,7 +5058,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.862949+01:00",
+          "heure_paris": "2026-10-25T15:54:54.088628+01:00",
           "fige": false
         },
         {
@@ -5069,7 +5069,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.862949+01:00",
+          "heure_paris": "2026-10-25T15:54:54.088628+01:00",
           "fige": false
         },
         {
@@ -5248,7 +5248,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.678693+01:00",
+          "heure_paris": "2026-10-25T15:54:56.884879+01:00",
           "fige": false
         },
         {
@@ -5259,7 +5259,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.678693+01:00",
+          "heure_paris": "2026-10-25T15:54:56.884879+01:00",
           "fige": false
         },
         {
@@ -5270,7 +5270,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.678693+01:00",
+          "heure_paris": "2026-10-25T15:54:56.884879+01:00",
           "fige": false
         },
         {
@@ -5281,7 +5281,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.678693+01:00",
+          "heure_paris": "2026-10-25T15:54:56.884879+01:00",
           "fige": false
         },
         {
@@ -5292,7 +5292,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.678693+01:00",
+          "heure_paris": "2026-10-25T15:54:56.884879+01:00",
           "fige": false
         }
       ],
@@ -5498,7 +5498,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.333213+01:00",
+          "heure_paris": "2026-10-25T15:54:57.770106+01:00",
           "fige": false
         },
         {
@@ -5509,7 +5509,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.333213+01:00",
+          "heure_paris": "2026-10-25T15:54:57.770106+01:00",
           "fige": false
         },
         {
@@ -5520,7 +5520,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.333213+01:00",
+          "heure_paris": "2026-10-25T15:54:57.770106+01:00",
           "fige": false
         },
         {
@@ -5531,7 +5531,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.333213+01:00",
+          "heure_paris": "2026-10-25T15:54:57.770106+01:00",
           "fige": false
         },
         {
@@ -5542,7 +5542,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.333213+01:00",
+          "heure_paris": "2026-10-25T15:54:57.770106+01:00",
           "fige": false
         }
       ],
@@ -5732,7 +5732,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.882107+01:00",
+          "heure_paris": "2026-10-25T15:54:59.321763+01:00",
           "fige": false
         },
         {
@@ -5743,7 +5743,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.882107+01:00",
+          "heure_paris": "2026-10-25T15:54:59.321763+01:00",
           "fige": false
         },
         {
@@ -5754,7 +5754,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:43.882107+01:00",
+          "heure_paris": "2026-10-25T15:54:59.321763+01:00",
           "fige": false
         },
         {
@@ -5933,7 +5933,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:46.423430+01:00",
+          "heure_paris": "2026-10-25T15:55:00.674725+01:00",
           "fige": false
         },
         {
@@ -5944,7 +5944,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:46.423430+01:00",
+          "heure_paris": "2026-10-25T15:55:00.674725+01:00",
           "fige": false
         },
         {
@@ -5955,7 +5955,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:46.423430+01:00",
+          "heure_paris": "2026-10-25T15:55:00.674725+01:00",
           "fige": false
         },
         {
@@ -5966,7 +5966,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:46.423430+01:00",
+          "heure_paris": "2026-10-25T15:55:00.674725+01:00",
           "fige": false
         },
         {
@@ -5977,7 +5977,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:46.423430+01:00",
+          "heure_paris": "2026-10-25T15:55:00.674725+01:00",
           "fige": false
         }
       ],
@@ -6167,7 +6167,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.179945+01:00",
+          "heure_paris": "2026-10-25T15:54:53.082056+01:00",
           "fige": false
         },
         {
@@ -6178,7 +6178,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.179945+01:00",
+          "heure_paris": "2026-10-25T15:54:53.082056+01:00",
           "fige": false
         },
         {
@@ -6189,7 +6189,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.179945+01:00",
+          "heure_paris": "2026-10-25T15:54:53.082056+01:00",
           "fige": false
         },
         {
@@ -6341,7 +6341,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:26.343816+01:00",
+          "heure_paris": "2026-10-25T15:54:48.912799+01:00",
           "fige": false
         },
         {
@@ -6352,7 +6352,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:26.343816+01:00",
+          "heure_paris": "2026-10-25T15:54:48.912799+01:00",
           "fige": false
         },
         {
@@ -6363,7 +6363,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:26.343816+01:00",
+          "heure_paris": "2026-10-25T15:54:48.912799+01:00",
           "fige": false
         },
         {
@@ -6537,7 +6537,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.253923+01:00",
+          "heure_paris": "2026-10-25T15:54:51.822915+01:00",
           "fige": false
         },
         {
@@ -6548,7 +6548,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.253923+01:00",
+          "heure_paris": "2026-10-25T15:54:51.822915+01:00",
           "fige": false
         },
         {
@@ -6559,7 +6559,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.253923+01:00",
+          "heure_paris": "2026-10-25T15:54:51.822915+01:00",
           "fige": false
         },
         {
@@ -6766,7 +6766,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.324576+01:00",
+          "heure_paris": "2026-10-25T15:54:56.034343+01:00",
           "fige": false
         },
         {
@@ -6777,7 +6777,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.324576+01:00",
+          "heure_paris": "2026-10-25T15:54:56.034343+01:00",
           "fige": false
         },
         {
@@ -6788,7 +6788,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.324576+01:00",
+          "heure_paris": "2026-10-25T15:54:56.034343+01:00",
           "fige": false
         },
         {
@@ -6995,7 +6995,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.558035+01:00",
+          "heure_paris": "2026-10-25T15:54:49.493032+01:00",
           "fige": false
         },
         {
@@ -7006,7 +7006,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.558035+01:00",
+          "heure_paris": "2026-10-25T15:54:49.493032+01:00",
           "fige": false
         },
         {
@@ -7017,7 +7017,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.558035+01:00",
+          "heure_paris": "2026-10-25T15:54:49.493032+01:00",
           "fige": false
         },
         {
@@ -7207,7 +7207,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.550747+01:00",
+          "heure_paris": "2026-10-25T15:54:50.771479+01:00",
           "fige": false
         },
         {
@@ -7218,7 +7218,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.550747+01:00",
+          "heure_paris": "2026-10-25T15:54:50.771479+01:00",
           "fige": false
         },
         {
@@ -7229,7 +7229,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.550747+01:00",
+          "heure_paris": "2026-10-25T15:54:50.771479+01:00",
           "fige": false
         },
         {
@@ -7240,7 +7240,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.550747+01:00",
+          "heure_paris": "2026-10-25T15:54:50.771479+01:00",
           "fige": false
         },
         {
@@ -7251,7 +7251,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.550747+01:00",
+          "heure_paris": "2026-10-25T15:54:50.771479+01:00",
           "fige": false
         }
       ],
@@ -7413,7 +7413,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.123464+01:00",
+          "heure_paris": "2026-10-25T15:54:54.355446+01:00",
           "fige": false
         },
         {
@@ -7424,7 +7424,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.123464+01:00",
+          "heure_paris": "2026-10-25T15:54:54.355446+01:00",
           "fige": false
         },
         {
@@ -7435,7 +7435,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.123464+01:00",
+          "heure_paris": "2026-10-25T15:54:54.355446+01:00",
           "fige": false
         },
         {
@@ -7446,7 +7446,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.123464+01:00",
+          "heure_paris": "2026-10-25T15:54:54.355446+01:00",
           "fige": false
         },
         {
@@ -7457,7 +7457,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.123464+01:00",
+          "heure_paris": "2026-10-25T15:54:54.355446+01:00",
           "fige": false
         }
       ],
@@ -7636,7 +7636,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.901300+01:00",
+          "heure_paris": "2026-10-25T15:54:57.010419+01:00",
           "fige": false
         },
         {
@@ -7647,7 +7647,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.901300+01:00",
+          "heure_paris": "2026-10-25T15:54:57.010419+01:00",
           "fige": false
         },
         {
@@ -7658,7 +7658,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.901300+01:00",
+          "heure_paris": "2026-10-25T15:54:57.010419+01:00",
           "fige": false
         },
         {
@@ -7898,7 +7898,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.549116+01:00",
+          "heure_paris": "2026-10-25T15:54:57.918428+01:00",
           "fige": false
         },
         {
@@ -7909,7 +7909,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.549116+01:00",
+          "heure_paris": "2026-10-25T15:54:57.918428+01:00",
           "fige": false
         },
         {
@@ -7920,7 +7920,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.549116+01:00",
+          "heure_paris": "2026-10-25T15:54:57.918428+01:00",
           "fige": false
         },
         {
@@ -8182,7 +8182,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.203045+01:00",
+          "heure_paris": "2026-10-25T15:54:59.448958+01:00",
           "fige": false
         },
         {
@@ -8193,7 +8193,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.203045+01:00",
+          "heure_paris": "2026-10-25T15:54:59.448958+01:00",
           "fige": false
         },
         {
@@ -8204,7 +8204,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.203045+01:00",
+          "heure_paris": "2026-10-25T15:54:59.448958+01:00",
           "fige": false
         },
         {
@@ -8378,7 +8378,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.181974+01:00",
+          "heure_paris": "2026-10-25T15:55:00.884261+01:00",
           "fige": false
         },
         {
@@ -8389,7 +8389,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.181974+01:00",
+          "heure_paris": "2026-10-25T15:55:00.884261+01:00",
           "fige": false
         },
         {
@@ -8400,7 +8400,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.181974+01:00",
+          "heure_paris": "2026-10-25T15:55:00.884261+01:00",
           "fige": false
         },
         {
@@ -8541,7 +8541,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:22.629058+01:00",
+          "heure_paris": "2026-10-25T15:54:45.801964+01:00",
           "fige": false
         },
         {
@@ -8552,7 +8552,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:22.629058+01:00",
+          "heure_paris": "2026-10-25T15:54:45.801964+01:00",
           "fige": false
         },
         {
@@ -8563,7 +8563,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:22.629058+01:00",
+          "heure_paris": "2026-10-25T15:54:45.801964+01:00",
           "fige": false
         },
         {
@@ -8770,7 +8770,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.392551+01:00",
+          "heure_paris": "2026-10-25T15:54:53.209496+01:00",
           "fige": false
         },
         {
@@ -8781,7 +8781,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.392551+01:00",
+          "heure_paris": "2026-10-25T15:54:53.209496+01:00",
           "fige": false
         },
         {
@@ -8792,7 +8792,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.392551+01:00",
+          "heure_paris": "2026-10-25T15:54:53.209496+01:00",
           "fige": false
         },
         {
@@ -8955,7 +8955,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.059121+01:00",
+          "heure_paris": "2026-10-25T15:54:49.075215+01:00",
           "fige": false
         },
         {
@@ -8966,7 +8966,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.059121+01:00",
+          "heure_paris": "2026-10-25T15:54:49.075215+01:00",
           "fige": false
         },
         {
@@ -8977,7 +8977,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.059121+01:00",
+          "heure_paris": "2026-10-25T15:54:49.075215+01:00",
           "fige": false
         },
         {
@@ -9151,7 +9151,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.471151+01:00",
+          "heure_paris": "2026-10-25T15:54:51.947971+01:00",
           "fige": false
         },
         {
@@ -9162,7 +9162,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.471151+01:00",
+          "heure_paris": "2026-10-25T15:54:51.947971+01:00",
           "fige": false
         },
         {
@@ -9173,7 +9173,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.471151+01:00",
+          "heure_paris": "2026-10-25T15:54:51.947971+01:00",
           "fige": false
         },
         {
@@ -9413,7 +9413,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.813436+01:00",
+          "heure_paris": "2026-10-25T15:54:49.617617+01:00",
           "fige": false
         },
         {
@@ -9424,7 +9424,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.813436+01:00",
+          "heure_paris": "2026-10-25T15:54:49.617617+01:00",
           "fige": false
         },
         {
@@ -9435,7 +9435,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:27.813436+01:00",
+          "heure_paris": "2026-10-25T15:54:49.617617+01:00",
           "fige": false
         },
         {
@@ -9576,7 +9576,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.773441+01:00",
+          "heure_paris": "2026-10-25T15:54:50.947338+01:00",
           "fige": false
         },
         {
@@ -9587,7 +9587,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.773441+01:00",
+          "heure_paris": "2026-10-25T15:54:50.947338+01:00",
           "fige": false
         },
         {
@@ -9598,7 +9598,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.773441+01:00",
+          "heure_paris": "2026-10-25T15:54:50.947338+01:00",
           "fige": false
         },
         {
@@ -9799,7 +9799,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.547115+01:00",
+          "heure_paris": "2026-10-25T15:54:54.485435+01:00",
           "fige": false
         },
         {
@@ -9810,7 +9810,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.547115+01:00",
+          "heure_paris": "2026-10-25T15:54:54.485435+01:00",
           "fige": false
         },
         {
@@ -9821,7 +9821,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.547115+01:00",
+          "heure_paris": "2026-10-25T15:54:54.485435+01:00",
           "fige": false
         },
         {
@@ -9832,7 +9832,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.547115+01:00",
+          "heure_paris": "2026-10-25T15:54:54.485435+01:00",
           "fige": false
         },
         {
@@ -9843,7 +9843,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.547115+01:00",
+          "heure_paris": "2026-10-25T15:54:54.485435+01:00",
           "fige": false
         }
       ],
@@ -10022,7 +10022,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.175811+01:00",
+          "heure_paris": "2026-10-25T15:54:57.134923+01:00",
           "fige": false
         },
         {
@@ -10033,7 +10033,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.175811+01:00",
+          "heure_paris": "2026-10-25T15:54:57.134923+01:00",
           "fige": false
         },
         {
@@ -10044,7 +10044,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.175811+01:00",
+          "heure_paris": "2026-10-25T15:54:57.134923+01:00",
           "fige": false
         },
         {
@@ -10262,7 +10262,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.412184+01:00",
+          "heure_paris": "2026-10-25T15:54:59.577967+01:00",
           "fige": false
         },
         {
@@ -10273,7 +10273,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.412184+01:00",
+          "heure_paris": "2026-10-25T15:54:59.577967+01:00",
           "fige": false
         },
         {
@@ -10284,7 +10284,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.412184+01:00",
+          "heure_paris": "2026-10-25T15:54:59.577967+01:00",
           "fige": false
         },
         {
@@ -10480,7 +10480,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.453555+01:00",
+          "heure_paris": "2026-10-25T15:55:01.015238+01:00",
           "fige": false
         },
         {
@@ -10491,7 +10491,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.453555+01:00",
+          "heure_paris": "2026-10-25T15:55:01.015238+01:00",
           "fige": false
         },
         {
@@ -10502,7 +10502,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.453555+01:00",
+          "heure_paris": "2026-10-25T15:55:01.015238+01:00",
           "fige": false
         },
         {
@@ -10709,7 +10709,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.554533+01:00",
+          "heure_paris": "2026-10-25T15:54:56.161051+01:00",
           "fige": false
         },
         {
@@ -10720,7 +10720,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.554533+01:00",
+          "heure_paris": "2026-10-25T15:54:56.161051+01:00",
           "fige": false
         },
         {
@@ -10731,7 +10731,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.554533+01:00",
+          "heure_paris": "2026-10-25T15:54:56.161051+01:00",
           "fige": false
         },
         {
@@ -10938,7 +10938,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.608661+01:00",
+          "heure_paris": "2026-10-25T15:54:53.334675+01:00",
           "fige": false
         },
         {
@@ -10949,7 +10949,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.608661+01:00",
+          "heure_paris": "2026-10-25T15:54:53.334675+01:00",
           "fige": false
         },
         {
@@ -10960,7 +10960,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.608661+01:00",
+          "heure_paris": "2026-10-25T15:54:53.334675+01:00",
           "fige": false
         },
         {
@@ -11200,7 +11200,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.762291+01:00",
+          "heure_paris": "2026-10-25T15:54:58.049429+01:00",
           "fige": false
         },
         {
@@ -11211,7 +11211,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.762291+01:00",
+          "heure_paris": "2026-10-25T15:54:58.049429+01:00",
           "fige": false
         },
         {
@@ -11222,7 +11222,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.762291+01:00",
+          "heure_paris": "2026-10-25T15:54:58.049429+01:00",
           "fige": false
         },
         {
@@ -11462,7 +11462,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.006112+01:00",
+          "heure_paris": "2026-10-25T15:54:46.193088+01:00",
           "fige": false
         },
         {
@@ -11473,7 +11473,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.006112+01:00",
+          "heure_paris": "2026-10-25T15:54:46.193088+01:00",
           "fige": false
         },
         {
@@ -11484,7 +11484,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.006112+01:00",
+          "heure_paris": "2026-10-25T15:54:46.193088+01:00",
           "fige": false
         },
         {
@@ -11619,7 +11619,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.712771+01:00",
+          "heure_paris": "2026-10-25T15:54:52.119492+01:00",
           "fige": false
         },
         {
@@ -11630,7 +11630,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.712771+01:00",
+          "heure_paris": "2026-10-25T15:54:52.119492+01:00",
           "fige": false
         },
         {
@@ -11641,7 +11641,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.712771+01:00",
+          "heure_paris": "2026-10-25T15:54:52.119492+01:00",
           "fige": false
         },
         {
@@ -11652,7 +11652,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.712771+01:00",
+          "heure_paris": "2026-10-25T15:54:52.119492+01:00",
           "fige": false
         },
         {
@@ -11663,7 +11663,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.712771+01:00",
+          "heure_paris": "2026-10-25T15:54:52.119492+01:00",
           "fige": false
         }
       ],
@@ -11847,7 +11847,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.809633+01:00",
+          "heure_paris": "2026-10-25T15:54:54.612466+01:00",
           "fige": false
         },
         {
@@ -11858,7 +11858,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.809633+01:00",
+          "heure_paris": "2026-10-25T15:54:54.612466+01:00",
           "fige": false
         },
         {
@@ -11869,7 +11869,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.809633+01:00",
+          "heure_paris": "2026-10-25T15:54:54.612466+01:00",
           "fige": false
         },
         {
@@ -11880,7 +11880,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.809633+01:00",
+          "heure_paris": "2026-10-25T15:54:54.612466+01:00",
           "fige": false
         },
         {
@@ -11891,7 +11891,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:35.809633+01:00",
+          "heure_paris": "2026-10-25T15:54:54.612466+01:00",
           "fige": false
         }
       ],
@@ -12053,7 +12053,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.385639+01:00",
+          "heure_paris": "2026-10-25T15:54:57.264889+01:00",
           "fige": false
         },
         {
@@ -12064,7 +12064,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.385639+01:00",
+          "heure_paris": "2026-10-25T15:54:57.264889+01:00",
           "fige": false
         },
         {
@@ -12075,7 +12075,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.385639+01:00",
+          "heure_paris": "2026-10-25T15:54:57.264889+01:00",
           "fige": false
         },
         {
@@ -12086,7 +12086,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.385639+01:00",
+          "heure_paris": "2026-10-25T15:54:57.264889+01:00",
           "fige": false
         },
         {
@@ -12097,7 +12097,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.385639+01:00",
+          "heure_paris": "2026-10-25T15:54:57.264889+01:00",
           "fige": false
         }
       ],
@@ -12298,7 +12298,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.712448+01:00",
+          "heure_paris": "2026-10-25T15:54:59.701347+01:00",
           "fige": false
         },
         {
@@ -12309,7 +12309,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.712448+01:00",
+          "heure_paris": "2026-10-25T15:54:59.701347+01:00",
           "fige": false
         },
         {
@@ -12320,7 +12320,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.712448+01:00",
+          "heure_paris": "2026-10-25T15:54:59.701347+01:00",
           "fige": false
         },
         {
@@ -12346,223 +12346,6 @@
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
-    },
-    {
-      "id": "2026-10-25_R8_C4",
-      "date_course": "2026-10-25",
-      "reunion": "R8",
-      "course": "C4",
-      "hippodrome": "SAINT BRIEUC",
-      "depart_paris": "2026-10-25T15:30:00+01:00",
-      "nombre_partants": 13,
-      "non_partants": [],
-      "partants": [
-        {
-          "age": 4,
-          "entraineur": "J.DELAUNAY (S)",
-          "gains": null,
-          "jockey": "L.VANDAMME",
-          "musique": "8h7h4h3h3h0p5p2p(25)6p",
-          "nom": "CHATEAU ESQUIULE",
-          "non_partant": false,
-          "numero": 1,
-          "poids": 720.0
-        },
-        {
-          "age": 4,
-          "entraineur": "L&M.VIEL (S)",
-          "gains": null,
-          "jockey": "Y. FOLLIN",
-          "musique": "(25)8pTs4h4sAh0p3p",
-          "nom": "MISTER POM",
-          "non_partant": false,
-          "numero": 2,
-          "poids": 680.0
-        },
-        {
-          "age": 4,
-          "entraineur": "MME S.JAFFRELOT-BEDON",
-          "gains": null,
-          "jockey": "A.GAUTRON",
-          "musique": "7h9h9h3p2p",
-          "nom": "GAR'N GIN",
-          "non_partant": false,
-          "numero": 3,
-          "poids": 670.0
-        },
-        {
-          "age": 4,
-          "entraineur": "N. GEORGE & A. ZETTERHOLM",
-          "gains": null,
-          "jockey": "F.GILES",
-          "musique": "6h",
-          "nom": "RIMATILCLO",
-          "non_partant": false,
-          "numero": 4,
-          "poids": 670.0
-        },
-        {
-          "age": 4,
-          "entraineur": "V.CHATELLIER",
-          "gains": null,
-          "jockey": "D.GALLON",
-          "musique": "7p4p",
-          "nom": "GINO DE MAINE",
-          "non_partant": false,
-          "numero": 5,
-          "poids": 670.0
-        },
-        {
-          "age": 4,
-          "entraineur": "L.CARBERRY (S)",
-          "gains": null,
-          "jockey": "A.DUVACHER",
-          "musique": "8h2p3p",
-          "nom": "SHAWNEE SONG",
-          "non_partant": false,
-          "numero": 6,
-          "poids": 670.0
-        },
-        {
-          "age": 4,
-          "entraineur": "CHAILLE-CHAILLE & PAMART",
-          "gains": null,
-          "jockey": "G.RICHARD",
-          "musique": "",
-          "nom": "CORTINA DU BERLAIS",
-          "non_partant": false,
-          "numero": 7,
-          "poids": 670.0
-        },
-        {
-          "age": 4,
-          "entraineur": "MME O.ELLART",
-          "gains": null,
-          "jockey": "N. CLAUDE",
-          "musique": "5h0p",
-          "nom": "MUSIQUE ROYALE",
-          "non_partant": false,
-          "numero": 8,
-          "poids": 650.0
-        },
-        {
-          "age": 4,
-          "entraineur": "D.BRESSOU",
-          "gains": null,
-          "jockey": "G.MEUNIER",
-          "musique": "(25)Ah",
-          "nom": "KIRKITA",
-          "non_partant": false,
-          "numero": 9,
-          "poids": 650.0
-        },
-        {
-          "age": 4,
-          "entraineur": "B.DENIEL",
-          "gains": null,
-          "jockey": "G.SANCHEZ",
-          "musique": "",
-          "nom": "FULENN DE KERBARH",
-          "non_partant": false,
-          "numero": 10,
-          "poids": 650.0
-        },
-        {
-          "age": 4,
-          "entraineur": "J.BOISNARD (S)",
-          "gains": null,
-          "jockey": "A.MORICEAU",
-          "musique": "",
-          "nom": "IMPERIAL EIGHT",
-          "non_partant": false,
-          "numero": 11,
-          "poids": 650.0
-        },
-        {
-          "age": 4,
-          "entraineur": "JPH .DUBOIS",
-          "gains": null,
-          "jockey": "T.VABOIS",
-          "musique": "1p7pTh3p",
-          "nom": "MA REINE",
-          "non_partant": false,
-          "numero": 12,
-          "poids": 650.0
-        },
-        {
-          "age": 4,
-          "entraineur": "F.FOUCHER",
-          "gains": null,
-          "jockey": "T.BEAURAIN",
-          "musique": "2p6h",
-          "nom": "MAGIC MAMBA",
-          "non_partant": false,
-          "numero": 13,
-          "poids": 650.0
-        }
-      ],
-      "moteurs": [
-        {
-          "moteur": "M1",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Couverture des donnees insuffisante",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.992425+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M2",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Données spécialisées insuffisantes",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.992425+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M3",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Données spécialisées insuffisantes",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.992425+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M4",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Couverture des donnees insuffisante",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.992425+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M5",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Couverture des donnees insuffisante",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.992425+01:00",
-          "fige": false
-        }
-      ],
-      "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C4/participants",
-      "nouveaux_figes": [],
-      "nombre_figes": 0,
-      "statut": "NON FIGÉ",
-      "fige": false
     },
     {
       "id": "2026-10-25_R12_C7",
@@ -12777,7 +12560,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.773186+01:00",
+          "heure_paris": "2026-10-25T15:54:56.294261+01:00",
           "fige": false
         },
         {
@@ -12788,7 +12571,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.773186+01:00",
+          "heure_paris": "2026-10-25T15:54:56.294261+01:00",
           "fige": false
         },
         {
@@ -12799,7 +12582,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:38.773186+01:00",
+          "heure_paris": "2026-10-25T15:54:56.294261+01:00",
           "fige": false
         },
         {
@@ -13039,7 +12822,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.075470+01:00",
+          "heure_paris": "2026-10-25T15:54:49.827898+01:00",
           "fige": false
         },
         {
@@ -13050,7 +12833,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.075470+01:00",
+          "heure_paris": "2026-10-25T15:54:49.827898+01:00",
           "fige": false
         },
         {
@@ -13061,7 +12844,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.075470+01:00",
+          "heure_paris": "2026-10-25T15:54:49.827898+01:00",
           "fige": false
         },
         {
@@ -13257,7 +13040,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.013468+01:00",
+          "heure_paris": "2026-10-25T15:54:58.176429+01:00",
           "fige": false
         },
         {
@@ -13268,7 +13051,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.013468+01:00",
+          "heure_paris": "2026-10-25T15:54:58.176429+01:00",
           "fige": false
         },
         {
@@ -13279,7 +13062,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.013468+01:00",
+          "heure_paris": "2026-10-25T15:54:58.176429+01:00",
           "fige": false
         },
         {
@@ -13486,7 +13269,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.824648+01:00",
+          "heure_paris": "2026-10-25T15:54:53.523124+01:00",
           "fige": false
         },
         {
@@ -13497,7 +13280,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.824648+01:00",
+          "heure_paris": "2026-10-25T15:54:53.523124+01:00",
           "fige": false
         },
         {
@@ -13508,7 +13291,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:33.824648+01:00",
+          "heure_paris": "2026-10-25T15:54:53.523124+01:00",
           "fige": false
         },
         {
@@ -13530,191 +13313,6 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R10/C6/participants",
-      "nouveaux_figes": [],
-      "nombre_figes": 2,
-      "statut": "FIGÉ PARTIEL",
-      "fige": true
-    },
-    {
-      "id": "2026-10-25_R9_C5",
-      "date_course": "2026-10-25",
-      "reunion": "R9",
-      "course": "C5",
-      "hippodrome": "AGEN LA GARENNE",
-      "depart_paris": "2026-10-25T15:40:00+01:00",
-      "nombre_partants": 9,
-      "non_partants": [],
-      "partants": [
-        {
-          "age": 7,
-          "entraineur": "G.HEURTAULT",
-          "gains": null,
-          "jockey": "N.M..LOPES DUARTE",
-          "musique": "6p2p2p6p0p1p9p3p9p9p",
-          "nom": "ATLANTIGO",
-          "non_partant": false,
-          "numero": 1,
-          "poids": 590.0
-        },
-        {
-          "age": 10,
-          "entraineur": "MME L.LE GEAY",
-          "gains": null,
-          "jockey": "L.LE GEAY",
-          "musique": "1p0p2p3p0p0p5p2p(25)0p",
-          "nom": "QUDILLERO",
-          "non_partant": false,
-          "numero": 2,
-          "poids": 590.0
-        },
-        {
-          "age": 5,
-          "entraineur": "MME V.SEIGNOUX",
-          "gains": null,
-          "jockey": "M.ROMARY",
-          "musique": "6p4p2p9p6p0p9p0p(24)0p",
-          "nom": "VALKANA",
-          "non_partant": false,
-          "numero": 3,
-          "poids": 565.0
-        },
-        {
-          "age": 10,
-          "entraineur": "D.MAHE",
-          "gains": null,
-          "jockey": "V.CHENET",
-          "musique": "0p6p0p(25)Ah0p5p5p1h4h",
-          "nom": "KIROZ",
-          "non_partant": false,
-          "numero": 4,
-          "poids": 560.0
-        },
-        {
-          "age": 11,
-          "entraineur": "J.RESIMONT",
-          "gains": null,
-          "jockey": "C.MERILLE",
-          "musique": "6p9p0p(25)9p6p1p3p0p0p",
-          "nom": "PARABAK",
-          "non_partant": false,
-          "numero": 5,
-          "poids": 560.0
-        },
-        {
-          "age": 7,
-          "entraineur": "H.FROIDEFOND",
-          "gains": null,
-          "jockey": "A.GAVILAN",
-          "musique": "7p6p2p3p4p2p3p4p4p6p",
-          "nom": "KHELLE TARTARE",
-          "non_partant": false,
-          "numero": 6,
-          "poids": 555.0
-        },
-        {
-          "age": 5,
-          "entraineur": "D.CHENU",
-          "gains": null,
-          "jockey": "G.FRADELIN",
-          "musique": "(25)0p7p5p6p8p0p6p3p0p",
-          "nom": "LIANE",
-          "non_partant": false,
-          "numero": 7,
-          "poids": 545.0
-        },
-        {
-          "age": 5,
-          "entraineur": "A.LOPEZ",
-          "gains": null,
-          "jockey": "H.MOUESAN",
-          "musique": "7p6p7p4p7p7p9p0p0p3p",
-          "nom": "MADGIC'M",
-          "non_partant": false,
-          "numero": 8,
-          "poids": 545.0
-        },
-        {
-          "age": 4,
-          "entraineur": "P.SOGORB (S)",
-          "gains": null,
-          "jockey": "S.TOPIN",
-          "musique": "5p6p4p(25)9p5p3p",
-          "nom": "LORETTEDESOUCHEZ",
-          "non_partant": false,
-          "numero": 9,
-          "poids": 545.0
-        }
-      ],
-      "moteurs": [
-        {
-          "moteur": "M1",
-          "gagnant_espere": 2,
-          "meilleur_place": 1,
-          "ordre_espere": [
-            2,
-            1,
-            6,
-            9,
-            4
-          ],
-          "pari_retenu": "Simulation uniquement - aucun pari execute",
-          "qualification": "Heuristique expérimentale, non validée statistiquement",
-          "validation": "FIGÉ HISTORIQUE (IMMUTABLE)",
-          "heure_paris": "2026-10-25T00:16:28.116230+02:00",
-          "fige": true
-        },
-        {
-          "moteur": "M2",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Données spécialisées insuffisantes",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.926512+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M3",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Données spécialisées insuffisantes",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.926512+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M4",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Couverture des donnees insuffisante",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:31.926512+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M5",
-          "gagnant_espere": 2,
-          "meilleur_place": 1,
-          "ordre_espere": [
-            2,
-            1,
-            9,
-            4,
-            6
-          ],
-          "pari_retenu": "Simulation uniquement - aucun pari execute",
-          "qualification": "Heuristique expérimentale, non validée statistiquement",
-          "validation": "FIGÉ HISTORIQUE (IMMUTABLE)",
-          "heure_paris": "2026-10-25T00:16:28.116230+02:00",
-          "fige": true
-        }
-      ],
-      "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C5/participants",
       "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
@@ -13845,7 +13443,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.716282+01:00",
+          "heure_paris": "2026-10-25T15:55:01.145563+01:00",
           "fige": false
         },
         {
@@ -13856,7 +13454,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.716282+01:00",
+          "heure_paris": "2026-10-25T15:55:01.145563+01:00",
           "fige": false
         },
         {
@@ -13867,7 +13465,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.716282+01:00",
+          "heure_paris": "2026-10-25T15:55:01.145563+01:00",
           "fige": false
         },
         {
@@ -14019,7 +13617,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.277849+01:00",
+          "heure_paris": "2026-10-25T15:54:46.341180+01:00",
           "fige": false
         },
         {
@@ -14030,7 +13628,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.277849+01:00",
+          "heure_paris": "2026-10-25T15:54:46.341180+01:00",
           "fige": false
         },
         {
@@ -14041,7 +13639,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.277849+01:00",
+          "heure_paris": "2026-10-25T15:54:46.341180+01:00",
           "fige": false
         },
         {
@@ -14067,6 +13665,408 @@
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
       "fige": true
+    },
+    {
+      "id": "2026-10-25_R9_C5",
+      "date_course": "2026-10-25",
+      "reunion": "R9",
+      "course": "C5",
+      "hippodrome": "AGEN LA GARENNE",
+      "depart_paris": "2026-10-25T15:50:00+01:00",
+      "nombre_partants": 9,
+      "non_partants": [],
+      "partants": [
+        {
+          "age": 7,
+          "entraineur": "G.HEURTAULT",
+          "gains": null,
+          "jockey": "N.M..LOPES DUARTE",
+          "musique": "6p2p2p6p0p1p9p3p9p9p",
+          "nom": "ATLANTIGO",
+          "non_partant": false,
+          "numero": 1,
+          "poids": 590.0
+        },
+        {
+          "age": 10,
+          "entraineur": "MME L.LE GEAY",
+          "gains": null,
+          "jockey": "L.LE GEAY",
+          "musique": "1p0p2p3p0p0p5p2p(25)0p",
+          "nom": "QUDILLERO",
+          "non_partant": false,
+          "numero": 2,
+          "poids": 590.0
+        },
+        {
+          "age": 5,
+          "entraineur": "MME V.SEIGNOUX",
+          "gains": null,
+          "jockey": "M.ROMARY",
+          "musique": "6p4p2p9p6p0p9p0p(24)0p",
+          "nom": "VALKANA",
+          "non_partant": false,
+          "numero": 3,
+          "poids": 565.0
+        },
+        {
+          "age": 10,
+          "entraineur": "D.MAHE",
+          "gains": null,
+          "jockey": "V.CHENET",
+          "musique": "0p6p0p(25)Ah0p5p5p1h4h",
+          "nom": "KIROZ",
+          "non_partant": false,
+          "numero": 4,
+          "poids": 560.0
+        },
+        {
+          "age": 11,
+          "entraineur": "J.RESIMONT",
+          "gains": null,
+          "jockey": "C.MERILLE",
+          "musique": "6p9p0p(25)9p6p1p3p0p0p",
+          "nom": "PARABAK",
+          "non_partant": false,
+          "numero": 5,
+          "poids": 560.0
+        },
+        {
+          "age": 7,
+          "entraineur": "H.FROIDEFOND",
+          "gains": null,
+          "jockey": "A.GAVILAN",
+          "musique": "7p6p2p3p4p2p3p4p4p6p",
+          "nom": "KHELLE TARTARE",
+          "non_partant": false,
+          "numero": 6,
+          "poids": 555.0
+        },
+        {
+          "age": 5,
+          "entraineur": "D.CHENU",
+          "gains": null,
+          "jockey": "G.FRADELIN",
+          "musique": "(25)0p7p5p6p8p0p6p3p0p",
+          "nom": "LIANE",
+          "non_partant": false,
+          "numero": 7,
+          "poids": 545.0
+        },
+        {
+          "age": 5,
+          "entraineur": "A.LOPEZ",
+          "gains": null,
+          "jockey": "H.MOUESAN",
+          "musique": "7p6p7p4p7p7p9p0p0p3p",
+          "nom": "MADGIC'M",
+          "non_partant": false,
+          "numero": 8,
+          "poids": 545.0
+        },
+        {
+          "age": 4,
+          "entraineur": "P.SOGORB (S)",
+          "gains": null,
+          "jockey": "S.TOPIN",
+          "musique": "5p6p4p(25)9p5p3p",
+          "nom": "LORETTEDESOUCHEZ",
+          "non_partant": false,
+          "numero": 9,
+          "poids": 545.0
+        }
+      ],
+      "moteurs": [
+        {
+          "moteur": "M1",
+          "gagnant_espere": 2,
+          "meilleur_place": 1,
+          "ordre_espere": [
+            2,
+            1,
+            6,
+            9,
+            4
+          ],
+          "pari_retenu": "Simulation uniquement - aucun pari execute",
+          "qualification": "Heuristique expérimentale, non validée statistiquement",
+          "validation": "FIGÉ HISTORIQUE (IMMUTABLE)",
+          "heure_paris": "2026-10-25T00:16:28.116230+02:00",
+          "fige": true
+        },
+        {
+          "moteur": "M2",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Données spécialisées insuffisantes",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:52.442647+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M3",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Données spécialisées insuffisantes",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:52.442647+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M4",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Couverture des donnees insuffisante",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:52.442647+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M5",
+          "gagnant_espere": 2,
+          "meilleur_place": 1,
+          "ordre_espere": [
+            2,
+            1,
+            9,
+            4,
+            6
+          ],
+          "pari_retenu": "Simulation uniquement - aucun pari execute",
+          "qualification": "Heuristique expérimentale, non validée statistiquement",
+          "validation": "FIGÉ HISTORIQUE (IMMUTABLE)",
+          "heure_paris": "2026-10-25T00:16:28.116230+02:00",
+          "fige": true
+        }
+      ],
+      "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R9/C5/participants",
+      "nouveaux_figes": [],
+      "nombre_figes": 2,
+      "statut": "FIGÉ PARTIEL",
+      "fige": true
+    },
+    {
+      "id": "2026-10-25_R8_C4",
+      "date_course": "2026-10-25",
+      "reunion": "R8",
+      "course": "C4",
+      "hippodrome": "SAINT BRIEUC",
+      "depart_paris": "2026-10-25T15:52:00+01:00",
+      "nombre_partants": 13,
+      "non_partants": [],
+      "partants": [
+        {
+          "age": 4,
+          "entraineur": "J.DELAUNAY (S)",
+          "gains": null,
+          "jockey": "L.VANDAMME",
+          "musique": "8h7h4h3h3h0p5p2p(25)6p",
+          "nom": "CHATEAU ESQUIULE",
+          "non_partant": false,
+          "numero": 1,
+          "poids": 720.0
+        },
+        {
+          "age": 4,
+          "entraineur": "L&M.VIEL (S)",
+          "gains": null,
+          "jockey": "Y. FOLLIN",
+          "musique": "(25)8pTs4h4sAh0p3p",
+          "nom": "MISTER POM",
+          "non_partant": false,
+          "numero": 2,
+          "poids": 680.0
+        },
+        {
+          "age": 4,
+          "entraineur": "MME S.JAFFRELOT-BEDON",
+          "gains": null,
+          "jockey": "A.GAUTRON",
+          "musique": "7h9h9h3p2p",
+          "nom": "GAR'N GIN",
+          "non_partant": false,
+          "numero": 3,
+          "poids": 670.0
+        },
+        {
+          "age": 4,
+          "entraineur": "N. GEORGE & A. ZETTERHOLM",
+          "gains": null,
+          "jockey": "F.GILES",
+          "musique": "6h",
+          "nom": "RIMATILCLO",
+          "non_partant": false,
+          "numero": 4,
+          "poids": 670.0
+        },
+        {
+          "age": 4,
+          "entraineur": "V.CHATELLIER",
+          "gains": null,
+          "jockey": "D.GALLON",
+          "musique": "7p4p",
+          "nom": "GINO DE MAINE",
+          "non_partant": false,
+          "numero": 5,
+          "poids": 670.0
+        },
+        {
+          "age": 4,
+          "entraineur": "L.CARBERRY (S)",
+          "gains": null,
+          "jockey": "A.DUVACHER",
+          "musique": "8h2p3p",
+          "nom": "SHAWNEE SONG",
+          "non_partant": false,
+          "numero": 6,
+          "poids": 670.0
+        },
+        {
+          "age": 4,
+          "entraineur": "CHAILLE-CHAILLE & PAMART",
+          "gains": null,
+          "jockey": "G.RICHARD",
+          "musique": "",
+          "nom": "CORTINA DU BERLAIS",
+          "non_partant": false,
+          "numero": 7,
+          "poids": 670.0
+        },
+        {
+          "age": 4,
+          "entraineur": "MME O.ELLART",
+          "gains": null,
+          "jockey": "N. CLAUDE",
+          "musique": "5h0p",
+          "nom": "MUSIQUE ROYALE",
+          "non_partant": false,
+          "numero": 8,
+          "poids": 650.0
+        },
+        {
+          "age": 4,
+          "entraineur": "D.BRESSOU",
+          "gains": null,
+          "jockey": "G.MEUNIER",
+          "musique": "(25)Ah",
+          "nom": "KIRKITA",
+          "non_partant": false,
+          "numero": 9,
+          "poids": 650.0
+        },
+        {
+          "age": 4,
+          "entraineur": "B.DENIEL",
+          "gains": null,
+          "jockey": "G.SANCHEZ",
+          "musique": "",
+          "nom": "FULENN DE KERBARH",
+          "non_partant": false,
+          "numero": 10,
+          "poids": 650.0
+        },
+        {
+          "age": 4,
+          "entraineur": "J.BOISNARD (S)",
+          "gains": null,
+          "jockey": "A.MORICEAU",
+          "musique": "",
+          "nom": "IMPERIAL EIGHT",
+          "non_partant": false,
+          "numero": 11,
+          "poids": 650.0
+        },
+        {
+          "age": 4,
+          "entraineur": "JPH .DUBOIS",
+          "gains": null,
+          "jockey": "T.VABOIS",
+          "musique": "1p7pTh3p",
+          "nom": "MA REINE",
+          "non_partant": false,
+          "numero": 12,
+          "poids": 650.0
+        },
+        {
+          "age": 4,
+          "entraineur": "F.FOUCHER",
+          "gains": null,
+          "jockey": "T.BEAURAIN",
+          "musique": "2p6h",
+          "nom": "MAGIC MAMBA",
+          "non_partant": false,
+          "numero": 13,
+          "poids": 650.0
+        }
+      ],
+      "moteurs": [
+        {
+          "moteur": "M1",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Couverture des donnees insuffisante",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:51.071587+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M2",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Données spécialisées insuffisantes",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:51.071587+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M3",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Données spécialisées insuffisantes",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:51.071587+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M4",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Couverture des donnees insuffisante",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:51.071587+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M5",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Couverture des donnees insuffisante",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:51.071587+01:00",
+          "fige": false
+        }
+      ],
+      "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C4/participants",
+      "nouveaux_figes": [],
+      "nombre_figes": 0,
+      "statut": "NON FIGÉ",
+      "fige": false
     },
     {
       "id": "2026-10-25_R11_C5",
@@ -14259,7 +14259,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.023325+01:00",
+          "heure_paris": "2026-10-25T15:54:54.737489+01:00",
           "fige": false
         },
         {
@@ -14270,7 +14270,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.023325+01:00",
+          "heure_paris": "2026-10-25T15:54:54.737489+01:00",
           "fige": false
         },
         {
@@ -14281,7 +14281,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.023325+01:00",
+          "heure_paris": "2026-10-25T15:54:54.737489+01:00",
           "fige": false
         },
         {
@@ -14303,235 +14303,6 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R11/C5/participants",
-      "nouveaux_figes": [],
-      "nombre_figes": 2,
-      "statut": "FIGÉ PARTIEL",
-      "fige": true
-    },
-    {
-      "id": "2026-10-25_R12_C8",
-      "date_course": "2026-10-25",
-      "reunion": "R12",
-      "course": "C8",
-      "hippodrome": "NANTES",
-      "depart_paris": "2026-10-25T16:00:00+01:00",
-      "nombre_partants": 13,
-      "non_partants": [],
-      "partants": [
-        {
-          "age": 5,
-          "entraineur": "Mme E. VAN PETTEN",
-          "gains": null,
-          "jockey": "Mlle E. VAN PETTEN",
-          "musique": "(25)7a6aDa5a7a7a4a(24)1a",
-          "nom": "LIBERTY SMART",
-          "non_partant": false,
-          "numero": 1,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "J.PH. GUIBOUT",
-          "gains": null,
-          "jockey": "J.PH. GUIBOUT",
-          "musique": "Da6aDa6a9a7a8a6a6a4a",
-          "nom": "LE LIBERTY",
-          "non_partant": false,
-          "numero": 2,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "J.L. BIGEON",
-          "gains": null,
-          "jockey": "M. HERRAULT",
-          "musique": "Da0a1a3aDa6a5aDa(25)7a",
-          "nom": "LUCKY BLUE",
-          "non_partant": false,
-          "numero": 3,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "Alexis POPOT",
-          "gains": null,
-          "jockey": "A. POPOT",
-          "musique": "Da5a5a3aDa2aDa5a1aDa",
-          "nom": "LE FRENCH DU SCION",
-          "non_partant": false,
-          "numero": 4,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "P. FERCHAUD",
-          "gains": null,
-          "jockey": "P. FERCHAUD",
-          "musique": "Da0a7a5aDa9a9a4a9a4a",
-          "nom": "LAZZARO THE BEST",
-          "non_partant": false,
-          "numero": 5,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "D. LEFAUCHEUX",
-          "gains": null,
-          "jockey": "A. LEFAUCHEUX",
-          "musique": "4a8a2a5a6aDa0aDa8aDa",
-          "nom": "LAURIANE DU RIED",
-          "non_partant": false,
-          "numero": 6,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "S. HARDY",
-          "gains": null,
-          "jockey": "B. HARDY",
-          "musique": "4a8a8a6aDa8a7a6a5a2a",
-          "nom": "LOLITA DES LANDES",
-          "non_partant": false,
-          "numero": 7,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "K. CHAMPENOIS",
-          "gains": null,
-          "jockey": "GUILLAUME MARTIN",
-          "musique": "4a2a3a3a2a0a(25)0a6a3a",
-          "nom": "LANCIER DE REANA",
-          "non_partant": false,
-          "numero": 8,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "H. MARIE",
-          "gains": null,
-          "jockey": "ANTHONY DOLLION",
-          "musique": "9a0a0a4a8aDa3a3aDa5a",
-          "nom": "LEFORT FLIGNY",
-          "non_partant": false,
-          "numero": 9,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "R. JOLY",
-          "gains": null,
-          "jockey": "R. JOLY",
-          "musique": "2aDa3aDa2a2a3a(25)Da8a",
-          "nom": "LAUREL",
-          "non_partant": false,
-          "numero": 10,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "P. ROULLEAU",
-          "gains": null,
-          "jockey": "A. LAMY",
-          "musique": "5a7a8a6a2a1a4a3a1a3a",
-          "nom": "LUTIN DU GUINOUX",
-          "non_partant": false,
-          "numero": 11,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "V. MARQUEZ",
-          "gains": null,
-          "jockey": "V. MARQUEZ",
-          "musique": "8aDa7a9a3a3a5a2a4a1a",
-          "nom": "LA RIVER D'ECCAM",
-          "non_partant": false,
-          "numero": 12,
-          "poids": null
-        },
-        {
-          "age": 5,
-          "entraineur": "Thomas LEBREC",
-          "gains": null,
-          "jockey": "R. LAMY",
-          "musique": "9aDaDaDmDa1a6aDa5a4a",
-          "nom": "LASTRONAUT DANOVER",
-          "non_partant": false,
-          "numero": 13,
-          "poids": null
-        }
-      ],
-      "moteurs": [
-        {
-          "moteur": "M1",
-          "gagnant_espere": 10,
-          "meilleur_place": 8,
-          "ordre_espere": [
-            10,
-            8,
-            3,
-            4,
-            1
-          ],
-          "pari_retenu": "Simulation uniquement - aucun pari execute",
-          "qualification": "Heuristique expérimentale, non validée statistiquement",
-          "validation": "FIGÉ HISTORIQUE (IMMUTABLE)",
-          "heure_paris": "2026-10-25T00:16:34.351159+02:00",
-          "fige": true
-        },
-        {
-          "moteur": "M2",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Données spécialisées insuffisantes",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.000061+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M3",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Données spécialisées insuffisantes",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.000061+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M4",
-          "gagnant_espere": null,
-          "meilleur_place": null,
-          "ordre_espere": [],
-          "pari_retenu": "Aucun",
-          "qualification": "Couverture des donnees insuffisante",
-          "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.000061+01:00",
-          "fige": false
-        },
-        {
-          "moteur": "M5",
-          "gagnant_espere": 10,
-          "meilleur_place": 8,
-          "ordre_espere": [
-            10,
-            8,
-            3,
-            4,
-            1
-          ],
-          "pari_retenu": "Simulation uniquement - aucun pari execute",
-          "qualification": "Heuristique expérimentale, non validée statistiquement",
-          "validation": "FIGÉ HISTORIQUE (IMMUTABLE)",
-          "heure_paris": "2026-10-25T00:16:34.351159+02:00",
-          "fige": true
-        }
-      ],
-      "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C8/participants",
       "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
@@ -14689,7 +14460,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.596168+01:00",
+          "heure_paris": "2026-10-25T15:54:57.390986+01:00",
           "fige": false
         },
         {
@@ -14700,7 +14471,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.596168+01:00",
+          "heure_paris": "2026-10-25T15:54:57.390986+01:00",
           "fige": false
         },
         {
@@ -14711,7 +14482,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.596168+01:00",
+          "heure_paris": "2026-10-25T15:54:57.390986+01:00",
           "fige": false
         },
         {
@@ -14722,7 +14493,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.596168+01:00",
+          "heure_paris": "2026-10-25T15:54:57.390986+01:00",
           "fige": false
         },
         {
@@ -14733,7 +14504,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.596168+01:00",
+          "heure_paris": "2026-10-25T15:54:57.390986+01:00",
           "fige": false
         }
       ],
@@ -14934,7 +14705,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.968509+01:00",
+          "heure_paris": "2026-10-25T15:54:59.828864+01:00",
           "fige": false
         },
         {
@@ -14945,7 +14716,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.968509+01:00",
+          "heure_paris": "2026-10-25T15:54:59.828864+01:00",
           "fige": false
         },
         {
@@ -14956,7 +14727,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:44.968509+01:00",
+          "heure_paris": "2026-10-25T15:54:59.828864+01:00",
           "fige": false
         },
         {
@@ -15108,7 +14879,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.209401+01:00",
+          "heure_paris": "2026-10-25T15:54:51.199205+01:00",
           "fige": false
         },
         {
@@ -15119,7 +14890,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.209401+01:00",
+          "heure_paris": "2026-10-25T15:54:51.199205+01:00",
           "fige": false
         },
         {
@@ -15130,7 +14901,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.209401+01:00",
+          "heure_paris": "2026-10-25T15:54:51.199205+01:00",
           "fige": false
         },
         {
@@ -15152,6 +14923,235 @@
         }
       ],
       "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R8/C5/participants",
+      "nouveaux_figes": [],
+      "nombre_figes": 2,
+      "statut": "FIGÉ PARTIEL",
+      "fige": true
+    },
+    {
+      "id": "2026-10-25_R12_C8",
+      "date_course": "2026-10-25",
+      "reunion": "R12",
+      "course": "C8",
+      "hippodrome": "NANTES",
+      "depart_paris": "2026-10-25T16:02:00+01:00",
+      "nombre_partants": 13,
+      "non_partants": [],
+      "partants": [
+        {
+          "age": 5,
+          "entraineur": "Mme E. VAN PETTEN",
+          "gains": null,
+          "jockey": "Mlle E. VAN PETTEN",
+          "musique": "(25)7a6aDa5a7a7a4a(24)1a",
+          "nom": "LIBERTY SMART",
+          "non_partant": false,
+          "numero": 1,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "J.PH. GUIBOUT",
+          "gains": null,
+          "jockey": "J.PH. GUIBOUT",
+          "musique": "Da6aDa6a9a7a8a6a6a4a",
+          "nom": "LE LIBERTY",
+          "non_partant": false,
+          "numero": 2,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "J.L. BIGEON",
+          "gains": null,
+          "jockey": "M. HERRAULT",
+          "musique": "Da0a1a3aDa6a5aDa(25)7a",
+          "nom": "LUCKY BLUE",
+          "non_partant": false,
+          "numero": 3,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "Alexis POPOT",
+          "gains": null,
+          "jockey": "A. POPOT",
+          "musique": "Da5a5a3aDa2aDa5a1aDa",
+          "nom": "LE FRENCH DU SCION",
+          "non_partant": false,
+          "numero": 4,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "P. FERCHAUD",
+          "gains": null,
+          "jockey": "P. FERCHAUD",
+          "musique": "Da0a7a5aDa9a9a4a9a4a",
+          "nom": "LAZZARO THE BEST",
+          "non_partant": false,
+          "numero": 5,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "D. LEFAUCHEUX",
+          "gains": null,
+          "jockey": "A. LEFAUCHEUX",
+          "musique": "4a8a2a5a6aDa0aDa8aDa",
+          "nom": "LAURIANE DU RIED",
+          "non_partant": false,
+          "numero": 6,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "S. HARDY",
+          "gains": null,
+          "jockey": "B. HARDY",
+          "musique": "4a8a8a6aDa8a7a6a5a2a",
+          "nom": "LOLITA DES LANDES",
+          "non_partant": false,
+          "numero": 7,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "K. CHAMPENOIS",
+          "gains": null,
+          "jockey": "GUILLAUME MARTIN",
+          "musique": "4a2a3a3a2a0a(25)0a6a3a",
+          "nom": "LANCIER DE REANA",
+          "non_partant": false,
+          "numero": 8,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "H. MARIE",
+          "gains": null,
+          "jockey": "ANTHONY DOLLION",
+          "musique": "9a0a0a4a8aDa3a3aDa5a",
+          "nom": "LEFORT FLIGNY",
+          "non_partant": false,
+          "numero": 9,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "R. JOLY",
+          "gains": null,
+          "jockey": "R. JOLY",
+          "musique": "2aDa3aDa2a2a3a(25)Da8a",
+          "nom": "LAUREL",
+          "non_partant": false,
+          "numero": 10,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "P. ROULLEAU",
+          "gains": null,
+          "jockey": "A. LAMY",
+          "musique": "5a7a8a6a2a1a4a3a1a3a",
+          "nom": "LUTIN DU GUINOUX",
+          "non_partant": false,
+          "numero": 11,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "V. MARQUEZ",
+          "gains": null,
+          "jockey": "V. MARQUEZ",
+          "musique": "8aDa7a9a3a3a5a2a4a1a",
+          "nom": "LA RIVER D'ECCAM",
+          "non_partant": false,
+          "numero": 12,
+          "poids": null
+        },
+        {
+          "age": 5,
+          "entraineur": "Thomas LEBREC",
+          "gains": null,
+          "jockey": "R. LAMY",
+          "musique": "9aDaDaDmDa1a6aDa5a4a",
+          "nom": "LASTRONAUT DANOVER",
+          "non_partant": false,
+          "numero": 13,
+          "poids": null
+        }
+      ],
+      "moteurs": [
+        {
+          "moteur": "M1",
+          "gagnant_espere": 10,
+          "meilleur_place": 8,
+          "ordre_espere": [
+            10,
+            8,
+            3,
+            4,
+            1
+          ],
+          "pari_retenu": "Simulation uniquement - aucun pari execute",
+          "qualification": "Heuristique expérimentale, non validée statistiquement",
+          "validation": "FIGÉ HISTORIQUE (IMMUTABLE)",
+          "heure_paris": "2026-10-25T00:16:34.351159+02:00",
+          "fige": true
+        },
+        {
+          "moteur": "M2",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Données spécialisées insuffisantes",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:56.422766+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M3",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Données spécialisées insuffisantes",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:56.422766+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M4",
+          "gagnant_espere": null,
+          "meilleur_place": null,
+          "ordre_espere": [],
+          "pari_retenu": "Aucun",
+          "qualification": "Couverture des donnees insuffisante",
+          "validation": "NON FIGÉ",
+          "heure_paris": "2026-10-25T15:54:56.422766+01:00",
+          "fige": false
+        },
+        {
+          "moteur": "M5",
+          "gagnant_espere": 10,
+          "meilleur_place": 8,
+          "ordre_espere": [
+            10,
+            8,
+            3,
+            4,
+            1
+          ],
+          "pari_retenu": "Simulation uniquement - aucun pari execute",
+          "qualification": "Heuristique expérimentale, non validée statistiquement",
+          "validation": "FIGÉ HISTORIQUE (IMMUTABLE)",
+          "heure_paris": "2026-10-25T00:16:34.351159+02:00",
+          "fige": true
+        }
+      ],
+      "source": "https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/25102026/R12/C8/participants",
       "nouveaux_figes": [],
       "nombre_figes": 2,
       "statut": "FIGÉ PARTIEL",
@@ -15326,7 +15326,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.267978+01:00",
+          "heure_paris": "2026-10-25T15:54:58.309684+01:00",
           "fige": false
         },
         {
@@ -15337,7 +15337,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.267978+01:00",
+          "heure_paris": "2026-10-25T15:54:58.309684+01:00",
           "fige": false
         },
         {
@@ -15348,7 +15348,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.267978+01:00",
+          "heure_paris": "2026-10-25T15:54:58.309684+01:00",
           "fige": false
         },
         {
@@ -15566,7 +15566,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.041007+01:00",
+          "heure_paris": "2026-10-25T15:54:53.651241+01:00",
           "fige": false
         },
         {
@@ -15577,7 +15577,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.041007+01:00",
+          "heure_paris": "2026-10-25T15:54:53.651241+01:00",
           "fige": false
         },
         {
@@ -15588,7 +15588,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.041007+01:00",
+          "heure_paris": "2026-10-25T15:54:53.651241+01:00",
           "fige": false
         },
         {
@@ -15806,7 +15806,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.299377+01:00",
+          "heure_paris": "2026-10-25T15:54:50.036791+01:00",
           "fige": false
         },
         {
@@ -15817,7 +15817,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.299377+01:00",
+          "heure_paris": "2026-10-25T15:54:50.036791+01:00",
           "fige": false
         },
         {
@@ -15828,7 +15828,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.299377+01:00",
+          "heure_paris": "2026-10-25T15:54:50.036791+01:00",
           "fige": false
         },
         {
@@ -15974,7 +15974,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.138691+01:00",
+          "heure_paris": "2026-10-25T15:54:52.569775+01:00",
           "fige": false
         },
         {
@@ -15985,7 +15985,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.138691+01:00",
+          "heure_paris": "2026-10-25T15:54:52.569775+01:00",
           "fige": false
         },
         {
@@ -15996,7 +15996,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.138691+01:00",
+          "heure_paris": "2026-10-25T15:54:52.569775+01:00",
           "fige": false
         },
         {
@@ -16007,7 +16007,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.138691+01:00",
+          "heure_paris": "2026-10-25T15:54:52.569775+01:00",
           "fige": false
         },
         {
@@ -16018,7 +16018,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.138691+01:00",
+          "heure_paris": "2026-10-25T15:54:52.569775+01:00",
           "fige": false
         }
       ],
@@ -16197,7 +16197,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.964642+01:00",
+          "heure_paris": "2026-10-25T15:55:01.273676+01:00",
           "fige": false
         },
         {
@@ -16208,7 +16208,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.964642+01:00",
+          "heure_paris": "2026-10-25T15:55:01.273676+01:00",
           "fige": false
         },
         {
@@ -16219,7 +16219,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:47.964642+01:00",
+          "heure_paris": "2026-10-25T15:55:01.273676+01:00",
           "fige": false
         },
         {
@@ -16426,7 +16426,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.540054+01:00",
+          "heure_paris": "2026-10-25T15:54:46.714860+01:00",
           "fige": false
         },
         {
@@ -16437,7 +16437,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.540054+01:00",
+          "heure_paris": "2026-10-25T15:54:46.714860+01:00",
           "fige": false
         },
         {
@@ -16448,7 +16448,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.540054+01:00",
+          "heure_paris": "2026-10-25T15:54:46.714860+01:00",
           "fige": false
         },
         {
@@ -16666,7 +16666,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.279811+01:00",
+          "heure_paris": "2026-10-25T15:54:54.864722+01:00",
           "fige": false
         },
         {
@@ -16677,7 +16677,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.279811+01:00",
+          "heure_paris": "2026-10-25T15:54:54.864722+01:00",
           "fige": false
         },
         {
@@ -16688,7 +16688,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.279811+01:00",
+          "heure_paris": "2026-10-25T15:54:54.864722+01:00",
           "fige": false
         },
         {
@@ -16928,7 +16928,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.212393+01:00",
+          "heure_paris": "2026-10-25T15:54:56.628062+01:00",
           "fige": false
         },
         {
@@ -16939,7 +16939,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.212393+01:00",
+          "heure_paris": "2026-10-25T15:54:56.628062+01:00",
           "fige": false
         },
         {
@@ -16950,7 +16950,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:39.212393+01:00",
+          "heure_paris": "2026-10-25T15:54:56.628062+01:00",
           "fige": false
         },
         {
@@ -17168,7 +17168,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.179663+01:00",
+          "heure_paris": "2026-10-25T15:55:00.210194+01:00",
           "fige": false
         },
         {
@@ -17179,7 +17179,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.179663+01:00",
+          "heure_paris": "2026-10-25T15:55:00.210194+01:00",
           "fige": false
         },
         {
@@ -17190,7 +17190,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.179663+01:00",
+          "heure_paris": "2026-10-25T15:55:00.210194+01:00",
           "fige": false
         },
         {
@@ -17397,7 +17397,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.478612+01:00",
+          "heure_paris": "2026-10-25T15:54:51.358686+01:00",
           "fige": false
         },
         {
@@ -17408,7 +17408,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.478612+01:00",
+          "heure_paris": "2026-10-25T15:54:51.358686+01:00",
           "fige": false
         },
         {
@@ -17419,7 +17419,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.478612+01:00",
+          "heure_paris": "2026-10-25T15:54:51.358686+01:00",
           "fige": false
         },
         {
@@ -17659,7 +17659,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.482208+01:00",
+          "heure_paris": "2026-10-25T15:54:58.434823+01:00",
           "fige": false
         },
         {
@@ -17670,7 +17670,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.482208+01:00",
+          "heure_paris": "2026-10-25T15:54:58.434823+01:00",
           "fige": false
         },
         {
@@ -17681,7 +17681,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.482208+01:00",
+          "heure_paris": "2026-10-25T15:54:58.434823+01:00",
           "fige": false
         },
         {
@@ -17899,7 +17899,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.320269+01:00",
+          "heure_paris": "2026-10-25T15:54:53.779668+01:00",
           "fige": false
         },
         {
@@ -17910,7 +17910,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.320269+01:00",
+          "heure_paris": "2026-10-25T15:54:53.779668+01:00",
           "fige": false
         },
         {
@@ -17921,7 +17921,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.320269+01:00",
+          "heure_paris": "2026-10-25T15:54:53.779668+01:00",
           "fige": false
         },
         {
@@ -18117,7 +18117,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.887437+01:00",
+          "heure_paris": "2026-10-25T15:54:57.518072+01:00",
           "fige": false
         },
         {
@@ -18128,7 +18128,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.887437+01:00",
+          "heure_paris": "2026-10-25T15:54:57.518072+01:00",
           "fige": false
         },
         {
@@ -18139,7 +18139,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:40.887437+01:00",
+          "heure_paris": "2026-10-25T15:54:57.518072+01:00",
           "fige": false
         },
         {
@@ -18291,7 +18291,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.366233+01:00",
+          "heure_paris": "2026-10-25T15:54:52.696898+01:00",
           "fige": false
         },
         {
@@ -18302,7 +18302,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.366233+01:00",
+          "heure_paris": "2026-10-25T15:54:52.696898+01:00",
           "fige": false
         },
         {
@@ -18313,7 +18313,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:32.366233+01:00",
+          "heure_paris": "2026-10-25T15:54:52.696898+01:00",
           "fige": false
         },
         {
@@ -18520,7 +18520,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.552870+01:00",
+          "heure_paris": "2026-10-25T15:54:50.162882+01:00",
           "fige": false
         },
         {
@@ -18531,7 +18531,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.552870+01:00",
+          "heure_paris": "2026-10-25T15:54:50.162882+01:00",
           "fige": false
         },
         {
@@ -18542,7 +18542,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.552870+01:00",
+          "heure_paris": "2026-10-25T15:54:50.162882+01:00",
           "fige": false
         },
         {
@@ -18633,7 +18633,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:48.179034+01:00",
+          "heure_paris": "2026-10-25T15:55:01.399911+01:00",
           "fige": false
         },
         {
@@ -18644,7 +18644,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:48.179034+01:00",
+          "heure_paris": "2026-10-25T15:55:01.399911+01:00",
           "fige": false
         },
         {
@@ -18655,7 +18655,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:48.179034+01:00",
+          "heure_paris": "2026-10-25T15:55:01.399911+01:00",
           "fige": false
         },
         {
@@ -18666,7 +18666,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:48.179034+01:00",
+          "heure_paris": "2026-10-25T15:55:01.399911+01:00",
           "fige": false
         },
         {
@@ -18677,7 +18677,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:48.179034+01:00",
+          "heure_paris": "2026-10-25T15:55:01.399911+01:00",
           "fige": false
         }
       ],
@@ -18889,7 +18889,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.754026+01:00",
+          "heure_paris": "2026-10-25T15:54:46.926019+01:00",
           "fige": false
         },
         {
@@ -18900,7 +18900,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.754026+01:00",
+          "heure_paris": "2026-10-25T15:54:46.926019+01:00",
           "fige": false
         },
         {
@@ -18911,7 +18911,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:23.754026+01:00",
+          "heure_paris": "2026-10-25T15:54:46.926019+01:00",
           "fige": false
         },
         {
@@ -19129,7 +19129,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.519789+01:00",
+          "heure_paris": "2026-10-25T15:54:54.989018+01:00",
           "fige": false
         },
         {
@@ -19140,7 +19140,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.519789+01:00",
+          "heure_paris": "2026-10-25T15:54:54.989018+01:00",
           "fige": false
         },
         {
@@ -19151,7 +19151,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.519789+01:00",
+          "heure_paris": "2026-10-25T15:54:54.989018+01:00",
           "fige": false
         },
         {
@@ -19391,7 +19391,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.392754+01:00",
+          "heure_paris": "2026-10-25T15:55:00.420068+01:00",
           "fige": false
         },
         {
@@ -19402,7 +19402,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.392754+01:00",
+          "heure_paris": "2026-10-25T15:55:00.420068+01:00",
           "fige": false
         },
         {
@@ -19413,7 +19413,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:45.392754+01:00",
+          "heure_paris": "2026-10-25T15:55:00.420068+01:00",
           "fige": false
         },
         {
@@ -19587,7 +19587,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.695111+01:00",
+          "heure_paris": "2026-10-25T15:54:51.486800+01:00",
           "fige": false
         },
         {
@@ -19598,7 +19598,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.695111+01:00",
+          "heure_paris": "2026-10-25T15:54:51.486800+01:00",
           "fige": false
         },
         {
@@ -19609,7 +19609,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:30.695111+01:00",
+          "heure_paris": "2026-10-25T15:54:51.486800+01:00",
           "fige": false
         },
         {
@@ -19849,7 +19849,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.703486+01:00",
+          "heure_paris": "2026-10-25T15:54:58.644062+01:00",
           "fige": false
         },
         {
@@ -19860,7 +19860,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.703486+01:00",
+          "heure_paris": "2026-10-25T15:54:58.644062+01:00",
           "fige": false
         },
         {
@@ -19871,7 +19871,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:42.703486+01:00",
+          "heure_paris": "2026-10-25T15:54:58.644062+01:00",
           "fige": false
         },
         {
@@ -20111,7 +20111,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.595406+01:00",
+          "heure_paris": "2026-10-25T15:54:53.907152+01:00",
           "fige": false
         },
         {
@@ -20122,7 +20122,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.595406+01:00",
+          "heure_paris": "2026-10-25T15:54:53.907152+01:00",
           "fige": false
         },
         {
@@ -20133,7 +20133,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:34.595406+01:00",
+          "heure_paris": "2026-10-25T15:54:53.907152+01:00",
           "fige": false
         },
         {
@@ -20329,7 +20329,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.109683+01:00",
+          "heure_paris": "2026-10-25T15:54:57.643128+01:00",
           "fige": false
         },
         {
@@ -20340,7 +20340,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.109683+01:00",
+          "heure_paris": "2026-10-25T15:54:57.643128+01:00",
           "fige": false
         },
         {
@@ -20351,7 +20351,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:41.109683+01:00",
+          "heure_paris": "2026-10-25T15:54:57.643128+01:00",
           "fige": false
         },
         {
@@ -20591,7 +20591,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.824207+01:00",
+          "heure_paris": "2026-10-25T15:54:50.310426+01:00",
           "fige": false
         },
         {
@@ -20602,7 +20602,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.824207+01:00",
+          "heure_paris": "2026-10-25T15:54:50.310426+01:00",
           "fige": false
         },
         {
@@ -20613,7 +20613,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:28.824207+01:00",
+          "heure_paris": "2026-10-25T15:54:50.310426+01:00",
           "fige": false
         },
         {
@@ -20831,7 +20831,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.769395+01:00",
+          "heure_paris": "2026-10-25T15:54:55.217269+01:00",
           "fige": false
         },
         {
@@ -20842,7 +20842,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.769395+01:00",
+          "heure_paris": "2026-10-25T15:54:55.217269+01:00",
           "fige": false
         },
         {
@@ -20853,7 +20853,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.769395+01:00",
+          "heure_paris": "2026-10-25T15:54:55.217269+01:00",
           "fige": false
         },
         {
@@ -20999,7 +20999,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.044146+01:00",
+          "heure_paris": "2026-10-25T15:54:50.468004+01:00",
           "fige": false
         },
         {
@@ -21010,7 +21010,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.044146+01:00",
+          "heure_paris": "2026-10-25T15:54:50.468004+01:00",
           "fige": false
         },
         {
@@ -21021,7 +21021,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.044146+01:00",
+          "heure_paris": "2026-10-25T15:54:50.468004+01:00",
           "fige": false
         },
         {
@@ -21032,7 +21032,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.044146+01:00",
+          "heure_paris": "2026-10-25T15:54:50.468004+01:00",
           "fige": false
         },
         {
@@ -21043,7 +21043,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:29.044146+01:00",
+          "heure_paris": "2026-10-25T15:54:50.468004+01:00",
           "fige": false
         }
       ],
@@ -21244,7 +21244,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.987558+01:00",
+          "heure_paris": "2026-10-25T15:54:55.344438+01:00",
           "fige": false
         },
         {
@@ -21255,7 +21255,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Données spécialisées insuffisantes",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.987558+01:00",
+          "heure_paris": "2026-10-25T15:54:55.344438+01:00",
           "fige": false
         },
         {
@@ -21266,7 +21266,7 @@
           "pari_retenu": "Aucun",
           "qualification": "Couverture des donnees insuffisante",
           "validation": "NON FIGÉ",
-          "heure_paris": "2026-10-25T15:18:36.987558+01:00",
+          "heure_paris": "2026-10-25T15:54:55.344438+01:00",
           "fige": false
         },
         {
