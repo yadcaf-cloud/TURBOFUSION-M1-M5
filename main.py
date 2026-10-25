@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""TURBOFUSION M1-M5 v2.0 - Analyse expérimentale PMU.
-Aucun pari réel. FIGES append-only, jamais recalcules apres leur creation.
-"""
+"""TURBOFUSION 3.0 — M1 à M5, analyses traçables et FIGÉS immuables."""
 import argparse
 import datetime as dt
 import hashlib
@@ -10,353 +7,251 @@ import json
 import math
 import os
 import re
-import sys
-import time
-import urllib.error
-import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-PARIS = ZoneInfo('Europe/Paris')
-OUT = Path('rapports_turbofusion')
-FIGES = Path('figes_turbofusion')
-BASES = [
-    'https://offline.turfinfo.api.pmu.fr/rest/client/7/',
-    'https://online.turfinfo.api.pmu.fr/rest/client/1/',
-]
-USER_AGENT = 'Mozilla/5.0 (compatible; TURBOFUSION/2.0; diagnostic PMU)'
+ROOT = Path(__file__).resolve().parent
+DATA = ROOT / "data"
+PARIS = ZoneInfo("Europe/Paris")
+SPECIALITES = {
+    "M1": ("Forme et régularité", ("forme", "regularite")),
+    "M2": ("Aptitudes et conditions", ("aptitude", "conditions")),
+    "M3": ("Origines et entourage", ("origines", "entourage")),
+    "M4": ("Classe et stratégie", ("classe", "strategie")),
+    "M5": ("Risques et fiabilité", ("fiabilite", "regularite")),
+}
 
 
-def now():
-    return dt.datetime.now(PARIS)
+def lire(path):
+    with path.open(encoding="utf-8") as f:
+        return json.load(f)
 
 
-def as_int(value):
-    try:
-        return int(value)
-    except (ValueError, TypeError):
-        return None
-
-
-def as_float(value):
-    try:
-        number = float(str(value).replace(',', '.'))
-        return number if math.isfinite(number) else None
-    except (ValueError, TypeError):
-        return None
-
-
-def pick(obj, *keys):
-    if not isinstance(obj, dict):
-        return None
-    for key in keys:
-        value = obj.get(key)
-        if value is not None and value != '':
-            return value
-    return None
-
-
-def label(value):
-    if isinstance(value, dict):
-        return str(pick(value, 'libelleCourt', 'libelleLong', 'libelle', 'nom', 'code', 'codePays') or '')
-    return str(value or '')
-
-
-def fetch(path):
-    errors = []
-    for base in BASES:
-        url = base + path.lstrip('/')
-        for attempt in range(2):
-            request = urllib.request.Request(url, headers={
-                'Accept': 'application/json', 'User-Agent': USER_AGENT
-            })
-            try:
-                with urllib.request.urlopen(request, timeout=18) as response:
-                    raw = response.read(8_000_001)
-                    if len(raw) > 8_000_000:
-                        raise ValueError('reponse trop volumineuse')
-                    return json.loads(raw.decode('utf-8-sig')), url
-            except (urllib.error.URLError, TimeoutError, ValueError,
-                    UnicodeError, json.JSONDecodeError) as exc:
-                errors.append(f'{url} essai {attempt + 1}: {type(exc).__name__}: {exc}')
-                if attempt == 0:
-                    time.sleep(1)
-    raise RuntimeError(' | '.join(errors))
-
-
-def meetings_from(data):
-    if isinstance(data, list):
-        return data
-    if not isinstance(data, dict):
-        raise ValueError('programme PMU non conforme')
-    for node in (data.get('programme'), data):
-        if isinstance(node, dict):
-            for key in ('reunions', 'réunions'):
-                value = node.get(key)
-                if isinstance(value, list):
-                    return value
-    raise ValueError('aucune liste reunions dans la reponse; cles=' + ','.join(data.keys()))
-
-
-def country_of(meeting):
-    value = pick(meeting, 'pays', 'codePays', 'paysCode', 'country')
-    if isinstance(value, dict):
-        value = pick(value, 'code', 'codePays', 'libelle', 'nom')
-    return str(value or '').strip().upper()
-
-
-def french_meeting(meeting):
-    country = country_of(meeting)
-    # Si le pays est absent, ne pas inventer une localisation.
-    return country in {'FR', 'FRA', 'FRANCE', 'FRANÇAIS', 'FRANCAIS'}
-
-
-def departure(value):
-    if value is None:
-        return None
-    try:
-        if isinstance(value, (float, int)) or str(value).isdigit():
-            number = float(value)
-            if number > 1e11:
-                number /= 1000
-            return dt.datetime.fromtimestamp(number, PARIS)
-        parsed = dt.datetime.fromisoformat(str(value).replace('Z', '+00:00'))
-        return parsed.astimezone(PARIS) if parsed.tzinfo else None
-    except (ValueError, OverflowError, OSError):
-        return None
-
-
-def participants_from(data):
-    if isinstance(data, list):
-        return data
-    if isinstance(data, dict):
-        for key in ('participants', 'partants'):
-            if isinstance(data.get(key), list):
-                return data[key]
-    raise ValueError('liste participants absente ou invalide')
-
-
-def horse(item):
-    music = str(pick(item, 'musique', 'musiqueCheval') or '')
-    return {
-        'numero': as_int(pick(item, 'numPmu', 'numero', 'numOrdre')),
-        'nom': str(pick(item, 'nom', 'nomCheval') or 'Inconnu'),
-        'musique': music,
-        'age': as_int(item.get('age')),
-        'jockey': label(pick(item, 'jockey', 'driver')),
-        'entraineur': label(item.get('entraineur')),
-        'poids': as_float(pick(item, 'handicapPoids', 'poidsConditionMonte')),
-        'gains': as_float(pick(item, 'gainsParticipant', 'gainsCarriere')),
-        'non_partant': str(item.get('nonPartant', False)).lower() in ('true', '1'),
-    }
-
-
-def form_score(music):
-    # Indicateur simplifie : resultats 1 a 9, non probabiliste.
-    digits = [int(x) for x in re.findall(r'[1-9]', music)[:5]]
-    return sum(10 - x for x in digits) / len(digits) if len(digits) >= 3 else None
-
-
-def engine_rank(active, number):
-    """Classement distinct, uniquement si les champs utiles existent.
-    M2 et M3 ne sont pas evalues sans donnees d'aptitude/origines fiables.
-    """
-    if number in (2, 3):
-        return [], 'Données spécialisées insuffisantes'
-    scored = []
-    for h in active:
-        form = form_score(h['musique'])
-        if form is None:
-            continue
-        if number == 1:
-            score = form
-        elif number == 4:
-            # M4 : forme et gains de carriere (proxy imparfait de classe).
-            if h['gains'] is None or h['gains'] < 0:
-                continue
-            score = form + math.log1p(h['gains']) / 12
-        else:
-            # M5 : penalisation de la dispersion des places recentes.
-            positions = [int(x) for x in re.findall(r'[1-9]', h['musique'])[:5]]
-            avg = sum(positions) / len(positions)
-            variance = sum((x - avg) ** 2 for x in positions) / len(positions)
-            score = form - variance / 5
-        scored.append((score, h['numero']))
-    scored.sort(key=lambda pair: (-pair[0], pair[1]))
-    if len(scored) < max(5, math.ceil(len(active) * 0.7)):
-        return [], 'Couverture des donnees insuffisante'
-    return [n for _, n in scored[:5]], 'Heuristique expérimentale, non validée statistiquement'
-
-
-def atomic_new_json(path, payload):
-    """Creation exclusive : ne remplace jamais un historique existant."""
+def ecrire(path, objet):
     path.parent.mkdir(parents=True, exist_ok=True)
-    encoded = json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True).encode('utf-8')
+    temporaire = path.with_name(path.name + ".tmp")
     try:
-        with path.open('xb') as output:
-            output.write(encoded)
-            output.flush()
-            os.fsync(output.fileno())
-        return True
-    except FileExistsError:
-        return False
+        with temporaire.open("w", encoding="utf-8") as f:
+            json.dump(objet, f, ensure_ascii=False, indent=2, allow_nan=False)
+            f.write("\n")
+        os.replace(temporaire, path)
+    finally:
+        temporaire.unlink(missing_ok=True)
 
 
-def unique_report(payload):
-    stamp = now().strftime('%Y%m%d_%H%M%S_%f')
-    digest = hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
-    path = OUT / f'turbofusion_{stamp}_{digest}.json'
-    atomic_new_json(path, payload)
-    return path
+def date_depart(valeur):
+    instant = dt.datetime.fromisoformat(str(valeur).replace("Z", "+00:00"))
+    if instant.tzinfo is None or instant.utcoffset() is None:
+        raise ValueError("Date de départ sans fuseau horaire")
+    return instant.astimezone(PARIS)
 
 
-def analyze(day, meeting, race, freeze_minutes, allow_freeze):
-    r = as_int(pick(meeting, 'numOfficiel', 'numReunion'))
-    c = as_int(pick(race, 'numOrdre', 'numCourse'))
-    if r is None or c is None:
-        raise ValueError('numero de reunion/course absent')
-    raw, source = fetch(f'programme/{day:%d%m%Y}/R{r}/C{c}/participants')
-    horses = [horse(item) for item in participants_from(raw) if isinstance(item, dict)]
-    active = [h for h in horses if not h['non_partant'] and h['numero'] is not None]
-    if len({h['numero'] for h in active}) != len(active):
-        raise ValueError('numeros de partants dupliques')
-    dep = departure(pick(race, 'heureDepart', 'heureDepartCourse'))
-    stamp = now()
-    # Aucune modification d'un fige apres son creation; limite de 5 minutes.
-    before_limit = dep is not None and stamp < dep - dt.timedelta(minutes=freeze_minutes)
-    is_today = day == stamp.date()
-    eligible = bool(allow_freeze and is_today and before_limit and len(active) >= 5)
-    race_key = f'{day:%Y%m%d}_R{r}_C{c}'
-    track = label(meeting.get('hippodrome')) or 'Inconnu'
-    engines = []
-    new_freezes = []
-    for number in range(1, 6):
-        order, reason = engine_rank(active, number)
-        engine = f'M{number}'
-        freeze_path = FIGES / f'{race_key}_{engine}.json'
-        existing = freeze_path.exists()
-        valid = len(order) >= 5
-        record = {
-            'moteur': engine,
-            'gagnant_espere': order[0] if valid else None,
-            'meilleur_place': order[1] if valid else None,
-            'ordre_espere': order if valid else [],
-            'pari_retenu': 'Simulation uniquement - aucun pari execute' if valid else 'Aucun',
-            'qualification': reason,
-            'validation': 'NON FIGÉ',
-            'heure_paris': stamp.isoformat(),
-        }
-        if existing:
-            # Afficher la trace existante sans la recalculer ni la modifier.
-            try:
-                old = json.loads(freeze_path.read_text(encoding='utf-8'))
-                record = old['pronostic']
-                record = dict(record)
-                record['validation'] = 'FIGÉ HISTORIQUE (IMMUTABLE)'
-            except (OSError, ValueError, KeyError, TypeError):
-                record = {'moteur': engine, 'validation': 'FIGÉ EXISTANT ILLISIBLE - CONSERVÉ',
-                          'fichier': str(freeze_path)}
-        elif eligible and valid:
-            record['validation'] = 'FIGÉ'
-            freeze = {
-                'schema': 2, 'date_course': day.isoformat(), 'course': f'R{r}C{c}',
-                'hippodrome': track, 'depart_paris': dep.isoformat(),
-                'fige_a_paris': stamp.isoformat(), 'source': source,
-                'partants': horses, 'pronostic': record,
-                'avertissement': 'Pronostic experimental; aucune garantie de gain.'
-            }
-            if atomic_new_json(freeze_path, freeze):
-                new_freezes.append(str(freeze_path))
-            else:
-                record['validation'] = 'FIGÉ EXISTANT (NON MODIFIÉ)'
-        engines.append(record)
+def notes_musique(cheval):
+    """Heuristique limitée aux places lisibles; aucune validation statistique."""
+    musique = cheval.get("musique")
+    if not isinstance(musique, str):
+        return {}
+    # Supprimer les années, qui ne sont pas des résultats.
+    musique = re.sub(r"\([^)]*\)", "", musique.lower())
+    sequence = re.findall(r"([1-9])([apmh])", musique)[:6]
+    if len(sequence) < 3:
+        return {}
+    places = [int(place) for place, _ in sequence]
+    valeurs = [(10 - p) / 9 for p in places]
     return {
-        'reunion': f'R{r}', 'course': f'C{c}', 'hippodrome': track,
-        'depart_paris': dep.isoformat() if dep else None,
-        'source': source, 'nombre_partants': len(active),
-        'non_partants': [h['numero'] for h in horses if h['non_partant']],
-        'partants': horses, 'moteurs': engines, 'nouveaux_figes': new_freezes,
-        'fige': bool(new_freezes) or any(e.get('validation', '').startswith('FIGÉ') for e in engines),
+        "forme": round(sum(valeurs[:3]) / 3, 4),
+        "regularite": round(sum(valeurs) / len(valeurs), 4),
+        "fiabilite": round(sum(p <= 5 for p in places) / len(places), 4),
     }
 
 
-def main():
-    parser = argparse.ArgumentParser(description='TURBOFUSION M1-M5')
-    parser.add_argument('--date', help='AAAA-MM-JJ (par defaut aujourd hui Paris)')
-    parser.add_argument('--reunion', help='exemple R1')
-    parser.add_argument('--diagnostic', action='store_true')
-    parser.add_argument('--no-freeze', action='store_true')
-    parser.add_argument('--freeze-minutes', type=int, default=5)
-    args = parser.parse_args()
-    if args.freeze_minutes < 1:
-        parser.error('--freeze-minutes doit etre >= 1')
-    day = dt.date.fromisoformat(args.date) if args.date else now().date()
-    program, source = fetch(f'programme/{day:%d%m%Y}')
-    meetings = meetings_from(program)
-    print('Source PMU :', source, flush=True)
-    print('Réunions reçues :', len(meetings), flush=True)
-    countries = {}
-    for m in meetings:
-        if isinstance(m, dict):
-            country = country_of(m) or '(absent)'
-            countries[country] = countries.get(country, 0) + 1
-            print('Réunion', pick(m, 'numOfficiel', 'numReunion'),
-                  '| pays:', country, '| hippodrome:', label(m.get('hippodrome')),
-                  '| courses:', len(m.get('courses', [])) if isinstance(m.get('courses'), list) else 'absentes')
-    selected = [m for m in meetings if isinstance(m, dict) and french_meeting(m)]
-    print('Pays détectés :', countries)
-    print('Réunions françaises :', len(selected))
-    errors, reports = [], []
-    if not selected:
-        errors.append('Aucune réunion française reconnue. Vérifier les champs pays/codePays de la réponse.')
-    if not args.diagnostic:
-        for meeting in selected:
-            r = as_int(pick(meeting, 'numOfficiel', 'numReunion'))
-            if r is None:
-                errors.append('Réunion sans numéro officiel')
-                continue
-            if args.reunion and args.reunion.upper() != f'R{r}':
-                continue
-            races = meeting.get('courses')
-            if not isinstance(races, list):
-                errors.append(f'R{r}: liste courses absente ou invalide')
-                continue
-            for race in races:
-                if not isinstance(race, dict):
-                    continue
+def note(cheval, critere):
+    valeur = cheval.get(critere)
+    if valeur is None and critere in ("forme", "regularite", "fiabilite"):
+        valeur = notes_musique(cheval).get(critere)
+    if type(valeur) not in (int, float) or not math.isfinite(valeur):
+        return None
+    return float(valeur) if 0 <= valeur <= 1 else None
+
+
+def analyser_moteur(nom, chevaux, avant_depart):
+    specialite, criteres = SPECIALITES[nom]
+    lignes = []
+    for cheval in chevaux:
+        if cheval.get("non_partant") is True:
+            continue
+        numero, nom_cheval = cheval.get("numero"), cheval.get("nom")
+        if type(numero) is not int or numero <= 0 or not isinstance(nom_cheval, str) or not nom_cheval.strip():
+            continue
+        valeurs = [note(cheval, c) for c in criteres]
+        complet = all(v is not None for v in valeurs)
+        lignes.append({
+            "numero": numero,
+            "nom": nom_cheval.strip(),
+            "score": round(sum(valeurs) / len(valeurs), 4) if complet else None,
+            "couverture": round(sum(v is not None for v in valeurs) / len(valeurs), 2),
+        })
+
+    couverture_complete = len(lignes) >= 2 and all(ligne["score"] is not None for ligne in lignes)
+    if couverture_complete:
+        lignes.sort(key=lambda ligne: (-ligne["score"], ligne["numero"]))
+    discriminant = couverture_complete and lignes[0]["score"] > lignes[1]["score"]
+    admissible = bool(discriminant and avant_depart)
+    ordre = [ligne["numero"] for ligne in lignes[:5]] if admissible else []
+    motif = (
+        "Classement heuristique calculé sur les critères du moteur" if admissible
+        else "Départ trop proche ou passé" if not avant_depart
+        else "Données incomplètes ou scores de tête non discriminants"
+    )
+    return {
+        "moteur": nom,
+        "specialite": specialite,
+        "criteres": list(criteres),
+        "qualification": "candidate" if admissible else "abstention",
+        "motif": motif,
+        "classement": lignes[:5] if couverture_complete else [],
+        "ordre_arrivee_espere": ordre,
+        "gagnant_espere": ordre[0] if ordre else None,
+        "place_espere": ordre[1] if len(ordre) > 1 else None,
+        "pari": f"Simple Gagnant {ordre[0]}" if ordre else "Aucun pari proposé",
+    }
+
+
+def identifiant_course(course):
+    identifiant = str(course.get("id", ""))
+    if not re.fullmatch(r"[A-Za-z0-9_-]{1,80}", identifiant):
+        raise ValueError(f"Identifiant de course invalide : {identifiant!r}")
+    return identifiant
+
+
+def charger_fige(chemin):
+    """Relire le FIGÉ original plutôt que recalculer son pronostic."""
+    return lire(chemin)
+
+
+def traiter(figer=False, marge_minutes=5):
+    source = DATA / "courses.json"
+    if not source.is_file():
+        raise FileNotFoundError("data/courses.json absent : lancer collecte_pmu.py")
+    entree = lire(source)
+    if not isinstance(entree, dict) or not isinstance(entree.get("courses"), list):
+        raise ValueError("Format attendu : objet JSON contenant une liste 'courses'")
+    maintenant = dt.datetime.now(PARIS)
+    sorties, erreurs = [], []
+    nouveaux_figes = 0
+    ids_vus = set()
+
+    for index, course in enumerate(entree["courses"], 1):
+        try:
+            if not isinstance(course, dict):
+                raise ValueError("Course non représentée par un objet")
+            identifiant = identifiant_course(course)
+            if identifiant in ids_vus:
+                raise ValueError("Identifiant de course dupliqué")
+            ids_vus.add(identifiant)
+            depart = date_depart(course["depart"])
+            chevaux = course.get("partants")
+            if not isinstance(chevaux, list) or not chevaux or not all(isinstance(c, dict) for c in chevaux):
+                raise ValueError("Liste des partants absente ou invalide")
+            numeros = [c.get("numero") for c in chevaux]
+            numeros_valides = all(type(n) is int and n > 0 for n in numeros)
+            if not numeros_valides or len(set(numeros)) != len(numeros):
+                raise ValueError("Numéros de chevaux invalides ou dupliqués")
+            if not all(isinstance(c.get("nom"), str) and c["nom"].strip() for c in chevaux):
+                raise ValueError("Nom de cheval absent")
+            if not all(type(c.get("non_partant", False)) is bool for c in chevaux):
+                raise ValueError("Indicateur non_partant invalide")
+
+            collecte_ok = course.get("collecte_participants") == "ok"
+            avant_depart = maintenant < depart - dt.timedelta(minutes=marge_minutes)
+            moteurs = {
+                nom: analyser_moteur(nom, chevaux, avant_depart and collecte_ok)
+                for nom in SPECIALITES
+            }
+            eligibles = [nom for nom, m in moteurs.items() if m["qualification"] == "candidate"]
+            chemin_fige = DATA / "figes" / f"{identifiant}.json"
+            statut = "analyse_provisoire"
+            figes_officiels = {}
+            instantane = None
+
+            if chemin_fige.exists():
+                instantane = charger_fige(chemin_fige)
+                statut = "fige_existant"
+            elif figer and eligibles and collecte_ok and avant_depart:
+                instantane = {
+                    "course_id": identifiant,
+                    "depart": course["depart"],
+                    "fige_a": maintenant.isoformat(),
+                    "moteurs": moteurs,
+                    "source": course.get("source"),
+                }
+                chemin_fige.parent.mkdir(parents=True, exist_ok=True)
                 try:
-                    report = analyze(day, meeting, race, args.freeze_minutes, not args.no_freeze)
-                    reports.append(report)
-                    print(f"{report['reunion']}{report['course']}: {report['nombre_partants']} partants; "
-                          f"{len(report['nouveaux_figes'])} nouveaux FIGÉS", flush=True)
-                except Exception as exc:
-                    message = f"R{r}C{pick(race, 'numOrdre', 'numCourse')}: {type(exc).__name__}: {exc}"
-                    errors.append(message)
-                    print('ERREUR :', message, flush=True)
-    payload = {
-        'logiciel': 'TURBOFUSION M1-M5', 'version': '2.0',
-        'date_courses': day.isoformat(), 'cree_a_paris': now().isoformat(),
-        'source_programme': source, 'reunions_recues': len(meetings),
-        'reunions_francaises': len(selected), 'pays_detectes': countries,
-        'courses': reports, 'erreurs': errors,
-        'figes_crees': sum(len(r['nouveaux_figes']) for r in reports),
-        'historique': 'Fichiers historiques jamais ecrases ni modifies.',
-        'mode': 'Diagnostic' if args.diagnostic else 'Analyse expérimentale',
+                    with chemin_fige.open("x", encoding="utf-8") as f:
+                        json.dump(instantane, f, ensure_ascii=False, indent=2, allow_nan=False)
+                        f.write("\n")
+                    statut = "fige"
+                    nouveaux_figes += 1
+                except FileExistsError:
+                    instantane = charger_fige(chemin_fige)
+                    statut = "fige_existant"
+
+            if instantane is not None:
+                figes_officiels = {
+                    nom: m for nom, m in instantane.get("moteurs", {}).items()
+                    if isinstance(m, dict) and m.get("qualification") == "candidate"
+                }
+
+            ligne = {
+                "id": identifiant,
+                "hippodrome": course.get("hippodrome"),
+                "reunion": course.get("reunion"),
+                "course": course.get("course"),
+                "depart": course["depart"],
+                "partants": sum(not c.get("non_partant", False) for c in chevaux),
+                "non_partants": sum(c.get("non_partant", False) for c in chevaux),
+                "moteurs": moteurs,
+                "moteurs_qualifies": eligibles,
+                "moteurs_figes": figes_officiels,
+                "statut": statut,
+                "analyse_a": maintenant.isoformat(),
+                "source": course.get("source"),
+            }
+            if instantane is not None:
+                ligne["fige_a"] = instantane.get("fige_a")
+                ligne["fichier_fige"] = chemin_fige.relative_to(ROOT).as_posix()
+                ligne["sha256"] = hashlib.sha256(chemin_fige.read_bytes()).hexdigest()
+            sorties.append(ligne)
+        except (KeyError, ValueError, TypeError, json.JSONDecodeError, OSError) as exc:
+            erreurs.append({"index": index, "id": str(course.get("id", "")) if isinstance(course, dict) else None,
+                            "erreur": str(exc)})
+
+    sorties.sort(key=lambda c: date_depart(c["depart"]))
+    resultat = {
+        "logiciel": "TURBOFUSION 3.0",
+        "date": maintenant.date().isoformat(),
+        "genere_a": maintenant.isoformat(),
+        "statut_collecte": entree.get("statut_collecte", "inconnu"),
+        "moteurs": list(SPECIALITES),
+        "courses": sorties,
+        "erreurs": erreurs,
+        "avertissements": [
+            "Scores heuristiques non validés statistiquement.",
+            "Pronostics FIGÉS conservés séparément des analyses actualisées.",
+            "Aucun pari réel exécuté automatiquement; aucun gain garanti.",
+        ],
     }
-    path = unique_report(payload)
-    print('Rapport :', path)
-    print('Courses analysées :', len(reports))
-    print('FIGÉS créés :', payload['figes_crees'])
-    print('Erreurs :', len(errors))
-    # Signaler les anomalies via le statut GitHub Actions.
-    if args.diagnostic:
-        return 0 if meetings else 2
-    return 0 if reports else 3
+    ecrire(DATA / "audit_latest.json", resultat)
+    ecrire(DATA / "publication_latest.json", resultat)
+    print(f"{len(sorties)} courses analysées ; {nouveaux_figes} nouveaux FIGÉS ; {len(erreurs)} erreurs")
+    return resultat
 
 
-if __name__ == '__main__':
-    try:
-        sys.exit(main())
-    except Exception as exc:
-        print(f'ERREUR FATALE : {type(exc).__name__}: {exc}', file=sys.stderr)
-        sys.exit(1)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Analyse hippique TURBOFUSION M1–M5")
+    parser.add_argument("--figer", action="store_true", help="Créer les FIGÉS admissibles avant départ")
+    parser.add_argument("--safety-minutes", type=int, default=5, help="Marge minimale avant départ")
+    args = parser.parse_args()
+    if args.safety_minutes < 0:
+        parser.error("La marge de sécurité ne peut pas être négative")
+    traiter(figer=args.figer, marge_minutes=args.safety_minutes)
